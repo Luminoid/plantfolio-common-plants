@@ -1,3 +1,11 @@
 plan/
 
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/

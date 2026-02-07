@@ -4,6 +4,21 @@ All notable changes to the plantfolio-common-plants dataset are documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Unreleased]
+
+### Changed
+
+- **N:** 38 outdoor plants: `brightIndirect` → `outdoorFullSun` or `outdoorPartialSun` (prairie grasses, wildflowers).
+- **O:** bonsai, lemon-cypress: `outdoorPartialSun` → `brightIndirect` (indoor houseplant semantics).
+- **P:** Rot-prone succulents: `wellDraining` → `excellentDrainage` (lithops, echeveria, haworthia, string-of-pearls, string-of-bananas, sedum-morganianum).
+- **Q:** 14 plants: `plantToxicity` unknown → known (ASPCA: alyssum, begonia, peony, salvia, clematis, honeysuckle, morning-glory, foxglove, castor-bean, lupine, hops, sweet-potato-vine).
+
+### Added
+
+- `scripts/apply_metadata_fixes.py` — apply N, O, P, Q fixes.
+- `scripts/audit_metadata_completeness.py` — line-by-line metadata check.
+- `plan/PLANT_PROPERTIES_AUDIT.md`, `plan/METADATA_LINE_BY_LINE_CHECK.md`.
+
 ## [1.2.0] - 2025-02-07
 
 ### Added
