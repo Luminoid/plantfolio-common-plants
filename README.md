@@ -2,7 +2,9 @@
 
 Common plants data source for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663). Provides plant type suggestions with care information, watering intervals, and localization support.
 
-**Source + generated**: This repo holds **source** (`source/`), **scripts** (`scripts/`), and **generated** (`dist/`) files. Edit scripts modify source; merge builds dist; validate checks dist.
+**800 plants** across 28 categories (EN, ZH, ES). See `docs/DATASET.md` for structure and `CHANGELOG.md` for version history.
+
+**Source + generated**: This repo holds **source** (`source/`), **scripts** (`scripts/`), and **generated** (`dist/`) files. Edit source directly; merge builds dist; release validates and audits.
 
 ## Contents
 
@@ -13,20 +15,25 @@ Common plants data source for [Plantfolio Plus](https://apps.apple.com/us/app/pl
 | `source/common_plants_language_en.json` | English plant data |
 | `source/common_plants_language_es.json` | Spanish plant data |
 | `source/common_plants_language_zh-Hans.json` | Simplified Chinese plant data |
-| `source/common_plants_metadata.json` | Metadata (watering intervals, categories, etc.) |
+| `source/common_plants_metadata.json` | Metadata (watering intervals, categories, hardinessZones for outdoor plants, etc.) |
 
 **Scripts** (`scripts/`):
 
 | Script | Purpose |
 |--------|---------|
-| `scripts/merge_plant_data.py` | Build dist/ from source |
-| `scripts/validate_json.py` | Validate generated files in dist/ |
+| `release.py` | **Before release:** build dist, validate, run audits |
+| `merge_plant_data.py` | Build dist/ from source |
+| `validate_json.py` | Validate structure and schema |
+| `audit_scientific_names.py` | Check commonExamples for accepted scientific names |
+| `audit_duplicates.py` | Check for genus/species overlap, similar typeNames |
+| `reorganize_plants.py` | Apply removals/category changes (edit REMOVE_IDS, CATEGORY_CHANGES) |
+| `improve_care_tips.py` | Apply care tips for new plants with generic template |
+| `add_dormancy_notes.py` | Add dormancy notes for new plants with null winterInterval |
 
-**Generated** (`dist/`): `common_plants.json`, `common_plants_es.json`, `common_plants_zh-Hans.json` (merged; no metadata file). Build with:
+**Generated** (`dist/`): `common_plants.json`, `common_plants_es.json`, `common_plants_zh-Hans.json` (merged; no metadata file). Before release:
 
 ```bash
-python3 scripts/merge_plant_data.py
-python3 scripts/validate_json.py --check-structure
+python3 scripts/release.py
 ```
 
 ## Usage with Plantfolio
@@ -63,3 +70,10 @@ https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/
 ## Locales
 
 Supported locale codes: `en`, `es`, `zh-Hans`. Add new locale files as `common_plants_{locale}.json` when expanding language support.
+
+## Docs
+
+| File | Description |
+|------|--------------|
+| `docs/DATASET.md` | Category structure, schema reference, coverage summary |
+| `CHANGELOG.md` | Version history and breaking changes |

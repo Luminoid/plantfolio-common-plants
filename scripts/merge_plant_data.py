@@ -17,14 +17,19 @@ import sys
 from pathlib import Path
 
 # English category order (index matches _metadata.sorting.categories across locales)
+# Category order: Houseplants → Outdoor → Edibles → Farm/Sprouts → Bulbs → Specialty
 CATEGORY_ORDER = [
     "Houseplants - Low Maintenance", "Houseplants - Aroids", "Houseplants - Ferns",
     "Houseplants - Palms", "Houseplants - Succulents", "Houseplants - Cacti",
     "Houseplants - Flowering", "Houseplants - Prayer Plants", "Houseplants - Vines & Trailing",
-    "Houseplants - Specialty", "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
+    "Houseplants - Specialty",
+    "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
     "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
     "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
-    "Fruits & Berries", "Herbs", "Bulbs", "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
+    "Fruits & Berries", "Herbs",
+    "Farm & Field Crops", "Sprouts & Microgreens",
+    "Bulbs",
+    "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
     "Specialty - Epiphytes & Moss", "Specialty - Alpine",
 ]
 

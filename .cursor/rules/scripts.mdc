@@ -1,0 +1,20 @@
+---
+description: Scripts usage and behavior
+globs: scripts/**/*.py
+alwaysApply: false
+---
+
+# Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `release.py` | Build dist, validate, run audits (run before release) |
+| `merge_plant_data.py` | Build dist/ from source |
+| `validate_json.py` | Schema and structure validation |
+| `audit_scientific_names.py` | Check commonExamples for accepted names |
+| `audit_duplicates.py` | Genus/species overlap, similar typeNames |
+| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
+| `improve_care_tips.py` | Apply category-specific care tips |
+| `add_dormancy_notes.py` | Add dormancy notes for null winterInterval |
+
+Edit `REMOVE_IDS` and `CATEGORY_CHANGES` in `reorganize_plants.py` before running it.

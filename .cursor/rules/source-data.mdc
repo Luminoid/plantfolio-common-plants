@@ -1,0 +1,26 @@
+---
+description: Source JSON structure and enums
+globs: source/**/*.json
+alwaysApply: false
+---
+
+# Source data format
+
+## Language files (`common_plants_language_*.json`)
+
+Array of `{ id, typeName, description, careTips, commonExamples }`. `_metadata` object for categories.
+
+## Metadata (`common_plants_metadata.json`)
+
+Object keyed by plant ID. Fields: `springInterval`, `summerInterval`, `fallInterval`, `winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`, `hardinessZones` (optional).
+
+## Enums (see docs/DATASET.md §6)
+
+- **plantToxicity:** nonToxic, unknown, mildlyToxic, toxic
+- **lightPreference:** outdoorFullSun, brightIndirect, lowIndirect, outdoorPartialSun, etc.
+- **wateringMethod:** topWatering, bottomWatering, immersion, misting (null for aquatic/carnivorous)
+- **category:** Must be in VALID_CATEGORIES (28 categories)
+
+## Locales
+
+EN, ES, ZH-Hans. Keep all three in sync when adding or changing plants.

@@ -1,0 +1,25 @@
+---
+description: plantfolio-common-plants project conventions
+alwaysApply: true
+---
+
+# plantfolio-common-plants
+
+## Project structure
+
+- **source/** – Source data (edit these): `common_plants_language_*.json`, `common_plants_metadata.json`
+- **dist/** – Generated output (do not edit): `common_plants*.json`
+- **scripts/** – Build, validate, audit scripts
+- **docs/** – `DATASET.md` (schema, categories, coverage)
+
+## Workflow
+
+1. Edit source files directly.
+2. Run `python3 scripts/release.py` before release (builds dist, validates, runs audits).
+3. Never run `git commit` for the user.
+
+## Conventions
+
+- **plantToxicity:** Use `nonToxic`, `unknown`, `mildlyToxic`, `toxic` (expert terminology).
+- **Scientific names:** Lead with accepted name; synonyms in parentheses (e.g. `Curio repens (syn. Senecio serpens)`).
+- **plan/** – Local only; do not mention in commits or public docs.
