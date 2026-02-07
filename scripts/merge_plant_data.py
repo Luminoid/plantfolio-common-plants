@@ -25,7 +25,7 @@ CATEGORY_ORDER = [
     "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
     "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
     "Fruits & Berries", "Herbs", "Bulbs", "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
-    "Specialty - Epiphytes & Moss", "Specialty - Alpine", "Growing Methods",
+    "Specialty - Epiphytes & Moss", "Specialty - Alpine",
 ]
 
 # Locale code -> (source language filename, output resource name)

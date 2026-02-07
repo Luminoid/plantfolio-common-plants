@@ -108,33 +108,6 @@
     "categoryIndex": 0
   },
   {
-    "id": "dracaena-types",
-    "typeName": "Dracaena Types",
-    "description": "Cane-forming foliage plants in the Asparagaceae family with strap-like leaves, sensitive to fluoride and chlorine in water",
-    "commonExamples": "Dracaena marginata (Dragon tree, Madagascar dragon tree), D. fragrans (Corn plant, Cornstalk dracaena), D. reflexa (Song of India, Pleomele)",
-    "careTips": "Water when top half of soil is dry. Always use filtered, distilled, or rainwater to prevent brown tips from fluoride and chlorine in tap water. Bright indirect light preferred. Medium humidity (40-50%) is ideal. Fertilize monthly spring through fall with balanced fertilizer diluted to half strength. Excellent air purifiers. Wipe leaves monthly to remove dust. Repot every 2-3 years. Trim brown tips diagonally to match leaf shape. Remove yellowing lower leaves. Sensitive to cold drafts.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      24
-    ],
-    "plantToxicity": "toxicToPets",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Low Maintenance",
-    "categoryIndex": 0
-  },
-  {
     "id": "pothos",
     "typeName": "Pothos",
     "description": "Extremely easy-care trailing aroids in the Araceae family, excellent for beginners, includes many variegated varieties",
@@ -1539,33 +1512,6 @@
     "categoryIndex": 4
   },
   {
-    "id": "shade-tolerant-succulents",
-    "typeName": "Shade-Tolerant Succulents",
-    "description": "Succulents that tolerate lower light and more frequent watering than typical desert succulents, native to shaded habitats",
-    "commonExamples": "Haworthia (Zebra plant, Pearl plant), Gasteria (Gasteria, Ox tongue), Sansevieria (some species), Aloe (some species like A. vera)",
-    "careTips": "Water when soil is mostly dry (every 1-2 weeks). More frequent than desert succulents but still avoid overwatering. Bright indirect to medium light preferred; tolerates lower light than typical desert succulents. Medium humidity preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Repot every 2-3 years. Native to shaded habitats. Includes Haworthia, Gasteria, and some Aloe species.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      24
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Succulents",
-    "categoryIndex": 4
-  },
-  {
     "id": "string-of-bananas",
     "typeName": "String of Bananas",
     "description": "Trailing succulent with banana-shaped leaves, faster growing than String of Pearls",
@@ -1690,33 +1636,6 @@
       24
     ],
     "plantToxicity": "safe",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Succulents",
-    "categoryIndex": 4
-  },
-  {
-    "id": "succulent-trees",
-    "typeName": "Succulent Trees",
-    "description": "Tree-like succulents with woody growth that can reach significant size, many are long-lived and can be trained as bonsai",
-    "commonExamples": "Crassula ovata (Jade tree, Money tree), Portulacaria afra (Elephant bush, Dwarf jade), Euphorbia ingens (Candelabra tree), Aloe arborescens (Torch aloe)",
-    "careTips": "Water when soil is completely dry (every 2-4 weeks). Water deeply but infrequently. Very drought tolerant once established. Bright indirect to direct light preferred. Low humidity is fine. Fertilize 2-3 times per year during growing season with balanced fertilizer at quarter strength. Can be trained as bonsai. Many are long-lived. Repot every 3-5 years. Tree-like growth habit.",
-    "springInterval": 14,
-    "summerInterval": 14,
-    "fallInterval": 21,
-    "winterInterval": 30,
-    "lightPreference": "strongDirect",
-    "humidityPreference": "low",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -2808,33 +2727,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "temperate-vines-indoor",
-    "typeName": "Temperate Vines (Indoor)",
-    "description": "Vining plants from temperate regions suitable for indoor growing, prefer cooler temperatures than tropical vines",
-    "commonExamples": "Hedera helix (English ivy, Common ivy), Parthenocissus (Virginia creeper), Vitis (Grape vine, some ornamental varieties)",
-    "careTips": "Keep soil slightly moist. Allow top inch to dry between waterings. Prefer cooler temperatures (60-70°F) than tropical vines. Higher humidity (50%+) beneficial. Bright indirect light preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Prune to control length. Repot every 1-2 years. Vining plants from temperate regions. Can trail or climb with support. Research specific species for exact requirements.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Vines & Trailing",
-    "categoryIndex": 8
-  },
-  {
     "id": "tradescantia",
     "typeName": "Tradescantia",
     "description": "Fast-growing trailing plants in the Commelinaceae family with colorful striped or solid leaves",
@@ -2879,60 +2771,6 @@
     ],
     "plantToxicity": "toxicToPets",
     "soilPhPreference": "adaptable",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Vines & Trailing",
-    "categoryIndex": 8
-  },
-  {
-    "id": "tropical-vines",
-    "typeName": "Tropical Vines",
-    "description": "Large climbing plants native to tropical regions, many produce showy flowers and require warm temperatures and support structures",
-    "commonExamples": "Bougainvillea (Paper flower), Mandevilla (Rocktrumpet, Dipladenia), Passiflora (Passion flower, Maypop), Thunbergia (Black-eyed Susan vine)",
-    "careTips": "Keep soil consistently moist during growing season (2-3 times per week). Water deeply at base. Allow to dry slightly between waterings in cooler months. Mulch around base to retain moisture. Full sun essential (6-8 hours daily). Warm temperatures required (70-85°F). Provide support structures (trellises, arbors, fences). Fertilize monthly during growing season with balanced fertilizer. Many produce showy flowers. Prune after flowering. Research specific species for exact requirements.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Houseplants - Vines & Trailing",
-    "categoryIndex": 8
-  },
-  {
-    "id": "tropical-vines-indoor",
-    "typeName": "Tropical Vines (Indoor)",
-    "description": "Vining plants from tropical regions suitable for indoor growing, prefer warm temperatures and high humidity",
-    "commonExamples": "Cissus (Grape ivy, Kangaroo vine), Tetrastigma (Chestnut vine), Monstera (climbing form), Epipremnum (Pothos), Philodendron (climbing varieties)",
-    "careTips": "Keep soil slightly moist. Allow top inch to dry between waterings. Prefer warm temperatures (65-80°F). High humidity (60%+) beneficial - use humidifier or pebble tray. Bright indirect light preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Can trail or climb with support. Prune to control length. Repot every 1-2 years. Vining plants from tropical regions. Research specific species for exact requirements.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -3119,33 +2957,6 @@
     "temperaturePreference": [
       18,
       27
-    ],
-    "plantToxicity": "toxicToPets",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      null
-    ],
-    "category": "Houseplants - Specialty",
-    "categoryIndex": 9
-  },
-  {
-    "id": "ficus-types",
-    "typeName": "Ficus Types",
-    "description": "Woody plants in the Moraceae family, many suitable as indoor trees, sensitive to location changes",
-    "commonExamples": "Ficus elastica (Rubber plant), F. lyrata (Fiddle-leaf fig), F. benjamina (Weeping fig)",
-    "careTips": "Water when top 2-3 inches of soil is dry. Avoid overwatering which causes root rot. Allow to dry between waterings. Bright indirect light preferred. Medium to high humidity (50-60%) preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Very sensitive to location changes - may drop leaves when moved. Avoid drafts. Repot every 2-3 years. Wipe large leaves monthly. Many suitable as indoor trees. Toxic to pets.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      24
     ],
     "plantToxicity": "toxicToPets",
     "soilPhPreference": "neutral",
@@ -4557,33 +4368,6 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
-    ],
-    "category": "Outdoor - Perennials",
-    "categoryIndex": 12
-  },
-  {
-    "id": "perennial-bulbs-indoor",
-    "typeName": "Perennial Bulbs (Indoor)",
-    "description": "Bulbous plants grown indoors that can rebloom with proper dormancy care, require rest period after flowering",
-    "commonExamples": "Hippeastrum (Amaryllis), Clivia (Kaffir lily), Scadoxus (Blood lily), Haemanthus (Blood lily)",
-    "careTips": "Keep soil evenly moist during active growth and flowering. Reduce significantly or stop watering during dormancy period when leaves die back - this is essential for reblooming. Bright indirect light during growth, cool dark place during dormancy. Fertilize monthly during active growth with bulb fertilizer. After flowering, continue watering until leaves yellow, then allow dormancy. Repot every 2-3 years. Can rebloom with proper dormancy care. Research specific species for exact requirements.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
       null
     ],
     "category": "Outdoor - Perennials",
@@ -7911,33 +7695,6 @@
     "categoryIndex": 21
   },
   {
-    "id": "forced-bulbs",
-    "typeName": "Forced Bulbs",
-    "description": "Bulbs forced to bloom indoors, typically one-time seasonal displays, require pre-chilling period for most varieties",
-    "commonExamples": "Hyacinthus (Hyacinth), Narcissus (Paperwhite, Daffodil), Tulipa (Tulip), Muscari (Grape hyacinth)",
-    "careTips": "Keep soil moist during growth and flowering. Reduce watering after flowering as foliage dies back. Most require pre-chilling period (6-16 weeks in refrigerator at 35-45°F) before planting. Bright indirect light during growth. Cool temperatures (60-65°F) extend bloom time. Fertilize lightly during growth. After flowering, allow foliage to die back naturally. Typically one-time seasonal displays - bulbs are exhausted after forcing. Paperwhites don't require pre-chilling.",
-    "springInterval": 5,
-    "summerInterval": 90,
-    "fallInterval": 90,
-    "winterInterval": 5,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Bulbs",
-    "categoryIndex": 21
-  },
-  {
     "id": "gladiolus",
     "typeName": "Gladiolus",
     "description": "Summer flowering bulbs in the Iridaceae family with tall spikes of colorful flowers, excellent for cut flowers",
@@ -8014,33 +7771,6 @@
     "plantLifeSpan": [
       3,
       5
-    ],
-    "category": "Bulbs",
-    "categoryIndex": 21
-  },
-  {
-    "id": "seasonal-bulbs-outdoor",
-    "typeName": "Seasonal Bulbs (Outdoor)",
-    "description": "Bulbous plants planted outdoors for seasonal blooms, planted in fall for spring flowers or spring for summer flowers",
-    "commonExamples": "Tulipa (Tulip), Narcissus (Daffodil), Crocus, Hyacinthus (Hyacinth), Allium (Ornamental onion)",
-    "careTips": "Keep soil moist during active growth and flowering (spring). Allow to dry naturally after foliage dies back - don't cut leaves until yellow. Plant spring bulbs in fall (6-8 weeks before ground freezes); summer bulbs in spring after last frost. Full sun to partial shade depending on species. Fertilize when shoots emerge and after flowering. Allow foliage to die back naturally to feed bulbs for next year. Mulch in winter. Research specific bulb for exact requirements.",
-    "springInterval": 5,
-    "summerInterval": 90,
-    "fallInterval": 90,
-    "winterInterval": 90,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
     ],
     "category": "Bulbs",
     "categoryIndex": 21
@@ -8397,60 +8127,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "temperate-carnivorous",
-    "typeName": "Temperate Carnivorous Plants",
-    "description": "Carnivorous plants from temperate regions that require dormancy period in winter, need pure water and high humidity",
-    "commonExamples": "Dionaea muscipula (Venus flytrap), Sarracenia (Pitcher plant, Trumpet pitcher), Drosera (Sundew), Darlingtonia (Cobra lily)",
-    "careTips": "Constant moisture with distilled or rainwater ONLY - never tap water (minerals kill them). Keep in tray of water (1-2 inches deep). Reduce watering in winter dormancy but keep slightly moist. Bright indirect to direct light depending on species. High humidity (60%+) preferred. Use only sphagnum peat moss or specialized carnivorous plant soil - never regular potting soil. Don't fertilize - they get nutrients from insects. Require dormancy period in winter (cooler temperatures, reduced light). Very specific care requirements.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "gentleDirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      16,
-      24
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Specialty - Carnivorous",
-    "categoryIndex": 23
-  },
-  {
-    "id": "tropical-carnivorous",
-    "typeName": "Tropical Carnivorous Plants",
-    "description": "Carnivorous plants from tropical regions that do not require dormancy, need high humidity and pure water",
-    "commonExamples": "Nepenthes (Tropical pitcher plant, Monkey cups), Pinguicula (Butterwort), Utricularia (Bladderwort), Drosera (some tropical species)",
-    "careTips": "Constant moisture with distilled or rainwater ONLY - never tap water (minerals kill them). High humidity (70%+) essential - use terrarium or humidifier. Keep in tray of water (1-2 inches deep). Bright indirect light preferred. Warm temperatures (70-85°F) year-round. Use only sphagnum peat moss or specialized carnivorous plant soil. Don't fertilize - they get nutrients from insects. Do not require dormancy. Very specific care requirements. Research specific species for exact needs.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      21,
-      29
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Specialty - Carnivorous",
-    "categoryIndex": 23
-  },
-  {
     "id": "venus-flytrap",
     "typeName": "Venus Flytrap",
     "description": "Most famous carnivorous plant in the Droseraceae family, native to North Carolina, requires dormancy and pure water",
@@ -8613,33 +8289,6 @@
     "categoryIndex": 24
   },
   {
-    "id": "shade-moss-gardens",
-    "typeName": "Shade Moss Gardens",
-    "description": "Moss landscapes created in shaded areas, require acidic soil and consistent moisture",
-    "commonExamples": "Moss lawn, Sheet moss, Fern moss, Cushion moss, various native moss species",
-    "careTips": "Mist daily or keep consistently moist - never allow to dry out. Maintain high humidity especially in dry climates - may need daily misting. Shade essential - direct sun dries moss quickly. Acidic soil preferred (pH 5.0-6.0). Use native moss species for best results. Remove competing plants and debris. Keep area clean. Very challenging to maintain - requires constant attention. Perfect for shaded, humid climates. Research local native mosses.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "outdoorShade",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      10,
-      21
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Specialty - Epiphytes & Moss",
-    "categoryIndex": 24
-  },
-  {
     "id": "alpine-plants",
     "typeName": "Alpine Plants",
     "description": "Plants adapted to high-altitude, rocky conditions with excellent drainage, many are drought tolerant",
@@ -8746,140 +8395,5 @@
     ],
     "category": "Specialty - Alpine",
     "categoryIndex": 25
-  },
-  {
-    "id": "aeroponic-plants",
-    "typeName": "Aeroponic Plants",
-    "description": "Growing method: Plants grown with roots suspended in air and misted with nutrient solution - care varies by species",
-    "commonExamples": "Lettuce, Herbs, Leafy greens, Tomatoes, Peppers, many plants can be grown aeroponically",
-    "careTips": "Roots suspended in air and misted with nutrient solution continuously or periodically. Monitor pH (5.5-6.5 for most plants) and nutrient levels weekly. No soil watering needed - roots receive nutrients from mist. Provide adequate lighting (grow lights if indoors). Maintain air temperature and humidity. Ensure adequate oxygenation. Growing method - care varies significantly by species. Research specific plant and aeroponic system type for exact requirements.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": null,
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Growing Methods",
-    "categoryIndex": 26
-  },
-  {
-    "id": "aquaponic-plants",
-    "typeName": "Aquaponic Plants",
-    "description": "Growing method: Plants grown in combination with fish farming, where fish waste provides nutrients - care varies by species",
-    "commonExamples": "Lettuce, Herbs, Leafy greens, Tomatoes, Cucumbers, many plants can be grown aquaponically",
-    "careTips": "Plants grown in combination with fish - fish waste provides nutrients. Monitor water quality, pH (6.0-7.0), and nutrient levels. No soil watering needed - roots in water or growing medium. Provide adequate lighting. Maintain water temperature suitable for both fish and plants. Balance fish and plant populations. Growing method - care varies significantly by species. Research specific plant, fish species, and aquaponic system type for exact requirements.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Growing Methods",
-    "categoryIndex": 26
-  },
-  {
-    "id": "container-gardening",
-    "typeName": "Container Gardening",
-    "description": "Growing method: Plants grown in containers rather than in-ground, requires attention to drainage and watering",
-    "commonExamples": "Most plants can be grown in containers - vegetables, herbs, flowers, small trees, shrubs",
-    "careTips": "Water more frequently than in-ground plants - containers dry out faster. Ensure excellent drainage - containers must have drainage holes. Use quality potting mix, not garden soil. Fertilize regularly as nutrients leach out with watering. Choose container size appropriate for plant. Monitor soil moisture daily in hot weather. Rotate containers for even growth. Growing method - care varies significantly by plant species. Research specific plant for exact requirements.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Growing Methods",
-    "categoryIndex": 26
-  },
-  {
-    "id": "hydroponic-plants",
-    "typeName": "Hydroponic Plants",
-    "description": "Growing method: Plants grown in nutrient solution without soil - care varies by species",
-    "commonExamples": "Lactuca sativa (Lettuce), Basil, Herbs, Leafy greens",
-    "careTips": "Continuous nutrient solution circulation or periodic flooding. Monitor pH (5.5-6.5 for most plants) and nutrient levels weekly. No soil watering needed - roots in nutrient solution. Provide adequate lighting (grow lights if indoors). Maintain water temperature (65-75°F). Change nutrient solution every 2-3 weeks. Ensure adequate oxygenation of roots. Growing method - care varies significantly by species. Research specific plant and hydroponic system type for exact requirements.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": null,
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Growing Methods",
-    "categoryIndex": 26
-  },
-  {
-    "id": "raised-bed-gardening",
-    "typeName": "Raised Bed Gardening",
-    "description": "Growing method: Plants grown in elevated soil beds, provides better drainage and soil control",
-    "commonExamples": "Vegetables, Herbs, Flowers, most garden plants can be grown in raised beds",
-    "careTips": "Water regularly - raised beds drain well and may need more frequent watering. Excellent drainage is advantage of raised beds. Use quality soil mix. Fertilize regularly as nutrients may leach out. Easier to control soil pH and composition. Warms up faster in spring. Less bending and easier access. Growing method - care varies significantly by plant species. Research specific plant for exact requirements.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Growing Methods",
-    "categoryIndex": 26
   }
 ]

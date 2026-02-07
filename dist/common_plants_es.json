@@ -108,33 +108,6 @@
     "categoryIndex": 0
   },
   {
-    "id": "dracaena-types",
-    "typeName": "Tipos de Dracaena",
-    "description": "Plantas de follaje formadoras de caña en la familia Asparagaceae con hojas en forma de correa, sensibles al fluoruro y cloro en el agua",
-    "commonExamples": "Dracaena marginata (Árbol dragón, Árbol dragón de Madagascar), D. fragrans (Planta de maíz, Dracaena de tallo de maíz), D. reflexa (Canción de la India, Pleomele)",
-    "careTips": "Regar cuando la mitad superior del suelo esté seca. Siempre usar agua filtrada, destilada o de lluvia para prevenir puntas marrones por fluoruro y cloro en el agua del grifo. Luz indirecta brillante preferida. Humedad media (40-50%) es ideal. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado diluido a la mitad. Excelentes purificadores de aire. Limpiar hojas mensualmente para eliminar polvo. Trasplantar cada 2-3 años. Recortar puntas marrones diagonalmente para igualar la forma de la hoja. Eliminar hojas inferiores amarillentas. Sensible a corrientes de aire frío.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      24
-    ],
-    "plantToxicity": "toxicToPets",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Bajo Mantenimiento",
-    "categoryIndex": 0
-  },
-  {
     "id": "pothos",
     "typeName": "Pothos",
     "description": "Aráceas colgantes extremadamente fáciles de cuidar de la familia Araceae, excelentes para principiantes, incluye muchas variedades variegadas",
@@ -1539,33 +1512,6 @@
     "categoryIndex": 4
   },
   {
-    "id": "shade-tolerant-succulents",
-    "typeName": "Suculentas Tolerantes a la Sombra",
-    "description": "Suculentas que toleran menos luz y riego más frecuente que las suculentas típicas del desierto, nativas de hábitats sombreados",
-    "commonExamples": "Haworthia (Planta cebra, Planta perla), Gasteria (Gasteria, Lengua de buey), Sansevieria (algunas especies), Aloe (algunas especies como A. vera)",
-    "careTips": "Regar cuando el suelo esté mayormente seco (cada 1-2 semanas). Más frecuente que las suculentas del desierto pero aún evitar el exceso de riego. Luz indirecta brillante a media preferida; tolera menos luz que las suculentas típicas del desierto. Humedad media preferida. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Trasplantar cada 2-3 años. Nativa de hábitats sombreados. Incluye Haworthia, Gasteria y algunas especies de Aloe.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      24
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Suculentas",
-    "categoryIndex": 4
-  },
-  {
     "id": "string-of-bananas",
     "typeName": "Cadena de Plátanos",
     "description": "Suculenta colgante con hojas en forma de plátano, de crecimiento más rápido que Cadena de Perlas",
@@ -1690,33 +1636,6 @@
       24
     ],
     "plantToxicity": "safe",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Suculentas",
-    "categoryIndex": 4
-  },
-  {
-    "id": "succulent-trees",
-    "typeName": "Árboles Suculentos",
-    "description": "Suculentas similares a árboles con crecimiento leñoso que pueden alcanzar un tamaño significativo, muchas son longevas y pueden entrenarse como bonsái",
-    "commonExamples": "Crassula ovata (Árbol de jade, Árbol del dinero), Portulacaria afra (Arbusto elefante, Jade enano), Euphorbia ingens (Árbol candelabro), Aloe arborescens (Aloe antorcha)",
-    "careTips": "Regar cuando el suelo esté completamente seco (cada 2-4 semanas). Regar profundamente pero con poca frecuencia. Muy tolerante a la sequía una vez establecido. Luz indirecta brillante a directa preferida. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante balanceado a un cuarto de fuerza. Puede entrenarse como bonsái. Muchas son longevas. Trasplantar cada 3-5 años. Hábito de crecimiento similar a árbol.",
-    "springInterval": 14,
-    "summerInterval": 14,
-    "fallInterval": 21,
-    "winterInterval": 30,
-    "lightPreference": "strongDirect",
-    "humidityPreference": "low",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -2808,33 +2727,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "temperate-vines-indoor",
-    "typeName": "Enredaderas Templadas (Interior)",
-    "description": "Plantas enredaderas de regiones templadas adecuadas para cultivo interior, prefieren temperaturas más frescas que las enredaderas tropicales",
-    "commonExamples": "Hedera helix (Hiedra inglesa, Hiedra común), Parthenocissus (Enredadera de Virginia), Vitis (Vid, algunas variedades ornamentales)",
-    "careTips": "Mantener el suelo ligeramente húmedo. Permitir que el primer centímetro se seque entre riegos. Prefieren temperaturas más frescas (15-21°C) que las enredaderas tropicales. Mayor humedad (50%+) beneficiosa. Luz indirecta brillante preferida. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Podar para controlar la longitud. Trasplantar cada 1-2 años. Plantas enredaderas de regiones templadas. Pueden colgar o trepar con soporte. Investigar especies específicas para requisitos exactos.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Enredaderas y Colgantes",
-    "categoryIndex": 8
-  },
-  {
     "id": "tradescantia",
     "typeName": "Tradescantia",
     "description": "Plantas colgantes de crecimiento rápido de la familia Commelinaceae con hojas coloridas rayadas o sólidas",
@@ -2879,60 +2771,6 @@
     ],
     "plantToxicity": "toxicToPets",
     "soilPhPreference": "adaptable",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Enredaderas y Colgantes",
-    "categoryIndex": 8
-  },
-  {
-    "id": "tropical-vines",
-    "typeName": "Enredaderas Tropicales",
-    "description": "Plantas trepadoras grandes nativas de regiones tropicales, muchas producen flores llamativas y requieren temperaturas cálidas y estructuras de soporte",
-    "commonExamples": "Bougainvillea (Flor de papel), Mandevilla (Trompeta de roca, Dipladenia), Passiflora (Flor de la pasión, Maypop), Thunbergia (Enredadera Susan de ojos negros)",
-    "careTips": "Mantener el suelo consistentemente húmedo durante la temporada de crecimiento (2-3 veces por semana). Regar profundamente en la base. Permitir que se seque ligeramente entre riegos en meses más frescos. Acolchar alrededor de la base para retener humedad. Sol completo esencial (6-8 horas diarias). Temperaturas cálidas requeridas (21-29°C). Proporcionar estructuras de soporte (enrejados, pérgolas, cercas). Fertilizar mensualmente durante la temporada de crecimiento con fertilizante balanceado. Muchas producen flores llamativas. Podar después de florecer. Investigar especies específicas para requisitos exactos.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Plantas de Interior - Enredaderas y Colgantes",
-    "categoryIndex": 8
-  },
-  {
-    "id": "tropical-vines-indoor",
-    "typeName": "Enredaderas Tropicales (Interior)",
-    "description": "Plantas enredaderas de regiones tropicales adecuadas para cultivo interior, prefieren temperaturas cálidas y alta humedad",
-    "commonExamples": "Cissus (Hiedra de uva, Enredadera canguro), Tetrastigma (Enredadera castaño), Monstera (forma trepadora), Epipremnum (Pothos), Philodendron (variedades trepadoras)",
-    "careTips": "Mantener el suelo ligeramente húmedo. Permitir que el primer centímetro se seque entre riegos. Prefieren temperaturas cálidas (18-27°C). Alta humedad (60%+) beneficiosa - usar humidificador o bandeja de guijarros. Luz indirecta brillante preferida. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Pueden colgar o trepar con soporte. Podar para controlar la longitud. Trasplantar cada 1-2 años. Plantas enredaderas de regiones tropicales. Investigar especies específicas para requisitos exactos.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -3119,33 +2957,6 @@
     "temperaturePreference": [
       18,
       27
-    ],
-    "plantToxicity": "toxicToPets",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      null
-    ],
-    "category": "Plantas de Interior - Especiales",
-    "categoryIndex": 9
-  },
-  {
-    "id": "ficus-types",
-    "typeName": "Tipos de Ficus",
-    "description": "Plantas leñosas de la familia Moraceae, muchas adecuadas como árboles de interior, sensibles a cambios de ubicación",
-    "commonExamples": "Ficus elastica (Árbol del caucho), F. lyrata (Higuera hoja de violín), F. benjamina (Higuera llorona)",
-    "careTips": "Regar cuando los primeros 5-7 cm de suelo estén secos. Evitar el exceso de riego que causa podredumbre de raíces. Permitir que se seque entre riegos. Luz indirecta brillante preferida. Humedad media a alta (50-60%) preferida. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Muy sensible a cambios de ubicación - puede perder hojas cuando se mueve. Evitar corrientes de aire. Trasplantar cada 2-3 años. Limpiar hojas grandes mensualmente. Muchas adecuadas como árboles de interior. Tóxicas para mascotas.",
-    "springInterval": 10,
-    "summerInterval": 10,
-    "fallInterval": 14,
-    "winterInterval": 21,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      24
     ],
     "plantToxicity": "toxicToPets",
     "soilPhPreference": "neutral",
@@ -4557,33 +4368,6 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
-    ],
-    "category": "Exterior - Perennes",
-    "categoryIndex": 12
-  },
-  {
-    "id": "perennial-bulbs-indoor",
-    "typeName": "Bulbos Perennes (Interior)",
-    "description": "Plantas bulbosas cultivadas en interiores que pueden volver a florecer con cuidado adecuado de latencia, requieren período de descanso después de la floración",
-    "commonExamples": "Hippeastrum (Amarilis), Clivia (Lirio Kaffir), Scadoxus (Lirio sangre), Haemanthus (Lirio sangre)",
-    "careTips": "Mantener el suelo uniformemente húmedo durante el crecimiento activo y floración. Reducir significativamente o detener el riego durante el período de latencia cuando las hojas mueren - esto es esencial para volver a florecer. Luz indirecta brillante durante el crecimiento, lugar fresco y oscuro durante la latencia. Fertilizar mensualmente durante el crecimiento activo con fertilizante para bulbos. Después de florecer, continuar regando hasta que las hojas se vuelvan amarillas, luego permitir latencia. Trasplantar cada 2-3 años. Puede volver a florecer con cuidado adecuado de latencia. Investigar especies específicas para requisitos exactos.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
       null
     ],
     "category": "Exterior - Perennes",
@@ -7911,33 +7695,6 @@
     "categoryIndex": 21
   },
   {
-    "id": "forced-bulbs",
-    "typeName": "Bulbos Forzados",
-    "description": "Bulbos forzados a florecer en interiores, típicamente exhibiciones estacionales de una vez, requieren período de pre-enfriamiento para la mayoría de las variedades",
-    "commonExamples": "Hyacinthus (Jacinto), Narcissus (Narciso papel, Narciso), Tulipa (Tulipán), Muscari (Jacinto de uva)",
-    "careTips": "Mantener el suelo húmedo durante el crecimiento y floración. Reducir el riego después de florecer a medida que el follaje muere. La mayoría requiere período de pre-enfriamiento (6-16 semanas en refrigerador a 2-7°C) antes de plantar. Luz indirecta brillante durante el crecimiento. Temperaturas frescas (15-18°C) extienden el tiempo de floración. Fertilizar ligeramente durante el crecimiento. Después de florecer, permitir que el follaje muera naturalmente. Típicamente exhibiciones estacionales de una vez - los bulbos se agotan después de forzar. Los narcisos papel no requieren pre-enfriamiento.",
-    "springInterval": 5,
-    "summerInterval": 90,
-    "fallInterval": 90,
-    "winterInterval": 5,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      21
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Bulbos",
-    "categoryIndex": 21
-  },
-  {
     "id": "gladiolus",
     "typeName": "Gladiolo",
     "description": "Bulbos de floración estival de la familia Iridaceae con espigas altas de flores coloridas, excelentes para flores cortadas",
@@ -8014,33 +7771,6 @@
     "plantLifeSpan": [
       3,
       5
-    ],
-    "category": "Bulbos",
-    "categoryIndex": 21
-  },
-  {
-    "id": "seasonal-bulbs-outdoor",
-    "typeName": "Bulbos Estacionales (Exterior)",
-    "description": "Plantas bulbosas plantadas en exteriores para floración estacional, plantadas en otoño para flores primaverales o en primavera para flores estivales",
-    "commonExamples": "Tulipa (Tulip), Narcissus (Daffodil), Crocus, Hyacinthus (Hyacinth), Allium (Ornamental onion)",
-    "careTips": "Mantener el suelo húmedo durante el crecimiento activo y floración (primavera). Permitir que se seque naturalmente después de que el follaje muera - no cortar hojas hasta que estén amarillas. Plantar bulbos de primavera en otoño (6-8 semanas antes de que el suelo se congele); bulbos de verano en primavera después de la última helada. Sol completo a sombra parcial dependiendo de la especie. Fertilizar cuando aparezcan los brotes y después de florecer. Permitir que el follaje muera naturalmente para alimentar los bulbos para el próximo año. Acolchar en invierno. Investigar bulbo específico para requisitos exactos.",
-    "springInterval": 5,
-    "summerInterval": 90,
-    "fallInterval": 90,
-    "winterInterval": 90,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
     ],
     "category": "Bulbos",
     "categoryIndex": 21
@@ -8397,60 +8127,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "temperate-carnivorous",
-    "typeName": "Plantas Carnívoras Templadas",
-    "description": "Plantas carnívoras de regiones templadas que requieren período de latencia en invierno, necesitan agua pura y alta humedad",
-    "commonExamples": "Dionaea muscipula (Venus atrapamoscas), Sarracenia (Planta jarra, Jarra trompeta), Drosera (Rocío de sol), Darlingtonia (Lirio cobra)",
-    "careTips": "Humedad constante con agua destilada o de lluvia SOLO - nunca agua del grifo (los minerales las matan). Mantener en bandeja de agua (2.5-5 cm de profundidad). Reducir el riego en latencia invernal pero mantener ligeramente húmedo. Luz indirecta brillante a directa dependiendo de la especie. Alta humedad (60%+) preferida. Usar solo musgo de turba esfagno o suelo especializado para plantas carnívoras - nunca suelo para macetas regular. No fertilizar - obtienen nutrientes de insectos. Requieren período de latencia en invierno (temperaturas más frescas, luz reducida). Requisitos de cuidado muy específicos.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "gentleDirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      16,
-      24
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Especiales - Carnívoras",
-    "categoryIndex": 23
-  },
-  {
-    "id": "tropical-carnivorous",
-    "typeName": "Plantas Carnívoras Tropicales",
-    "description": "Plantas carnívoras de regiones tropicales que no requieren latencia, necesitan alta humedad y agua pura",
-    "commonExamples": "Nepenthes (Planta jarra tropical, Tazas de mono), Pinguicula (Grasilla), Utricularia (Utricularia), Drosera (algunas especies tropicales)",
-    "careTips": "Humedad constante con agua destilada o de lluvia SOLO - nunca agua del grifo (los minerales las matan). Alta humedad (70%+) esencial - usar terrario o humidificador. Mantener en bandeja de agua (2.5-5 cm de profundidad). Luz indirecta brillante preferida. Temperaturas cálidas (21-29°C) durante todo el año. Usar solo musgo de turba esfagno o suelo especializado para plantas carnívoras. No fertilizar - obtienen nutrientes de insectos. No requieren latencia. Requisitos de cuidado muy específicos. Investigar especie específica para necesidades exactas.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      21,
-      29
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Especiales - Carnívoras",
-    "categoryIndex": 23
-  },
-  {
     "id": "venus-flytrap",
     "typeName": "Venus Atrapamoscas",
     "description": "Planta carnívora más famosa de la familia Droseraceae, nativa de Carolina del Norte, requiere latencia y agua pura",
@@ -8613,33 +8289,6 @@
     "categoryIndex": 24
   },
   {
-    "id": "shade-moss-gardens",
-    "typeName": "Jardines de Musgo de Sombra",
-    "description": "Paisajes de musgo creados en áreas sombreadas, requieren suelo ácido y humedad constante",
-    "commonExamples": "Césped de musgo, Musgo de hoja, Musgo helecho, Musgo cojín, varias especies de musgo nativas",
-    "careTips": "Rociar diariamente o mantener consistentemente húmedo - nunca permitir que se seque. Mantener alta humedad especialmente en climas secos - puede necesitar rociado diario. Sombra esencial - el sol directo seca el musgo rápidamente. Suelo ácido preferido (pH 5.0-6.0). Usar especies de musgo nativas para mejores resultados. Eliminar plantas competidoras y escombros. Mantener área limpia. Muy desafiante de mantener - requiere atención constante. Perfecto para climas sombreados y húmedos. Investigar musgos nativos locales.",
-    "springInterval": 2,
-    "summerInterval": 2,
-    "fallInterval": 3,
-    "winterInterval": 5,
-    "lightPreference": "outdoorShade",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      10,
-      21
-    ],
-    "plantToxicity": "safe",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Especiales - Epífitas y Musgo",
-    "categoryIndex": 24
-  },
-  {
     "id": "alpine-plants",
     "typeName": "Plantas Alpinas",
     "description": "Plantas adaptadas a condiciones de alta altitud y rocosas con excelente drenaje, muchas son tolerantes a la sequía",
@@ -8746,140 +8395,5 @@
     ],
     "category": "Especiales - Alpinas",
     "categoryIndex": 25
-  },
-  {
-    "id": "aeroponic-plants",
-    "typeName": "Plantas Aeropónicas",
-    "description": "Método de cultivo: Plantas cultivadas con raíces suspendidas en aire y rociadas con solución nutritiva - el cuidado varía según la especie",
-    "commonExamples": "Lechuga, Hierbas, Verduras de hoja, Tomates, Pimientos, muchas plantas pueden cultivarse aeropónicamente",
-    "careTips": "Raíces suspendidas en aire y rociadas con solución nutritiva continua o periódicamente. Monitorear pH (5.5-6.5 para la mayoría de las plantas) y niveles de nutrientes semanalmente. No se necesita riego de suelo - las raíces reciben nutrientes del rocío. Proporcionar iluminación adecuada (luces de cultivo si está en interiores). Mantener temperatura del aire y humedad. Asegurar oxigenación adecuada. Método de cultivo - el cuidado varía significativamente según la especie. Investigar planta específica y tipo de sistema aeropónico para requisitos exactos.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": null,
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Métodos de Cultivo",
-    "categoryIndex": 26
-  },
-  {
-    "id": "aquaponic-plants",
-    "typeName": "Plantas Acuapónicas",
-    "description": "Método de cultivo: Plantas cultivadas en combinación con piscicultura, donde los desechos de peces proporcionan nutrientes - el cuidado varía según la especie",
-    "commonExamples": "Lechuga, Hierbas, Verduras de hoja, Tomates, Pepinos, muchas plantas pueden cultivarse acuapónicamente",
-    "careTips": "Plantas cultivadas en combinación con peces - los desechos de peces proporcionan nutrientes. Monitorear calidad del agua, pH (6.0-7.0) y niveles de nutrientes. No se necesita riego de suelo - raíces en agua o medio de cultivo. Proporcionar iluminación adecuada. Mantener temperatura del agua adecuada tanto para peces como para plantas. Equilibrar poblaciones de peces y plantas. Método de cultivo - el cuidado varía significativamente según la especie. Investigar planta específica, especie de pez y tipo de sistema acuapónico para requisitos exactos.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Métodos de Cultivo",
-    "categoryIndex": 26
-  },
-  {
-    "id": "container-gardening",
-    "typeName": "Jardinería en Contenedores",
-    "description": "Método de cultivo: Plantas cultivadas en contenedores en lugar de en el suelo, requiere atención al drenaje y riego",
-    "commonExamples": "La mayoría de las plantas pueden cultivarse en contenedores - verduras, hierbas, flores, árboles pequeños, arbustos",
-    "careTips": "Regar con más frecuencia que plantas en el suelo - los contenedores se secan más rápido. Asegurar excelente drenaje - los contenedores deben tener agujeros de drenaje. Usar mezcla para macetas de calidad, no tierra de jardín. Fertilizar regularmente ya que los nutrientes se filtran con el riego. Elegir tamaño de contenedor apropiado para la planta. Monitorear humedad del suelo diariamente en clima caliente. Rotar contenedores para crecimiento uniforme. Método de cultivo - el cuidado varía significativamente según la especie de planta. Investigar planta específica para requisitos exactos.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Métodos de Cultivo",
-    "categoryIndex": 26
-  },
-  {
-    "id": "hydroponic-plants",
-    "typeName": "Plantas Hidropónicas",
-    "description": "Método de cultivo: Plantas cultivadas en solución nutritiva sin suelo - el cuidado varía según la especie",
-    "commonExamples": "Lactuca sativa (Lechuga), Albahaca, Hierbas, Verduras de hoja",
-    "careTips": "Circulación continua de solución nutritiva o inundación periódica. Monitorear pH (5.5-6.5 para la mayoría de las plantas) y niveles de nutrientes semanalmente. No se necesita riego de suelo - raíces en solución nutritiva. Proporcionar iluminación adecuada (luces de cultivo si está en interiores). Mantener temperatura del agua (18-24°C). Cambiar solución nutritiva cada 2-3 semanas. Asegurar oxigenación adecuada de raíces. Método de cultivo - el cuidado varía significativamente según la especie. Investigar planta específica y tipo de sistema hidropónico para requisitos exactos.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "adaptable",
-    "drainagePreference": null,
-    "wateringMethod": null,
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Métodos de Cultivo",
-    "categoryIndex": 26
-  },
-  {
-    "id": "raised-bed-gardening",
-    "typeName": "Jardinería en Camas Elevadas",
-    "description": "Método de cultivo: Plantas cultivadas en camas de suelo elevadas, proporciona mejor drenaje y control del suelo",
-    "commonExamples": "Verduras, Hierbas, Flores, la mayoría de las plantas de jardín pueden cultivarse en camas elevadas",
-    "careTips": "Regar regularmente - las camas elevadas drenan bien y pueden necesitar riego más frecuente. Excelente drenaje es ventaja de las camas elevadas. Usar mezcla de suelo de calidad. Fertilizar regularmente ya que los nutrientes pueden lixiviarse. Más fácil controlar pH del suelo y composición. Se calienta más rápido en primavera. Menos agacharse y acceso más fácil. Método de cultivo - el cuidado varía significativamente según la especie de planta. Investigar planta específica para requisitos exactos.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      29
-    ],
-    "plantToxicity": "unknown",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      null
-    ],
-    "category": "Métodos de Cultivo",
-    "categoryIndex": 26
   }
 ]
