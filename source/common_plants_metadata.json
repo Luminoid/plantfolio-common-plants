@@ -4,7 +4,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -18,14 +17,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "cast-iron-plant": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -39,14 +38,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "dracaena-fragrans": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -60,14 +59,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "dracaena-marginata": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -81,14 +80,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "dracaena-types": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -102,14 +101,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "pothos": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -123,14 +122,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "snake-plants": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -144,14 +143,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "spider-plants": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -165,14 +164,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "yucca": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -186,14 +185,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "zz-plant": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -207,14 +206,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "zz-plant-raven": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -228,14 +227,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Low Maintenance"
   },
   "alocasias": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -249,14 +248,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "anthuriums": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -270,14 +269,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "aroids": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -291,14 +290,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "arrowhead-plant": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -312,14 +311,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "dieffenbachia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -333,14 +332,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "golden-pothos": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -354,14 +353,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "marble-queen-pothos": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -375,14 +374,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "monstera-adansonii": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -396,14 +395,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "neon-pothos": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -417,14 +416,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "philodendron-birkin": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -438,14 +437,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "philodendron-heartleaf": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -459,14 +458,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "philodendron-micans": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -480,14 +479,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "philodendron-pink-princess": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -501,14 +500,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "swiss-cheese-plant": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -522,14 +521,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "trailing-aroids": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -543,14 +542,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "xanthosoma": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -564,14 +563,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Aroids"
   },
   "birds-nest-fern": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -585,14 +584,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "boston-ferns": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Ferns",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -606,14 +605,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "button-fern": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -627,14 +626,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "ferns": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -648,14 +647,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "japanese-painted-fern": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -669,14 +668,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "maidenhair-ferns": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 4,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -690,14 +689,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "rabbits-foot-fern": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -711,14 +710,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "staghorn-fern": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -732,14 +731,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Ferns"
   },
   "areca-palm": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -753,14 +752,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "european-fan-palm": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -774,14 +773,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "kentia-palm": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -795,14 +794,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "lady-palm": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -816,14 +815,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "majesty-palm": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -837,14 +836,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "parlor-palm": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -858,14 +857,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "ponytail-palm": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -879,14 +878,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Houseplants - Palms"
   },
   "aeonium": {
     "springInterval": 14,
     "summerInterval": 21,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -900,14 +899,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "aloe-vera": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -921,14 +920,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "aloes": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -942,14 +941,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "burros-tail": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -963,14 +962,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "crassulas": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -984,14 +983,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "echeveria": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1005,14 +1004,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "euphorbias": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1026,14 +1025,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "gasteria": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1047,14 +1046,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "graptopetalum": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1068,14 +1067,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "haworthia": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1089,14 +1088,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "jade-plant": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1110,14 +1109,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "lithops": {
     "springInterval": 30,
     "summerInterval": 90,
     "fallInterval": 30,
     "winterInterval": 90,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1131,14 +1130,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "sedum": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1152,14 +1151,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "sempervivum": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1173,14 +1172,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "senecio": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1194,14 +1193,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "shade-tolerant-succulents": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1215,14 +1214,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "string-of-bananas": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1236,14 +1235,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "string-of-dolphins": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1257,14 +1256,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "string-of-hearts": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1278,14 +1277,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "string-of-pearls": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1299,14 +1298,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "string-of-turtles": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1320,14 +1319,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "succulent-trees": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1341,14 +1340,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "succulents": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1362,14 +1361,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Succulents"
   },
   "barrel-cactus": {
     "springInterval": 21,
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1383,14 +1382,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "cacti": {
     "springInterval": 21,
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1404,14 +1403,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "christmas-cactus": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1425,14 +1424,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "easter-cactus": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1446,14 +1445,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "forest-cacti": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1467,14 +1466,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "old-lady-cactus": {
     "springInterval": 21,
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1488,14 +1487,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "prickly-pear": {
     "springInterval": 21,
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1509,14 +1508,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "rat-tail-cactus": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1530,14 +1529,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "star-cactus": {
     "springInterval": 21,
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1551,14 +1550,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "thanksgiving-cactus": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1572,14 +1571,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Cacti"
   },
   "african-violets": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1593,14 +1592,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "bromeliad-aechmea": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1614,14 +1613,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "bromeliad-guzmania": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1635,14 +1634,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "bromeliads": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1656,14 +1655,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "cyclamen": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1677,14 +1676,14 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "gardenia": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1698,14 +1697,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "gloxinia": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1719,14 +1718,14 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "hoya-carnosa": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1740,14 +1739,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "hoya-kerrii": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1761,14 +1760,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "hoyas": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1782,14 +1781,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "jasmine": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1803,14 +1802,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "kalanchoe": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1824,14 +1823,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "peace-lilies": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1845,14 +1844,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "phalaenopsis-orchids": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1866,14 +1865,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "rex-begonias": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1887,14 +1886,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "tuberous-begonias": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1908,14 +1907,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Flowering"
   },
   "calathea-makoyana": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1929,14 +1928,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "calathea-medallion": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -1950,14 +1949,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "calathea-orbifolia": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -1971,14 +1970,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "calathea-rattlesnake": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -1992,14 +1991,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "ctenanthe": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2013,14 +2012,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "maranta-prayer-plant": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2034,14 +2033,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "nerve-plant": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2055,14 +2054,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "prayer-plants": {
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2076,14 +2075,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "stromanthe": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2097,14 +2096,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Prayer Plants"
   },
   "english-ivy": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2118,14 +2117,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "grape-ivy": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2139,14 +2138,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "philodendron-brasil": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2160,14 +2159,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "scindapsus": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2181,14 +2180,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "temperate-vines-indoor": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2202,14 +2201,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "tradescantia": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2223,14 +2222,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "tradescantia-zebrina": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2244,14 +2243,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "tropical-vines": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2265,14 +2264,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "tropical-vines-indoor": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2286,14 +2285,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Vines & Trailing"
   },
   "bamboo": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2307,14 +2306,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "bird-of-paradise": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2328,14 +2327,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "bonsai": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Specialty",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2349,14 +2348,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "coleus": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2370,14 +2369,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "croton": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2391,14 +2390,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "cycads": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2412,14 +2411,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "ficus-types": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2433,14 +2432,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "fiddle-leaf-fig": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2454,14 +2453,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "lemon-cypress": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2475,14 +2474,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "lucky-bamboo": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2496,14 +2495,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "money-tree": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2517,14 +2516,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "norfolk-island-pine": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2538,14 +2537,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "oxalis": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2559,14 +2558,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "peperomia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2580,14 +2579,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "peperomia-hope": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2601,14 +2600,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "peperomia-rosso": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2622,14 +2621,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "peperomia-watermelon": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2643,14 +2642,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "pilea": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2664,14 +2663,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "pilea-chinese-money-plant": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2685,14 +2684,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "polka-dot-plant": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2706,14 +2705,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "rubber-plant": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2727,14 +2726,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "schefflera": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2748,14 +2747,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Houseplants - Specialty"
   },
   "birch": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2769,14 +2768,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "citrus-trees": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2790,14 +2789,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "conifers": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2811,14 +2810,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "deciduous-trees": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2832,14 +2831,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "desert-trees": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 30,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -2853,14 +2852,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "dogwood": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2874,14 +2873,14 @@
     "plantLifeSpan": [
       30,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "evergreen-trees": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2895,14 +2894,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "fruit-trees": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2916,14 +2915,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "ginkgo": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2937,14 +2936,14 @@
     "plantLifeSpan": [
       100,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "magnolia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2958,14 +2957,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "maple": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2979,14 +2978,14 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "oak": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3000,14 +2999,14 @@
     "plantLifeSpan": [
       100,
       null
-    ]
+    ],
+    "category": "Outdoor - Trees"
   },
   "azaleas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3021,14 +3020,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "boxwood": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3042,14 +3041,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "camellia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3063,14 +3062,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "cold-hardy-evergreens": {
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3084,14 +3083,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "evergreen-shrubs": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3105,14 +3104,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "flowering-shrubs": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3126,14 +3125,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "forsythia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3147,14 +3146,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "hydrangeas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3168,14 +3167,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "juniper": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3189,14 +3188,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "lavender": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3210,14 +3209,14 @@
     "plantLifeSpan": [
       10,
       15
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "lilac": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3231,14 +3230,14 @@
     "plantLifeSpan": [
       30,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "osmanthus": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3252,14 +3251,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "rhododendrons": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3273,14 +3272,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "rosemary": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3294,14 +3293,14 @@
     "plantLifeSpan": [
       10,
       20
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "roses": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3315,14 +3314,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "viburnum": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3336,14 +3335,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "asters": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3357,14 +3356,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "black-eyed-susan": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3378,14 +3377,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "chrysanthemums": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3399,14 +3398,14 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "coneflower": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3420,14 +3419,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "daisies": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3441,14 +3440,14 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "daylilies": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3462,14 +3461,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "herbaceous-perennials": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3483,14 +3482,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "hostas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3504,14 +3503,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "irises": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3525,14 +3524,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "peony": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3546,14 +3545,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "perennial-bulbs-indoor": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Outdoor - Perennials",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3567,14 +3566,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "salvia": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3588,14 +3587,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "sedum-perennials": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3609,14 +3608,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "shade-perennials": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3630,14 +3629,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Perennials"
   },
   "begonia": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3651,14 +3650,14 @@
     "plantLifeSpan": [
       0,
       3
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "cool-season-annuals": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3672,14 +3671,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "cosmos": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3693,14 +3692,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "geraniums": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3714,14 +3713,14 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "impatiens": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3735,14 +3734,14 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "marigolds": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3756,14 +3755,14 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "nasturtium": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3777,14 +3776,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "petunias": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3798,14 +3797,14 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "sunflower": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3819,14 +3818,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "warm-season-annuals": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3840,14 +3839,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "zinnia": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3861,14 +3860,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Annuals"
   },
   "clematis": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3882,14 +3881,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "climbers": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3903,14 +3902,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "honeysuckle": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3924,14 +3923,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "ivy": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3945,14 +3944,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "morning-glory": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3966,14 +3965,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "wisteria": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3987,14 +3986,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "creeping-phlox": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4008,14 +4007,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "grasses": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4029,14 +4028,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "groundcovers": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4050,14 +4049,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "lawn-turf": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4071,14 +4070,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "pachysandra": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4092,14 +4091,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "vinca": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4113,14 +4112,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Outdoor - Groundcovers & Grasses"
   },
   "arugula": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4134,14 +4133,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "bok-choy": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4155,14 +4154,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "broccoli": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4176,14 +4175,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "brussels-sprouts": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4197,14 +4196,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "cabbage": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4218,14 +4217,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "cauliflower": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4239,14 +4238,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "celery": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4260,14 +4259,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "choy-sum": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4281,14 +4280,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "collard-greens": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4302,14 +4301,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "gai-lan": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4323,14 +4322,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "kale": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4344,14 +4343,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "kohlrabi": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4365,14 +4364,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "lettuce": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4386,14 +4385,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "mustard-greens": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4407,14 +4406,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "napa-cabbage": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4428,14 +4427,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "spinach": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4449,14 +4448,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "swiss-chard": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4470,14 +4469,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Vegetables - Leafy Greens"
   },
   "adzuki-bean": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4491,14 +4490,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "beans": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4512,14 +4511,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "bell-peppers": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4533,14 +4532,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "butternut-squash": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4554,14 +4553,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "cantaloupe": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4575,14 +4574,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "corn": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4596,14 +4595,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "cucumbers": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4617,14 +4616,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "edamame": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4638,14 +4637,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "eggplant": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4659,14 +4658,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "green-beans": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4680,14 +4679,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "habanero": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4701,14 +4700,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "jalapeno": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4722,14 +4721,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "mung-bean": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4743,14 +4742,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "okra": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4764,14 +4763,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "peas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4785,14 +4784,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "peppers": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4806,14 +4805,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "pumpkin": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4827,14 +4826,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "snap-peas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4848,14 +4847,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "snow-peas": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4869,14 +4868,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "soybean": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4890,14 +4889,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "squash": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4911,14 +4910,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "tomatoes": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4932,14 +4931,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "watermelon": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4953,14 +4952,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "zucchini": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4974,14 +4973,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Fruiting"
   },
   "beets": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4995,14 +4994,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "carrots": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5016,14 +5015,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "daikon": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5037,14 +5036,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "fennel": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5058,14 +5057,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "onions-garlic": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5079,14 +5078,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "parsnip": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5100,14 +5099,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "potatoes": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5121,14 +5120,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "radishes": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5142,14 +5141,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "root-vegetables": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5163,14 +5162,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "rutabaga": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5184,14 +5183,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "sweet-potatoes": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5205,14 +5204,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "turnips": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5226,14 +5225,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Vegetables - Root & Bulb"
   },
   "apples": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5247,14 +5246,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "apricot": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5268,14 +5267,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "avocado": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5289,14 +5288,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "blackberries": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5310,14 +5309,14 @@
     "plantLifeSpan": [
       8,
       10
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "blueberries": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5331,14 +5330,14 @@
     "plantLifeSpan": [
       15,
       30
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "cherries": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5352,14 +5351,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "cranberry": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5373,14 +5372,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "dragon-fruit": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -5394,14 +5393,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "elderberry": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5415,14 +5414,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "fig": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5436,14 +5435,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "goji-berry": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -5457,14 +5456,14 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "grapes": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5478,14 +5477,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "jujube": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -5499,14 +5498,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "kumquat": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5520,14 +5519,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "longan": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5541,14 +5540,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "loquat": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5562,14 +5561,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "lychee": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5583,14 +5582,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "nectarine": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5604,14 +5603,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "peach": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5625,14 +5624,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "pear": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5646,14 +5645,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "persimmon": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5667,14 +5666,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "plum": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5688,14 +5687,14 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "pomegranate": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -5709,14 +5708,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "pomelo": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5730,14 +5729,14 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "raspberries": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5751,14 +5750,14 @@
     "plantLifeSpan": [
       8,
       10
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "strawberries": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5772,14 +5771,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Fruits & Berries"
   },
   "basil": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5793,14 +5792,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Herbs"
   },
   "chinese-chives": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5814,14 +5813,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "chives": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5835,14 +5834,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "cilantro": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5856,14 +5855,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Herbs"
   },
   "dill": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5877,14 +5876,14 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Herbs"
   },
   "ginger": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5898,14 +5897,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Herbs"
   },
   "indoor-herbs": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Herbs",
     "lightPreference": "gentleDirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5919,14 +5918,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "lemongrass": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5940,14 +5939,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "mint": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5961,14 +5960,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "oregano": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -5982,14 +5981,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "parsley": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6003,14 +6002,14 @@
     "plantLifeSpan": [
       0,
       2
-    ]
+    ],
+    "category": "Herbs"
   },
   "sage": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6024,14 +6023,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "thyme": {
     "springInterval": 7,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6045,14 +6044,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Herbs"
   },
   "turmeric": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6066,14 +6065,14 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Herbs"
   },
   "allium": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6087,14 +6086,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "amaryllis": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Bulbs",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6108,14 +6107,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "crocus": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6129,14 +6128,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "daffodils": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6150,14 +6149,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "forced-bulbs": {
     "springInterval": 5,
     "summerInterval": 90,
     "fallInterval": 90,
     "winterInterval": 5,
-    "category": "Bulbs",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6171,14 +6170,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "gladiolus": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6192,14 +6191,14 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Bulbs"
   },
   "hyacinth": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6213,14 +6212,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Bulbs"
   },
   "lilies": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6234,14 +6233,14 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Bulbs"
   },
   "seasonal-bulbs-outdoor": {
     "springInterval": 5,
     "summerInterval": 90,
     "fallInterval": 90,
     "winterInterval": 90,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6255,14 +6254,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbs"
   },
   "tulips": {
     "springInterval": 3,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6276,14 +6275,14 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Bulbs"
   },
   "aquatic-plants": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6297,14 +6296,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "bog-plants": {
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6318,14 +6317,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "cattails": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6339,14 +6338,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "indoor-aquatics": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6360,14 +6359,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "lotus": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6381,14 +6380,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "lotus-root": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6402,14 +6401,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "pickerelweed": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6423,14 +6422,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "water-iris": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6444,14 +6443,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Aquatic & Bog"
   },
   "butterwort": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6465,14 +6464,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "cobra-lily": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6486,14 +6485,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "pitcher-plant": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6507,14 +6506,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "sundew": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6528,14 +6527,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "temperate-carnivorous": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "gentleDirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -6549,14 +6548,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "tropical-carnivorous": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -6570,14 +6569,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "venus-flytrap": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6591,14 +6590,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Carnivorous"
   },
   "air-plants": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6612,14 +6611,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "epiphytes": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6633,14 +6632,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "mosses": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "deepShade",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -6654,14 +6653,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "orchids": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6675,14 +6674,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "resurrection-fern": {
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6696,14 +6695,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "shade-moss-gardens": {
     "springInterval": 2,
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "outdoorShade",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -6717,14 +6716,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Epiphytes & Moss"
   },
   "alpine-plants": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6738,14 +6737,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Specialty - Alpine"
   },
   "aubrieta": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6759,14 +6758,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Specialty - Alpine"
   },
   "edelweiss": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6780,14 +6779,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Specialty - Alpine"
   },
   "gentian": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6801,14 +6800,14 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Specialty - Alpine"
   },
   "aeroponic-plants": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6822,14 +6821,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Growing Methods"
   },
   "aquaponic-plants": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6843,14 +6842,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Growing Methods"
   },
   "container-gardening": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Growing Methods",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6864,14 +6863,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Growing Methods"
   },
   "hydroponic-plants": {
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6885,14 +6884,14 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Growing Methods"
   },
   "raised-bed-gardening": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Growing Methods",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6906,6 +6905,7 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Growing Methods"
   }
 }

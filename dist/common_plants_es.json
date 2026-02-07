@@ -9,7 +9,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -23,7 +22,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "cast-iron-plant",
@@ -35,7 +36,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -49,7 +49,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "dracaena-fragrans",
@@ -61,7 +63,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -75,7 +76,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "dracaena-marginata",
@@ -87,7 +90,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -101,7 +103,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "dracaena-types",
@@ -113,7 +117,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -127,7 +130,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "pothos",
@@ -139,7 +144,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -153,7 +157,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "snake-plants",
@@ -165,7 +171,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -179,7 +184,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "spider-plants",
@@ -191,7 +198,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -205,7 +211,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "yucca",
@@ -217,7 +225,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -231,7 +238,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "zz-plant",
@@ -243,7 +252,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -257,7 +265,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "zz-plant-raven",
@@ -269,7 +279,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Low Maintenance",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -283,7 +292,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
   },
   {
     "id": "alocasias",
@@ -295,7 +306,6 @@
     "summerInterval": 5,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -309,7 +319,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "anthuriums",
@@ -321,7 +333,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -335,7 +346,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "aroids",
@@ -347,7 +360,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -361,7 +373,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "arrowhead-plant",
@@ -373,7 +387,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -387,7 +400,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "dieffenbachia",
@@ -399,7 +414,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -413,7 +427,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "golden-pothos",
@@ -425,7 +441,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -439,7 +454,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "marble-queen-pothos",
@@ -451,7 +468,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -465,7 +481,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "monstera-adansonii",
@@ -477,7 +495,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -491,7 +508,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "neon-pothos",
@@ -503,7 +522,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -517,7 +535,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "philodendron-birkin",
@@ -529,7 +549,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -543,7 +562,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "philodendron-heartleaf",
@@ -555,7 +576,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -569,7 +589,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "philodendron-micans",
@@ -581,7 +603,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -595,7 +616,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "philodendron-pink-princess",
@@ -607,7 +630,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -621,7 +643,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "swiss-cheese-plant",
@@ -633,7 +657,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -647,7 +670,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "trailing-aroids",
@@ -659,7 +684,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Aroids",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -673,7 +697,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "xanthosoma",
@@ -685,7 +711,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Aroids",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -699,7 +724,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "birds-nest-fern",
@@ -711,7 +738,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -725,7 +751,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "boston-ferns",
@@ -737,7 +765,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Ferns",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -751,7 +778,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "button-fern",
@@ -763,7 +792,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -777,7 +805,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "ferns",
@@ -789,7 +819,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -803,7 +832,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "japanese-painted-fern",
@@ -815,7 +846,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -829,7 +859,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "maidenhair-ferns",
@@ -841,7 +873,6 @@
     "summerInterval": 2,
     "fallInterval": 4,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -855,7 +886,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "rabbits-foot-fern",
@@ -867,7 +900,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -881,7 +913,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "staghorn-fern",
@@ -893,7 +927,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Ferns",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -907,7 +940,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Helechos",
+    "categoryIndex": 2
   },
   {
     "id": "areca-palm",
@@ -919,7 +954,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -933,7 +967,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "european-fan-palm",
@@ -945,7 +981,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -959,7 +994,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "kentia-palm",
@@ -971,7 +1008,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -985,7 +1021,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "lady-palm",
@@ -997,7 +1035,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1011,7 +1048,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "majesty-palm",
@@ -1023,7 +1062,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1037,7 +1075,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "parlor-palm",
@@ -1049,7 +1089,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Palms",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1063,7 +1102,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "ponytail-palm",
@@ -1075,7 +1116,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Palms",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1089,7 +1129,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Palmeras",
+    "categoryIndex": 3
   },
   {
     "id": "aeonium",
@@ -1101,7 +1143,6 @@
     "summerInterval": 21,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1115,7 +1156,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "aloe-vera",
@@ -1127,7 +1170,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1141,7 +1183,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "aloes",
@@ -1153,7 +1197,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1167,7 +1210,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "burros-tail",
@@ -1179,7 +1224,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1193,7 +1237,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "crassulas",
@@ -1205,7 +1251,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1219,7 +1264,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "echeveria",
@@ -1231,7 +1278,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1245,7 +1291,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "euphorbias",
@@ -1257,7 +1305,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1271,7 +1318,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "gasteria",
@@ -1283,7 +1332,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1297,7 +1345,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "graptopetalum",
@@ -1309,7 +1359,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1323,7 +1372,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "haworthia",
@@ -1335,7 +1386,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1349,7 +1399,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "jade-plant",
@@ -1361,7 +1413,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1375,7 +1426,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "lithops",
@@ -1387,7 +1440,6 @@
     "summerInterval": 90,
     "fallInterval": 30,
     "winterInterval": 90,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1401,7 +1453,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "sedum",
@@ -1413,7 +1467,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1427,7 +1480,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "sempervivum",
@@ -1439,7 +1494,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1453,7 +1507,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "senecio",
@@ -1465,7 +1521,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1479,7 +1534,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "shade-tolerant-succulents",
@@ -1491,7 +1548,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1505,7 +1561,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "string-of-bananas",
@@ -1517,7 +1575,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1531,7 +1588,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "string-of-dolphins",
@@ -1543,7 +1602,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1557,7 +1615,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "string-of-hearts",
@@ -1569,7 +1629,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1583,7 +1642,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "string-of-pearls",
@@ -1595,7 +1656,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1609,7 +1669,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "string-of-turtles",
@@ -1621,7 +1683,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Succulents",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1635,7 +1696,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "succulent-trees",
@@ -1647,7 +1710,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1661,7 +1723,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "succulents",
@@ -1673,7 +1737,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Houseplants - Succulents",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1687,7 +1750,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
   },
   {
     "id": "barrel-cactus",
@@ -1699,7 +1764,6 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1713,7 +1777,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "cacti",
@@ -1725,7 +1791,6 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1739,7 +1804,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "christmas-cactus",
@@ -1751,7 +1818,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1765,7 +1831,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "easter-cactus",
@@ -1777,7 +1845,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1791,7 +1858,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "forest-cacti",
@@ -1803,7 +1872,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1817,7 +1885,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "old-lady-cactus",
@@ -1829,7 +1899,6 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1843,7 +1912,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "prickly-pear",
@@ -1855,7 +1926,6 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1869,7 +1939,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "rat-tail-cactus",
@@ -1881,7 +1953,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1895,7 +1966,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "star-cactus",
@@ -1907,7 +1980,6 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -1921,7 +1993,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "thanksgiving-cactus",
@@ -1933,7 +2007,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Cacti",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1947,7 +2020,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Cactus",
+    "categoryIndex": 5
   },
   {
     "id": "bromeliad-aechmea",
@@ -1959,7 +2034,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1973,7 +2047,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "african-violets",
@@ -1985,7 +2061,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -1999,7 +2074,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "bromeliads",
@@ -2011,7 +2088,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2025,7 +2101,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "cyclamen",
@@ -2037,7 +2115,6 @@
     "summerInterval": null,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2051,7 +2128,9 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "gardenia",
@@ -2063,7 +2142,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2077,7 +2155,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "gloxinia",
@@ -2089,7 +2169,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2103,7 +2182,9 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "bromeliad-guzmania",
@@ -2115,7 +2196,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2129,7 +2209,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "hoya-carnosa",
@@ -2141,7 +2223,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2155,7 +2236,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "hoya-kerrii",
@@ -2167,7 +2250,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2181,7 +2263,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "hoyas",
@@ -2193,7 +2277,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2207,7 +2290,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "jasmine",
@@ -2219,7 +2304,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2233,7 +2317,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "kalanchoe",
@@ -2245,7 +2331,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2259,7 +2344,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "peace-lilies",
@@ -2271,7 +2358,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2285,7 +2371,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "phalaenopsis-orchids",
@@ -2297,7 +2385,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Flowering",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2311,7 +2398,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "rex-begonias",
@@ -2323,7 +2412,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2337,7 +2425,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "tuberous-begonias",
@@ -2349,7 +2439,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Flowering",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2363,7 +2452,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Con Flores",
+    "categoryIndex": 6
   },
   {
     "id": "calathea-makoyana",
@@ -2375,7 +2466,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2389,7 +2479,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "calathea-medallion",
@@ -2401,7 +2493,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2415,7 +2506,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "calathea-orbifolia",
@@ -2427,7 +2520,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2441,7 +2533,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "calathea-rattlesnake",
@@ -2453,7 +2547,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2467,7 +2560,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "ctenanthe",
@@ -2479,7 +2574,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2493,7 +2587,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "maranta-prayer-plant",
@@ -2505,7 +2601,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2519,7 +2614,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "nerve-plant",
@@ -2531,7 +2628,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2545,7 +2641,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "prayer-plants",
@@ -2557,7 +2655,6 @@
     "summerInterval": 4,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -2571,7 +2668,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "stromanthe",
@@ -2583,7 +2682,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Prayer Plants",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2597,7 +2695,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
   },
   {
     "id": "english-ivy",
@@ -2609,7 +2709,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2623,7 +2722,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "grape-ivy",
@@ -2635,7 +2736,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2649,7 +2749,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "philodendron-brasil",
@@ -2661,7 +2763,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2675,7 +2776,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "scindapsus",
@@ -2687,7 +2790,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2701,7 +2803,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "temperate-vines-indoor",
@@ -2713,7 +2817,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2727,7 +2830,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "tradescantia",
@@ -2739,7 +2844,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2753,7 +2857,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "tradescantia-zebrina",
@@ -2765,7 +2871,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2779,7 +2884,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "tropical-vines",
@@ -2791,7 +2898,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2805,7 +2911,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "tropical-vines-indoor",
@@ -2817,7 +2925,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Vines & Trailing",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2831,7 +2938,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
   },
   {
     "id": "bamboo",
@@ -2843,7 +2952,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2857,7 +2965,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "bird-of-paradise",
@@ -2869,7 +2979,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2883,7 +2992,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "bonsai",
@@ -2895,7 +3006,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Houseplants - Specialty",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2909,7 +3019,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "pilea-chinese-money-plant",
@@ -2921,7 +3033,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -2935,7 +3046,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "coleus",
@@ -2947,7 +3060,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2961,7 +3073,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "croton",
@@ -2973,7 +3087,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -2987,7 +3100,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "cycads",
@@ -2999,7 +3114,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3013,7 +3127,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "ficus-types",
@@ -3025,7 +3141,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3039,7 +3154,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "fiddle-leaf-fig",
@@ -3051,7 +3168,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3065,7 +3181,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "lemon-cypress",
@@ -3077,7 +3195,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3091,7 +3208,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "lucky-bamboo",
@@ -3103,7 +3222,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3117,7 +3235,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "money-tree",
@@ -3129,7 +3249,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3143,7 +3262,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "norfolk-island-pine",
@@ -3155,7 +3276,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3169,7 +3289,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "oxalis",
@@ -3181,7 +3303,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3195,7 +3316,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "peperomia",
@@ -3207,7 +3330,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3221,7 +3343,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "peperomia-hope",
@@ -3233,7 +3357,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3247,7 +3370,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "peperomia-rosso",
@@ -3259,7 +3384,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3273,7 +3397,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "peperomia-watermelon",
@@ -3285,7 +3411,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3299,7 +3424,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "pilea",
@@ -3311,7 +3438,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "mediumIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3325,7 +3451,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "polka-dot-plant",
@@ -3337,7 +3465,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3351,7 +3478,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "rubber-plant",
@@ -3363,7 +3492,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3377,7 +3505,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "schefflera",
@@ -3389,7 +3519,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Houseplants - Specialty",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -3403,7 +3532,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 9
   },
   {
     "id": "birch",
@@ -3415,7 +3546,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3429,7 +3559,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "citrus-trees",
@@ -3441,7 +3573,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3455,7 +3586,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "conifers",
@@ -3467,7 +3600,6 @@
     "summerInterval": 10,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3481,7 +3613,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "deciduous-trees",
@@ -3493,7 +3627,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3507,7 +3640,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "desert-trees",
@@ -3519,7 +3654,6 @@
     "summerInterval": 14,
     "fallInterval": 30,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3533,7 +3667,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "dogwood",
@@ -3545,7 +3681,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3559,7 +3694,9 @@
     "plantLifeSpan": [
       30,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "evergreen-trees",
@@ -3571,7 +3708,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3585,7 +3721,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "fruit-trees",
@@ -3597,7 +3735,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3611,7 +3748,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "ginkgo",
@@ -3623,7 +3762,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3637,7 +3775,9 @@
     "plantLifeSpan": [
       100,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "magnolia",
@@ -3649,7 +3789,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3663,7 +3802,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "maple",
@@ -3675,7 +3816,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3689,7 +3829,9 @@
     "plantLifeSpan": [
       50,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "oak",
@@ -3701,7 +3843,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Trees",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3715,7 +3856,9 @@
     "plantLifeSpan": [
       100,
       null
-    ]
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 10
   },
   {
     "id": "azaleas",
@@ -3727,7 +3870,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3741,7 +3883,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "boxwood",
@@ -3753,7 +3897,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3767,7 +3910,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "camellia",
@@ -3779,7 +3924,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3793,7 +3937,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "cold-hardy-evergreens",
@@ -3805,7 +3951,6 @@
     "summerInterval": 10,
     "fallInterval": 21,
     "winterInterval": 30,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3819,7 +3964,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "evergreen-shrubs",
@@ -3831,7 +3978,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3845,7 +3991,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "flowering-shrubs",
@@ -3857,7 +4005,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3871,7 +4018,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "forsythia",
@@ -3883,7 +4032,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3897,7 +4045,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "hydrangeas",
@@ -3909,7 +4059,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -3923,7 +4072,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "juniper",
@@ -3935,7 +4086,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3949,7 +4099,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "lavender",
@@ -3961,7 +4113,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3975,7 +4126,9 @@
     "plantLifeSpan": [
       10,
       15
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "lilac",
@@ -3987,7 +4140,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4001,7 +4153,9 @@
     "plantLifeSpan": [
       30,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "osmanthus",
@@ -4013,7 +4167,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4027,7 +4180,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "rhododendrons",
@@ -4039,7 +4194,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4053,7 +4207,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "rosemary",
@@ -4065,7 +4221,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4079,7 +4234,9 @@
     "plantLifeSpan": [
       10,
       20
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "roses",
@@ -4091,7 +4248,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4105,7 +4261,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "viburnum",
@@ -4117,7 +4275,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Shrubs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4131,7 +4288,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 11
   },
   {
     "id": "asters",
@@ -4143,7 +4302,6 @@
     "summerInterval": 3,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4157,7 +4315,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "black-eyed-susan",
@@ -4169,7 +4329,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4183,7 +4342,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "chrysanthemums",
@@ -4195,7 +4356,6 @@
     "summerInterval": 3,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4209,7 +4369,9 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "coneflower",
@@ -4221,7 +4383,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4235,7 +4396,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "daisies",
@@ -4247,7 +4410,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4261,7 +4423,9 @@
     "plantLifeSpan": [
       2,
       5
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "daylilies",
@@ -4273,7 +4437,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4287,7 +4450,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "herbaceous-perennials",
@@ -4299,7 +4464,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4313,7 +4477,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "hostas",
@@ -4325,7 +4491,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4339,7 +4504,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "irises",
@@ -4351,7 +4518,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4365,7 +4531,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "peony",
@@ -4377,7 +4545,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4391,7 +4558,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "perennial-bulbs-indoor",
@@ -4403,7 +4572,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Outdoor - Perennials",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4417,7 +4585,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "salvia",
@@ -4429,7 +4599,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4443,7 +4612,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "sedum-perennials",
@@ -4455,7 +4626,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4469,7 +4639,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "shade-perennials",
@@ -4481,7 +4653,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Perennials",
     "lightPreference": "outdoorShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4495,7 +4666,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Perennes",
+    "categoryIndex": 12
   },
   {
     "id": "begonia",
@@ -4507,7 +4680,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4521,7 +4693,9 @@
     "plantLifeSpan": [
       0,
       3
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "cool-season-annuals",
@@ -4533,7 +4707,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4547,7 +4720,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "cosmos",
@@ -4559,7 +4734,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4573,7 +4747,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "geraniums",
@@ -4585,7 +4761,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4599,7 +4774,9 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "impatiens",
@@ -4611,7 +4788,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -4625,7 +4801,9 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "marigolds",
@@ -4637,7 +4815,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4651,7 +4828,9 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "nasturtium",
@@ -4663,7 +4842,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4677,7 +4855,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "petunias",
@@ -4689,7 +4869,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4703,7 +4882,9 @@
     "plantLifeSpan": [
       1,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "sunflower",
@@ -4715,7 +4896,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4729,7 +4909,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "warm-season-annuals",
@@ -4741,7 +4923,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4755,7 +4936,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "zinnia",
@@ -4767,7 +4950,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Annuals",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4781,7 +4963,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 13
   },
   {
     "id": "clematis",
@@ -4793,7 +4977,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4807,7 +4990,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "climbers",
@@ -4819,7 +5004,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4833,7 +5017,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "honeysuckle",
@@ -4845,7 +5031,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4859,7 +5044,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "ivy",
@@ -4871,7 +5058,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4885,7 +5071,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "morning-glory",
@@ -4897,7 +5085,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4911,7 +5098,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "wisteria",
@@ -4923,7 +5112,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Vines & Climbers",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4937,7 +5125,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
+    "categoryIndex": 14
   },
   {
     "id": "creeping-phlox",
@@ -4949,7 +5139,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4963,7 +5152,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "grasses",
@@ -4975,7 +5166,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -4989,7 +5179,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "groundcovers",
@@ -5001,7 +5193,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5015,7 +5206,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "lawn-turf",
@@ -5027,7 +5220,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5041,7 +5233,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "pachysandra",
@@ -5053,7 +5247,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5067,7 +5260,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "vinca",
@@ -5079,7 +5274,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Outdoor - Groundcovers & Grasses",
     "lightPreference": "outdoorShade",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5093,7 +5287,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Exterior - Coberturas y Pastos",
+    "categoryIndex": 15
   },
   {
     "id": "arugula",
@@ -5105,7 +5301,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5119,7 +5314,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "bok-choy",
@@ -5131,7 +5328,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5145,7 +5341,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "broccoli",
@@ -5157,7 +5355,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5171,7 +5368,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "brussels-sprouts",
@@ -5183,7 +5382,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5197,7 +5395,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "cabbage",
@@ -5209,7 +5409,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5223,7 +5422,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "cauliflower",
@@ -5235,7 +5436,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5249,7 +5449,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "celery",
@@ -5261,7 +5463,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5275,7 +5476,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "choy-sum",
@@ -5287,7 +5490,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5301,7 +5503,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "collard-greens",
@@ -5313,7 +5517,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5327,7 +5530,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "gai-lan",
@@ -5339,7 +5544,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5353,7 +5557,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "kale",
@@ -5365,7 +5571,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5379,7 +5584,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "kohlrabi",
@@ -5391,7 +5598,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5405,7 +5611,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "lettuce",
@@ -5417,7 +5625,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5431,7 +5638,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "mustard-greens",
@@ -5443,7 +5652,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5457,7 +5665,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "napa-cabbage",
@@ -5469,7 +5679,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5483,7 +5692,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "spinach",
@@ -5495,7 +5706,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5509,7 +5719,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "swiss-chard",
@@ -5521,7 +5733,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Leafy Greens",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5535,7 +5746,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Verduras - Hojas Verdes",
+    "categoryIndex": 16
   },
   {
     "id": "adzuki-bean",
@@ -5547,7 +5760,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5561,7 +5773,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "beans",
@@ -5573,7 +5787,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5587,7 +5800,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "bell-peppers",
@@ -5599,7 +5814,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5613,7 +5827,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "butternut-squash",
@@ -5625,7 +5841,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5639,7 +5854,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "cantaloupe",
@@ -5651,7 +5868,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5665,7 +5881,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "corn",
@@ -5677,7 +5895,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5691,7 +5908,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "cucumbers",
@@ -5703,7 +5922,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -5717,7 +5935,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "edamame",
@@ -5729,7 +5949,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5743,7 +5962,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "eggplant",
@@ -5755,7 +5976,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5769,7 +5989,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "green-beans",
@@ -5781,7 +6003,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5795,7 +6016,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "habanero",
@@ -5807,7 +6030,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5821,7 +6043,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "jalapeno",
@@ -5833,7 +6057,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5847,7 +6070,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "mung-bean",
@@ -5859,7 +6084,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5873,7 +6097,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "okra",
@@ -5885,7 +6111,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5899,7 +6124,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "peas",
@@ -5911,7 +6138,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5925,7 +6151,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "peppers",
@@ -5937,7 +6165,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5951,7 +6178,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "pumpkin",
@@ -5963,7 +6192,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -5977,7 +6205,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "snap-peas",
@@ -5989,7 +6219,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6003,7 +6232,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "snow-peas",
@@ -6015,7 +6246,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6029,7 +6259,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "soybean",
@@ -6041,7 +6273,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6055,7 +6286,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "squash",
@@ -6067,7 +6300,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6081,7 +6313,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "tomatoes",
@@ -6093,7 +6327,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6107,7 +6340,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "watermelon",
@@ -6119,7 +6354,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6133,7 +6367,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "zucchini",
@@ -6145,7 +6381,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Fruiting",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6159,7 +6394,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 17
   },
   {
     "id": "beets",
@@ -6171,7 +6408,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6185,7 +6421,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "carrots",
@@ -6197,7 +6435,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6211,7 +6448,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "daikon",
@@ -6223,7 +6462,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6237,7 +6475,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "fennel",
@@ -6249,7 +6489,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6263,7 +6502,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "onions-garlic",
@@ -6275,7 +6516,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6289,7 +6529,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "parsnip",
@@ -6301,7 +6543,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6315,7 +6556,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "potatoes",
@@ -6327,7 +6570,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6341,7 +6583,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "radishes",
@@ -6353,7 +6597,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6367,7 +6610,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "root-vegetables",
@@ -6379,7 +6624,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6393,7 +6637,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "rutabaga",
@@ -6405,7 +6651,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6419,7 +6664,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "sweet-potatoes",
@@ -6431,7 +6678,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6445,7 +6691,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "turnips",
@@ -6457,7 +6705,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Vegetables - Root & Bulb",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6471,7 +6718,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 18
   },
   {
     "id": "apples",
@@ -6483,7 +6732,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6497,7 +6745,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "apricot",
@@ -6509,7 +6759,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6523,7 +6772,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "avocado",
@@ -6535,7 +6786,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6549,7 +6799,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "blackberries",
@@ -6561,7 +6813,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6575,7 +6826,9 @@
     "plantLifeSpan": [
       8,
       10
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "blueberries",
@@ -6587,7 +6840,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6601,7 +6853,9 @@
     "plantLifeSpan": [
       15,
       30
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "cherries",
@@ -6613,7 +6867,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6627,7 +6880,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "cranberry",
@@ -6639,7 +6894,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6653,7 +6907,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "dragon-fruit",
@@ -6665,7 +6921,6 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6679,7 +6934,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "elderberry",
@@ -6691,7 +6948,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6705,7 +6961,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "fig",
@@ -6717,7 +6975,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6731,7 +6988,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "goji-berry",
@@ -6743,7 +7002,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6757,7 +7015,9 @@
     "plantLifeSpan": [
       10,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "grapes",
@@ -6769,7 +7029,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6783,7 +7042,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "jujube",
@@ -6795,7 +7056,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -6809,7 +7069,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "kumquat",
@@ -6821,7 +7083,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6835,7 +7096,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "longan",
@@ -6847,7 +7110,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6861,7 +7123,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "loquat",
@@ -6873,7 +7137,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6887,7 +7150,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "lychee",
@@ -6899,7 +7164,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -6913,7 +7177,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "nectarine",
@@ -6925,7 +7191,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6939,7 +7204,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "peach",
@@ -6951,7 +7218,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6965,7 +7231,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "pear",
@@ -6977,7 +7245,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -6991,7 +7258,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "persimmon",
@@ -7003,7 +7272,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7017,7 +7285,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "plum",
@@ -7029,7 +7299,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7043,7 +7312,9 @@
     "plantLifeSpan": [
       15,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "pomegranate",
@@ -7055,7 +7326,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -7069,7 +7339,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "pomelo",
@@ -7081,7 +7353,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7095,7 +7366,9 @@
     "plantLifeSpan": [
       20,
       null
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "raspberries",
@@ -7107,7 +7380,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7121,7 +7393,9 @@
     "plantLifeSpan": [
       8,
       10
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "strawberries",
@@ -7133,7 +7407,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Fruits & Berries",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7147,7 +7420,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Frutas y Bayas",
+    "categoryIndex": 19
   },
   {
     "id": "basil",
@@ -7159,7 +7434,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7173,7 +7447,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "chinese-chives",
@@ -7185,7 +7461,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7199,7 +7474,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "chives",
@@ -7211,7 +7488,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7225,7 +7501,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "cilantro",
@@ -7237,7 +7515,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7251,7 +7528,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "dill",
@@ -7263,7 +7542,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7277,7 +7555,9 @@
     "plantLifeSpan": [
       0,
       1
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "ginger",
@@ -7289,7 +7569,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7303,7 +7582,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "indoor-herbs",
@@ -7315,7 +7596,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": 7,
-    "category": "Herbs",
     "lightPreference": "gentleDirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7329,7 +7609,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "lemongrass",
@@ -7341,7 +7623,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7355,7 +7636,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "mint",
@@ -7367,7 +7650,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7381,7 +7663,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "oregano",
@@ -7393,7 +7677,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -7407,7 +7690,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "parsley",
@@ -7419,7 +7704,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7433,7 +7717,9 @@
     "plantLifeSpan": [
       0,
       2
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "sage",
@@ -7445,7 +7731,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -7459,7 +7744,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "thyme",
@@ -7471,7 +7758,6 @@
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -7485,7 +7771,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "turmeric",
@@ -7497,7 +7785,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Herbs",
     "lightPreference": "outdoorPartialShade",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7511,7 +7798,9 @@
     "plantLifeSpan": [
       1,
       2
-    ]
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 20
   },
   {
     "id": "allium",
@@ -7523,7 +7812,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7537,7 +7825,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "amaryllis",
@@ -7549,7 +7839,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Bulbs",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7563,7 +7852,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "crocus",
@@ -7575,7 +7866,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7589,7 +7879,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "daffodils",
@@ -7601,7 +7893,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7615,7 +7906,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "forced-bulbs",
@@ -7627,7 +7920,6 @@
     "summerInterval": 90,
     "fallInterval": 90,
     "winterInterval": 5,
-    "category": "Bulbs",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7641,7 +7933,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "gladiolus",
@@ -7653,7 +7947,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7667,7 +7960,9 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "hyacinth",
@@ -7679,7 +7974,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7693,7 +7987,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "lilies",
@@ -7705,7 +8001,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7719,7 +8014,9 @@
     "plantLifeSpan": [
       3,
       5
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "seasonal-bulbs-outdoor",
@@ -7731,7 +8028,6 @@
     "summerInterval": 90,
     "fallInterval": 90,
     "winterInterval": 90,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7745,7 +8041,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "tulips",
@@ -7757,7 +8055,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Bulbs",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -7771,7 +8068,9 @@
     "plantLifeSpan": [
       1,
       3
-    ]
+    ],
+    "category": "Bulbos",
+    "categoryIndex": 21
   },
   {
     "id": "aquatic-plants",
@@ -7783,7 +8082,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7797,7 +8095,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "bog-plants",
@@ -7809,7 +8109,6 @@
     "summerInterval": 3,
     "fallInterval": 5,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7823,7 +8122,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "cattails",
@@ -7835,7 +8136,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7849,7 +8149,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "indoor-aquatics",
@@ -7861,7 +8163,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "lowIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7875,7 +8176,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "lotus",
@@ -7887,7 +8190,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7901,7 +8203,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "lotus-root",
@@ -7913,7 +8217,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7927,7 +8230,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "pickerelweed",
@@ -7939,7 +8244,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7953,7 +8257,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "water-iris",
@@ -7965,7 +8271,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Specialty - Aquatic & Bog",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -7979,7 +8284,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Acuáticas y Pantanosas",
+    "categoryIndex": 22
   },
   {
     "id": "butterwort",
@@ -7991,7 +8298,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8005,7 +8311,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "cobra-lily",
@@ -8017,7 +8325,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8031,7 +8338,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "pitcher-plant",
@@ -8043,7 +8352,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8057,7 +8365,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "sundew",
@@ -8069,7 +8379,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8083,7 +8392,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "temperate-carnivorous",
@@ -8095,7 +8406,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "gentleDirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -8109,7 +8419,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "tropical-carnivorous",
@@ -8121,7 +8433,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -8135,7 +8446,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "venus-flytrap",
@@ -8147,7 +8460,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Carnivorous",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8161,7 +8473,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Carnívoras",
+    "categoryIndex": 23
   },
   {
     "id": "air-plants",
@@ -8173,7 +8487,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8187,7 +8500,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "epiphytes",
@@ -8199,7 +8514,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8213,7 +8527,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "mosses",
@@ -8225,7 +8541,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "deepShade",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -8239,7 +8554,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "orchids",
@@ -8251,7 +8568,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8265,7 +8581,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "resurrection-fern",
@@ -8277,7 +8595,6 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
@@ -8291,7 +8608,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "shade-moss-gardens",
@@ -8303,7 +8622,6 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "category": "Specialty - Epiphytes & Moss",
     "lightPreference": "outdoorShade",
     "humidityPreference": "veryHigh",
     "temperaturePreference": [
@@ -8317,7 +8635,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Epífitas y Musgo",
+    "categoryIndex": 24
   },
   {
     "id": "alpine-plants",
@@ -8329,7 +8649,6 @@
     "summerInterval": 7,
     "fallInterval": 14,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8343,7 +8662,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Especiales - Alpinas",
+    "categoryIndex": 25
   },
   {
     "id": "aubrieta",
@@ -8355,7 +8676,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -8369,7 +8689,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Especiales - Alpinas",
+    "categoryIndex": 25
   },
   {
     "id": "edelweiss",
@@ -8381,7 +8703,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -8395,7 +8716,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Especiales - Alpinas",
+    "categoryIndex": 25
   },
   {
     "id": "gentian",
@@ -8407,7 +8730,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "category": "Specialty - Alpine",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8421,7 +8743,9 @@
     "plantLifeSpan": [
       5,
       null
-    ]
+    ],
+    "category": "Especiales - Alpinas",
+    "categoryIndex": 25
   },
   {
     "id": "aeroponic-plants",
@@ -8433,7 +8757,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8447,7 +8770,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Métodos de Cultivo",
+    "categoryIndex": 26
   },
   {
     "id": "aquaponic-plants",
@@ -8459,7 +8784,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8473,7 +8797,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Métodos de Cultivo",
+    "categoryIndex": 26
   },
   {
     "id": "container-gardening",
@@ -8485,7 +8811,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Growing Methods",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8499,7 +8824,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Métodos de Cultivo",
+    "categoryIndex": 26
   },
   {
     "id": "hydroponic-plants",
@@ -8511,7 +8838,6 @@
     "summerInterval": null,
     "fallInterval": null,
     "winterInterval": null,
-    "category": "Growing Methods",
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8525,7 +8851,9 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Métodos de Cultivo",
+    "categoryIndex": 26
   },
   {
     "id": "raised-bed-gardening",
@@ -8537,7 +8865,6 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "category": "Growing Methods",
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -8551,6 +8878,8 @@
     "plantLifeSpan": [
       3,
       null
-    ]
+    ],
+    "category": "Métodos de Cultivo",
+    "categoryIndex": 26
   }
 ]

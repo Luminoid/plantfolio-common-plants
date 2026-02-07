@@ -31,25 +31,34 @@ python3 scripts/validate_json.py --check-structure
 
 ## Usage with Plantfolio
 
-In Plantfolio Settings → Custom Common Plants Source, set the base URL to the **dist/** folder. The URL must end with a slash, e.g.:
+In Plantfolio Settings → **Custom Common Plants Source**, enter a URL and tap **Download Now** to fetch the data.
+
+### Default source (this repo)
+
+**Base folder URL** (recommended): The app appends the locale filename automatically.
 
 ```
-https://raw.githubusercontent.com/your-org/plantfolio-common-plants/main/dist/
+https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/
 ```
 
-Or when served from a custom domain:
+**Full file URLs** (per locale):
 
-```
-https://yoursite.com/plantfolio-common-plants/dist/
-```
+| Locale | URL |
+|--------|-----|
+| English | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants.json` |
+| Spanish | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_es.json` |
+| Chinese (Simplified) | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_zh-Hans.json` |
 
-Then tap **Download Now** to fetch the data.
+### Custom fork or hosting
+
+- **Base folder**: URL ending with `/` (e.g. `https://raw.githubusercontent.com/your-org/plantfolio-common-plants/main/dist/` or `https://yoursite.com/plantfolio-common-plants/dist/`). The app appends the filename for the current language.
+- **Full file**: Direct URL to a `.json` file (e.g. `https://yoursite.com/common_plants_es.json`). Use as-is; no filename is appended.
 
 ## Data Format
 
 **Source** (`source/`): Language files are arrays; metadata is a separate object keyed by plant ID. Edit these for maintenance.
 
-**Output** (`dist/`): Each `common_plants*.json` is an array of plant entries with all fields merged—language (`typeName`, `description`, `careTips`) plus metadata (`springInterval`, `category`, `lightPreference`, etc.).
+**Output** (`dist/`): Each `common_plants*.json` is an array of plant entries with all fields merged—language (`typeName`, `description`, `careTips`) plus metadata (`springInterval`, `category`, `lightPreference`, etc.). Category is translated from the language file's `_metadata.sorting.categories` header.
 
 ## Locales
 

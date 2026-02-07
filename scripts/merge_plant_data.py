@@ -4,6 +4,7 @@ Merge common plants metadata and language data into usable JSON files.
 
 Reads source from source/ and outputs to dist/ for distribution (custom URL).
 Each output file contains plant entries with both language fields and metadata merged.
+Category is translated from the language file's _metadata.sorting.categories header.
 
 Usage:
     python3 scripts/merge_plant_data.py
@@ -15,6 +16,18 @@ import json
 import sys
 from pathlib import Path
 
+# English category order (index matches _metadata.sorting.categories across locales)
+CATEGORY_ORDER = [
+    "Houseplants - Low Maintenance", "Houseplants - Aroids", "Houseplants - Ferns",
+    "Houseplants - Palms", "Houseplants - Succulents", "Houseplants - Cacti",
+    "Houseplants - Flowering", "Houseplants - Prayer Plants", "Houseplants - Vines & Trailing",
+    "Houseplants - Specialty", "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
+    "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
+    "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
+    "Fruits & Berries", "Herbs", "Bulbs", "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
+    "Specialty - Epiphytes & Moss", "Specialty - Alpine", "Growing Methods",
+]
+
 # Locale code -> (source language filename, output resource name)
 LOCALES = [
     ("en", "common_plants_language_en.json", "common_plants"),
@@ -23,7 +36,18 @@ LOCALES = [
 ]
 
 
-def merge_plant_entry(lang_entry: dict, metadata: dict) -> dict | None:
+def translate_category(en_category: str, category_translations: list[str]) -> str:
+    """Translate category using header translations. Falls back to English if not found."""
+    try:
+        idx = CATEGORY_ORDER.index(en_category)
+        if idx < len(category_translations):
+            return category_translations[idx]
+    except ValueError:
+        pass
+    return en_category
+
+
+def merge_plant_entry(lang_entry: dict, metadata: dict, category_translations: list[str] | None) -> dict | None:
     """Merge a language entry with its metadata. Skips _metadata entries (not needed in output)."""
     if "_metadata" in lang_entry:
         return None  # Skip _metadata block
@@ -36,6 +60,13 @@ def merge_plant_entry(lang_entry: dict, metadata: dict) -> dict | None:
     merged = {**lang_entry}
     for key, value in meta.items():
         merged[key] = value
+    # Translate category from header; add categoryIndex for sorting
+    if "category" in meta:
+        en_cat = meta["category"]
+        if category_translations:
+            merged["category"] = translate_category(en_cat, category_translations)
+        idx = CATEGORY_ORDER.index(en_cat) if en_cat in CATEGORY_ORDER else len(CATEGORY_ORDER)
+        merged["categoryIndex"] = idx
     return merged
 
 
@@ -47,10 +78,16 @@ def merge_locale(source_dir: Path, output_dir: Path, lang_filename: str, output_
         return 0
     with open(lang_path, "r", encoding="utf-8") as f:
         lang_data = json.load(f)
+    # Extract category translations from _metadata.sorting.categories
+    category_translations = None
+    for entry in lang_data:
+        if "_metadata" in entry:
+            category_translations = entry["_metadata"].get("sorting", {}).get("categories")
+            break
     merged = []
     count = 0
     for entry in lang_data:
-        result = merge_plant_entry(entry, metadata)
+        result = merge_plant_entry(entry, metadata, category_translations)
         if result is not None:
             merged.append(result)
             if "id" in result:
