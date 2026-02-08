@@ -10,7 +10,7 @@ alwaysApply: true
 - **source/** – Source data (edit these): `common_plants_language_*.json`, `common_plants_metadata.json`
 - **dist/** – Generated output (do not edit): `common_plants*.json`
 - **scripts/** – Build, validate, audit scripts
-- **docs/** – `DATASET.md` (schema, categories, coverage)
+- **docs/** – `DATASET.md` (schema, categories, commonExamples, also known as), `AUDIT.md`, `RELEASE.md`
 
 ## Workflow
 
@@ -20,5 +20,9 @@ alwaysApply: true
 
 ## Conventions
 
+- **CHANGELOG:** Document only plant list changes (data changes to plants, metadata, translations). Do not document scripts, docs, or tooling changes.
 - **plantToxicity:** Use `nonToxic`, `unknown`, `mildlyToxic`, `toxic` (expert terminology).
 - **Scientific names:** Lead with accepted name; synonyms in parentheses (e.g. `Curio repens (syn. Senecio serpens)`).
+- **typeName plural/singular:** Plural for category entries (Snake Plants, Peace Lilies); singular for specific species or cultivars (ZZ Plant, Domino Peace Lily). See docs/DATASET.md §6.
+- **also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). First-segment aliases only for category plants. Do not duplicate typeName. Run `ensure_complementary_aka.py` to add missing complementary; `audit_also_known_as.py --fix` to correct redundant aka. See docs/DATASET.md and docs/AUDIT.md.
+- **language files:** Each locale file must use only its target language (EN/ES/ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. Run `audit_target_language.py` before release.

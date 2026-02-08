@@ -1,10 +1,18 @@
 # Changelog
 
-All notable changes to the plantfolio-common-plants dataset are documented here.
+Plant list changes only (data changes to plants, metadata, translations). Not for scripts, docs, or tooling.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+## [1.5.0] - 2025-02-08
+
+### Changed
+
+- **Descriptions:** Expanded "also known as" blocks in descriptions across EN/ES/ZH.
+- **commonExamples:** Per-locale translation of aliases (EN/ES/ZH). Scientific names retained; parenthetical aliases localized.
+- **typeNames:** Differentiated duplicate typeNames across EN/ES/ZH (56 entries) for clarity.
 
 ## [1.4.0] - 2025-02-07
 

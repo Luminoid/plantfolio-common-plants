@@ -9,7 +9,7 @@
 ```
 source/    # Edit language + metadata JSON
 dist/      # Generated (do not edit)
-scripts/   # release.py, merge, validate, schema.py, audit_*.py
+scripts/   # release.py, merge, validate, schema.py, audit_*.py, add_common_alias_to_description.py
 docs/      # DATASET.md, AUDIT.md, RELEASE.md
 ```
 

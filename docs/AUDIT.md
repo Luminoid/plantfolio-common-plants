@@ -191,7 +191,7 @@ Run `python3 scripts/release.py` or `python3 scripts/audit_duplicates.py` to see
 
 1. **Export:** `python3 scripts/audit_duplicates.py --output overlap_report.json` or `2>&1 | tee overlap_report.txt`
 2. **Categorize:** Mark each pair as Keep / Rename / Consolidate / Investigate
-3. **Rename:** Update `typeName` in language files to disambiguate
+3. **Rename:** Update `typeName` in language files to disambiguate. For same typeName across multiple entries, run `python3 scripts/optimize_duplicate_typenames.py --dry-run` then `--fix`.
 4. **Consolidate:** Only if true duplicates — use `scripts/reorganize_plants.py` (REMOVE_IDS) after confirming
 5. **Re-run audit** to confirm no new issues
 
@@ -204,7 +204,31 @@ Run `python3 scripts/release.py` or `python3 scripts/audit_duplicates.py` to see
 
 ---
 
-## 6. Toxicity
+## 6. Target language
+
+Run `python3 scripts/audit_target_language.py` to ensure each language file uses only its target language.
+
+### Rules
+
+- **EN, ES:** No Chinese characters.
+- **ZH:** No English common names in `commonExamples` (e.g. `(Escarole)` → use `(皱叶菊苣)`). Scientific names and cultivar names in single quotes are allowed.
+- **Also known as:** If "also known as" duplicates the typeName, remove or update it. No scientific names (Latin binomials) in AKA — use common names only. No subtypes in AKA (e.g., Fruit Trees should not aka Apple). For category plants, use only first-segment aliases (see docs/DATASET.md).
+
+### Scripts
+
+- `audit_also_known_as.py` — Checks scientific names, subtypes, duplicate typeName in AKA. Use `--fix` to apply corrections.
+- `add_common_alias_to_description.py` — For new plants: extracts formal names/aliases from commonExamples and appends to description. Use `--dry-run` first.
+- `optimize_duplicate_typenames.py` — When two or more entries share the same typeName in a locale, differentiates them. Use `--dry-run` first, then `--fix`.
+
+### Exceptions (allowed in any locale)
+
+- Scientific names (Latin binomials, genus names)
+- Cultivar names in single quotes (e.g. `'Silver Bay'`)
+- Proper nouns without translation (e.g. Tulsi, Kangkong)
+
+---
+
+## 7. Toxicity
 
 Procedures for reducing `plantToxicity: "unknown"` via ASPCA and other sources.
 
@@ -258,7 +282,7 @@ Generic entries (bonsai, succulents, deciduous-trees, grasses, etc.) should rema
 
 ---
 
-## 7. Notes for future audits
+## 8. Notes for future audits
 
 ### Content improvement (descriptions & care tips)
 

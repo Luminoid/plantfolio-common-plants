@@ -38,6 +38,7 @@ def main():
     ok &= run(["python3", "scripts/audit_duplicates.py"], "Duplicate audit")
     ok &= run(["python3", "scripts/audit_generic_descriptions.py"], "Generic descriptions audit")
     ok &= run(["python3", "scripts/audit_translation_sync.py"], "Translation sync audit")
+    ok &= run(["python3", "scripts/audit_target_language.py"], "Target language audit")
 
     print("\n" + "=" * 50)
     print("✅ Ready for release" if ok else "❌ Fix issues above before release")

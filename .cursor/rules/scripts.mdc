@@ -17,9 +17,13 @@ alwaysApply: false
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
 | `audit_metadata_completeness.py` | Line-by-line metadata audit |
 | `audit_scientific_names.py` | Check commonExamples for accepted names |
-| `audit_duplicates.py` | Genus/species overlap, similar typeNames |
+| `audit_duplicates.py` | Duplicate typeNames (same name across entries), genus/species overlap, similar typeNames |
 | `audit_generic_descriptions.py` | Flag generic descriptions |
 | `audit_translation_sync.py` | Verify EN/ES/ZH coverage |
+| `audit_target_language.py` | CJK in EN/ES, English in ZH commonExamples, English phrases in ZH/ES |
+| `audit_also_known_as.py` | Scientific names, subtypes, duplicate typeName in AKA (with `--fix`) |
+| `ensure_complementary_aka.py` | Add complementary aka when missing: nickname typeName→formal; formal typeName→nickname. Aka is optional; remove if redundant (audit). |
 | `audit_toxicity_unknown.py` | List plants with unknown toxicity by category |
-| `translate_typenames.py` | Translate EN typeNames → ZH |
-| `translate_typenames_es.py` | Translate EN typeNames → ES |
+| `translate_typenames.py` | Translate EN typeNames → ZH or ES (`--lang zh-Hans` / `--lang es`) |
+| `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (use `--dry-run` first) |
+| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames (same name across entries). Use `--dry-run` first, then `--fix` |

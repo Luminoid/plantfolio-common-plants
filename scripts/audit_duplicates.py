@@ -3,8 +3,9 @@
 Audit for potential duplicate or near-duplicate plant entries.
 
 Checks for:
+- Duplicate typeNames (same typeName across multiple entries in a locale)
 - Genus vs species overlap (e.g., rhipsalis vs rhipsalis-baccifera)
-- Similar typeNames
+- Similar typeNames (exact substring)
 - Cultivar vs parent species redundancy
 
 Usage: python3 scripts/audit_duplicates.py [--output overlap_report.json]
@@ -12,15 +13,28 @@ Usage: python3 scripts/audit_duplicates.py [--output overlap_report.json]
 
 import argparse
 import json
+from collections import defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 SOURCE_DIR = REPO_ROOT / "source"
 
+LANG_FILES = [
+    ("common_plants_language_en.json", "en"),
+    ("common_plants_language_es.json", "es"),
+    ("common_plants_language_zh-Hans.json", "zh-Hans"),
+]
 
-def normalize(s: str) -> str:
-    """Normalize for comparison."""
-    return "".join(c for c in s.lower() if c.isalnum())
+
+def find_duplicate_typenames(data: list) -> dict[str, list[str]]:
+    """Return {typeName: [id1, id2, ...]} for typeNames that appear more than once."""
+    by_tn = defaultdict(list)
+    for e in data:
+        if isinstance(e, dict) and "_metadata" not in e and "typeName" in e:
+            tn = (e.get("typeName") or "").strip()
+            if tn:
+                by_tn[tn].append(e.get("id", ""))
+    return {k: v for k, v in by_tn.items() if len(v) > 1}
 
 
 def main():
@@ -29,10 +43,27 @@ def main():
     args = parser.parse_args()
 
     report = {
+        "duplicateTypeNames": {},
         "genusSpeciesOverlaps": [],
         "knownPairs": [],
         "similarTypeNames": [],
     }
+
+    # 0. Duplicate typeNames (exact same name across entries) in each locale
+    print("Duplicate typeNames (same name across entries):")
+    has_dup_tn = False
+    for fname, locale in LANG_FILES:
+        with open(SOURCE_DIR / fname, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        dupes = find_duplicate_typenames(data)
+        if dupes:
+            has_dup_tn = True
+            report["duplicateTypeNames"][locale] = dupes
+            for tn, ids in sorted(dupes.items(), key=lambda x: -len(x[1])):
+                print(f"  [{locale}] \"{tn}\" -> {ids}")
+    if not has_dup_tn:
+        print("  None")
+
     with open(SOURCE_DIR / "common_plants_language_en.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -86,6 +117,9 @@ def main():
 
     print("\n✅ Audit complete. Review output for consolidation decisions.")
 
+    if has_dup_tn:
+        print("\nFix duplicate typeNames: python3 scripts/optimize_duplicate_typenames.py --dry-run then --fix")
+
     if args.output:
         out_path = Path(args.output)
         out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -93,6 +127,9 @@ def main():
             json.dump(report, f, indent=2, ensure_ascii=False)
         print(f"Report written to {out_path}")
 
+    return 1 if has_dup_tn else 0
+
 
 if __name__ == "__main__":
-    main()
+    import sys
+    sys.exit(main())

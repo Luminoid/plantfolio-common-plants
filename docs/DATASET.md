@@ -1,7 +1,7 @@
 # Dataset Reference
 
 **800 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.4.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**Version:** 1.5.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 
@@ -10,6 +10,33 @@
 Format `commonExamples` per botanical conventions: genus species; cultivar in single quotes; hybrid with ×; synonym in parentheses. Lead with accepted name (POWO/Kew).
 
 **Key reclassifications:** *Sansevieria trifasciata* → *Dracaena trifasciata*; *S. cylindrica* → *Dracaena angolensis*; *Alocasia amazonica* → *A. × amazonica*; *Senecio serpens* → *Curio repens*; *S. mandraliscae* → *Curio talinoides* subsp. *mandraliscae*.
+
+### commonExamples format
+
+- **Base:** `Scientific name (alias1, alias2)`
+- **Multiple species:** `Species A (alias A), Species B (alias B)`
+- **Synonym prefix:** `Species (syn. OldName; alias1, alias2)` — aliases appear after `;`
+- **Cultivar-only:** `Aglaonema 'Red Valentine'` — no parenthetical aliases
+- **Sub-types only:** `Echeveria, Sedum, Graptopetalum` — no parenthetical content
+
+### Description: "also known as"
+
+- **typeName** = informal alias (e.g., "String of Pearls") or formal name (e.g., "Aglaonema")
+- **description** = may include "also known as" to reveal the formal name or additional aliases
+- **aka is optional.** When used, show the complementary form using **common names only**. Remove if aka only repeats commonExamples names without adding value.
+
+| typeName is... | "also known as" shows |
+|----------------|-----------------------|
+| Alias / nickname (e.g., String of Pearls) | Alternate common name(s) from commonExamples |
+| Formal (e.g., Aglaonema) | Aliases / nicknames (e.g., Chinese evergreen) |
+
+**Rules:** Use only common-name aliases — **no scientific names** (Latin binomials, genus names, cultivars). **No subtypes** (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). For category plants (multiple species in commonExamples), use only aliases from the first segment. Do not duplicate typeName. Remove aka if it only repeats commonExamples names. Run `ensure_complementary_aka.py` to add missing complementary; `audit_also_known_as.py --fix` to remove redundant aka.
+
+| Locale | Phrase |
+|--------|--------|
+| EN | Also known as: {value}. |
+| ES | También conocida como: {value}. |
+| ZH | 也称：{value}。 |
 
 ---
 
@@ -90,6 +117,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 | Script | Purpose |
 |--------|---------|
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
+| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames per locale (`--dry-run` then `--fix`) |
 | `schema.py` | Shared constants (CATEGORY_ORDER, enums) — single source of truth |
 
 ---
@@ -103,7 +131,22 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 ---
 
-## 6. Decision Log
+## 6. typeName: Plural vs Singular
+
+| Use | Examples |
+|-----|----------|
+| **Plural** | Category/generic types that encompass multiple species or cultivars |
+| **Singular** | Specific species or cultivars |
+
+**Plural:** Snake Plants, Peace Lilies, Spider Plants, Succulents, Ferns, Aroids, African Violets, Tomatoes, Beans, Grapes — entries describing a plant *type* or produce category.
+
+**Singular:** Domino Peace Lily, Cylindrical Snake Plant, ZZ Plant, Golden Pothos, Swiss Cheese Plant — entries for a specific species or named cultivar.
+
+**Latin genus names** (Pothos, Philodendron, Scindapsus, Lithops) remain singular when used as common names.
+
+---
+
+## 7. Decision Log
 
 | Decision | Rationale |
 |----------|-----------|
@@ -114,7 +157,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 ---
 
-## 7. Schema Reference
+## 8. Schema Reference
 
 `validate_json.py --check-schema` validates: all enums, category required, intervals 1–90 or null, temperature and plantLifeSpan structure.
 

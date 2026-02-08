@@ -1,42 +1,44 @@
 #!/usr/bin/env python3
-"""Translate English typeNames to Chinese in zh-Hans JSON file."""
+"""
+Translate English typeNames to target language (ZH or ES).
 
+Usage:
+    python3 scripts/translate_typenames.py --lang zh-Hans
+    python3 scripts/translate_typenames.py --lang es
+    python3 scripts/translate_typenames.py -l es
+"""
+
+import argparse
 import json
 import re
+from pathlib import Path
 
-# English → Chinese typeName translations (plant care & botanical terminology)
-TRANSLATIONS = {
-    # Aglaonema / 广东万年青
+REPO_ROOT = Path(__file__).parent.parent
+
+# English → Chinese (plant care & botanical terminology)
+TRANSLATIONS_ZH = {
     "Red Valentine Aglaonema": "红心万年青",
     "Maria Aglaonema": "玛丽亚万年青",
     "Silver Bay Aglaonema": "银湾万年青",
     "Aglaonema Pink Star": "粉星万年青",
     "Aglaonema Sparkling Sarah": "闪耀莎拉万年青",
-    # Aralia
     "Ming Aralia": "孔雀木",
     "False Aralia": "假孔雀木",
-    # Aspidistra / 一叶兰
     "Variegated Cast Iron": "斑叶一叶兰",
-    # Palms
     "Bamboo Palm": "竹棕榈",
     "Parlor Palm": "袖珍椰",
     "Radicalis Palm": "竹椰棕榈",
     "Pygmy Date Palm": "袖珍枣椰",
     "Umbrella Plant": "伞树",
-    # Dracaena / 龙血树
     "Compact Dumb Cane": "紧凑型花叶万年青",
     "Janet Craig Dracaena": "珍妮特克雷格龙血树",
     "Dracaena Limelight": "莱姆之光龙血树",
     "Dracaena Warneckii": "华纳克龙血树",
     "Song of India": "印度之歌",
-    # Ficus
     "Weeping Fig": "垂叶榕",
-    # Peace Lily
     "Peace Lily Sensation": "大叶白掌",
     "Domino Peace Lily": "多米诺白掌",
-    # Peperomia
     "Peperomia Ginny": "彩虹边椒草",
-    # Philodendron
     "Philodendron Congo": "刚果喜林芋",
     "Philodendron Scandens": "心叶喜林芋",
     "Philodendron Gloriosum": "荣耀蔓绿绒",
@@ -53,20 +55,15 @@ TRANSLATIONS = {
     "White Knight Philodendron": "白骑士喜林芋",
     "White Wizard Philodendron": "白巫师喜林芋",
     "Philodendron Xanadu": "琴叶喜林芋",
-    # Pilea
     "Silver Sparkle Pilea": "银星冷水花",
-    # Pothos / 绿萝
     "Cebu Blue Pothos": "宿务蓝绿萝",
     "Jade Pothos": "翡翠绿萝",
     "Manjula Pothos": "曼朱拉绿萝",
-    # Snake Plant
     "Moonshine Snake Plant": "月光虎尾兰",
-    # Syngonium
     "White Butterfly": "白蝴蝶",
     "Syngonium Albo": "白锦合果芋",
     "Pink Syngonium": "粉叶合果芋",
     "Syngonium Pink Splash": "粉斑合果芋",
-    # Alocasia / 海芋
     "Black Velvet Alocasia": "黑天鹅绒海芋",
     "Alocasia Cuprea": "铜叶海芋",
     "Alocasia Frydek": "绿丝绒海芋",
@@ -74,25 +71,19 @@ TRANSLATIONS = {
     "Alocasia Polly": "非洲面具海芋",
     "Alocasia Stingray": "魟鱼海芋",
     "Alocasia Zebrina": "斑马海芋",
-    # Anthurium / 红掌
     "Velvet Cardboard Anthurium": "丝绒纸板红掌",
     "Anthurium Magnificum": "壮丽红掌",
     "Strap Leaved Anthurium": "带状叶红掌",
     "Queen Anthurium": "女王红掌",
-    # Dieffenbachia
     "Dieffenbachia Seguine": "花叶万年青原种",
-    # Epipremnum
     "Epipremnum Pinnatum Albo": "白锦高锦绿萝",
-    # Monstera
     "Monstera Albo": "白锦龟背竹",
     "Monstera Aurea": "黄锦龟背竹",
     "Monstera Peru": "秘鲁龟背竹",
     "Monstera Siltepecana": "银纹龟背竹",
     "Thai Constellation Monstera": "泰国繁星龟背竹",
     "Mini Monstera": "迷你龟背竹",
-    # Zebra
     "Zebra Plant": "银脉爵床",
-    # Ferns
     "Asparagus Fern": "文竹",
     "Deer Fern": "鹿角蕨",
     "Kangaroo Paw Fern": "袋鼠爪蕨",
@@ -102,7 +93,6 @@ TRANSLATIONS = {
     "Elkhorn Fern": "鹿角蕨",
     "Brake Fern": "凤尾蕨",
     "Cretan Brake Fern": "克里特凤尾蕨",
-    # Succulents
     "Dwarf Jade": "迷你玉树",
     "African Milk Tree": "非洲乳树",
     "Paddle Plant": "宽叶落地生根",
@@ -113,17 +103,12 @@ TRANSLATIONS = {
     "Echeveria Lola": "洛拉拟石莲",
     "Echeveria Perle von Nurnberg": "紫珍珠拟石莲",
     "Haworthia Cooperi": "玉露",
-    # Begonia
     "Begonia Maculata Wightii": "斑叶竹节秋海棠",
-    # Croton / 变叶木
     "Croton Mammy": "妈妈变叶木",
-    # Oxalis
     "Purple Shamrock": "紫酢浆草",
-    # Peperomia
     "Emerald Ripple": "翡翠波纹椒草",
     "Baby Rubber Plant": "婴儿橡皮树",
     "Burgundy Rubber Plant": "酒红橡皮树",
-    # Trees
     "Bald Cypress": "落羽杉",
     "Flowering Cherry": "樱花",
     "Crabapple": "海棠",
@@ -137,7 +122,6 @@ TRANSLATIONS = {
     "Smoke Tree": "黄栌",
     "Sweetgum": "枫香",
     "Weeping Willow": "垂柳",
-    # Shrubs
     "Abelia": "六道木",
     "Barberry": "小檗",
     "Burning Bush": "卫矛",
@@ -152,7 +136,6 @@ TRANSLATIONS = {
     "Rose of Sharon": "木槿",
     "Russian Sage": "俄罗斯鼠尾草",
     "Spirea": "绣线菊",
-    # Vegetables, fruits, herbs, crops
     "Acorn Squash": "橡实南瓜",
     "Adzuki Sprouts": "红豆芽",
     "Alfalfa": "苜蓿",
@@ -277,7 +260,6 @@ TRANSLATIONS = {
     "Winter Melon": "冬瓜",
     "Yard Long Bean": "长豇豆",
     "Yellow Watermelon": "黄瓤西瓜",
-    # Perennials & flowers
     "African Marigold": "非洲万寿菊",
     "Ajuga": "筋骨草",
     "Alpine Aster": "高山紫菀",
@@ -432,7 +414,6 @@ TRANSLATIONS = {
     "Yarrow": "西洋蓍草",
     "Yellow Coneflower": "黄松果菊",
     "Yew": "红豆杉",
-    # Orchids & bromeliads
     "Dendrobium Orchid": "石斛兰",
     "Dutch Iris": "荷兰鸢尾",
     "Mexican Pitcher Plant": "墨西哥瓶子草",
@@ -443,60 +424,372 @@ TRANSLATIONS = {
     "Oriental Lily": "东方百合",
     "Oxalis Bulb": "酢浆草球根",
     "Oxeye Daisy": "牛眼菊",
-    "Saffron Crocus": "藏红花",
     "Sarracenia": "瓶子草",
     "Cape Sundew": "好望角茅膏菜",
     "Spanish Moss": "西班牙苔藓",
     "Tillandsia Bromeliad": "铁兰凤梨",
     "Xerographica Air Plant": "空气凤梨",
     "Vanda Orchid": "万代兰",
-    # Vines & climbers
     "Boston Ivy": "爬山虎",
     "Trumpet Honeysuckle": "喇叭忍冬",
     "Trumpet Vine": "凌霄花",
     "Virginia Creeper": "五叶地锦",
-    # Berries
     "Boysenberry": "波森莓",
-    # Other
     "Bugloss": "牛舌草",
     "Japanese Eggplant": "日本茄子",
     "Japanese Forest Grass": "日本森林草",
     "Timothy Grass": "梯牧草",
 }
 
+# English → Spanish (common names; Latin genus names often kept in Spanish horticulture)
+TRANSLATIONS_ES = {
+    "Acorn Squash": "Calabaza bellota",
+    "Armenian Cucumber": "Pepino armenio",
+    "Artichoke": "Alcachofa",
+    "Bitter Melon": "Melón amargo",
+    "Bok Choy": "Bok choy",
+    "Cherry Tomato": "Tomate cherry",
+    "Chayote": "Chayote",
+    "Chinese Eggplant": "Berenjena china",
+    "Colocasia / Taro": "Colocasia / Taro",
+    "Crenshaw Melon": "Melón Crenshaw",
+    "Daikon": "Rábano daikon",
+    "Delicata Squash": "Calabaza delicata",
+    "Edamame": "Edamame",
+    "Endive": "Endibia",
+    "Epazote": "Epazote",
+    "Escarole": "Escarola",
+    "Ground Cherry": "Tomatillo",
+    "Japanese Eggplant": "Berenjena japonesa",
+    "Jerusalem Artichoke": "Aguaturma",
+    "Lemon Cucumber": "Pepino limón",
+    "Malabar Spinach": "Espinaca de Malabar",
+    "Pattypan Squash": "Calabaza pattypan",
+    "Salsify": "Salsifí",
+    "Spaghetti Squash": "Calabaza espagueti",
+    "Choy Sum": "Choy sum",
+    "Gai Lan": "Gai lan",
+    "Banana": "Plátano",
+    "Boysenberry": "Baya de Boysen",
+    "Cape Gooseberry": "Uchuva",
+    "Coconut": "Coco",
+    "Crabapple": "Manzano silvestre",
+    "Currant": "Grosella",
+    "Dates": "Dátiles",
+    "Goji Berry": "Baya de goji",
+    "Gooseberry": "Grosella espinosa",
+    "Guava": "Guayaba",
+    "Honeydew": "Melón verde",
+    "Kiwi": "Kiwi",
+    "Kumquat": "Kumquat",
+    "Loganberry": "Loganberry",
+    "Longan": "Longan",
+    "Mango": "Mango",
+    "Mulberry": "Morera",
+    "Pineapple": "Piña",
+    "Quince": "Membrillo",
+    "Basil Microgreens": "Microgreens de albahaca",
+    "Bay Laurel": "Laurel",
+    "Beet Greens": "Hojas de remolacha",
+    "Cilantro": "Cilantro",
+    "Cilantro Microgreens": "Microgreens de cilantro",
+    "Holy Basil": "Albahaca sagrada",
+    "Marjoram": "Mejorana",
+    "Lovage": "Apio de monte",
+    "Savory": "Ajedrea",
+    "Tarragon": "Estragón",
+    "Adzuki Sprouts": "Brotes de adzuki",
+    "Alfalfa Sprouts": "Brotes de alfalfa",
+    "Amaranth Microgreens": "Microgreens de amaranto",
+    "Arugula Microgreens": "Microgreens de rúcula",
+    "Beet Microgreens": "Microgreens de remolacha",
+    "Broccoli Raab Microgreens": "Microgreens de brócoli raab",
+    "Broccoli Sprouts": "Brotes de brócoli",
+    "Buckwheat Sprouts": "Brotes de trigo sarraceno",
+    "Cabbage Microgreens": "Microgreens de col",
+    "Carrot Microgreens": "Microgreens de zanahoria",
+    "Celery Microgreens": "Microgreens de apio",
+    "Chard Microgreens": "Microgreens de acelga",
+    "Chickpea Sprouts": "Brotes de garbanzo",
+    "Clover Sprouts": "Brotes de trébol",
+    "Dill Microgreens": "Microgreens de eneldo",
+    "Fennel Microgreens": "Microgreens de hinojo",
+    "Fenugreek Sprouts": "Brotes de fenogreco",
+    "Kale Microgreens": "Microgreens de col rizada",
+    "Kohlrabi Microgreens": "Microgreens de colinabo",
+    "Leek Sprouts": "Brotes de puerro",
+    "Lentil Sprouts": "Brotes de lenteja",
+    "Mizuna Microgreens": "Microgreens de mizuna",
+    "Mung Bean Sprouts": "Brotes de frijol mungo",
+    "Onion Sprouts": "Brotes de cebolla",
+    "Parsnip Microgreens": "Microgreens de pastinaca",
+    "Pea Shoots": "Brotes de guisante",
+    "Radish Microgreens": "Microgreens de rábano",
+    "Shiso Microgreens": "Microgreens de shiso",
+    "Snow Pea Sprouts": "Brotes de guisante de nieve",
+    "Sorrel Microgreens": "Microgreens de acedera",
+    "Soybean Sprouts": "Brotes de soja",
+    "Spinach Microgreens": "Microgreens de espinaca",
+    "Sunflower Sprouts": "Brotes de girasol",
+    "Tatsoi Microgreens": "Microgreens de tatsoi",
+    "Turnip Microgreens": "Microgreens de nabo",
+    "Watercress Sprouts": "Brotes de berro",
+    "Wheatgrass": "Pasto de trigo",
+    "Alfalfa": "Alfalfa",
+    "Amaranth": "Amaranto",
+    "Barley": "Cebada",
+    "Buckwheat": "Trigo sarraceno",
+    "Canola": "Colza",
+    "Castor Bean": "Ricino",
+    "Cassava": "Yuca",
+    "Chickpea": "Garbanzo",
+    "Cowpea": "Caupí",
+    "Field Corn": "Maíz de campo",
+    "Flax": "Lino",
+    "Fava Bean": "Haba",
+    "Grain Amaranth": "Amaranto de grano",
+    "Jute": "Yute",
+    "Lentil": "Lenteja",
+    "Millet": "Mijo",
+    "Mung Bean": "Frijol mungo",
+    "Oats": "Avena",
+    "Peanut": "Cacahuete",
+    "Quinoa": "Quinoa",
+    "Rice": "Arroz",
+    "Rye": "Centeno",
+    "Sesame": "Sésamo",
+    "Sorghum": "Sorgo",
+    "Soybean": "Soja",
+    "Sugar Beet": "Remolacha azucarera",
+    "Sugarcane": "Caña de azúcar",
+    "Teff": "Teff",
+    "Tobacco": "Tabaco",
+    "Wheat": "Trigo",
+    "Abelia": "Abelia",
+    "Barberry": "Agracejo",
+    "Burning Bush": "Euonymus",
+    "Butterfly Bush": "Buddleia",
+    "Chinese Redbud": "Redbud chino",
+    "Cotoneaster": "Cotoneaster",
+    "Holly": "Acebo",
+    "Hornbeam": "Carpe",
+    "Loropetalum": "Loropetalum",
+    "Magnolia": "Magnolia",
+    "Nandina": "Nandina",
+    "Rose of Sharon": "Rosa de Sharon",
+    "Russian Sage": "Salvia rusa",
+    "Weigela": "Weigela",
+    "Yew": "Tejo",
+    "African Marigold": "Tagete africano",
+    "Ajuga": "Búgula",
+    "Alpine Aster": "Áster alpino",
+    "Alpine Bellflower": "Campánula alpina",
+    "Alpine Catchfly": "Silene alpina",
+    "Alpine Pink": "Clavel alpino",
+    "Alpine Poppy": "Amapola alpina",
+    "Alyssum": "Aliso",
+    "Anemone": "Anémona",
+    "Angelonia": "Angelonia",
+    "Astilbe": "Astilbe",
+    "Bacopa": "Bacopa",
+    "Bee Balm": "Monarda",
+    "Blanket Flower": "Gaillardia",
+    "Bleeding Heart": "Corazón sangrante",
+    "Borage": "Borraja",
+    "Butterfly Weed": "Algodoncillo",
+    "Calibrachoa": "Calibrachoa",
+    "Calla Lily": "Cala",
+    "Canna": "Canna",
+    "Caryopteris": "Cariopteris",
+    "Catnip": "Nepeta",
+    "Celosia": "Celosia",
+    "Chamomile": "Manzanilla",
+    "Chervil": "Perifollo",
+    "China Pink": "Clavel chino",
+    "Climbing Hydrangea": "Hortensia trepadora",
+    "Climbing Rose": "Rosa trepadora",
+    "Columbine": "Aquileña",
+    "Comfrey": "Consuelda",
+    "Common Milkweed": "Algodoncillo común",
+    "Common Zinnia": "Zinnia común",
+    "Coreopsis": "Coreopsis",
+    "Cosmos": "Cosmos",
+    "Cotton": "Algodón",
+    "Creeping Sedum": "Sedum rastrero",
+    "Creeping Thyme": "Tomillo rastrero",
+    "Crossvine": "Bignonia",
+    "Culver's Root": "Raíz de Culver",
+    "Cyclamen": "Ciclamen",
+    "Dahlia": "Dalia",
+    "Dandelion Greens": "Hojas de diente de león",
+    "Delphinium": "Delfinio",
+    "Dianthus": "Dianthus",
+    "Dutch Iris": "Iris holandés",
+    "Edelweiss": "Edelweiss",
+    "False Indigo": "Falso índigo",
+    "Field Scabious": "Escabiosa de campo",
+    "Foxglove": "Dedalera",
+    "Freesia": "Fresia",
+    "Fritillaria": "Fritilaria",
+    "Gaillardia": "Gaillardia",
+    "Garden Cress": "Berro de jardín",
+    "Garden Verbena": "Verbena de jardín",
+    "Giant Allium": "Allium gigante",
+    "Glory of the Snow": "Quionodoxa",
+    "Goldenrod": "Vara de oro",
+    "Grandiflora Petunia": "Petunia grandiflora",
+    "Hardy Geranium": "Geranio resistente",
+    "Hens and Chicks": "Siémpreviva",
+    "Heuchera": "Heuchera",
+    "Ironweed": "Hierba del hierro",
+    "Joe Pye Weed": "Eupatorio",
+    "Lamb's Ear": "Oreja de cordero",
+    "Lantana": "Lantana",
+    "Lemon Balm": "Toronjil",
+    "Lily of the Valley": "Lirio de los valles",
+    "Lobelia": "Lobelia",
+    "Lupine": "Lupino",
+    "Marjoram": "Mejorana",
+    "Maximilian Sunflower": "Girasol Maximiliano",
+    "Mexican Pitcher Plant": "Planta jarra mexicana",
+    "Miscanthus": "Miscanto",
+    "Moss Rose": "Rosa musgo",
+    "Muscari": "Muscari",
+    "Painted Daisy": "Margarita pintada",
+    "Pansy": "Pensamiento",
+    "Papaya": "Papaya",
+    "Papyrus": "Papiro",
+    "Passion Flower": "Flor de la pasión",
+    "Passion Fruit": "Maracuyá",
+    "Pawpaw": "Asimina",
+    "Penstemon": "Penstemon",
+    "Pentas": "Pentas",
+    "Phlox": "Phlox",
+    "Prickly Pear Fruit": "Fruto de nopal",
+    "Ranunculus": "Ranúnculo",
+    "Red Clover": "Trébol rojo",
+    "Saffron Crocus": "Azafrán",
+    "Shasta Daisy": "Margarita Shasta",
+    "Snapdragon": "Antirrino",
+    "Snowdrop": "Campanilla de invierno",
+    "Stonecrop": "Uva de gato",
+    "Swamp Milkweed": "Algodoncillo de pantano",
+    "Sweet Woodruff": "Galio",
+    "Tiger Lily": "Lirio tigre",
+    "Tuberose": "Nardo",
+    "Verbena": "Verbena",
+    "Viola": "Viola",
+    "Water Lily": "Nenúfar",
+    "Wax Begonia": "Begonia de cera",
+    "Wild Bergamot": "Monarda silvestre",
+    "Yarrow": "Milenrama",
+    "Ming Aralia": "Aralia Ming",
+    "Begonia": "Begonia",
+    "Clivia": "Clivia",
+    "Croton": "Croton",
+    "Dieffenbachia": "Dieffenbachia",
+    "Gardenia": "Gardenia",
+    "Hostas": "Hostas",
+    "Impatiens": "Impatiens",
+    "Boston Ivy": "Hiedra de Boston",
+    "Carolina Jessamine": "Jazmín de Carolina",
+    "Trumpet Honeysuckle": "Madreselva trompeta",
+    "Trumpet Vine": "Enredadera trompeta",
+    "Virginia Creeper": "Parra virgen",
+    "Bahia Grass": "Pasto bahía",
+    "Blue Fescue": "Festuca azul",
+    "Blue Grama": "Grama azul",
+    "Big Bluestem": "Andropogon grande",
+    "Fountain Grass": "Hierba de fuentes",
+    "Japanese Forest Grass": "Hierba del bosque japonés",
+    "Little Bluestem": "Andropogon pequeño",
+    "Pink Muhly Grass": "Muhlenbergia rosa",
+    "Side Oats Grama": "Grama lateral",
+    "Switchgrass": "Panicum",
+    "Tall Fescue": "Festuca alta",
+    "Timothy Grass": "Fleo",
+    "Duckweed": "Lenteja de agua",
+    "Floating Heart": "Corazón flotante",
+    "Water Hawthorn": "Espino de agua",
+    "Water Hyacinth": "Jacinto de agua",
+    "Water Lettuce": "Lechuga de agua",
+    "Cape Sundew": "Rocío del Cabo",
+    "Spanish Moss": "Musgo español",
+    "Lichen": "Liquen",
+    "Bugloss": "Anchusa",
+    "Celeriac": "Apio nabo",
+    "Ginkgo": "Ginkgo",
+    "Habanero": "Habanero",
+    "Hops": "Lúpulo",
+    "Horseradish": "Rábano picante",
+    "Jalapeño": "Jalapeño",
+    "Mizuna": "Mizuna",
+    "Mustard": "Mostaza",
+    "Purslane": "Verdolaga",
+    "Shiso": "Shiso",
+    "Sorrel": "Acedera",
+    "Stevia": "Estevia",
+    "Tatsoi": "Tatsoi",
+    "Turnip Greens": "Hojas de nabo",
+    "Vietnamese Coriander": "Cilantro vietnamita",
+    "Winter Melon": "Melón de invierno",
+    "Yellow Watermelon": "Sandía amarilla",
+}
+
+
 def has_latin_chars(s: str) -> bool:
-    """Check if string contains Latin letters (needs translation)."""
-    return bool(re.search(r'[A-Za-z]', s))
+    """Check if string contains Latin letters (needs translation for ZH)."""
+    return bool(re.search(r"[A-Za-z]", s))
+
 
 def main():
-    filepath = "source/common_plants_language_zh-Hans.json"
+    parser = argparse.ArgumentParser(description="Translate EN typeNames to ZH or ES")
+    parser.add_argument(
+        "-l", "--lang",
+        choices=["zh-Hans", "es"],
+        required=True,
+        help="Target language: zh-Hans or es",
+    )
+    args = parser.parse_args()
+
+    lang = args.lang
+    if lang == "zh-Hans":
+        translations = TRANSLATIONS_ZH
+        filepath = REPO_ROOT / "source/common_plants_language_zh-Hans.json"
+        check_latin = True
+    else:
+        translations = TRANSLATIONS_ES
+        filepath = REPO_ROOT / "source/common_plants_language_es.json"
+        check_latin = False
+
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
-    
+
     translated = 0
     missing = []
-    
+
     for entry in data:
         if not isinstance(entry, dict) or "typeName" not in entry:
             continue
-        
+
         tn = entry["typeName"]
-        if has_latin_chars(tn) and tn in TRANSLATIONS:
-            entry["typeName"] = TRANSLATIONS[tn]
+        if tn in translations:
+            if check_latin and not has_latin_chars(tn):
+                continue  # Already translated (no Latin chars)
+            entry["typeName"] = translations[tn]
             translated += 1
-        elif has_latin_chars(tn):
+        elif check_latin and has_latin_chars(tn):
             missing.append(tn)
-    
+
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    
+
     print(f"Translated: {translated}")
     if missing:
         print(f"\nMissing translations ({len(missing)}):")
         for m in sorted(set(missing)):
             print(f"  - {m}")
 
+
 if __name__ == "__main__":
-    import os
-    os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     main()

@@ -10,6 +10,8 @@ python3 scripts/release.py
 
 Runs: sort → merge → validate → metadata audit → scientific names → duplicates → generic descriptions → translation sync. Fix any failures.
 
+**Optional:** If `audit_duplicates.py` reports duplicate typeNames (same name across entries), run `python3 scripts/optimize_duplicate_typenames.py --dry-run` then `--fix`.
+
 ## 2. Update version
 
 | File | Change |

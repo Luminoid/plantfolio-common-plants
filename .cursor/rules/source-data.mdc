@@ -12,9 +12,9 @@ Array of `{ id, typeName, description, careTips, commonExamples }`. `_metadata` 
 
 ## Metadata (`common_plants_metadata.json`)
 
-Object keyed by plant ID. Optional `_metadata` key with `version` (e.g. `1.4.0`). Per-plant fields: `springInterval`, `summerInterval`, `fallInterval`, `winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`, `hardinessZones` (optional).
+Object keyed by plant ID. Optional `_metadata` key with `version` (e.g. `1.5.0`). Per-plant fields: `springInterval`, `summerInterval`, `fallInterval`, `winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`, `hardinessZones` (optional).
 
-## Enums (see docs/DATASET.md §6)
+## Enums (see docs/DATASET.md §8)
 
 - **plantToxicity:** nonToxic, unknown, mildlyToxic, toxic
 - **lightPreference:** outdoorFullSun, brightIndirect, lowIndirect, outdoorPartialSun, etc.
@@ -24,3 +24,10 @@ Object keyed by plant ID. Optional `_metadata` key with `version` (e.g. `1.4.0`)
 ## Locales
 
 EN, ES, ZH-Hans. Keep all three in sync when adding or changing plants.
+
+### Language rules
+
+- **Target language only:** Each language file must contain only its own language.
+- **Exceptions:** Scientific names (Latin binomials), genus names, cultivar names in single quotes, proper nouns without translation (e.g. Tulsi, Kangkong).
+- **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple). First-segment aliases only for category plants; do not duplicate typeName. Run `audit_also_known_as.py --fix` to remove redundant aka; `ensure_complementary_aka.py` to add missing complementary.
+- **Audit:** Run `python3 scripts/audit_target_language.py` to detect mixed-language content.
