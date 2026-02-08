@@ -34,6 +34,7 @@ def main():
     )
     ok &= run(["python3", "scripts/audit_scientific_names.py"], "Scientific name audit")
     ok &= run(["python3", "scripts/audit_duplicates.py"], "Duplicate audit")
+    ok &= run(["python3", "scripts/audit_generic_descriptions.py"], "Generic descriptions audit")
 
     print("\n" + "=" * 50)
     print("✅ Ready for release" if ok else "❌ Fix issues above before release")

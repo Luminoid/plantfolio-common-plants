@@ -6,18 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2025-02-07
+
 ### Changed
 
-- **N:** 38 outdoor plants: `brightIndirect` → `outdoorFullSun` or `outdoorPartialSun` (prairie grasses, wildflowers).
-- **O:** bonsai, lemon-cypress: `outdoorPartialSun` → `brightIndirect` (indoor houseplant semantics).
-- **P:** Rot-prone succulents: `wellDraining` → `excellentDrainage` (lithops, echeveria, haworthia, string-of-pearls, string-of-bananas, sedum-morganianum).
-- **Q:** 14 plants: `plantToxicity` unknown → known (ASPCA: alyssum, begonia, peony, salvia, clematis, honeysuckle, morning-glory, foxglove, castor-bean, lupine, hops, sweet-potato-vine).
-
-### Added
-
-- `scripts/apply_metadata_fixes.py` — apply N, O, P, Q fixes.
-- `scripts/audit_metadata_completeness.py` — line-by-line metadata check.
-- `plan/PLANT_PROPERTIES_AUDIT.md`, `plan/METADATA_LINE_BY_LINE_CHECK.md`.
+- **38 outdoor plants lightPreference:** `brightIndirect` → `outdoorFullSun` or `outdoorPartialSun` (prairie grasses, wildflowers).
+- **Bonsai, lemon-cypress lightPreference:** `outdoorPartialSun` → `brightIndirect` (indoor houseplant semantics).
+- **Rot-prone succulents drainagePreference:** `wellDraining` → `excellentDrainage` (lithops, echeveria, haworthia, string-of-pearls, string-of-bananas, sedum-morganianum).
+- **14 plants plantToxicity:** unknown → known (ASPCA: alyssum, begonia, peony, salvia, clematis, honeysuckle, morning-glory, foxglove, castor-bean, lupine, hops, sweet-potato-vine).
+- **Houseplant metadata audit:** 37 corrections for 270 houseplants: (1) Toxicity: `platycerium-bifurcatum`, `rhipsalis`, `rhipsalis-baccifera` toxic→nonToxic (ASPCA); 23 unknown→known for Dracaena, Philodendron, Sansevieria, Pothos, Peace lily, Ficus, etc. (2) Humidity: Alocasia & Anthurium cultivars medium→high (60–80% for tropical aroids).
 
 ## [1.2.0] - 2025-02-07
 
@@ -28,8 +25,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Dormancy notes for plants with null winterInterval.
 - Scientific name corrections (Dracaena trifasciata, Curio, Alocasia × amazonica).
 - Care tips for prairie/meadow plants and sprouts/microgreens.
-- Schema validation for lightPreference, plantToxicity, category enums.
-- Audit scripts: scientific names, duplicates, care tips, dormancy.
 
 ### Changed
 

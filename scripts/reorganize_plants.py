@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Reorganize plant categories and remove duplicates.
-Run from repo root: python3 scripts/reorganize_plants.py
+
+Edit REMOVE_IDS and CATEGORY_CHANGES in this file before running.
+Applied removals are already in the data; add new IDs when duplicates are found.
+
+Usage: python3 scripts/reorganize_plants.py
 """
 
 import json
@@ -120,7 +124,7 @@ def main():
 
         print(f"  {filename}: removed {len(data) - len(kept)}, totalPlants={new_total}")
 
-    print("\nDone. Run: python3 scripts/merge_plant_data.py && python3 scripts/validate_json.py --check-structure")
+    print("\nDone. Run: python3 scripts/merge_plant_data.py && python3 scripts/validate_json.py --check-schema --check-structure")
 
 
 if __name__ == "__main__":

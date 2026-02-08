@@ -7,7 +7,7 @@ Checks for:
 - Missing hybrid × symbol (Alocasia amazonica → Alocasia × amazonica)
 - Genus/species formatting issues
 
-Run: python3 scripts/audit_scientific_names.py
+Usage: python3 scripts/audit_scientific_names.py
 """
 
 import json

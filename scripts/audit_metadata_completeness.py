@@ -2,12 +2,14 @@
 """
 Line-by-line audit of common_plants_metadata.json.
 
-Ensures every plant has complete, valid metadata. See plan/METADATA_LINE_BY_LINE_CHECK.md.
+Ensures every plant has complete, valid metadata.
 
 Usage:
     python3 scripts/audit_metadata_completeness.py
     python3 scripts/audit_metadata_completeness.py --verbose
     python3 scripts/audit_metadata_completeness.py --output report.txt
+
+See docs/AUDIT_METADATA.md for spec (C1–C15, X1–X2).
 """
 
 import json

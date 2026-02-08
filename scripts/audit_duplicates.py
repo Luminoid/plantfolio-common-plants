@@ -7,7 +7,7 @@ Checks for:
 - Similar typeNames
 - Cultivar vs parent species redundancy
 
-Run: python3 scripts/audit_duplicates.py
+Usage: python3 scripts/audit_duplicates.py
 """
 
 import json
@@ -46,7 +46,7 @@ def main():
         eb = next(e for e in entries if e["id"] == b)
         print(f"  {a} ({ea.get('typeName')}) vs {b} ({eb.get('typeName')})")
 
-    # 2. Known pairs from NEXT_STEPS
+    # 2. Known pairs to review
     print("\nKnown pairs to review:")
     known = [
         ("rhipsalis", "rhipsalis-baccifera"),

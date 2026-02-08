@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Sort plants in metadata and language files: by category, then alphabetically by id.
-Run from repo root: python3 scripts/sort_plants.py
+
+Usage: python3 scripts/sort_plants.py
 """
 
 import json

@@ -8,13 +8,13 @@ alwaysApply: false
 
 | Script | Purpose |
 |--------|---------|
-| `release.py` | Build dist, validate, run audits (run before release) |
+| `release.py` | Build dist, validate, audits (run before release) |
 | `merge_plant_data.py` | Build dist/ from source |
 | `validate_json.py` | Schema and structure validation |
 | `audit_scientific_names.py` | Check commonExamples for accepted names |
 | `audit_duplicates.py` | Genus/species overlap, similar typeNames |
-| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
-| `improve_care_tips.py` | Apply category-specific care tips |
-| `add_dormancy_notes.py` | Add dormancy notes for null winterInterval |
-
-Edit `REMOVE_IDS` and `CATEGORY_CHANGES` in `reorganize_plants.py` before running it.
+| `audit_metadata_completeness.py` | Line-by-line metadata audit (docs/AUDIT_METADATA.md) |
+| `audit_generic_descriptions.py` | Flag generic descriptions (docs/AUDIT_CHECKLIST_TEMPLATE.md) |
+| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
+| `sort_plants.py` | Sort by category, then id |
+| `extract_by_category.py` | Extract by category for audit sessions |
