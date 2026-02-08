@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "totalPlants": 800,
       "sorting": {
         "method": "Categorized then alphabetical",
@@ -44,7 +44,7 @@
     "typeName": "Aglaonema",
     "description": "Also known as: Chinese evergreen. Low-light tolerant aroids with variegated foliage in shades of green, silver, pink, or red.",
     "commonExamples": "Aglaonema commutatum (Chinese evergreen), A. pictum, A. 'Silver Bay', A. 'Red Siam'",
-    "careTips": "Water when top 1-2 inches of soil feels dry. Keep slightly more moist than other low-light plants but avoid soggy soil. Bright indirect light maintains variegation; low light is tolerated but may reduce color. Maintain 50-60% humidity. Fertilize monthly spring through fall with balanced liquid fertilizer (20-20-20) diluted to half strength. Wipe leaves monthly with damp cloth to remove dust and improve photosynthesis. Repot every 2-3 years in spring when roots fill container. Prune yellowing leaves at base. Watch for spider mites in dry conditions."
+    "careTips": "Water when top 1-2 inches of soil feels dry. Keep slightly more moist than other low-light plants but avoid soggy soil. Bright indirect light maintains variegation; low light is tolerated but may reduce color. Maintain 50-60% humidity. Fertilize monthly spring through fall with balanced liquid fertilizer (20-20-20) diluted to half strength. Wipe leaves monthly with damp cloth to remove dust and improve photosynthesis. Repot every 2-3 years in spring when roots fill container. Prune yellowing leaves at base. Watch for spider mites in dry conditions. Toxic to pets."
   },
   {
     "id": "aglaonema-red-valentine",
@@ -114,7 +114,7 @@
     "typeName": "Dracaena Fragrans",
     "description": "Also known as: Corn plant. Corn plant with broad, arching leaves, can grow quite tall.",
     "commonExamples": "Dracaena fragrans (Corn plant, Cornstalk dracaena), D. fragrans 'Massangeana'",
-    "careTips": "Water when top half of soil is dry. Use filtered, distilled, or rainwater to prevent brown leaf tips from fluoride and chlorine. Bright indirect to medium light preferred. Maintain 40-50% humidity. Fertilize monthly spring through fall with balanced fertilizer diluted to half strength. Wipe leaves monthly to remove dust. Repot every 2-3 years when roots fill container. Prune brown tips and remove yellowing lower leaves. Sensitive to drafts and temperature fluctuations."
+    "careTips": "Water when top half of soil is dry. Use filtered, distilled, or rainwater to prevent brown leaf tips from fluoride and chlorine. Bright indirect to medium light preferred. Maintain 40-50% humidity. Fertilize monthly spring through fall with balanced fertilizer diluted to half strength. Wipe leaves monthly to remove dust. Repot every 2-3 years when roots fill container. Prune brown tips and remove yellowing lower leaves. Sensitive to drafts and temperature fluctuations. Toxic to pets."
   },
   {
     "id": "dracaena-limelight",
@@ -268,7 +268,7 @@
     "typeName": "Snake Plants",
     "description": "Also known as: Mother-in-law's tongue. Extremely low-maintenance succulents in the Asparagaceae family with upright sword-like leaves. Includes various cultivars with different leaf shapes and patterns.",
     "commonExamples": "Dracaena trifasciata (syn. Sansevieria trifasciata; Mother-in-law's tongue), D. trifasciata 'Laurentii', D. trifasciata 'Moonshine', D. trifasciata 'Black Gold', Dracaena angolensis (syn. Sansevieria cylindrica; cylindrical snake plant)",
-    "careTips": "Water only when soil is completely dry (every 2-8 weeks depending on conditions). Very drought tolerant due to water storage in leaves. Bright indirect to direct light preferred; tolerates low light but grows slowly. Low humidity is fine. Fertilize 2-3 times per year during growing season with succulent fertilizer at quarter strength. Repot only when pot breaks or plant becomes top-heavy (every 5-10 years). Remove dead leaves at base by pulling gently. Divide offsets when repotting. Overwatering is the main cause of death - when in doubt, wait longer."
+    "careTips": "Water only when soil is completely dry (every 2-8 weeks depending on conditions). Very drought tolerant due to water storage in leaves. Bright indirect to direct light preferred; tolerates low light but grows slowly. Low humidity is fine. Fertilize 2-3 times per year during growing season with succulent fertilizer at quarter strength. Repot only when pot breaks or plant becomes top-heavy (every 5-10 years). Remove dead leaves at base by pulling gently. Divide offsets when repotting. Overwatering is the main cause of death - when in doubt, wait longer. Toxic to pets."
   },
   {
     "id": "spathiphyllum-domino",
@@ -303,7 +303,7 @@
     "typeName": "ZZ Plant",
     "description": "Also known as: Zanzibar gem, Eternity plant. Extremely low-maintenance plant in the Araceae family with glossy leaves and rhizomes that store water, virtually indestructible.",
     "commonExamples": "Zamioculcas zamiifolia (ZZ plant, Zanzibar gem, Eternity plant), Z. zamiifolia 'Raven' (Raven ZZ)",
-    "careTips": "Water when soil is completely dry (every 2-4 weeks). Rhizomes store water making it extremely drought tolerant. Overwatering causes root rot - when in doubt, wait. Low to bright indirect light tolerated; grows faster in brighter light. Low humidity is fine. Fertilize 2-3 times per year during growing season with balanced fertilizer at quarter strength. Repot every 2-3 years when rhizomes fill container. Wipe glossy leaves monthly to remove dust. Virtually indestructible - perfect for beginners."
+    "careTips": "Water when soil is completely dry (every 2-4 weeks). Rhizomes store water making it extremely drought tolerant. Overwatering causes root rot - when in doubt, wait. Low to bright indirect light tolerated; grows faster in brighter light. Low humidity is fine. Fertilize 2-3 times per year during growing season with balanced fertilizer at quarter strength. Repot every 2-3 years when rhizomes fill container. Wipe glossy leaves monthly to remove dust. Virtually indestructible - perfect for beginners. Toxic to pets."
   },
   {
     "id": "zz-plant-raven",
@@ -1015,7 +1015,7 @@
   {
     "id": "sedum-morganianum",
     "typeName": "Donkey's Tail",
-    "description": "Also known as: Donkey's tail, Lamb's tail. Trailing succulent with plump blue-green leaves that drop easily; same as burro's tail. Perfect for hanging baskets.",
+    "description": "Also known as: Lamb's tail. Trailing succulent with plump blue-green leaves that drop easily; same as burro's tail. Perfect for hanging baskets.",
     "commonExamples": "Sedum morganianum (Burro's tail, Donkey's tail, Lamb's tail)",
     "careTips": "Water when soil is dry—more often than most succulents. Handle carefully—leaves drop easily. Bright indirect light; direct sun may burn. Non-toxic to pets."
   },
@@ -1064,7 +1064,7 @@
   {
     "id": "string-of-pearls",
     "typeName": "String of Pearls",
-    "description": "Also known as: syn. Senecio rowleyanus. Senecio rowleyanus. Trailing succulent with bead-like leaves, perfect for hanging baskets.",
+    "description": "Trailing succulent with bead-like leaves, perfect for hanging baskets.",
     "commonExamples": "Curio rowleyanus (String of pearls, syn. Senecio rowleyanus), C. herreianus (String of beads)",
     "careTips": "Water when pearls (leaves) show slight wrinkling - this indicates thirst. Avoid overwatering which causes rot. Bright indirect light preferred. Medium humidity preferred. Fertilize monthly spring through fall with succulent fertilizer at half strength. Perfect for hanging baskets. Repot every 2-3 years. Bead-like leaves are delicate - handle carefully. Very popular trailing succulent. Toxic to pets."
   },
@@ -1869,7 +1869,7 @@
   {
     "id": "peperomia-watermelon",
     "typeName": "Peperomia Watermelon",
-    "description": "Also known as: syn. P. sandersii. Compact peperomia with silver-striped leaves resembling watermelon rind.",
+    "description": "Compact peperomia with silver-striped leaves resembling watermelon rind.",
     "commonExamples": "Peperomia argyreia (Watermelon peperomia, syn. P. sandersii)",
     "careTips": "Water when top 2 inches of soil is dry. Allow to dry between waterings. Bright indirect light maintains silver stripes. Medium humidity (40-50%) is fine. Fertilize monthly spring through fall with balanced fertilizer at half strength. Silver-striped leaves resembling watermelon rind. Compact growth habit. Repot every 2-3 years. Easy-care houseplant."
   },
@@ -5110,7 +5110,7 @@
   {
     "id": "cyclamen-bulb",
     "typeName": "Florist's Cyclamen",
-    "description": "Also known as: Florist's cyclamen. Tuberous perennials with heart-shaped leaves. Florist cyclamen blooms winter; goes dormant in summer. Cool temperatures essential.",
+    "description": "Tuberous perennials with heart-shaped leaves. Florist cyclamen blooms winter; goes dormant in summer. Cool temperatures essential.",
     "commonExamples": "Cyclamen persicum (Florist's cyclamen)",
     "careTips": "Bright indirect light. Cool (60–68°F). Water when soil dry; avoid crown. Reduce watering when leaves yellow (summer dormancy). Resume when new growth appears. Toxic to pets."
   },

@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.6.0] - 2025-02-08
+
+### Changed
+
+- **Descriptions:** Removed redundant "also known as" blocks (sedum-morganianum, cyclamen-bulb, neanthe-bella-palm, floating-heart).
+- **Descriptions:** Removed scientific synonyms from AKA blocks (string-of-pearls, peperomia-watermelon, string-of-bananas, string-of-dolphins, easter-cactus, calathea-rattlesnake); AKA must use common names only.
+- **Descriptions (ZH/ES):** Replaced English in AKA with target-language equivalents (serviceberry→唐棣, Pinks→石竹, Johnny-jump-up→三色堇, greens→叶菜, Wax gourd→冬瓜, currant→红醋栗/黑醋栗, Snake's head→棋盘花, VFT→捕蝇草; Golden hahnii→Hahnii dorado, moonshine→luz de luna, Flapjack→Planta tortita, Mini jade→Jade miniatura).
+- **commonExamples (ZH):** Replaced "同义名" with "syn."; translated English common names to Chinese.
+- **commonExamples (ES):** Translated English aliases (Golden hahnii, moonshine, Mini jade, Flapjack).
+- **careTips:** Added toxicity mention to aglaonema, dracaena-fragrans, snake-plants, zz-plant (EN/ES/ZH) for metadata alignment.
+
 ## [1.5.0] - 2025-02-08
 
 ### Changed

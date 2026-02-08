@@ -36,6 +36,7 @@ def main():
     ok &= run(["python3", "scripts/audit_metadata_completeness.py"], "Metadata completeness audit")
     ok &= run(["python3", "scripts/audit_scientific_names.py"], "Scientific name audit")
     ok &= run(["python3", "scripts/audit_duplicates.py"], "Duplicate audit")
+    ok &= run(["python3", "scripts/audit_also_known_as.py"], "Also known as audit")
     ok &= run(["python3", "scripts/audit_generic_descriptions.py"], "Generic descriptions audit")
     ok &= run(["python3", "scripts/audit_translation_sync.py"], "Translation sync audit")
     ok &= run(["python3", "scripts/audit_target_language.py"], "Target language audit")

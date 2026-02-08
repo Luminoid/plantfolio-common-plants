@@ -9,7 +9,7 @@
 ```
 source/    # Edit language + metadata JSON
 dist/      # Generated (do not edit)
-scripts/   # release.py, merge, validate, schema.py, audit_*.py, add_common_alias_to_description.py
+scripts/   # release.py, audit_quality.py, merge, sort_plants, validate, audit_*.py
 docs/      # DATASET.md, AUDIT.md, RELEASE.md
 ```
 
@@ -17,6 +17,7 @@ docs/      # DATASET.md, AUDIT.md, RELEASE.md
 
 ```bash
 python3 scripts/release.py               # Before release
+python3 scripts/audit_quality.py         # Summary of all quality audits
 python3 scripts/extract_by_category.py "Category Name"  # Audit session
 ```
 

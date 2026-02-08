@@ -9,6 +9,7 @@ alwaysApply: false
 | Script | Purpose |
 |--------|---------|
 | `release.py` | Build dist, validate, audits (run before release) |
+| `audit_quality.py` | Run all quality audits (summary) |
 | `merge_plant_data.py` | Build dist/ from source |
 | `validate_json.py` | Schema & structure validation |
 | `schema.py` | Shared constants (CATEGORY_ORDER, enums) |
@@ -22,6 +23,7 @@ alwaysApply: false
 | `audit_translation_sync.py` | Verify EN/ES/ZH coverage |
 | `audit_target_language.py` | CJK in EN/ES, English in ZH commonExamples, English phrases in ZH/ES |
 | `audit_also_known_as.py` | Scientific names, subtypes, duplicate typeName in AKA (with `--fix`) |
+| `audit_toxicity_care_tips.py` | Toxicity metadata vs care tips alignment |
 | `ensure_complementary_aka.py` | Add complementary aka when missing: nickname typeName→formal; formal typeName→nickname. Aka is optional; remove if redundant (audit). |
 | `audit_toxicity_unknown.py` | List plants with unknown toxicity by category |
 | `translate_typenames.py` | Translate EN typeNames → ZH or ES (`--lang zh-Hans` / `--lang es`) |

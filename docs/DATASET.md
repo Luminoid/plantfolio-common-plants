@@ -1,7 +1,13 @@
 # Dataset Reference
 
 **800 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.5.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**Version:** 1.6.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+
+---
+
+## Disclaimer
+
+This dataset is for informational use only. It is not maintained by horticultural or botanical professionals and may contain errors or omissions. For plant identification, toxicity concerns, or specialized care, consult a qualified expert.
 
 ---
 
@@ -188,9 +194,11 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 ```bash
 python3 scripts/release.py                               # Build, validate, audit (before release)
+python3 scripts/audit_quality.py                         # Run all quality audits (summary)
 python3 scripts/merge_plant_data.py                      # Build dist/ from source
 python3 scripts/validate_json.py --check-schema           # Validate metadata schema
 python3 scripts/extract_by_category.py "Category Name"    # Extract category for audit session
 python3 scripts/audit_metadata_completeness.py            # Full metadata audit (C1–C15, X1–X2)
+python3 scripts/audit_toxicity_care_tips.py              # Toxicity vs care tips alignment
 python3 -c "import json; m=json.load(open('source/common_plants_metadata.json')); print(len([k for k in m if k!='_metadata']))"  # Count plants
 ```

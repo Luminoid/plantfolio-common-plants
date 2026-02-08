@@ -2,6 +2,10 @@
 
 Curated plant care dataset (800 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
 
+## Disclaimer
+
+This dataset is provided for general informational purposes only. It is not maintained by horticultural or botanical professionals and may contain inaccuracies, omissions, or errors. Care recommendations, toxicity information, and plant identifiers are best-effort compilations — do not rely on them as a substitute for expert advice. For plant identification, toxicity concerns, or specialized care, consult a qualified horticulturist, botanist, or veterinarian.
+
 ## Background
 
 **Plantfolio** is a plant care app for iPhone, iPad, and Mac. It helps users track watering schedules, care records, growth history, and photos. This dataset powers the app’s default common plants library — the built-in suggestions when adding a new plant.
@@ -16,7 +20,7 @@ Fork this repo to build your own data source — keep the same structure so Plan
 python3 scripts/release.py   # Build dist/, validate, run all audits (run before release)
 ```
 
-**Workflow:** Edit `source/` → `merge_plant_data.py` → `dist/` → validate + audit.
+**Workflow:** Edit `source/` → `sort_plants.py` → `merge_plant_data.py` → `dist/` → validate + audit. Run `audit_quality.py` for a quick summary of all checks.
 
 ## Repo Structure
 
@@ -41,6 +45,8 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 | Audit metadata completeness | `python3 scripts/audit_metadata_completeness.py` |
 | Audit target language | `python3 scripts/audit_target_language.py` |
 | Audit also known as | `python3 scripts/audit_also_known_as.py` (use `--fix` to apply) |
+| Run all quality audits | `python3 scripts/audit_quality.py` |
+| Audit toxicity vs care tips | `python3 scripts/audit_toxicity_care_tips.py` |
 | Ensure complementary aka | `python3 scripts/ensure_complementary_aka.py --dry-run` first |
 | Add aliases to new plants | `python3 scripts/add_common_alias_to_description.py --dry-run` first |
 | Translate typeNames | `python3 scripts/translate_typenames.py --lang zh-Hans` or `--lang es` |
@@ -51,10 +57,12 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 | Script | Purpose |
 |-------|---------|
 | `release.py` | Full build + validate + all audits |
+| `audit_quality.py` | Run all quality audits and produce summary |
 | `merge_plant_data.py` | Build dist/ from source |
+| `sort_plants.py` | Sort source by category, canonical keys |
 | `validate_json.py` | Schema & structure validation |
 | `schema.py` | CATEGORY_ORDER, enums (imported by other scripts) |
-| `audit_*.py` | Duplicates, generic descriptions, translation sync, target language, also known as, toxicity |
+| `audit_*.py` | Metadata, scientific names, duplicates, also known as, generic descriptions, translation sync, target language, toxicity |
 | `ensure_complementary_aka.py` | Ensure aka has complementary form (nickname→formal, formal→nickname) per locale |
 | `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (`--dry-run` first) |
 | `extract_by_category.py` | Extract category for audit sessions |

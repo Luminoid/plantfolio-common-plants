@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "totalPlants": 800,
       "sorting": {
         "method": "分类后按拼音排序",
@@ -44,7 +44,7 @@
     "typeName": "广东万年青",
     "description": "耐低光照的天南星科植物，叶片具绿色、银色、粉色或红色斑纹。",
     "commonExamples": "Aglaonema commutatum (广东万年青), A. pictum, A. 'Silver Bay', A. 'Red Siam'",
-    "careTips": "当表层2-5厘米土壤感觉干燥时浇水。保持比其他低光照植物略微湿润，但避免积水。明亮间接光保持斑叶；低光照可耐受但可能减少颜色。保持50-60%湿度。春至秋每月用平衡液体肥料（20-20-20）稀释至一半浓度施肥。每月用湿布擦拭叶片以去除灰尘并改善光合作用。当根部填满容器时，每2-3年春季换盆。修剪基部黄叶。干燥条件下注意红蜘蛛。"
+    "careTips": "当表层2-5厘米土壤感觉干燥时浇水。保持比其他低光照植物略微湿润，但避免积水。明亮间接光保持斑叶；低光照可耐受但可能减少颜色。保持50-60%湿度。春至秋每月用平衡液体肥料（20-20-20）稀释至一半浓度施肥。每月用湿布擦拭叶片以去除灰尘并改善光合作用。当根部填满容器时，每2-3年春季换盆。修剪基部黄叶。干燥条件下注意红蜘蛛。对宠物有毒。"
   },
   {
     "id": "aglaonema-red-valentine",
@@ -114,7 +114,7 @@
     "typeName": "香龙血树",
     "description": "也称：玉米秆龙血树。 宽阔拱形叶片，可长成高大室内树。",
     "commonExamples": "Dracaena fragrans (香龙血树, 玉米秆龙血树), D. fragrans 'Massangeana'",
-    "careTips": "当上半部分土壤干燥时浇水。使用过滤水、蒸馏水或雨水以防止氟化物和氯导致的棕色叶尖。偏好明亮间接光至中等光。保持40-50%湿度。春至秋每月用平衡肥料稀释至一半浓度施肥。每月擦拭叶片。每2-3年换盆。修剪棕色叶尖并去除下部黄叶。对通风和温度波动敏感。"
+    "careTips": "当上半部分土壤干燥时浇水。使用过滤水、蒸馏水或雨水以防止氟化物和氯导致的棕色叶尖。偏好明亮间接光至中等光。保持40-50%湿度。春至秋每月用平衡肥料稀释至一半浓度施肥。每月擦拭叶片。每2-3年换盆。修剪棕色叶尖并去除下部黄叶。对通风和温度波动敏感。对宠物有毒。"
   },
   {
     "id": "dracaena-limelight",
@@ -268,7 +268,7 @@
     "typeName": "虎尾兰",
     "description": "天门冬科极低维护多肉植物，直立剑状叶。含多种叶形与斑纹的栽培品种。",
     "commonExamples": "Dracaena trifasciata (syn. Sansevieria trifasciata; 虎尾兰), D. trifasciata 'Laurentii', D. trifasciata 'Moonshine', D. trifasciata 'Black Gold', Dracaena angolensis (syn. Sansevieria cylindrica; 圆柱虎尾兰)",
-    "careTips": "仅在土壤完全干燥时浇水（根据条件每2-8周）。由于叶片储水，非常耐旱。偏好明亮间接光至直射光；可耐受低光但生长缓慢。低湿度即可。生长季节每年2-3次用多肉肥料以四分之一浓度施肥。仅在花盆破裂或植物变得头重时换盆（每5-10年）。轻轻拉除基部死叶。换盆时分割侧芽。过度浇水为最常见死因—拿不准时宁少勿多。"
+    "careTips": "仅在土壤完全干燥时浇水（根据条件每2-8周）。由于叶片储水，非常耐旱。偏好明亮间接光至直射光；可耐受低光但生长缓慢。低湿度即可。生长季节每年2-3次用多肉肥料以四分之一浓度施肥。仅在花盆破裂或植物变得头重时换盆（每5-10年）。轻轻拉除基部死叶。换盆时分割侧芽。过度浇水为最常见死因—拿不准时宁少勿多。对宠物有毒。"
   },
   {
     "id": "spathiphyllum-domino",
@@ -303,7 +303,7 @@
     "typeName": "金钱树",
     "description": "也称：桑给巴尔宝石, 永恒植物。 天南星科极低维护植物，光泽叶、储水根茎，几乎坚不可摧。",
     "commonExamples": "Zamioculcas zamiifolia (金钱树, 桑给巴尔宝石, 永恒植物), Z. zamiifolia 'Raven' (黑金ZZ)",
-    "careTips": "当土壤完全干燥时浇水（每2-4周）。根茎储水使其极其耐旱。过度浇水易致根腐—拿不准时宁少勿多。可耐受低光至明亮间接光；较亮光下生长更快。低湿度即可。生长季节每年2-3次用平衡肥料以四分之一浓度施肥。每2-3年换盆。每月擦拭光泽叶片。几乎坚不可摧 - 非常适合初学者。"
+    "careTips": "当土壤完全干燥时浇水（每2-4周）。根茎储水使其极其耐旱。过度浇水易致根腐—拿不准时宁少勿多。可耐受低光至明亮间接光；较亮光下生长更快。低湿度即可。生长季节每年2-3次用平衡肥料以四分之一浓度施肥。每2-3年换盆。每月擦拭光泽叶片。几乎坚不可摧 - 非常适合初学者。对宠物有毒。"
   },
   {
     "id": "zz-plant-raven",
@@ -1043,15 +1043,15 @@
   {
     "id": "string-of-bananas",
     "typeName": "香蕉吊兰",
-    "description": "也称：同义名Senecio radicans。 具有香蕉形叶片的垂吊多肉植物，比珍珠吊兰生长更快.",
-    "commonExamples": "Curio radicans (香蕉吊兰, 同义名Senecio radicans)",
+    "description": "具有香蕉形叶片的垂吊多肉植物，比珍珠吊兰生长更快。",
+    "commonExamples": "Curio radicans (香蕉吊兰, syn. Senecio radicans)",
     "careTips": "当叶片出现轻微皱缩时浇水 - 这表示需要水分。避免过度浇水导致腐烂。偏好明亮间接光。偏好中等湿度。春至秋每月用多肉肥料以一半浓度施肥。比珍珠吊兰生长更快。非常适合吊篮。每2-3年换盆。小心处理避免掉叶。香蕉形叶片。如果被宠物摄入则有毒。"
   },
   {
     "id": "string-of-dolphins",
     "typeName": "海豚吊兰",
     "description": "具有跳跃海豚形状叶片的垂吊多肉植物.",
-    "commonExamples": "Curio × peregrinus (海豚吊兰, 同义名Senecio × peregrinus)",
+    "commonExamples": "Curio × peregrinus (海豚吊兰, syn. Senecio × peregrinus)",
     "careTips": "当叶片出现轻微皱缩时浇水 - 这表示需要水分。避免过度浇水导致腐烂。偏好明亮间接光。偏好中等湿度。春至秋每月用多肉肥料以一半浓度施肥。独特的海豚形叶片。非常适合吊篮。每2-3年换盆。小心处理。如果被宠物摄入则有毒。"
   },
   {
@@ -1064,8 +1064,8 @@
   {
     "id": "string-of-pearls",
     "typeName": "珍珠吊兰",
-    "description": "也称：同义名Senecio rowleyanus。 具有珠状叶片的垂吊多肉植物，非常适合吊篮.",
-    "commonExamples": "Curio rowleyanus (珍珠吊兰, 同义名Senecio rowleyanus), C. herreianus (串珠吊兰)",
+    "description": "具有珠状叶片的垂吊多肉植物，非常适合吊篮。",
+    "commonExamples": "Curio rowleyanus (珍珠吊兰, syn. Senecio rowleyanus), C. herreianus (串珠吊兰)",
     "careTips": "当珍珠（叶片）出现轻微皱缩时浇水 - 这表示需要水分。避免过度浇水导致腐烂。偏好明亮间接光。偏好中等湿度。春至秋每月用多肉肥料以一半浓度施肥。非常适合吊篮。每2-3年换盆。珠状叶片很脆弱 - 小心处理。非常受欢迎的垂吊多肉植物。对宠物有毒。"
   },
   {
@@ -1134,8 +1134,8 @@
   {
     "id": "easter-cactus",
     "typeName": "复活节仙人掌",
-    "description": "也称：同义名Rhipsalidopsis gaertneri。 在春季开花的森林仙人掌，具有圆形叶段.",
-    "commonExamples": "Hatiora gaertneri (复活节仙人掌, 同义名Rhipsalidopsis gaertneri)",
+    "description": "在春季开花的森林仙人掌，具有圆形叶段。",
+    "commonExamples": "Hatiora gaertneri (复活节仙人掌, syn. Rhipsalidopsis gaertneri)",
     "careTips": "春季至夏季保持土壤略微湿润。冬季（12月至2月）减少浇水以促进春季开花。偏好明亮间接光。偏好高湿度（50-60%）。春至秋每月用平衡肥料以一半浓度施肥。冬季凉爽温度促进开花。每2-3年换盆。圆形叶段。在春季（复活节时间）开花。"
   },
   {
@@ -1380,7 +1380,7 @@
     "id": "kalanchoe",
     "typeName": "长寿花属",
     "description": "也称：花店长寿花。 景天科中具有鲜艳持久花朵和肉质叶片的开花多肉植物.",
-    "commonExamples": "Kalanchoe blossfeldiana (长寿花, 花店长寿花), K. tomentosa (熊童子, 巧克力士兵), Bryophyllum daigremontianum (落地生根, 同义名K. daigremontiana)",
+    "commonExamples": "Kalanchoe blossfeldiana (长寿花, 花店长寿花), K. tomentosa (熊童子, 巧克力士兵), Bryophyllum daigremontianum (落地生根, syn. K. daigremontiana)",
     "careTips": "当土壤干燥时浇水（每1-2周）。从基部浇水避免弄湿叶片，这会导致腐烂。偏好明亮间接光至直射光。低湿度即可。春至秋每月用平衡肥料以一半浓度施肥。要重新开花，每天提供12-14小时黑暗，持续6周。去除凋谢花朵。每1-2年换盆。鲜艳持久的花朵。"
   },
   {
@@ -1477,8 +1477,8 @@
   {
     "id": "calathea-rattlesnake",
     "typeName": "响尾蛇竹芋",
-    "description": "也称：同义名Calathea lancifolia。 具有波浪状图案叶片类似响尾蛇尾巴的竹芋.",
-    "commonExamples": "Goeppertia lancifolia (响尾蛇竹芋, 同义名Calathea lancifolia)",
+    "description": "具有波浪状图案叶片类似响尾蛇尾巴的竹芋。",
+    "commonExamples": "Goeppertia lancifolia (响尾蛇竹芋, syn. Calathea lancifolia)",
     "careTips": "保持土壤均匀湿润，切勿干燥。高湿度（60-70%）必不可少 - 使用加湿器。使用蒸馏水或过滤水以防止叶片褐变。偏好明亮间接光。春至秋每月用平衡肥料以一半浓度施肥。波浪状图案叶片类似响尾蛇尾巴。每1-2年换盆。每月擦拭叶片。对自来水和低湿度敏感。"
   },
   {
@@ -1869,8 +1869,8 @@
   {
     "id": "peperomia-watermelon",
     "typeName": "西瓜椒草",
-    "description": "也称：同义名P. sandersii。 具有类似西瓜皮银色条纹叶片的紧凑椒草.",
-    "commonExamples": "Peperomia argyreia (西瓜椒草, 同义名P. sandersii)",
+    "description": "具有类似西瓜皮银色条纹叶片的紧凑椒草。",
+    "commonExamples": "Peperomia argyreia (西瓜椒草, syn. P. sandersii)",
     "careTips": "当表层5厘米土壤干燥时浇水。让其在浇水之间干燥。明亮间接光保持银色条纹。中等湿度（40-50%）即可。春至秋每月用平衡肥料以一半浓度施肥。类似西瓜皮的银色条纹叶片。紧凑的生长习性。每2-3年换盆。易于护理的室内植物。"
   },
   {
@@ -2079,8 +2079,8 @@
   {
     "id": "serviceberry",
     "typeName": "唐棣",
-    "description": "也称：Serviceberry, Juneberry。 小乔木或大灌木，春季白花、可食浆果和亮丽秋色。",
-    "commonExamples": "Amelanchier spp. (Serviceberry, Juneberry)",
+    "description": "也称：唐棣、六月莓。 小乔木或大灌木，春季白花、可食浆果和亮丽秋色。",
+    "commonExamples": "Amelanchier spp. (唐棣, 六月莓)",
     "careTips": "幼树保持土壤均匀湿润。全日照或半阴。适应多种土壤。春季施肥。晚冬修剪。可食浆果吸引鸟类。秋色出色。北美原生。多季观赏。"
   },
   {
@@ -2478,8 +2478,8 @@
   {
     "id": "dianthus",
     "typeName": "石竹属",
-    "description": "也称：Pinks。 常见户外多年生植物。",
-    "commonExamples": "Dianthus plumarius (Pinks, Cottage pink)",
+    "description": "也称：乡村石竹。 常见户外多年生植物。",
+    "commonExamples": "Dianthus plumarius (石竹, 乡村石竹)",
     "careTips": "当表层土壤干燥时浇水。全日照或半阴视品种而定。春季施肥。覆盖护根保湿。根据需要修剪。对宠物有毒。"
   },
   {
@@ -2982,8 +2982,8 @@
   {
     "id": "viola",
     "typeName": "堇菜",
-    "description": "也称：Johnny-jump-up。 小三色堇状小花，具独特斑纹；堇菜耐寒。",
-    "commonExamples": "Viola tricolor (Johnny-jump-up)",
+    "description": "也称：三色堇。 小三色堇状小花，具独特斑纹；堇菜耐寒。",
+    "commonExamples": "Viola tricolor (三色堇)",
     "careTips": "当表层土壤干燥时浇水。全日照或半阴视品种而定。春季施肥。覆盖护根保湿。根据需要修剪。"
   },
   {
@@ -3479,8 +3479,8 @@
   {
     "id": "turnip-greens",
     "typeName": "芜菁叶",
-    "description": "也称：greens。 芜菁根的可食叶；营养丰富、微辣。可与根同期或提前采收；轻霜后风味更佳。",
-    "commonExamples": "Brassica rapa var. rapa (greens)",
+    "description": "也称：叶菜。 芜菁根的可食叶；营养丰富、微辣。可与根同期或提前采收；轻霜后风味更佳。",
+    "commonExamples": "Brassica rapa var. rapa (叶菜)",
     "careTips": "当表层土壤干燥时浇水。多数喜全日照。生长季定期施肥。按需采收。覆盖护根保湿。"
   },
   {
@@ -3794,8 +3794,8 @@
   {
     "id": "winter-melon",
     "typeName": "冬瓜",
-    "description": "也称：Wax gourd。 葫芦科大型冬瓜，表面蜡质，味淡，亚洲汤菜常用。",
-    "commonExamples": "Benincasa hispida (冬瓜, Wax gourd)",
+    "description": "葫芦科大型冬瓜，表面蜡质，味淡，亚洲汤菜常用。",
+    "commonExamples": "Benincasa hispida (冬瓜)",
     "careTips": "每周深灌2–3次。结果期保持水分。植株周围覆膜。全日照（每日6–8小时）。重果需牢固支架。每3–4周施肥。充分长大时采收；蜡质利于贮藏。亚洲菜常用。喜温作物。季节性作物；浇水因种植区与采收期而异。"
   },
   {
@@ -4004,8 +4004,8 @@
   {
     "id": "currant",
     "typeName": "醋栗",
-    "description": "也称：Red, black currant。 茶藨子科落叶灌木，红/黑/白浆果，制酱或鲜食。",
-    "commonExamples": "Ribes rubrum, R. nigrum (Red, black currant)",
+    "description": "也称：红醋栗、黑醋栗。 茶藨子科落叶灌木，红/黑/白浆果，制酱或鲜食。",
+    "commonExamples": "Ribes rubrum, R. nigrum (红醋栗, 黑醋栗)",
     "careTips": "当表层土壤干燥时浇水。多数喜全日照。生长季定期施肥。按需采收。覆盖护根保湿。"
   },
   {
@@ -5138,8 +5138,8 @@
   {
     "id": "fritillaria",
     "typeName": "贝母",
-    "description": "也称：Snake's head。 春季球根，垂下棋盘纹或皇冠形花。蛇头贝母和皇冠贝母。秋季种球。",
-    "commonExamples": "Fritillaria meleagris (Snake's head)",
+    "description": "也称：棋盘花、皇冠贝母。 春季球根，垂下棋盘纹或皇冠形花。秋季种球。",
+    "commonExamples": "Fritillaria meleagris (棋盘花, 皇冠贝母)",
     "careTips": "全日照至半阴。湿润排水良好土壤。侧放种球（皇冠空心）。生长期保持湿润。花后休眠。对宠物有毒。"
   },
   {
@@ -5306,7 +5306,7 @@
   {
     "id": "floating-heart",
     "typeName": "荇菜",
-    "description": "也称：荇菜。 浮水植物，心形叶黄花。荇菜喜静水。易蔓延—小池需控制。",
+    "description": "浮水植物，心形叶黄花。荇菜喜静水。易蔓延—小池需控制。",
     "commonExamples": "Nymphoides spp. (荇菜)",
     "careTips": "浮于静水。全日照。无需种植—撒于池面。可入侵；清除多余。根在水中或泥中。对宠物有轻微毒性—摄入可能引起肠胃不适。"
   },
@@ -5439,7 +5439,7 @@
   {
     "id": "venus-flytrap",
     "typeName": "捕蝇草",
-    "description": "也称：VFT。 茅膏菜科中最著名的食虫植物，原产于北卡罗来纳州，需要休眠和纯水.",
+    "description": "也称：VFT。 茅膏菜科中最著名的食虫植物，原产于北卡罗来纳州，需要休眠和纯水。",
     "commonExamples": "Dionaea muscipula (捕蝇草, VFT)",
     "careTips": "仅用蒸馏水或雨水保持持续湿润 - 永远不要用自来水（矿物质会杀死它们）。保持在水盘中（2.5-5厘米深）。在冬季休眠期间减少浇水但保持略微湿润。明亮间接光至直射光（每天4-6小时）。偏好高湿度（60%+）。仅使用泥炭藓或专门的食虫植物土壤。不要施肥 - 它们从昆虫中获取营养。在冬季需要休眠期（较低温度，减少光线）。不要不必要地触发陷阱 - 每个陷阱只能关闭几次。"
   },
@@ -5509,7 +5509,7 @@
   {
     "id": "resurrection-fern",
     "typeName": "复活蕨",
-    "description": "也称：以前称为Polypodium polypodioides。 水龙骨科中的附生蕨类植物，可以通过卷曲并看起来死亡来在极端干旱中生存.",
+    "description": "水龙骨科中的附生蕨类植物，可以通过卷曲并看起来死亡来在极端干旱中生存。",
     "commonExamples": "Pleopeltis polypodioides (复活蕨, 以前称为Polypodium polypodioides)",
     "careTips": "定期喷雾（每周2-3次）。每周将悬挂植物浸泡15-30分钟。可以通过卷曲在干旱中生存 - 浇水时会恢复。偏好明亮间接光。偏好高湿度（50-70%）。每月用稀释肥料施肥。无土生长 - 悬挂在木材或树皮上。良好的空气循环至关重要。附生 - 在自然界中生长在树上。对于蕨类植物来说非常耐旱。"
   },

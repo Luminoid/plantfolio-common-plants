@@ -216,7 +216,9 @@ Run `python3 scripts/audit_target_language.py` to ensure each language file uses
 
 ### Scripts
 
+- `audit_quality.py` — Run all quality audits (validate, metadata, scientific names, duplicates, also known as, generic descriptions, translation sync, target language, toxicity unknown). Use for a quick summary before release.
 - `audit_also_known_as.py` — Checks scientific names, subtypes, duplicate typeName in AKA. Use `--fix` to apply corrections.
+- `audit_toxicity_care_tips.py` — Checks that toxic/mildlyToxic plants have toxicity mentioned in care tips (EN). Run to find plants needing updates.
 - `add_common_alias_to_description.py` — For new plants: extracts formal names/aliases from commonExamples and appends to description. Use `--dry-run` first.
 - `optimize_duplicate_typenames.py` — When two or more entries share the same typeName in a locale, differentiates them. Use `--dry-run` first, then `--fix`.
 

@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "totalPlants": 800,
       "sorting": {
         "method": "Por categoría y luego alfabéticamente",
@@ -44,7 +44,7 @@
     "typeName": "Aglaonema",
     "description": "También conocida como: siempreverde chino. Aráceas tolerantes a poca luz con follaje variegado en tonos de verde, plateado, rosa o rojo.",
     "commonExamples": "Aglaonema commutatum (siempreverde chino), A. pictum, A. 'Silver Bay', A. 'Red Siam'",
-    "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos. Mantener ligeramente más húmedo que otras plantas de poca luz pero evitar suelo empapado. La luz indirecta brillante mantiene la variegación; se tolera poca luz pero puede reducir el color. Mantener 50-60% de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante líquido balanceado (20-20-20) diluido a la mitad. Limpiar hojas mensualmente con paño húmedo para eliminar polvo y mejorar la fotosíntesis. Trasplantar cada 2-3 años en primavera cuando las raíces llenen el contenedor. Podar hojas amarillentas en la base. Vigilar ácaros en condiciones secas."
+    "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos. Mantener ligeramente más húmedo que otras plantas de poca luz pero evitar suelo empapado. La luz indirecta brillante mantiene la variegación; se tolera poca luz pero puede reducir el color. Mantener 50-60% de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante líquido balanceado (20-20-20) diluido a la mitad. Limpiar hojas mensualmente con paño húmedo para eliminar polvo y mejorar la fotosíntesis. Trasplantar cada 2-3 años en primavera cuando las raíces llenen el contenedor. Podar hojas amarillentas en la base. Vigilar ácaros en condiciones secas. Tóxico para mascotas."
   },
   {
     "id": "aglaonema-red-valentine",
@@ -114,7 +114,7 @@
     "typeName": "Dracaena Fragrans",
     "description": "También conocida como: Planta de maíz. Planta de maíz con hojas anchas y arqueadas, puede crecer bastante alta.",
     "commonExamples": "Dracaena fragrans (Planta de maíz, Dracaena de tallo de maíz), D. fragrans 'Massangeana'",
-    "careTips": "Regar cuando la mitad superior del suelo esté seca. Usar agua filtrada, destilada o de lluvia para prevenir puntas marrones de hojas por fluoruro y cloro. Luz indirecta brillante a media preferida. Mantener 40-50% de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado diluido a la mitad. Limpiar hojas mensualmente para eliminar polvo. Trasplantar cada 2-3 años cuando las raíces llenen el contenedor. Podar puntas marrones y eliminar hojas inferiores amarillentas. Sensible a corrientes de aire y fluctuaciones de temperatura."
+    "careTips": "Regar cuando la mitad superior del suelo esté seca. Usar agua filtrada, destilada o de lluvia para prevenir puntas marrones de hojas por fluoruro y cloro. Luz indirecta brillante a media preferida. Mantener 40-50% de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado diluido a la mitad. Limpiar hojas mensualmente para eliminar polvo. Trasplantar cada 2-3 años cuando las raíces llenen el contenedor. Podar puntas marrones y eliminar hojas inferiores amarillentas. Sensible a corrientes de aire y fluctuaciones de temperatura. Tóxico para mascotas."
   },
   {
     "id": "dracaena-limelight",
@@ -161,7 +161,7 @@
   {
     "id": "neanthe-bella-palm",
     "typeName": "Palmera Neanthe Bella",
-    "description": "También conocida como: Palmera neanthe bella. Palmera compacta y de crecimiento lento con frondas delicadas; una de las palmeras de interior más tolerantes, ideal para poca luz.",
+    "description": "También conocida como: Palmera de salón. Palmera compacta y de crecimiento lento con frondas delicadas; una de las palmeras de interior más tolerantes, ideal para poca luz.",
     "commonExamples": "Chamaedorea elegans (Palmera de salón, Palmera neanthe bella)",
     "careTips": "Regar cuando el primer centímetro de suelo esté seco. Mantener uniformemente húmedo pero no empapado. Luz baja a indirecta brillante tolerada. Humedad media preferida. Fertilizar mensualmente de primavera a otoño a media fuerza. Trasplantar cada 2-3 años. No tóxica para mascotas."
   },
@@ -238,15 +238,15 @@
   {
     "id": "sansevieria-hahnii",
     "typeName": "Planta Serpiente Nido de Pájaro",
-    "description": "También conocida como: Golden hahnii. Planta serpiente enana con hojas en roseta; compacta, ideal para espacios pequeños y mesas.",
-    "commonExamples": "Dracaena trifasciata 'Hahnii' (Planta serpiente nido de pájaro, Golden hahnii)",
+    "description": "Planta serpiente enana con hojas en roseta; compacta, ideal para espacios pequeños y mesas.",
+    "commonExamples": "Dracaena trifasciata 'Hahnii' (Planta serpiente nido de pájaro, Hahnii dorado)",
     "careTips": "Regar cuando el suelo esté completamente seco (cada 2-4 semanas). Tolerante a la sequía. Luz baja a indirecta brillante. Baja humedad adecuada. Fertilizar 2-3 veces al año. Tóxica para mascotas."
   },
   {
     "id": "sansevieria-moonshine",
     "typeName": "Planta Serpiente Luz de Luna",
-    "description": "También conocida como: Planta serpiente moonshine. Planta serpiente con hojas anchas gris plateado; bandas sutiles. Mismo cuidado fácil que otras variedades de Dracaena trifasciata.",
-    "commonExamples": "Dracaena trifasciata 'Moonshine' (Planta serpiente moonshine)",
+    "description": "Planta serpiente con hojas anchas gris plateado; bandas sutiles. Mismo cuidado fácil que otras variedades de Dracaena trifasciata.",
+    "commonExamples": "Dracaena trifasciata 'Moonshine' (Planta serpiente luz de luna)",
     "careTips": "Regar cuando el suelo esté completamente seco (cada 2-4 semanas). Tolerante a la sequía. Luz baja a indirecta brillante. Baja humedad adecuada. Fertilizar 2-3 veces al año. Tóxica para mascotas."
   },
   {
@@ -268,7 +268,7 @@
     "typeName": "Plantas Serpiente",
     "description": "También conocida como: Lengua de suegra. Suculentas de extremadamente bajo mantenimiento de la familia Asparagaceae con hojas erguidas en forma de espada. Incluye varios cultivares con diferentes formas y patrones de hojas.",
     "commonExamples": "Dracaena trifasciata (syn. Sansevieria trifasciata; Lengua de suegra), D. trifasciata 'Laurentii', D. trifasciata 'Moonshine', D. trifasciata 'Black Gold', Dracaena angolensis (syn. Sansevieria cylindrica; planta serpiente cilíndrica)",
-    "careTips": "Regar solo cuando el suelo esté completamente seco (cada 2-8 semanas dependiendo de las condiciones). Muy tolerante a la sequía debido al almacenamiento de agua en las hojas. Luz indirecta brillante a directa preferida; tolera poca luz pero crece lentamente. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante para suculentas a un cuarto de fuerza. Trasplantar solo cuando la maceta se rompa o la planta se vuelva pesada en la parte superior (cada 5-10 años). Eliminar hojas muertas en la base tirando suavemente. Dividir vástagos al trasplantar. El exceso de riego es la causa más común de muerte—en caso de duda, esperar más."
+    "careTips": "Regar solo cuando el suelo esté completamente seco (cada 2-8 semanas dependiendo de las condiciones). Muy tolerante a la sequía debido al almacenamiento de agua en las hojas. Luz indirecta brillante a directa preferida; tolera poca luz pero crece lentamente. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante para suculentas a un cuarto de fuerza. Trasplantar solo cuando la maceta se rompa o la planta se vuelva pesada en la parte superior (cada 5-10 años). Eliminar hojas muertas en la base tirando suavemente. Dividir vástagos al trasplantar. El exceso de riego es la causa más común de muerte—en caso de duda, esperar más. Tóxico para mascotas."
   },
   {
     "id": "spathiphyllum-domino",
@@ -303,7 +303,7 @@
     "typeName": "Planta ZZ",
     "description": "También conocida como: Planta eternidad. Planta de extremadamente bajo mantenimiento de la familia Araceae con hojas brillantes y rizomas que almacenan agua, prácticamente indestructible.",
     "commonExamples": "Zamioculcas zamiifolia (Planta ZZ, Gema de Zanzíbar, Planta eternidad), Z. zamiifolia 'Raven' (ZZ Cuervo)",
-    "careTips": "Regar cuando el suelo esté completamente seco (cada 2-4 semanas). Los rizomas almacenan agua haciéndola extremadamente tolerante a la sequía. El exceso de riego provoca pudrición de raíces—en caso de duda, esperar más. Luz indirecta baja a brillante tolerada; crece más rápido en luz más brillante. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante balanceado a un cuarto de fuerza. Trasplantar cada 2-3 años cuando los rizomas llenen el contenedor. Limpiar hojas brillantes mensualmente para eliminar polvo. Prácticamente indestructible - perfecta para principiantes."
+    "careTips": "Regar cuando el suelo esté completamente seco (cada 2-4 semanas). Los rizomas almacenan agua haciéndola extremadamente tolerante a la sequía. El exceso de riego provoca pudrición de raíces—en caso de duda, esperar más. Luz indirecta baja a brillante tolerada; crece más rápido en luz más brillante. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante balanceado a un cuarto de fuerza. Trasplantar cada 2-3 años cuando los rizomas llenen el contenedor. Limpiar hojas brillantes mensualmente para eliminar polvo. Prácticamente indestructible - perfecta para principiantes. Tóxico para mascotas."
   },
   {
     "id": "zz-plant-raven",
@@ -924,8 +924,8 @@
   {
     "id": "crassula-ovata-minor",
     "typeName": "Jade Enano",
-    "description": "También conocida como: Mini jade. Cultivar compacto de planta de jade con hojas más pequeñas; mismos cuidados que jade estándar, ideal para espacios pequeños.",
-    "commonExamples": "Crassula ovata 'Minor' (Jade compacto, Mini jade)",
+    "description": "Cultivar compacto de planta de jade con hojas más pequeñas; mismos cuidados que jade estándar, ideal para espacios pequeños.",
+    "commonExamples": "Crassula ovata 'Minor' (Jade compacto, Jade miniatura)",
     "careTips": "Regar cuando el suelo esté completamente seco (cada 2-3 semanas). Luz indirecta brillante a directa. Baja humedad está bien. Fertilizar 2-3 veces al año. Tóxica para mascotas."
   },
   {
@@ -987,8 +987,8 @@
   {
     "id": "kalanchoe-luciae",
     "typeName": "Planta Pala",
-    "description": "También conocida como: Flapjack. Suculenta con hojas planas en forma de pala que se sonrojan en los bordes con luz brillante; monocárpica (muere tras florecer).",
-    "commonExamples": "Kalanchoe luciae (Flapjack, Planta pala)",
+    "description": "También conocida como: Planta tortita. Suculenta con hojas planas en forma de pala que se sonrojan en los bordes con luz brillante; monocárpica (muere tras florecer).",
+    "commonExamples": "Kalanchoe luciae (Planta tortita, Planta pala)",
     "careTips": "Regar cuando el suelo esté seco (cada 1-2 semanas). Luz brillante realza bordes rojos. Baja humedad está bien. Fertilizar escasamente. Tóxica para mascotas."
   },
   {
@@ -1064,7 +1064,7 @@
   {
     "id": "string-of-pearls",
     "typeName": "Cadena de Perlas",
-    "description": "También conocida como: syn. Senecio rowleyanus. Senecio rowleyanus. Suculenta colgante con hojas en forma de cuentas, perfecta para cestas colgantes.",
+    "description": "Suculenta colgante con hojas en forma de cuentas, perfecta para cestas colgantes.",
     "commonExamples": "Curio rowleyanus (Cadena de perlas, syn. Senecio rowleyanus), C. herreianus (Cadena de cuentas)",
     "careTips": "Regar cuando las perlas (hojas) muestren ligero arrugamiento - esto indica sed. Evitar el exceso de riego que causa podredumbre. Luz indirecta brillante preferida. Humedad media preferida. Fertilizar mensualmente de primavera a otoño con fertilizante para suculentas a la mitad de fuerza. Perfecta para cestas colgantes. Trasplantar cada 2-3 años. Las hojas en forma de cuentas son delicadas - manejar con cuidado. Suculenta colgante muy popular. Tóxico para mascotas."
   },

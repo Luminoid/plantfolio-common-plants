@@ -83,6 +83,9 @@ def looks_like_scientific_name(value: str) -> bool:
     val = value.strip()
     if not val:
         return False
+    # AKA must be common names only — no scientific synonyms
+    if re.search(r"\bsyn\.\s", val, re.I) or "同义名" in val:
+        return True
     for m in BINOMIAL_RE.finditer(val):
         if m.group(1).lower() not in COMMON_FIRST_WORDS:
             return True
