@@ -10,11 +10,16 @@ alwaysApply: false
 |--------|---------|
 | `release.py` | Build dist, validate, audits (run before release) |
 | `merge_plant_data.py` | Build dist/ from source |
-| `validate_json.py` | Schema and structure validation |
-| `audit_scientific_names.py` | Check commonExamples for accepted names |
-| `audit_duplicates.py` | Genus/species overlap, similar typeNames |
-| `audit_metadata_completeness.py` | Line-by-line metadata audit (docs/AUDIT_METADATA.md) |
-| `audit_generic_descriptions.py` | Flag generic descriptions (docs/AUDIT_CHECKLIST_TEMPLATE.md) |
-| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
+| `validate_json.py` | Schema & structure validation |
+| `schema.py` | Shared constants (CATEGORY_ORDER, enums) |
 | `sort_plants.py` | Sort by category, then id |
 | `extract_by_category.py` | Extract by category for audit sessions |
+| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
+| `audit_metadata_completeness.py` | Line-by-line metadata audit |
+| `audit_scientific_names.py` | Check commonExamples for accepted names |
+| `audit_duplicates.py` | Genus/species overlap, similar typeNames |
+| `audit_generic_descriptions.py` | Flag generic descriptions |
+| `audit_translation_sync.py` | Verify EN/ES/ZH coverage |
+| `audit_toxicity_unknown.py` | List plants with unknown toxicity by category |
+| `translate_typenames.py` | Translate EN typeNames → ZH |
+| `translate_typenames_es.py` | Translate EN typeNames → ES |

@@ -6,7 +6,7 @@ Usage:
     python3 scripts/extract_by_category.py "Outdoor - Trees" --locale es
 
 Defaults: source/common_plants_metadata.json and source/common_plants_language_*.json.
-See docs/AUDIT_CHECKLIST_TEMPLATE.md for workflow.
+See docs/AUDIT.md for workflow.
 """
 
 import argparse
@@ -64,7 +64,7 @@ def main():
     meta = json.load(meta_path.open(encoding="utf-8"))
     lang = json.load(lang_path.open(encoding="utf-8"))
 
-    pids = [p for p, d in meta.items() if d.get("category") == args.category]
+    pids = [p for p, d in meta.items() if p != "_metadata" and d.get("category") == args.category]
     if not pids:
         print(
             f"No plants found in category: {args.category!r}",

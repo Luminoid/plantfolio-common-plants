@@ -1,11 +1,14 @@
 {
+  "_metadata": {
+    "version": "1.4.0"
+  },
   "aglaonema": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       27
@@ -28,8 +31,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -49,8 +52,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      24
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -68,10 +71,10 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       10,
-      32
+      24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -91,8 +94,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -110,7 +113,7 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -133,8 +136,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -154,8 +157,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -175,8 +178,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -196,8 +199,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -238,8 +241,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -280,8 +283,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -301,8 +304,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -322,8 +325,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      24
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -343,8 +346,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -364,8 +367,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -385,8 +388,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -406,8 +409,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -427,8 +430,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -448,8 +451,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -466,11 +469,11 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -508,11 +511,11 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -532,8 +535,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -550,13 +553,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -567,19 +570,19 @@
     "category": "Houseplants - Low Maintenance"
   },
   "sansevieria-cylindrica": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -588,19 +591,19 @@
     "category": "Houseplants - Low Maintenance"
   },
   "sansevieria-hahnii": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -609,19 +612,19 @@
     "category": "Houseplants - Low Maintenance"
   },
   "sansevieria-moonshine": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -655,13 +658,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -684,7 +687,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -700,8 +703,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -742,8 +745,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -776,34 +779,13 @@
     ],
     "category": "Houseplants - Low Maintenance"
   },
-  "zebra-plant-aphelandra": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      null
-    ],
-    "category": "Houseplants - Flowering"
-  },
   "zz-plant": {
     "springInterval": 14,
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 30,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -824,7 +806,7 @@
     "fallInterval": 21,
     "winterInterval": 30,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -847,8 +829,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -868,8 +850,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -910,8 +892,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -931,8 +913,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -950,10 +932,10 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -971,7 +953,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -1015,8 +997,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1078,8 +1060,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1099,8 +1081,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1120,8 +1102,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1200,7 +1182,7 @@
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
-    "winterInterval": 14,
+    "winterInterval": null,
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1223,14 +1205,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -1267,8 +1249,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1288,8 +1270,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1372,8 +1354,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1393,8 +1375,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1519,8 +1501,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1561,8 +1543,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1582,8 +1564,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1603,8 +1585,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1624,8 +1606,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1687,10 +1669,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -1729,8 +1711,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1792,10 +1774,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -1813,8 +1795,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1834,8 +1816,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1918,10 +1900,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -1960,8 +1942,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2049,7 +2031,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -2063,14 +2045,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2105,14 +2087,14 @@
     "fallInterval": 5,
     "winterInterval": 7,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2133,7 +2115,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2154,7 +2136,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2189,14 +2171,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2210,14 +2192,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2231,14 +2213,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2252,14 +2234,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2273,7 +2255,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -2281,7 +2263,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       3,
       null
@@ -2294,14 +2276,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2315,14 +2297,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2336,14 +2318,14 @@
     "fallInterval": 5,
     "winterInterval": 7,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2525,7 +2507,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       27
@@ -2574,7 +2556,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
@@ -2595,7 +2577,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2616,7 +2598,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2637,7 +2619,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2658,7 +2640,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2672,14 +2654,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2700,7 +2682,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2735,14 +2717,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2763,7 +2745,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2777,14 +2759,14 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       16,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2805,7 +2787,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2847,7 +2829,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
@@ -2861,14 +2843,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2903,14 +2885,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2931,7 +2913,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2940,15 +2922,15 @@
     "category": "Houseplants - Succulents"
   },
   "sedum-morganianum": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -2973,7 +2955,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2994,7 +2976,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3008,14 +2990,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3057,7 +3039,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3071,14 +3053,14 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3120,7 +3102,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3133,15 +3115,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3154,15 +3136,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3175,15 +3157,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3196,15 +3178,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3225,7 +3207,7 @@
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3238,7 +3220,7 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       15,
@@ -3323,14 +3305,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3386,14 +3368,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3407,14 +3389,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3427,7 +3409,7 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       15,
@@ -3448,15 +3430,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3470,14 +3452,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3785,7 +3767,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -3806,7 +3788,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -3826,15 +3808,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3911,7 +3893,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -3932,7 +3914,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4037,14 +4019,14 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       16,
       24
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4058,14 +4040,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4079,7 +4061,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4100,7 +4082,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4184,7 +4166,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4241,6 +4223,27 @@
     ],
     "category": "Houseplants - Flowering"
   },
+  "zebra-plant-aphelandra": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      null
+    ],
+    "category": "Houseplants - Flowering"
+  },
   "calathea-makoyana": {
     "springInterval": 3,
     "summerInterval": 3,
@@ -4254,7 +4257,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4338,7 +4341,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4359,7 +4362,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4373,14 +4376,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4401,7 +4404,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4422,7 +4425,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4443,7 +4446,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4464,7 +4467,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4548,7 +4551,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4569,7 +4572,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4583,14 +4586,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4624,10 +4627,10 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
+      16,
       21
     ],
     "plantToxicity": "toxic",
@@ -4835,7 +4838,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4877,7 +4880,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5089,8 +5092,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      29
+      15,
+      27
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "adaptable",
@@ -5171,7 +5174,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5213,7 +5216,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5255,7 +5258,7 @@
     "fallInterval": 7,
     "winterInterval": 10,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       16,
       24
@@ -5276,7 +5279,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
@@ -5381,7 +5384,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -5423,7 +5426,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -5465,7 +5468,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -5486,7 +5489,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -5549,7 +5552,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5593,7 +5596,7 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      21,
+      18,
       27
     ],
     "plantToxicity": "nonToxic",
@@ -5680,9 +5683,9 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5705,7 +5708,7 @@
       5,
       24
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
@@ -5730,7 +5733,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -5756,7 +5759,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -5805,7 +5808,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -5830,7 +5833,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -5905,7 +5908,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -5980,7 +5983,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6005,12 +6008,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -6030,7 +6033,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6055,7 +6058,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6080,7 +6083,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6105,7 +6108,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6130,12 +6133,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -6155,12 +6158,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -6180,12 +6183,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -6205,7 +6208,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6230,7 +6233,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6255,7 +6258,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6280,7 +6283,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6305,7 +6308,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6355,7 +6358,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6405,7 +6408,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6430,7 +6433,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6455,7 +6458,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6480,7 +6483,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6505,7 +6508,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6530,7 +6533,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6555,7 +6558,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6580,7 +6583,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6605,7 +6608,7 @@
       5,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6630,7 +6633,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6680,7 +6683,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6730,7 +6733,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6755,7 +6758,7 @@
       5,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "alkaline",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6780,7 +6783,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6830,7 +6833,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6855,7 +6858,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6905,7 +6908,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -6931,7 +6934,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "alkaline",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -6980,7 +6983,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7005,7 +7008,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7030,7 +7033,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7055,7 +7058,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7124,13 +7127,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
+    "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7155,7 +7158,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7205,7 +7208,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7230,7 +7233,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7249,13 +7252,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
+    "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7280,7 +7283,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7305,7 +7308,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7355,7 +7358,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7380,7 +7383,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7405,7 +7408,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7430,7 +7433,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7480,7 +7483,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7505,7 +7508,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7530,7 +7533,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7605,7 +7608,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7630,7 +7633,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7655,7 +7658,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7680,7 +7683,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7730,7 +7733,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7755,7 +7758,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7780,7 +7783,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7805,7 +7808,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7855,7 +7858,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7930,7 +7933,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7955,7 +7958,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7980,7 +7983,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8005,7 +8008,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8055,7 +8058,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8080,7 +8083,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8105,7 +8108,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8130,7 +8133,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8155,7 +8158,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8180,7 +8183,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8205,7 +8208,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8230,7 +8233,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8280,7 +8283,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8305,7 +8308,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8330,7 +8333,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8355,7 +8358,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8380,7 +8383,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8405,7 +8408,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8505,7 +8508,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8530,7 +8533,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8555,7 +8558,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8580,7 +8583,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8605,7 +8608,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8630,7 +8633,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8655,7 +8658,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8680,7 +8683,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8705,7 +8708,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8730,7 +8733,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8755,7 +8758,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10503,7 +10506,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10545,7 +10548,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10566,7 +10569,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10692,7 +10695,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10713,7 +10716,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10734,7 +10737,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10755,7 +10758,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10776,7 +10779,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10818,7 +10821,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10881,7 +10884,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10902,7 +10905,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10923,7 +10926,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10944,7 +10947,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -10986,7 +10989,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -11049,7 +11052,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -11070,7 +11073,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -11091,7 +11094,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -11112,7 +11115,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -11237,7 +11240,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -11510,7 +11513,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -11804,7 +11807,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -11993,7 +11996,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12211,7 +12214,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      5,
       null
     ],
     "category": "Vegetables - Root & Bulb"
@@ -12232,7 +12235,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      5,
       null
     ],
     "category": "Vegetables - Root & Bulb"
@@ -12484,7 +12487,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12509,7 +12512,7 @@
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12534,7 +12537,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12559,7 +12562,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12634,7 +12637,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12655,7 +12658,7 @@
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
+      24,
       32
     ],
     "plantToxicity": "nonToxic",
@@ -12663,7 +12666,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      60,
       null
     ],
     "category": "Fruits & Berries",
@@ -12685,7 +12688,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
@@ -12709,7 +12712,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -12730,15 +12733,15 @@
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      20,
+      38
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      50,
       null
     ],
     "category": "Fruits & Berries",
@@ -12859,7 +12862,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13109,7 +13112,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13184,7 +13187,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13309,7 +13312,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13384,7 +13387,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13409,7 +13412,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13534,7 +13537,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13559,7 +13562,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -13638,7 +13641,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      20,
       null
     ],
     "category": "Herbs",
@@ -14530,7 +14533,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16332,7 +16335,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16378,7 +16381,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16403,7 +16406,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16449,7 +16452,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16470,10 +16473,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       2,
       null
@@ -16516,7 +16519,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16541,7 +16544,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16562,7 +16565,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16583,7 +16586,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16654,7 +16657,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16700,7 +16703,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16721,7 +16724,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16742,7 +16745,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16763,7 +16766,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16784,7 +16787,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16805,7 +16808,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16826,7 +16829,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16847,7 +16850,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16868,7 +16871,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16889,7 +16892,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16910,7 +16913,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -16963,7 +16966,7 @@
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
+    "wateringMethod": null,
     "plantLifeSpan": [
       3,
       null
@@ -16985,7 +16988,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17010,7 +17013,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17037,7 +17040,7 @@
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "adaptable",
-    "drainagePreference": "moistureRetentive",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
@@ -17060,7 +17063,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17085,7 +17088,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17110,7 +17113,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17156,7 +17159,7 @@
       18,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17181,7 +17184,7 @@
       18,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17206,7 +17209,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17231,7 +17234,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17256,7 +17259,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17281,7 +17284,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17306,7 +17309,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17331,7 +17334,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17356,7 +17359,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -17381,7 +17384,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17402,7 +17405,7 @@
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17410,11 +17413,11 @@
       3,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       7,
       9
-    ],
-    "category": "Specialty - Carnivorous"
+    ]
   },
   "drosera-capensis": {
     "springInterval": 2,
@@ -17427,7 +17430,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17448,7 +17451,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17469,7 +17472,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17490,7 +17493,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17511,7 +17514,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17519,11 +17522,11 @@
       2,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       6,
       9
-    ],
-    "category": "Specialty - Carnivorous"
+    ]
   },
   "sundew": {
     "springInterval": 2,
@@ -17536,7 +17539,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17557,7 +17560,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -17565,11 +17568,11 @@
       3,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       7,
       10
-    ],
-    "category": "Specialty - Carnivorous"
+    ]
   },
   "air-plants": {
     "springInterval": 5,
@@ -17603,7 +17606,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -17624,7 +17627,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -17645,10 +17648,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -17687,7 +17690,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -17729,10 +17732,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -17753,7 +17756,7 @@
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       5,
       null
@@ -17774,7 +17777,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "misting",
     "plantLifeSpan": [
       5,
       null
@@ -17792,7 +17795,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -17813,7 +17816,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -17834,10 +17837,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -17858,7 +17861,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "misting",
     "plantLifeSpan": [
       10,
       30
@@ -17871,13 +17874,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -17885,7 +17887,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "alpine-catchfly": {
     "springInterval": 7,
@@ -17893,13 +17899,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -17907,7 +17912,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "alpine-plants": {
     "springInterval": 7,
@@ -17940,13 +17949,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -17954,7 +17962,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "aubrieta": {
     "springInterval": 7,
@@ -17962,7 +17974,6 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "low",
     "temperaturePreference": [
       10,
@@ -17976,7 +17987,11 @@
       5,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "campanula-alpine": {
     "springInterval": 7,
@@ -17984,13 +17999,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [3, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -17998,7 +18012,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ]
   },
   "dianthus-alpine": {
     "springInterval": 7,
@@ -18006,13 +18024,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [3, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18020,7 +18037,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ]
   },
   "draba": {
     "springInterval": 7,
@@ -18028,13 +18049,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18042,7 +18062,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "edelweiss": {
     "springInterval": 7,
@@ -18050,13 +18074,12 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 7],
     "humidityPreference": "low",
     "temperaturePreference": [
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18064,7 +18087,11 @@
       5,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      7
+    ]
   },
   "gentian": {
     "springInterval": 7,
@@ -18072,13 +18099,12 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [3, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18086,7 +18112,11 @@
       5,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ]
   },
   "lewisia": {
     "springInterval": 7,
@@ -18094,13 +18124,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18108,7 +18137,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "rock-jasmine": {
     "springInterval": 7,
@@ -18116,13 +18149,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [4, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18130,7 +18162,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ]
   },
   "saxifrage": {
     "springInterval": 7,
@@ -18138,13 +18174,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [3, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18152,7 +18187,11 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ]
   },
   "sempervivum-alpine": {
     "springInterval": 7,
@@ -18160,13 +18199,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [3, 8],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -18174,6 +18212,10 @@
       2,
       null
     ],
-    "category": "Specialty - Alpine"
+    "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ]
   }
 }

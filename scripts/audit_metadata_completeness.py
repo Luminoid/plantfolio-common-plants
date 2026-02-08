@@ -9,7 +9,7 @@ Usage:
     python3 scripts/audit_metadata_completeness.py --verbose
     python3 scripts/audit_metadata_completeness.py --output report.txt
 
-See docs/AUDIT_METADATA.md for spec (C1–C15, X1–X2).
+See docs/AUDIT.md for spec (C1–C15, X1–X2).
 """
 
 import json
@@ -17,44 +17,18 @@ import argparse
 import sys
 from pathlib import Path
 
-# Reuse validate_json constants (Plantfolio app compatible)
-VALID_LIGHT_PREFERENCES = {
-    "brightIndirect", "deepShade", "gentleDirect", "lowIndirect",
-    "mediumIndirect", "outdoorFullSun", "outdoorPartialSun", "outdoorShade",
-    "strongDirect",
-}
-VALID_PLANT_TOXICITY = {"mildlyToxic", "nonToxic", "toxic", "unknown"}
-VALID_HUMIDITY_PREFERENCES = {"high", "low", "medium", "veryHigh"}
-VALID_SOIL_PH = {"acidic", "adaptable", "alkaline", "neutral"}
-VALID_DRAINAGE = {
-    "excellentDrainage", "moistureRetentive",
-    "waterloggingTolerant", "wellDraining",
-}
-VALID_WATERING_METHOD = {
-    "bottomWatering", "immersion", "misting", "topWatering", None
-}
-VALID_CATEGORIES = {
-    "Bulbs", "Farm & Field Crops", "Fruits & Berries", "Herbs",
-    "Houseplants - Aroids", "Houseplants - Cacti", "Houseplants - Ferns",
-    "Houseplants - Flowering", "Houseplants - Low Maintenance",
-    "Houseplants - Palms", "Houseplants - Prayer Plants",
-    "Houseplants - Specialty", "Houseplants - Succulents",
-    "Houseplants - Vines & Trailing",
-    "Outdoor - Annuals", "Outdoor - Groundcovers & Grasses",
-    "Outdoor - Perennials", "Outdoor - Shrubs", "Outdoor - Trees",
-    "Outdoor - Vines & Climbers",
-    "Specialty - Alpine", "Specialty - Aquatic & Bog",
-    "Specialty - Carnivorous", "Specialty - Epiphytes & Moss",
-    "Sprouts & Microgreens", "Vegetables - Fruiting",
-    "Vegetables - Leafy Greens", "Vegetables - Root & Bulb",
-}
+from schema import (
+    VALID_LIGHT_PREFERENCES,
+    VALID_PLANT_TOXICITY,
+    VALID_HUMIDITY_PREFERENCES,
+    VALID_SOIL_PH,
+    VALID_DRAINAGE,
+    VALID_WATERING_METHOD,
+    VALID_CATEGORIES,
+    REQUIRED_METADATA_FIELDS,
+)
 
-REQUIRED_FIELDS = [
-    "springInterval", "summerInterval", "fallInterval", "winterInterval",
-    "lightPreference", "humidityPreference", "temperaturePreference",
-    "plantToxicity", "soilPhPreference", "drainagePreference", "wateringMethod",
-    "plantLifeSpan", "category",
-]
+REQUIRED_FIELDS = REQUIRED_METADATA_FIELDS
 
 
 def check_plant(plant_id: str, entry: dict) -> list[tuple[str, str]]:
@@ -184,11 +158,13 @@ def main():
 
     out("METADATA LINE-BY-LINE AUDIT")
     out("=" * 50)
-    out(f"Plants in metadata: {len(meta)}")
+    plant_ids = [k for k in meta.keys() if k != "_metadata"]
+    plant_count = len(plant_ids)
+    out(f"Plants in metadata: {plant_count}")
     out()
 
     # Per-plant checks
-    for plant_id in sorted(meta.keys()):
+    for plant_id in sorted(plant_ids):
         entry = meta[plant_id]
         if not isinstance(entry, dict):
             out(f"❌ {plant_id}: entry is not a dict")
@@ -207,15 +183,15 @@ def main():
     out()
     out("SUMMARY")
     out("-" * 50)
-    out(f"Total plants: {len(meta)}")
-    out(f"Passed: {len(meta) - len(failed_plants)}")
+    out(f"Total plants: {plant_count}")
+    out(f"Passed: {plant_count - len(failed_plants)}")
     out(f"Failed: {len(failed_plants)}")
     out()
 
     # Cross-reference: metadata ↔ language
     lang_path = source_dir / "common_plants_language_en.json"
     lang_ids = load_language_ids(lang_path)
-    meta_ids = set(meta.keys())
+    meta_ids = set(plant_ids)
 
     in_lang_not_meta = lang_ids - meta_ids
     in_meta_not_lang = meta_ids - lang_ids

@@ -1,7 +1,7 @@
 # Dataset Reference
 
 **800 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.3.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**Version:** 1.4.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 
@@ -85,9 +85,12 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 |----|-----|
 | rubber-plant-burgundy, croton-mammy | Houseplants - Specialty |
 
-### Script
+### Scripts
 
-`python3 scripts/reorganize_plants.py` — applies removals and category changes. Run only when modifying REMOVE_IDS or CATEGORY_CHANGES.
+| Script | Purpose |
+|--------|---------|
+| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
+| `schema.py` | Shared constants (CATEGORY_ORDER, enums) — single source of truth |
 
 ---
 
@@ -146,5 +149,5 @@ python3 scripts/merge_plant_data.py                      # Build dist/ from sour
 python3 scripts/validate_json.py --check-schema           # Validate metadata schema
 python3 scripts/extract_by_category.py "Category Name"    # Extract category for audit session
 python3 scripts/audit_metadata_completeness.py            # Full metadata audit (C1–C15, X1–X2)
-python3 -c "import json; m=json.load(open('source/common_plants_metadata.json')); print(len(m))"  # Count plants
+python3 -c "import json; m=json.load(open('source/common_plants_metadata.json')); print(len([k for k in m if k!='_metadata']))"  # Count plants
 ```

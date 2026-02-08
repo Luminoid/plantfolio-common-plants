@@ -16,22 +16,7 @@ import json
 import sys
 from pathlib import Path
 
-# English category order (index matches _metadata.sorting.categories across locales)
-# Category order: Houseplants → Outdoor → Edibles → Farm/Sprouts → Bulbs → Specialty
-CATEGORY_ORDER = [
-    "Houseplants - Low Maintenance", "Houseplants - Aroids", "Houseplants - Ferns",
-    "Houseplants - Palms", "Houseplants - Succulents", "Houseplants - Cacti",
-    "Houseplants - Flowering", "Houseplants - Prayer Plants", "Houseplants - Vines & Trailing",
-    "Houseplants - Specialty",
-    "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
-    "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
-    "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
-    "Fruits & Berries", "Herbs",
-    "Farm & Field Crops", "Sprouts & Microgreens",
-    "Bulbs",
-    "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
-    "Specialty - Epiphytes & Moss", "Specialty - Alpine",
-]
+from schema import CATEGORY_ORDER
 
 # Locale code -> (source language filename, output resource name)
 LOCALES = [
@@ -127,7 +112,8 @@ def main():
 
     with open(metadata_path, "r", encoding="utf-8") as f:
         metadata = json.load(f)
-    print(f"  Loaded metadata for {len(metadata)} plants\n")
+    plant_count = len([k for k in metadata if k != "_metadata"])
+    print(f"  Loaded metadata for {plant_count} plants\n")
 
     output_dir.mkdir(parents=True, exist_ok=True)
 

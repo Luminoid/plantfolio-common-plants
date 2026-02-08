@@ -16,40 +16,15 @@ import argparse
 import sys
 from pathlib import Path
 
-# Valid enum values (Plantfolio app compatible)
-VALID_LIGHT_PREFERENCES = {
-    "brightIndirect", "deepShade", "gentleDirect", "lowIndirect",
-    "mediumIndirect", "outdoorFullSun", "outdoorPartialSun", "outdoorShade",
-    "strongDirect",
-}
-VALID_PLANT_TOXICITY = {
-    "mildlyToxic", "nonToxic", "toxic", "unknown",
-}
-VALID_HUMIDITY_PREFERENCES = {"high", "low", "medium", "veryHigh"}
-VALID_SOIL_PH = {"acidic", "adaptable", "alkaline", "neutral"}
-VALID_DRAINAGE = {
-    "excellentDrainage", "moistureRetentive",
-    "waterloggingTolerant", "wellDraining",
-}
-VALID_WATERING_METHOD = {
-    "bottomWatering", "immersion", "misting", "topWatering",
-    None,  # aquatic/carnivorous plants
-}
-VALID_CATEGORIES = {
-    "Bulbs", "Farm & Field Crops", "Fruits & Berries", "Herbs",
-    "Houseplants - Aroids", "Houseplants - Cacti", "Houseplants - Ferns",
-    "Houseplants - Flowering", "Houseplants - Low Maintenance",
-    "Houseplants - Palms", "Houseplants - Prayer Plants",
-    "Houseplants - Specialty", "Houseplants - Succulents",
-    "Houseplants - Vines & Trailing",
-    "Outdoor - Annuals", "Outdoor - Groundcovers & Grasses",
-    "Outdoor - Perennials", "Outdoor - Shrubs", "Outdoor - Trees",
-    "Outdoor - Vines & Climbers",
-    "Specialty - Alpine", "Specialty - Aquatic & Bog",
-    "Specialty - Carnivorous", "Specialty - Epiphytes & Moss",
-    "Sprouts & Microgreens", "Vegetables - Fruiting",
-    "Vegetables - Leafy Greens", "Vegetables - Root & Bulb",
-}
+from schema import (
+    VALID_LIGHT_PREFERENCES,
+    VALID_PLANT_TOXICITY,
+    VALID_HUMIDITY_PREFERENCES,
+    VALID_SOIL_PH,
+    VALID_DRAINAGE,
+    VALID_WATERING_METHOD,
+    VALID_CATEGORIES,
+)
 
 
 def validate_json_file(file_path):
@@ -76,7 +51,7 @@ def validate_metadata_schema(metadata_path):
 
     errors = []
     for plant_id, entry in meta.items():
-        if not isinstance(entry, dict):
+        if plant_id == "_metadata" or not isinstance(entry, dict):
             continue
 
         # Enums

@@ -11,6 +11,8 @@ Usage: python3 scripts/reorganize_plants.py
 import json
 from pathlib import Path
 
+from schema import CATEGORY_ORDER
+
 REPO_ROOT = Path(__file__).parent.parent
 SOURCE_DIR = REPO_ROOT / "source"
 
@@ -36,45 +38,8 @@ CATEGORY_CHANGES = {
     "croton-mammy": "Houseplants - Specialty",  # cultivar - with croton
 }
 
-# 3. New category order (reorganized for clarity)
-NEW_CATEGORY_ORDER = [
-    # Houseplants
-    "Houseplants - Low Maintenance",
-    "Houseplants - Aroids",
-    "Houseplants - Ferns",
-    "Houseplants - Palms",
-    "Houseplants - Succulents",
-    "Houseplants - Cacti",
-    "Houseplants - Flowering",
-    "Houseplants - Prayer Plants",
-    "Houseplants - Vines & Trailing",
-    "Houseplants - Specialty",
-    # Outdoor
-    "Outdoor - Trees",
-    "Outdoor - Shrubs",
-    "Outdoor - Perennials",
-    "Outdoor - Annuals",
-    "Outdoor - Vines & Climbers",
-    "Outdoor - Groundcovers & Grasses",
-    # Edibles
-    "Vegetables - Leafy Greens",
-    "Vegetables - Fruiting",
-    "Vegetables - Root & Bulb",
-    "Fruits & Berries",
-    "Herbs",
-    # Farm & micro
-    "Farm & Field Crops",
-    "Sprouts & Microgreens",
-    # Bulbs & Specialty
-    "Bulbs",
-    "Specialty - Aquatic & Bog",
-    "Specialty - Carnivorous",
-    "Specialty - Epiphytes & Moss",
-    "Specialty - Alpine",
-]
-
-# 4. Category renames (old -> new) - optional, for clarity
-# Using same names for now to avoid breaking translations
+# 3. Category order (from schema)
+# 4. Category renames (old -> new) — optional; using same names for now
 
 
 def main():
@@ -93,7 +58,7 @@ def main():
 
     # Apply category changes
     for pid, new_cat in CATEGORY_CHANGES.items():
-        if pid in meta and new_cat in NEW_CATEGORY_ORDER:
+        if pid in meta and new_cat in CATEGORY_ORDER:
             meta[pid]["category"] = new_cat
             print(f"  Reassigned: {pid} -> {new_cat}")
 
@@ -101,10 +66,11 @@ def main():
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2, ensure_ascii=False)
 
-    print(f"\nMetadata: removed {removed}, total={len(meta)}")
+    plant_count = len([k for k in meta if k != "_metadata"])
+    print(f"\nMetadata: removed {removed}, total={plant_count}")
 
     # Load and update language files
-    new_total = len(meta)
+    new_total = plant_count
     for filename in ["common_plants_language_en.json", "common_plants_language_zh-Hans.json", "common_plants_language_es.json"]:
         path = SOURCE_DIR / filename
         with open(path, "r", encoding="utf-8") as f:

@@ -2,7 +2,7 @@
 """
 Flag plants with generic descriptions that should be replaced with species-specific text.
 
-Generic patterns from expert audit (Feb 2025). See docs/AUDIT_CHECKLIST_TEMPLATE.md.
+Generic patterns from expert audit (Feb 2025). See docs/AUDIT.md.
 
 Usage:
     python3 scripts/audit_generic_descriptions.py

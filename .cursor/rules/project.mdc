@@ -22,4 +22,3 @@ alwaysApply: true
 
 - **plantToxicity:** Use `nonToxic`, `unknown`, `mildlyToxic`, `toxic` (expert terminology).
 - **Scientific names:** Lead with accepted name; synonyms in parentheses (e.g. `Curio repens (syn. Senecio serpens)`).
-- **plan/** – Local only; do not mention in commits or public docs.

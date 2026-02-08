@@ -12,7 +12,7 @@ Array of `{ id, typeName, description, careTips, commonExamples }`. `_metadata` 
 
 ## Metadata (`common_plants_metadata.json`)
 
-Object keyed by plant ID. Fields: `springInterval`, `summerInterval`, `fallInterval`, `winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`, `hardinessZones` (optional).
+Object keyed by plant ID. Optional `_metadata` key with `version` (e.g. `1.4.0`). Per-plant fields: `springInterval`, `summerInterval`, `fallInterval`, `winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`, `hardinessZones` (optional).
 
 ## Enums (see docs/DATASET.md §6)
 

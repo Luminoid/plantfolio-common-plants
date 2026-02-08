@@ -10,7 +10,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       27
@@ -39,8 +39,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -66,8 +66,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      24
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -91,10 +91,10 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       10,
-      32
+      24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -120,8 +120,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -145,7 +145,7 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -174,8 +174,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -201,8 +201,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -228,8 +228,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -255,8 +255,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -309,8 +309,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -363,8 +363,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -390,8 +390,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -417,8 +417,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      24
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -444,8 +444,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -471,8 +471,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -498,8 +498,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -525,8 +525,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -552,8 +552,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -579,8 +579,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -603,11 +603,11 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -657,11 +657,11 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -687,8 +687,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -711,13 +711,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -734,19 +734,19 @@
     "description": "Snake plant with cylindrical, spear-like leaves; often braided when young. Same drought tolerance as flat-leaf varieties.",
     "commonExamples": "Dracaena angolensis (syn. Sansevieria cylindrica; African spear, Cylindrical snake plant)",
     "careTips": "Water when soil is completely dry (every 2-4 weeks). Very drought tolerant. Low to bright indirect light. Low humidity fine. Fertilize 2-3 times per year. Toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -761,19 +761,19 @@
     "description": "Dwarf snake plant with rosette-forming leaves; compact, ideal for small spaces and tabletops.",
     "commonExamples": "Dracaena trifasciata 'Hahnii' (Bird's nest snake plant, Golden hahnii)",
     "careTips": "Water when soil is completely dry (every 2-4 weeks). Drought tolerant. Low to bright indirect light. Low humidity fine. Fertilize 2-3 times per year. Toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -788,19 +788,19 @@
     "description": "Snake plant with silvery-gray, broad leaves; subtle banding. Same easy care as other Dracaena trifasciata varieties.",
     "commonExamples": "Dracaena trifasciata 'Moonshine' (Moonshine snake plant)",
     "careTips": "Water when soil is completely dry (every 2-4 weeks). Drought tolerant. Low to bright indirect light. Low humidity fine. Fertilize 2-3 times per year. Toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -810,11 +810,11 @@
     "categoryIndex": 0
   },
   {
+    "id": "schefflera-dwarf",
     "typeName": "Dwarf Schefflera",
     "description": "Compact umbrella plant with palmate leaves, easier to manage indoors than the larger schefflera.",
     "commonExamples": "Schefflera arboricola (Dwarf umbrella plant, Hawaiian elf schefflera), S. arboricola 'Variegata'",
     "careTips": "Water when top inch of soil is dry. Bright indirect light preferred. Medium humidity fine. Fertilize monthly spring through fall. Prune to maintain shape. More compact than standard schefflera. Toxic to pets.",
-    "id": "schefflera-dwarf",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -846,13 +846,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -881,7 +881,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -903,8 +903,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
@@ -957,8 +957,8 @@
     "lightPreference": "lowIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -999,33 +999,6 @@
     "categoryIndex": 0
   },
   {
-    "id": "zebra-plant-aphelandra",
-    "typeName": "Zebra Plant",
-    "description": "Tropical plant with bold white-veined leaves and showy yellow bract flowers; requires consistent moisture and high humidity.",
-    "commonExamples": "Aphelandra squarrosa (Zebra plant, Saffron spike zebra)",
-    "careTips": "Keep soil consistently moist but not soggy. Bright indirect light essential. High humidity (60-70%) required—use pebble tray or humidifier. Fertilize monthly spring through fall. Prone to leaf drop if care is inconsistent. Non-toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      null
-    ],
-    "category": "Houseplants - Flowering",
-    "categoryIndex": 6
-  },
-  {
     "id": "zz-plant",
     "typeName": "ZZ Plant",
     "description": "Extremely low-maintenance plant in the Araceae family with glossy leaves and rhizomes that store water, virtually indestructible",
@@ -1036,7 +1009,7 @@
     "fallInterval": 21,
     "winterInterval": 30,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -1063,7 +1036,7 @@
     "fallInterval": 21,
     "winterInterval": 30,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       24
@@ -1092,8 +1065,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1119,8 +1092,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1173,8 +1146,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1200,8 +1173,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1225,10 +1198,10 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1252,7 +1225,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -1308,8 +1281,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1389,8 +1362,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1416,8 +1389,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1443,8 +1416,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1547,7 +1520,7 @@
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
-    "winterInterval": 14,
+    "winterInterval": null,
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
@@ -1576,14 +1549,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -1632,8 +1605,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1659,8 +1632,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1767,8 +1740,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1794,8 +1767,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -1956,8 +1929,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2010,8 +1983,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2037,8 +2010,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2064,8 +2037,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2091,8 +2064,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2172,10 +2145,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -2226,8 +2199,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2307,10 +2280,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -2334,8 +2307,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2361,8 +2334,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2469,10 +2442,10 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -2523,8 +2496,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -2636,7 +2609,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -2656,14 +2629,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2710,14 +2683,14 @@
     "fallInterval": 5,
     "winterInterval": 7,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2744,7 +2717,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2771,7 +2744,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2818,14 +2791,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2845,14 +2818,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2872,14 +2845,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2899,14 +2872,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2926,7 +2899,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -2934,7 +2907,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       3,
       null
@@ -2953,14 +2926,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -2980,14 +2953,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3007,14 +2980,14 @@
     "fallInterval": 5,
     "winterInterval": 7,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3105,11 +3078,11 @@
     "categoryIndex": 3
   },
   {
+    "id": "cycas-revoluta",
     "typeName": "Sago Palm",
     "description": "Ancient cycad (not a true palm) with feathery fronds emerging from a woody trunk.",
     "commonExamples": "Cycas revoluta (Sago palm, King sago), C. circinalis",
     "careTips": "Water when top half of soil is dry. Bright indirect light preferred. Slow-growing; very long-lived. Fertilize 2-3 times per year. Highly toxic to pets and humans - handle with care.",
-    "id": "cycas-revoluta",
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
@@ -3250,7 +3223,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "lowIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       27
@@ -3311,7 +3284,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
@@ -3338,7 +3311,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3365,7 +3338,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3392,7 +3365,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3419,7 +3392,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3439,14 +3412,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3473,7 +3446,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3520,14 +3493,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3554,7 +3527,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3574,14 +3547,14 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       16,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3608,7 +3581,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3662,7 +3635,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
@@ -3682,14 +3655,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3736,14 +3709,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3770,7 +3743,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3785,15 +3758,15 @@
     "description": "Trailing succulent with plump blue-green leaves that drop easily; same as burro's tail. Perfect for hanging baskets.",
     "commonExamples": "Sedum morganianum (Burro's tail, Donkey's tail, Lamb's tail)",
     "careTips": "Water when soil is dry—more often than most succulents. Handle carefully—leaves drop easily. Bright indirect light; direct sun may burn. Non-toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -3824,7 +3797,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3851,7 +3824,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3871,14 +3844,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      18,
+      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -3932,7 +3905,7 @@
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3946,20 +3919,20 @@
     "typeName": "String of Hearts",
     "description": "Trailing succulent with heart-shaped leaves and purple undersides, produces tubers along stems",
     "commonExamples": "Ceropegia woodii (String of hearts, Rosary vine, Chain of hearts)",
-    "careTips": "Water when soil is dry (every 1-2 weeks). More drought tolerant than String of Pearls due to tubers along stems. Bright indirect light preferred. Medium humidity preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Produces tubers along stems for storage. Perfect for hanging baskets. Repot every 2-3 years. Heart-shaped leaves with purple undersides.",
+    "careTips": "Water when soil is dry (every 1-2 weeks). More drought tolerant than String of Pearls due to tubers along stems. Bright indirect light preferred. Medium humidity preferred. Fertilize monthly spring through fall with balanced fertilizer at half strength. Produces tubers along stems for storage. Perfect for hanging baskets. Repot every 2-3 years. Heart-shaped leaves with purple undersides. Toxic to pets.",
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -3973,7 +3946,7 @@
     "typeName": "String of Pearls",
     "description": "Trailing succulent with bead-like leaves, perfect for hanging baskets",
     "commonExamples": "Curio rowleyanus (String of pearls, syn. Senecio rowleyanus), C. herreianus (String of beads)",
-    "careTips": "Water when pearls (leaves) show slight wrinkling - this indicates thirst. Avoid overwatering which causes rot. Bright indirect light preferred. Medium humidity preferred. Fertilize monthly spring through fall with succulent fertilizer at half strength. Perfect for hanging baskets. Repot every 2-3 years. Bead-like leaves are delicate - handle carefully. Very popular trailing succulent.",
+    "careTips": "Water when pearls (leaves) show slight wrinkling - this indicates thirst. Avoid overwatering which causes rot. Bright indirect light preferred. Medium humidity preferred. Fertilize monthly spring through fall with succulent fertilizer at half strength. Perfect for hanging baskets. Repot every 2-3 years. Bead-like leaves are delicate - handle carefully. Very popular trailing succulent. Toxic to pets.",
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
@@ -4013,7 +3986,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4032,15 +4005,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4059,15 +4032,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4086,15 +4059,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4113,15 +4086,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
-      10,
-      32
+      16,
+      29
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -4148,7 +4121,7 @@
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4167,7 +4140,7 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       15,
@@ -4276,14 +4249,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4357,14 +4330,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4384,14 +4357,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4410,7 +4383,7 @@
     "summerInterval": 21,
     "fallInterval": 30,
     "winterInterval": 45,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       15,
@@ -4437,15 +4410,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4465,14 +4438,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -4538,7 +4511,7 @@
   {
     "id": "rhipsalis",
     "typeName": "Rhipsalis",
-    "description": "Epiphytic jungle cacti with branching, often pendulous stems; spineless and ideal for hanging baskets.",
+    "description": "Genus-level entry: epiphytic jungle cacti with branching, often pendulous stems; spineless and ideal for hanging baskets.",
     "commonExamples": "Rhipsalis baccifera, R. cereuscula (Mistletoe cactus)",
     "careTips": "Water when top inch of soil is dry. Bright indirect light preferred; avoid direct sun. Medium humidity (40-50%). Fertilize monthly spring through fall with balanced fertilizer at half strength. Epiphytic—well-draining mix. Trailing habit suits hanging baskets. Repot every 2-3 years.",
     "springInterval": 7,
@@ -4833,11 +4806,11 @@
     "categoryIndex": 6
   },
   {
+    "id": "clivia",
     "typeName": "Clivia",
     "description": "Shade-tolerant flowering plant with strap-like leaves and striking orange or yellow flower clusters.",
     "commonExamples": "Clivia miniata (Kaffir lily, Bush lily), C. nobilis",
     "careTips": "Water when top inch of soil is dry. Needs a cool, dry rest period (6-8 weeks in fall) with minimal watering to trigger blooming. Bright indirect light preferred; tolerates low light. Keep slightly pot-bound to encourage flowering. Fertilize monthly spring through summer. Toxic to pets.",
-    "id": "clivia",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -4870,7 +4843,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4897,7 +4870,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -4923,15 +4896,15 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5032,7 +5005,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5059,7 +5032,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5194,14 +5167,14 @@
     "fallInterval": 14,
     "winterInterval": 21,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       16,
       24
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5221,14 +5194,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "low",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5248,7 +5221,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5275,7 +5248,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5383,7 +5356,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -5454,6 +5427,33 @@
     "categoryIndex": 6
   },
   {
+    "id": "zebra-plant-aphelandra",
+    "typeName": "Zebra Plant",
+    "description": "Tropical plant with bold white-veined leaves and showy yellow bract flowers; requires consistent moisture and high humidity.",
+    "commonExamples": "Aphelandra squarrosa (Zebra plant, Saffron spike zebra)",
+    "careTips": "Keep soil consistently moist but not soggy. Bright indirect light essential. High humidity (60-70%) required—use pebble tray or humidifier. Fertilize monthly spring through fall. Prone to leaf drop if care is inconsistent. Non-toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      null
+    ],
+    "category": "Houseplants - Flowering",
+    "categoryIndex": 6
+  },
+  {
     "id": "calathea-makoyana",
     "typeName": "Calathea Makoyana",
     "description": "Prayer plant with oval leaves featuring peacock-like patterns, leaves fold up at night",
@@ -5471,7 +5471,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5579,7 +5579,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -5606,7 +5606,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -5626,14 +5626,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5660,7 +5660,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5687,7 +5687,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5714,7 +5714,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -5741,7 +5741,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5849,7 +5849,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5876,7 +5876,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
@@ -5896,14 +5896,14 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -5949,10 +5949,10 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
+      16,
       21
     ],
     "plantToxicity": "toxic",
@@ -6220,7 +6220,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -6274,7 +6274,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -6376,7 +6376,7 @@
     "typeName": "Tradescantia",
     "description": "Fast-growing trailing plants in the Commelinaceae family with colorful striped or solid leaves",
     "commonExamples": "Tradescantia zebrina (Inch plant, Wandering Jew, Silver inch plant), T. fluminensis, T. pallida (Purple heart)",
-    "careTips": "Keep soil lightly moist, allow to dry slightly between waterings. Very fast-growing - may need frequent pruning. Bright indirect light maintains vibrant colors; low light causes leggy growth. Medium humidity (40-50%) is fine. Fertilize monthly spring through fall with balanced fertilizer at half strength. Pinch tips to encourage bushiness. Repot every 1-2 years. Perfect for hanging baskets. Easy to propagate from cuttings.",
+    "careTips": "Keep soil lightly moist, allow to dry slightly between waterings. Very fast-growing - may need frequent pruning. Bright indirect light maintains vibrant colors; low light causes leggy growth. Medium humidity (40-50%) is fine. Fertilize monthly spring through fall with balanced fertilizer at half strength. Pinch tips to encourage bushiness. Repot every 1-2 years. Perfect for hanging baskets. Easy to propagate from cuttings. Toxic to pets.",
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
@@ -6457,7 +6457,7 @@
     "typeName": "Tradescantia Zebrina",
     "description": "Fast-growing trailing plant with purple and silver striped leaves",
     "commonExamples": "Tradescantia zebrina (Inch plant, Wandering Jew, Silver inch plant)",
-    "careTips": "Keep soil lightly moist, allow to dry slightly between waterings. Very fast-growing. Bright indirect light maintains purple and silver stripes. Medium humidity (40-50%) is fine. Fertilize monthly spring through fall with balanced fertilizer at half strength. Pinch tips to encourage bushiness. Repot every 1-2 years. Perfect for hanging baskets. Easy to propagate from cuttings.",
+    "careTips": "Keep soil lightly moist, allow to dry slightly between waterings. Very fast-growing. Bright indirect light maintains purple and silver stripes. Medium humidity (40-50%) is fine. Fertilize monthly spring through fall with balanced fertilizer at half strength. Pinch tips to encourage bushiness. Repot every 1-2 years. Perfect for hanging baskets. Easy to propagate from cuttings. Toxic to pets.",
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
@@ -6546,8 +6546,8 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      10,
-      29
+      15,
+      27
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "adaptable",
@@ -6652,7 +6652,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -6669,11 +6669,11 @@
     "categoryIndex": 9
   },
   {
+    "id": "fatsia",
     "typeName": "Fatsia",
     "description": "Bold tropical foliage plant with large, deeply lobed palmately compound leaves.",
     "commonExamples": "Fatsia japonica (Japanese aralia, Paper plant), F. japonica 'Spider Web'",
     "careTips": "Water when top inch of soil is dry. Bright indirect light; tolerates lower light. High humidity preferred. Fertilize monthly spring through fall. Can grow large; prune to control size. Toxic to pets.",
-    "id": "fatsia",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -6696,17 +6696,17 @@
     "categoryIndex": 9
   },
   {
+    "id": "ficus-microcarpa",
     "typeName": "Chinese Banyan",
     "description": "Ficus with glossy oval leaves, popular for bonsai; can develop aerial roots.",
     "commonExamples": "Ficus microcarpa (Chinese banyan, Ginseng ficus, Banyan fig), F. microcarpa 'Green Island'",
     "careTips": "Water when top inch of soil is dry. Bright indirect light. Often grown as bonsai. Avoid moving once established. Fertilize monthly spring through fall. Toxic to pets.",
-    "id": "ficus-microcarpa",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -6760,7 +6760,7 @@
     "fallInterval": 7,
     "winterInterval": 10,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       16,
       24
@@ -6787,7 +6787,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       24
@@ -6922,7 +6922,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -6976,7 +6976,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -7030,7 +7030,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -7057,7 +7057,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
+    "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       24
@@ -7138,7 +7138,7 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
       18,
       27
@@ -7155,11 +7155,11 @@
     "categoryIndex": 9
   },
   {
+    "id": "podocarpus",
     "typeName": "Buddhist Pine",
     "description": "Conifer-like evergreen with narrow leaves, popular for bonsai and topiary.",
     "commonExamples": "Podocarpus macrophyllus (Buddhist pine, Kusamaki, Yew pine), P. henkelii",
     "careTips": "Water when top inch of soil is dry. Bright indirect light. Tolerates lower light. Fertilize monthly spring through fall. Prune to maintain shape. Good for bonsai. Toxic to pets.",
-    "id": "podocarpus",
     "springInterval": 10,
     "summerInterval": 10,
     "fallInterval": 14,
@@ -7194,7 +7194,7 @@
     "lightPreference": "brightIndirect",
     "humidityPreference": "high",
     "temperaturePreference": [
-      21,
+      18,
       27
     ],
     "plantToxicity": "nonToxic",
@@ -7305,9 +7305,9 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
@@ -7336,7 +7336,7 @@
       5,
       24
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
@@ -7367,7 +7367,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7399,7 +7399,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -7460,7 +7460,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7491,7 +7491,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7584,7 +7584,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7677,7 +7677,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7708,12 +7708,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -7739,7 +7739,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7770,7 +7770,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7801,7 +7801,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7832,7 +7832,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7863,12 +7863,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -7894,12 +7894,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -7925,12 +7925,12 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
+      50,
       null
     ],
     "category": "Outdoor - Trees",
@@ -7956,7 +7956,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -7976,7 +7976,7 @@
     "typeName": "Smoke Tree",
     "description": "Shrub or small tree with fluffy gray-pink \"smoke\" plumes and purple or green foliage.",
     "commonExamples": "Cotinus coggygria (Smoke bush)",
-    "careTips": "Water when top inch of soil is dry. Full sun for best color and flowering. Well-draining soil. Fertilize in spring. Prune in late winter—cut hard for large leaves, light prune for plumes. Purple cultivars need full sun. Drought tolerant. Fall color orange to red.",
+    "careTips": "Water when top inch of soil is dry. Full sun for best color and flowering. Well-draining soil. Fertilize in spring. Prune in late winter—cut hard for large leaves, light prune for plumes. Purple cultivars need full sun. Drought tolerant. Fall color orange to red. Mildly toxic to pets—sap may cause irritation; ingestion may cause GI upset.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -7987,7 +7987,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8018,7 +8018,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8049,7 +8049,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8080,7 +8080,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8131,7 +8131,7 @@
     "typeName": "Barberry",
     "description": "Thorny shrub with red, gold, or green foliage; small berries; invasive in many regions.",
     "commonExamples": "Berberis thunbergii (Japanese barberry)",
-    "careTips": "Water when top inch of soil is dry. Full sun for best color. Tolerates poor soil. Fertilize in spring. Prune in late winter—wear gloves for thorns. Deer resistant. Invasive in eastern North America—check local restrictions. Consider sterile cultivars.",
+    "careTips": "Water when top inch of soil is dry. Full sun for best color. Tolerates poor soil. Fertilize in spring. Prune in late winter—wear gloves for thorns. Deer resistant. Invasive in eastern North America—check local restrictions. Consider sterile cultivars. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -8142,7 +8142,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8204,7 +8204,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8235,7 +8235,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8266,7 +8266,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8297,7 +8297,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8328,7 +8328,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8359,7 +8359,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8390,7 +8390,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8421,7 +8421,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8452,7 +8452,7 @@
       5,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8483,7 +8483,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8545,7 +8545,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8607,7 +8607,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8638,7 +8638,7 @@
       5,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "alkaline",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8669,7 +8669,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8720,7 +8720,7 @@
     "typeName": "Ninebark",
     "description": "Hardy shrub with peeling bark and colorful foliage; white or pink flower clusters.",
     "commonExamples": "Physocarpus opulifolius",
-    "careTips": "Water when top inch of soil is dry. Full sun for best color. Tolerates various soils. Fertilize in spring. Prune in late winter—rejuvenation prune if overgrown. Bark peels in layers. Purple and gold cultivars available. Native. Deer resistant.",
+    "careTips": "Water when top inch of soil is dry. Full sun for best color. Tolerates various soils. Fertilize in spring. Prune in late winter—rejuvenation prune if overgrown. Bark peels in layers. Purple and gold cultivars available. Native. Deer resistant. Mildly toxic to pets—bark may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -8731,7 +8731,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8762,7 +8762,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8824,7 +8824,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8856,7 +8856,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "alkaline",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -8917,7 +8917,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8948,7 +8948,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -8979,7 +8979,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9010,7 +9010,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9097,13 +9097,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
+    "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9134,7 +9134,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9185,7 +9185,7 @@
     "typeName": "Blanket Flower",
     "description": "Cheerful daisy-like flowers in red, yellow, and orange; often grown as annual.",
     "commonExamples": "Gaillardia pulchella",
-    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining soil. Drought tolerant. Deadhead for prolonged bloom. Short-lived perennial—treat as annual in cold zones. Self-seeds. Heat and drought tolerant.",
+    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining soil. Drought tolerant. Deadhead for prolonged bloom. Short-lived perennial—treat as annual in cold zones. Self-seeds. Heat and drought tolerant. Mildly toxic to pets—may cause skin or mouth irritation.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9196,7 +9196,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9227,7 +9227,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9252,13 +9252,13 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
+    "lightPreference": "outdoorPartialSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9278,7 +9278,7 @@
     "typeName": "Butterfly Weed",
     "description": "Native milkweed with bright orange flowers; essential for monarch butterflies.",
     "commonExamples": "Asclepias tuberosa (Orange milkweed)",
-    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining, drier soil; avoid wet feet. Drought tolerant. Do not use pesticides—host plant for monarchs. Taproot—difficult to transplant. Leave seed pods for wildlife.",
+    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining, drier soil; avoid wet feet. Drought tolerant. Do not use pesticides—host plant for monarchs. Taproot—difficult to transplant. Leave seed pods for wildlife. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9289,7 +9289,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9320,7 +9320,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9382,7 +9382,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9402,7 +9402,7 @@
     "typeName": "Common Milkweed",
     "description": "Essential Monarch butterfly host plant; fragrant pink flowers; spreads by rhizomes; full sun.",
     "commonExamples": "Asclepias syriaca",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9413,7 +9413,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9433,7 +9433,7 @@
     "typeName": "Bugloss",
     "description": "European wildflower with blue coiled flower spikes; biennial or short-lived perennial; full sun.",
     "commonExamples": "Echium vulgare",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9444,7 +9444,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9475,7 +9475,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9537,7 +9537,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9568,7 +9568,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9588,7 +9588,7 @@
     "typeName": "Culver's Root",
     "description": "Native perennial with white candelabra flower spikes; attracts butterflies; prefers moist soil.",
     "commonExamples": "Veronicastrum virginicum",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—roots are potent; keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9599,7 +9599,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9692,7 +9692,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9712,7 +9712,7 @@
     "typeName": "Dianthus",
     "description": "Compact plants with fragrant, fringed flowers; pinks, carnations, and sweet william.",
     "commonExamples": "Dianthus plumarius (Pinks, Cottage pink)",
-    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining, neutral to alkaline soil. Fertilize in spring. Deadhead for rebloom. Avoid wet foliage—crown rot. Short-lived in humid climates. Many cultivars for size and flower type.",
+    "careTips": "Water when top inch of soil is dry. Full sun essential. Well-draining, neutral to alkaline soil. Fertilize in spring. Deadhead for rebloom. Avoid wet foliage—crown rot. Short-lived in humid climates. Many cultivars for size and flower type. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9723,7 +9723,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9743,7 +9743,7 @@
     "typeName": "False Indigo",
     "description": "Native legume with blue flowers and blue-gray foliage; nitrogen-fixing; drought tolerant.",
     "commonExamples": "Baptisia tinctoria",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9754,7 +9754,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9785,7 +9785,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9836,7 +9836,7 @@
     "typeName": "Gaillardia",
     "description": "Popular outdoor perennials for gardens and landscapes.",
     "commonExamples": "Gaillardia × grandiflora (Blanket flower)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Mildly toxic to pets—may cause skin or mouth irritation.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9847,7 +9847,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9878,7 +9878,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9898,7 +9898,7 @@
     "typeName": "Great Mullein",
     "description": "Tall biennial with velvety leaves and yellow flower spike; drought tolerant; self-seeds.",
     "commonExamples": "Verbascum thapsus",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—seeds and compounds may cause GI upset; keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -9909,7 +9909,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -9940,7 +9940,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10002,7 +10002,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10084,7 +10084,7 @@
     "typeName": "Ironweed",
     "description": "Native perennial with purple flowers; thrives in moist soils; attracts butterflies.",
     "commonExamples": "Vernonia noveboracensis",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—may cause irritation.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10095,7 +10095,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10126,7 +10126,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10144,9 +10144,9 @@
   {
     "id": "lantana",
     "typeName": "Lantana",
-    "description": "Popular outdoor perennials for gardens and landscapes.",
+    "description": "Bold clusters of flowers in orange, pink, yellow, or red; attracts butterflies; heat-tolerant.",
     "commonExamples": "Lantana camara (Common lantana)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun preferred. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10157,7 +10157,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10175,9 +10175,9 @@
   {
     "id": "lily-of-the-valley",
     "typeName": "Lily of the Valley",
-    "description": "Popular outdoor perennials for gardens and landscapes.",
+    "description": "Fragrant white bell flowers on arching stems; spreads by rhizomes; classic shade plant.",
     "commonExamples": "Convallaria majalis",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Highly toxic to humans and pets if ingested.",
+    "careTips": "Keep soil evenly moist. Partial to full shade. Rich, well-draining soil. Fertilize in spring. Mulch to retain moisture. Divide when crowded. Highly toxic to humans and pets if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10188,7 +10188,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10250,7 +10250,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10281,7 +10281,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10312,7 +10312,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10343,7 +10343,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10363,7 +10363,7 @@
     "typeName": "Oxeye Daisy",
     "description": "European wildflower with white petals and yellow centers; naturalizes; drought tolerant.",
     "commonExamples": "Leucanthemum vulgare",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10374,7 +10374,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10394,7 +10394,7 @@
     "typeName": "Painted Daisy",
     "description": "Popular outdoor perennials for gardens and landscapes.",
     "commonExamples": "Tanacetum coccineum (Pyrethrum)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Toxic to pets—contains pyrethrins; keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10405,7 +10405,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10436,7 +10436,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10456,7 +10456,7 @@
     "typeName": "Penstemon",
     "description": "Popular outdoor perennials for gardens and landscapes.",
     "commonExamples": "Penstemon digitalis (Beardtongue)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Mildly toxic to pets—may accumulate selenium; keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10467,7 +10467,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10518,7 +10518,7 @@
     "typeName": "Phlox",
     "description": "Popular outdoor perennials for gardens and landscapes.",
     "commonExamples": "Phlox paniculata (Garden phlox)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10529,7 +10529,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10560,7 +10560,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10591,7 +10591,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10622,7 +10622,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10653,7 +10653,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10684,7 +10684,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10797,7 +10797,7 @@
     "typeName": "Shasta Daisy",
     "description": "Popular outdoor perennials for gardens and landscapes.",
     "commonExamples": "Leucanthemum × superbum",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape. Mildly toxic to pets—may cause GI upset or skin irritation if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10808,7 +10808,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10839,7 +10839,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10870,7 +10870,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10901,7 +10901,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10921,7 +10921,7 @@
     "typeName": "Swamp Milkweed",
     "description": "Monarch host plant with pink flowers; prefers moist to wet soil; native to wetlands.",
     "commonExamples": "Asclepias incarnata",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; tolerates moist soil. Well-draining to moist soil. Fertilize lightly in spring if needed. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -10932,7 +10932,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10963,7 +10963,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -10994,7 +10994,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -11025,7 +11025,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -11045,7 +11045,7 @@
     "typeName": "Wild Indigo",
     "description": "Native Baptisia with blue flowers; nitrogen-fixing; drought tolerant; long-lived.",
     "commonExamples": "Baptisia australis",
-    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil.",
+    "careTips": "Water when top 1-2 inches of soil is dry. Full sun preferred; drought tolerant once established. Well-draining soil. Fertilize lightly in spring if needed; many prairie natives prefer lean soil. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -11056,7 +11056,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -11074,9 +11074,9 @@
   {
     "id": "yarrow",
     "typeName": "Yarrow",
-    "description": "Popular outdoor perennials for gardens and landscapes.",
+    "description": "Flat-topped flower clusters in white, yellow, or pink; ferny foliage; drought-tolerant.",
     "commonExamples": "Achillea millefolium (Common yarrow)",
-    "careTips": "Water when top inch of soil is dry. Full sun to partial shade depending on species. Fertilize in spring. Mulch to retain moisture. Prune as needed for shape.",
+    "careTips": "Water when top inch of soil is dry. Full sun preferred. Well-draining soil. Fertilize in spring. Deadhead to encourage rebloom. Drought tolerant. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -11087,7 +11087,7 @@
       -10,
       35
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -11118,7 +11118,7 @@
       10,
       32
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -13286,7 +13286,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13296,11 +13296,11 @@
     "categoryIndex": 16
   },
   {
+    "id": "asparagus",
     "typeName": "Asparagus",
     "description": "Perennial vegetable with tender edible spears, takes 2-3 years to establish.",
     "commonExamples": "Asparagus officinalis (Garden asparagus), 'Mary Washington', 'Jersey Giant'",
     "careTips": "Water regularly during growing season. Full sun. Rich, well-drained soil. Do not harvest first year; light harvest second year. Mulch in winter. Long-lived perennial. Herbaceous perennials die back; reduce watering when dormant.",
-    "id": "asparagus",
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
@@ -13340,7 +13340,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13367,7 +13367,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13529,7 +13529,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13556,7 +13556,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13583,7 +13583,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13610,7 +13610,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13637,7 +13637,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13691,7 +13691,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13772,7 +13772,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13799,7 +13799,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13826,7 +13826,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13853,7 +13853,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13907,7 +13907,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -13917,11 +13917,11 @@
     "categoryIndex": 16
   },
   {
+    "id": "scallion",
     "typeName": "Scallion / Green Onion",
     "description": "Allium with mild edible green tops and white bases, used fresh in many cuisines.",
     "commonExamples": "Allium fistulosum (Welsh onion, Bunching onion), A. cepa 'Evergreen'",
     "careTips": "Keep soil moist. Full sun. Fast-growing. Harvest when tops are 6-8 inches. Can regrow from roots. Popular in Asian cooking. Seasonal crop; watering varies by growing zone and harvest timing.",
-    "id": "scallion",
     "springInterval": 3,
     "summerInterval": 3,
     "fallInterval": 5,
@@ -13988,7 +13988,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -14015,7 +14015,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -14042,7 +14042,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -14069,7 +14069,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
@@ -14230,7 +14230,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -14349,11 +14349,11 @@
     "categoryIndex": 17
   },
   {
+    "id": "chayote",
     "typeName": "Chayote",
     "description": "Tender squash (mirliton) with edible fruit, shoots, and roots; vigorous vine.",
     "commonExamples": "Sechium edule (Chayote, Mirliton, Vegetable pear, 佛手瓜)",
     "careTips": "Full sun. Provide strong trellis. Keep soil moist. Harvest when fruit is 4-6 inches. Young shoots and roots also edible. Seasonal crop; watering varies by growing zone and harvest timing.",
-    "id": "chayote",
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 6,
@@ -14581,7 +14581,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -14781,11 +14781,11 @@
     "categoryIndex": 17
   },
   {
+    "id": "loofah",
     "typeName": "Loofah / Luffa",
     "description": "Gourd vine; young fruit edible as vegetable; mature fruit dries into natural sponge.",
     "commonExamples": "Luffa aegyptiaca (Egyptian luffa), L. acutangula (Angled luffa, 丝瓜)",
     "careTips": "Full sun. Strong trellis. Water regularly. Harvest young for food (under 6 inches). Let mature and dry on vine for sponge. Long growing season. Seasonal crop; watering varies by growing zone and harvest timing.",
-    "id": "loofah",
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 6,
@@ -14959,7 +14959,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -15202,7 +15202,7 @@
       29
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -15480,7 +15480,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      5,
       null
     ],
     "category": "Vegetables - Root & Bulb",
@@ -15507,7 +15507,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      5,
       null
     ],
     "category": "Vegetables - Root & Bulb",
@@ -15730,11 +15730,11 @@
     "categoryIndex": 18
   },
   {
+    "id": "taro",
     "typeName": "Taro",
     "description": "Starchy root crop (corm) staple in Pacific and Asian cuisines; leaves and corms must be cooked before eating.",
     "commonExamples": "Colocasia esculenta (Taro, Dasheen, Eddoe), 'Bun Long', 'Lehua'",
     "careTips": "Wet or very moist soil. Partial sun. Warm temperatures. Harvest when leaves yellow. All parts contain calcium oxalate - must cook before eating. Toxic raw. Seasonal crop; watering varies by growing zone and harvest timing.",
-    "id": "taro",
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 6,
@@ -15831,7 +15831,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -15862,7 +15862,7 @@
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -15893,7 +15893,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -15924,7 +15924,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16017,7 +16017,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16044,7 +16044,7 @@
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
+      24,
       32
     ],
     "plantToxicity": "nonToxic",
@@ -16052,7 +16052,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      60,
       null
     ],
     "category": "Fruits & Berries",
@@ -16080,7 +16080,7 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "moistureRetentive",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
@@ -16110,7 +16110,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16137,15 +16137,15 @@
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
     "temperaturePreference": [
-      10,
-      32
+      20,
+      38
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      50,
       null
     ],
     "category": "Fruits & Berries",
@@ -16296,7 +16296,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16606,7 +16606,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16699,7 +16699,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16854,7 +16854,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16947,7 +16947,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -16978,7 +16978,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -17133,7 +17133,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -17164,7 +17164,7 @@
       27
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -17261,7 +17261,7 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
+      20,
       null
     ],
     "category": "Herbs",
@@ -17303,11 +17303,11 @@
     "categoryIndex": 20
   },
   {
+    "id": "cardamom",
     "typeName": "Cardamom",
     "description": "Spice plant in the ginger family with aromatic seeds used in cooking and chai.",
     "commonExamples": "Elettaria cardamomum (Green cardamom, True cardamom), Amomum subulatum (Black cardamom)",
     "careTips": "Keep soil consistently moist. High humidity. Partial shade. Warm temperatures. Harvest seed pods when green and before splitting. Tropical perennial.",
-    "id": "cardamom",
     "springInterval": 4,
     "summerInterval": 4,
     "fallInterval": 6,
@@ -18105,11 +18105,11 @@
     "categoryIndex": 20
   },
   {
+    "id": "tea-plant",
     "typeName": "Tea Plant",
     "description": "Evergreen shrub whose leaves produce black, green, oolong, and white tea.",
     "commonExamples": "Camellia sinensis (Tea plant, Tea shrub), C. sinensis var. assamica",
     "careTips": "Acidic soil (pH 4.5-5.5). Partial shade in hot climates. Avoid hard frost. Harvest young leaves (two leaves and a bud). Prune to encourage bush growth.",
-    "id": "tea-plant",
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
@@ -18369,7 +18369,7 @@
       32
     ],
     "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
@@ -20634,7 +20634,7 @@
     "typeName": "Anemone",
     "description": "Spring-blooming tuberous perennials. Anemone blanda (early) and A. coronaria (poppy). Plant in fall; dormant after flowering.",
     "commonExamples": "Anemone coronaria (Poppy anemone)",
-    "careTips": "Keep moist during growth and bloom. Full sun to partial shade. Plant tubers in fall. Reduce watering when foliage dies back. Allow foliage to yellow before removing.",
+    "careTips": "Keep moist during growth and bloom. Full sun to partial shade. Plant tubers in fall. Reduce watering when foliage dies back. Allow foliage to yellow before removing. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -20645,7 +20645,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20703,7 +20703,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20723,7 +20723,7 @@
     "typeName": "Glory of the Snow",
     "description": "Early spring bulb with blue star flowers. Naturalizes well. Plant in fall. Dormant after bloom.",
     "commonExamples": "Chionodoxa forbesii",
-    "careTips": "Full sun to partial shade. Well-drained soil. Plant bulbs in fall. Keep moist during growth; reduce when foliage dies. Allow foliage to yellow naturally.",
+    "careTips": "Full sun to partial shade. Well-drained soil. Plant bulbs in fall. Keep moist during growth; reduce when foliage dies. Allow foliage to yellow naturally. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -20734,7 +20734,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20781,7 +20781,7 @@
     "typeName": "Saffron Crocus",
     "description": "Fall-blooming crocus. Red stigmas yield saffron spice. Dormant summer; leaves appear spring, flowers fall.",
     "commonExamples": "Crocus sativus (Saffron)",
-    "careTips": "Full sun. Well-drained soil. Water when leaves present (spring) and during bloom (fall). Harvest stigmas when flowers open. Dry before storing.",
+    "careTips": "Full sun. Well-drained soil. Water when leaves present (spring) and during bloom (fall). Harvest stigmas when flowers open. Dry before storing. Mildly toxic to pets—may cause GI upset.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": 10,
@@ -20792,7 +20792,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20808,7 +20808,7 @@
     "typeName": "Cyclamen",
     "description": "Tuberous perennials with heart-shaped leaves. Florist cyclamen blooms winter; goes dormant in summer. Cool temperatures essential.",
     "commonExamples": "Cyclamen persicum (Florist's cyclamen)",
-    "careTips": "Bright indirect light. Cool (60–68°F). Water when soil dry; avoid crown. Reduce watering when leaves yellow (summer dormancy). Resume when new growth appears.",
+    "careTips": "Bright indirect light. Cool (60–68°F). Water when soil dry; avoid crown. Reduce watering when leaves yellow (summer dormancy). Resume when new growth appears. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": 10,
@@ -20819,10 +20819,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       2,
       null
@@ -20866,7 +20866,7 @@
     "typeName": "Dahlia",
     "description": "Tender tubers with showy summer flowers. Thousands of cultivars. Lift before frost; store dry over winter.",
     "commonExamples": "Dahlia pinnata (Garden dahlia)",
-    "careTips": "Full sun. Rich, well-drained soil. Water regularly; stake tall varieties. Deadhead for continuous bloom. Lift tubers after frost; store in cool, dry place.",
+    "careTips": "Full sun. Rich, well-drained soil. Water regularly; stake tall varieties. Deadhead for continuous bloom. Lift tubers after frost; store in cool, dry place. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -20877,7 +20877,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20897,7 +20897,7 @@
     "typeName": "Freesia",
     "description": "Fragrant spring corms. Plant in fall (mild climates) or spring. Tubular flowers in many colors. Tender—lift in cold zones.",
     "commonExamples": "Freesia × hybrida",
-    "careTips": "Full sun. Well-drained soil. Plant corms 2 in deep. Keep moist during growth. Reduce when foliage yellows. Lift and store in cold-winter areas.",
+    "careTips": "Full sun. Well-drained soil. Plant corms 2 in deep. Keep moist during growth. Reduce when foliage yellows. Lift and store in cold-winter areas. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -20908,7 +20908,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20924,7 +20924,7 @@
     "typeName": "Fritillaria",
     "description": "Spring bulbs with nodding, checkered or crown-shaped flowers. Snake's head (F. meleagris) and crown imperial. Plant in fall.",
     "commonExamples": "Fritillaria meleagris (Snake's head)",
-    "careTips": "Full sun to partial shade. Moist, well-drained soil. Plant bulbs on side (hollow crown). Keep moist during growth. Dormant after flowering.",
+    "careTips": "Full sun to partial shade. Moist, well-drained soil. Plant bulbs on side (hollow crown). Keep moist during growth. Dormant after flowering. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -20935,7 +20935,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -20951,7 +20951,7 @@
     "typeName": "Giant Allium",
     "description": "Ornamental onion with large purple globe flowers. Late spring bloom. Deer resistant. Dormant after flowering.",
     "commonExamples": "Allium giganteum (Ornamental onion)",
-    "careTips": "Full sun. Well-drained soil. Plant bulbs in fall. Keep moist during growth. Allow foliage to die back—don't cut until yellow. Naturalizes well.",
+    "careTips": "Full sun. Well-drained soil. Plant bulbs in fall. Keep moist during growth. Allow foliage to die back—don't cut until yellow. Naturalizes well. Toxic to pets (Allium family).",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -20962,7 +20962,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21040,7 +21040,7 @@
     "typeName": "Dutch Iris",
     "description": "Hybrid spring bulb with slender stems and elegant flowers in blue, purple, white, or yellow. Plant in fall for spring bloom; goes dormant after flowering.",
     "commonExamples": "Iris × hollandica (Dutch iris)",
-    "careTips": "Plant bulbs in fall, 4–5 inches deep. Full sun. Well-drained soil essential. Water during spring growth and bloom; allow foliage to yellow before cutting back. Fertilize when shoots emerge. Bulbs go dormant in summer—no watering needed. Suitable for beds, borders, and cut flowers.",
+    "careTips": "Plant bulbs in fall, 4–5 inches deep. Full sun. Well-drained soil essential. Water during spring growth and bloom; allow foliage to yellow before cutting back. Fertilize when shoots emerge. Bulbs go dormant in summer—no watering needed. Suitable for beds, borders, and cut flowers. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -21051,7 +21051,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21109,7 +21109,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21136,7 +21136,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21163,7 +21163,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21190,7 +21190,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21217,7 +21217,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21244,7 +21244,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21271,7 +21271,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21287,7 +21287,7 @@
     "typeName": "Ranunculus",
     "description": "Spring tuber with layered, rose-like flowers. Soak tubers before planting. Plant in fall (mild) or spring. Dormant after bloom.",
     "commonExamples": "Ranunculus asiaticus (Persian buttercup)",
-    "careTips": "Full sun. Well-drained soil. Soak tubers 4 hrs before planting. Keep moist during growth. Reduce when foliage yellows. Lift in cold zones.",
+    "careTips": "Full sun. Well-drained soil. Soak tubers 4 hrs before planting. Keep moist during growth. Reduce when foliage yellows. Lift in cold zones. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -21298,7 +21298,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21314,7 +21314,7 @@
     "typeName": "Scilla",
     "description": "Early spring bulb with blue bell flowers. Siberian squill naturalizes well. Plant in fall. Dormant after bloom.",
     "commonExamples": "Scilla siberica (Siberian squill)",
-    "careTips": "Full sun to partial shade. Well-drained soil. Plant bulbs in fall. Keep moist during growth. Reduce when foliage dies. Allow leaves to yellow naturally.",
+    "careTips": "Full sun to partial shade. Well-drained soil. Plant bulbs in fall. Keep moist during growth. Reduce when foliage dies. Allow leaves to yellow naturally. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": null,
     "fallInterval": null,
@@ -21325,7 +21325,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21352,7 +21352,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21368,7 +21368,7 @@
     "typeName": "Tuberose",
     "description": "Highly fragrant summer bulb. White tubular flowers. Tender—lift before frost. Used in perfumery.",
     "commonExamples": "Agave amica (Polianthes tuberosa)",
-    "careTips": "Full sun. Well-drained soil. Plant when soil warm. Water regularly. Stake if needed. Lift tubers after frost; store dry. Replant in spring.",
+    "careTips": "Full sun. Well-drained soil. Plant when soil warm. Water regularly. Stake if needed. Lift tubers after frost; store dry. Replant in spring. Mildly toxic to pets—may cause GI upset.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
@@ -21379,7 +21379,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -21444,7 +21444,7 @@
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
+    "wateringMethod": null,
     "plantLifeSpan": [
       3,
       null
@@ -21459,7 +21459,7 @@
   {
     "id": "arrowhead",
     "typeName": "Arrowhead",
-    "description": "Marginal aquatic with arrow-shaped leaves. Sagittaria grows in shallow water or pond edges. Edible tubers (duck potato).",
+    "description": "Aquatic pond plant (Sagittaria)—not the houseplant Arrowhead plant (Syngonium). Arrow-shaped leaves; grows in shallow water or pond edges. Edible tubers (duck potato).",
     "commonExamples": "Sagittaria latifolia (Duck potato)",
     "careTips": "Shallow water (2–12 in) or saturated soil. Full sun. Plant in pond margin or container. Divide when crowded. No soil watering—plant in water.",
     "springInterval": null,
@@ -21472,7 +21472,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21503,7 +21503,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21536,7 +21536,7 @@
     ],
     "plantToxicity": "unknown",
     "soilPhPreference": "adaptable",
-    "drainagePreference": "moistureRetentive",
+    "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
@@ -21565,7 +21565,7 @@
       10,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21596,7 +21596,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21616,7 +21616,7 @@
     "typeName": "Floating Heart",
     "description": "Floating aquatic with heart-shaped leaves and yellow flowers. Nymphoides prefers still water. Can spread—contain in small ponds.",
     "commonExamples": "Nymphoides spp. (Water snowflake)",
-    "careTips": "Floats on still water. Full sun. No planting—add to pond surface. Can be invasive; remove excess. Roots in water or muck.",
+    "careTips": "Floats on still water. Full sun. No planting—add to pond surface. Can be invasive; remove excess. Roots in water or muck. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
@@ -21627,7 +21627,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21685,7 +21685,7 @@
       18,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21716,7 +21716,7 @@
       18,
       29
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21747,7 +21747,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21778,7 +21778,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21809,7 +21809,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21840,7 +21840,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21860,7 +21860,7 @@
     "typeName": "Water Iris",
     "description": "Iris species adapted to wet conditions, grow in shallow water or boggy soil, ideal for water gardens",
     "commonExamples": "Iris laevigata (Japanese water iris), I. pseudacorus (Yellow flag iris), I. versicolor (Blue flag iris)",
-    "careTips": "Grow in shallow water (up to 6 inches) or constantly wet, boggy soil. Never allow to dry out. Full sun to partial shade. Fertilize monthly during growing season with aquatic plant fertilizer. Divide every 3-4 years to maintain vigor. Remove dead foliage. Perfect for pond edges and water gardens. Some species can be invasive - check local regulations. Aquatic; winter care varies by Hardiness Zone.",
+    "careTips": "Grow in shallow water (up to 6 inches) or constantly wet, boggy soil. Never allow to dry out. Full sun to partial shade. Fertilize monthly during growing season with aquatic plant fertilizer. Divide every 3-4 years to maintain vigor. Remove dead foliage. Perfect for pond edges and water gardens. Some species can be invasive - check local regulations. Aquatic; winter care varies by Hardiness Zone. Toxic to pets—rhizomes especially; keep away from pets.",
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
@@ -21871,7 +21871,7 @@
       10,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21891,7 +21891,7 @@
     "typeName": "Water Lettuce",
     "description": "Floating rosettes resembling lettuce. Spreads rapidly. Invasive in warm climates. Provides shade. Check local regulations.",
     "commonExamples": "Pistia stratiotes",
-    "careTips": "Floats on still water. Full sun. No planting—add to surface. Control spread; remove excess. Illegal in some areas. Tropical—frost kills.",
+    "careTips": "Floats on still water. Full sun. No planting—add to surface. Control spread; remove excess. Illegal in some areas. Tropical—frost kills. Toxic to pets—keep away from pets.",
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
@@ -21902,7 +21902,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21922,7 +21922,7 @@
     "typeName": "Water Lily",
     "description": "Classic floating aquatic. Leaves and flowers float on surface. Plant in pots at pond bottom. Hardy and tropical types.",
     "commonExamples": "Nymphaea spp. (Water lily, 睡莲)",
-    "careTips": "Full sun. Plant in soil at 6–18 in depth. Use aquatic pots. Fertilize with pond tabs. Remove yellow leaves. Trim roots when repotting.",
+    "careTips": "Full sun. Plant in soil at 6–18 in depth. Use aquatic pots. Fertilize with pond tabs. Remove yellow leaves. Trim roots when repotting. Mildly toxic to pets—may cause GI upset if ingested.",
     "springInterval": null,
     "summerInterval": null,
     "fallInterval": null,
@@ -21933,7 +21933,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
@@ -21964,7 +21964,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -21991,7 +21991,7 @@
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -21999,11 +21999,11 @@
       3,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       7,
       9
     ],
-    "category": "Specialty - Carnivorous",
     "categoryIndex": 25
   },
   {
@@ -22022,7 +22022,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22049,7 +22049,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22076,7 +22076,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22103,7 +22103,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22130,7 +22130,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22138,11 +22138,11 @@
       2,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       6,
       9
     ],
-    "category": "Specialty - Carnivorous",
     "categoryIndex": 25
   },
   {
@@ -22161,7 +22161,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22188,7 +22188,7 @@
       16,
       27
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
@@ -22196,11 +22196,11 @@
       3,
       null
     ],
+    "category": "Specialty - Carnivorous",
     "hardinessZones": [
       7,
       10
     ],
-    "category": "Specialty - Carnivorous",
     "categoryIndex": 25
   },
   {
@@ -22246,7 +22246,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22273,7 +22273,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -22300,10 +22300,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -22354,7 +22354,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -22408,10 +22408,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -22438,7 +22438,7 @@
     "plantToxicity": "unknown",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       5,
       null
@@ -22465,7 +22465,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "misting",
     "plantLifeSpan": [
       5,
       null
@@ -22489,7 +22489,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -22516,7 +22516,7 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "adaptable",
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
@@ -22543,10 +22543,10 @@
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "immersion",
     "plantLifeSpan": [
       2,
       null
@@ -22555,11 +22555,11 @@
     "categoryIndex": 26
   },
   {
+    "id": "vanilla",
     "typeName": "Vanilla",
     "description": "Climbing orchid (Vanilla planifolia) that produces the vanilla bean. Grows as a vine; needs support. Tropical, high humidity and warmth.",
     "commonExamples": "Vanilla planifolia (Vanilla orchid, Vanilla bean)",
     "careTips": "Water when medium is nearly dry (2-3x per week when growing). High humidity (80%+) essential - greenhouse or terrarium ideal. Bright indirect to filtered light. Fertilize monthly with orchid fertilizer. Use orchid bark mix. Provide sturdy support for vining growth. Flowers only with maturity (several years) and hand-pollination. Beans develop after pollination.",
-    "id": "vanilla",
     "springInterval": 5,
     "summerInterval": 5,
     "fallInterval": 7,
@@ -22573,7 +22573,7 @@
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "misting",
     "plantLifeSpan": [
       10,
       30
@@ -22592,16 +22592,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22610,6 +22606,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22623,16 +22623,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22641,6 +22637,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22679,22 +22679,18 @@
     "typeName": "Alpine Poppy",
     "description": "Delicate alpine poppies with crepe-paper flowers in white, yellow, or orange. Short-lived but self-seed. Cold hardy.",
     "commonExamples": "Papaver alpinum (Alpine poppy)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun preferred. Short-lived perennial - allow to self-seed. Fertilize sparingly. Perfect for rock gardens. Avoid excess moisture. Alpine; reduce watering when dormant; avoid winter wet.",
+    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun preferred. Short-lived perennial - allow to self-seed. Fertilize sparingly. Perfect for rock gardens. Avoid excess moisture. Alpine; reduce watering when dormant; avoid winter wet. Toxic to pets—all parts; keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22703,6 +22699,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22716,10 +22716,6 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "low",
     "temperaturePreference": [
       10,
@@ -22734,6 +22730,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22741,22 +22741,18 @@
     "typeName": "Alpine Bellflower",
     "description": "Low-growing alpine bellflowers with blue or purple bells. Cold hardy, suited to rock gardens and crevices.",
     "commonExamples": "Campanula alpina (Alpine bellflower)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun to light shade. Fertilize sparingly in spring. Perfect for rock gardens and walls. Very cold hardy. Alpine; reduce watering when dormant; avoid winter wet.",
+    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun to light shade. Fertilize sparingly in spring. Perfect for rock gardens and walls. Very cold hardy. Alpine; reduce watering when dormant; avoid winter wet. Toxic to pets—keep away from pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      3,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22765,6 +22761,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22772,22 +22772,18 @@
     "typeName": "Alpine Pink",
     "description": "Tiny alpine pink with single flowers, often pink or white. Compact cushion form. Cold hardy, ideal for rock gardens.",
     "commonExamples": "Dianthus alpinus (Alpine pink)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - alkaline soil preferred. Full sun. Drought tolerant once established. Fertilize sparingly. Shear after flowering. Perfect for rock gardens. Alpine; reduce watering when dormant; avoid winter wet.",
+    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - alkaline soil preferred. Full sun. Drought tolerant once established. Fertilize sparingly. Shear after flowering. Perfect for rock gardens. Alpine; reduce watering when dormant; avoid winter wet. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      3,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22796,6 +22792,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22809,16 +22809,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22827,6 +22823,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22840,16 +22840,12 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      7
-    ],
     "humidityPreference": "low",
     "temperaturePreference": [
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22858,6 +22854,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      7
+    ],
     "categoryIndex": 27
   },
   {
@@ -22871,16 +22871,12 @@
     "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      3,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       21
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22889,6 +22885,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22902,16 +22902,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22920,6 +22916,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22933,16 +22933,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      4,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22951,6 +22947,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      4,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22964,16 +22964,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      3,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -22982,6 +22978,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ],
     "categoryIndex": 27
   },
   {
@@ -22995,16 +22995,12 @@
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "outdoorFullSun",
-    "hardinessZones": [
-      3,
-      8
-    ],
     "humidityPreference": "medium",
     "temperaturePreference": [
       10,
       28
     ],
-    "plantToxicity": "unknown",
+    "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -23013,6 +23009,10 @@
       null
     ],
     "category": "Specialty - Alpine",
+    "hardinessZones": [
+      3,
+      8
+    ],
     "categoryIndex": 27
   }
 ]

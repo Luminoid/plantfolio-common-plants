@@ -27,14 +27,17 @@ def main():
     print("=" * 50 + "\n")
 
     ok = True
+    ok &= run(["python3", "scripts/sort_plants.py"], "Sort source (category, canonical keys)")
     ok &= run(["python3", "scripts/merge_plant_data.py"], "Build dist from source")
     ok &= run(
         ["python3", "scripts/validate_json.py", "--check-schema", "--check-structure"],
         "Schema & structure validation",
     )
+    ok &= run(["python3", "scripts/audit_metadata_completeness.py"], "Metadata completeness audit")
     ok &= run(["python3", "scripts/audit_scientific_names.py"], "Scientific name audit")
     ok &= run(["python3", "scripts/audit_duplicates.py"], "Duplicate audit")
     ok &= run(["python3", "scripts/audit_generic_descriptions.py"], "Generic descriptions audit")
+    ok &= run(["python3", "scripts/audit_translation_sync.py"], "Translation sync audit")
 
     print("\n" + "=" * 50)
     print("✅ Ready for release" if ok else "❌ Fix issues above before release")

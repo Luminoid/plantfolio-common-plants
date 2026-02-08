@@ -8,40 +8,26 @@ Usage: python3 scripts/sort_plants.py
 import json
 from pathlib import Path
 
+from schema import (
+    CATEGORY_ORDER,
+    METADATA_KEY_ORDER,
+    LANG_ENTRY_KEY_ORDER,
+)
+
 REPO_ROOT = Path(__file__).parent.parent
 SOURCE_DIR = REPO_ROOT / "source"
 
-# Category order (must match merge_plant_data.py and language _metadata.sorting.categories)
-CATEGORY_ORDER = [
-    "Houseplants - Low Maintenance",
-    "Houseplants - Aroids",
-    "Houseplants - Ferns",
-    "Houseplants - Palms",
-    "Houseplants - Succulents",
-    "Houseplants - Cacti",
-    "Houseplants - Flowering",
-    "Houseplants - Prayer Plants",
-    "Houseplants - Vines & Trailing",
-    "Houseplants - Specialty",
-    "Outdoor - Trees",
-    "Outdoor - Shrubs",
-    "Outdoor - Perennials",
-    "Outdoor - Annuals",
-    "Outdoor - Vines & Climbers",
-    "Outdoor - Groundcovers & Grasses",
-    "Vegetables - Leafy Greens",
-    "Vegetables - Fruiting",
-    "Vegetables - Root & Bulb",
-    "Fruits & Berries",
-    "Herbs",
-    "Farm & Field Crops",
-    "Sprouts & Microgreens",
-    "Bulbs",
-    "Specialty - Aquatic & Bog",
-    "Specialty - Carnivorous",
-    "Specialty - Epiphytes & Moss",
-    "Specialty - Alpine",
-]
+
+def reorder_plant_entry(entry: dict) -> dict:
+    """Return language entry with keys in canonical order."""
+    ordered = {}
+    for key in LANG_ENTRY_KEY_ORDER:
+        if key in entry:
+            ordered[key] = entry[key]
+    for key in entry:
+        if key not in ordered:
+            ordered[key] = entry[key]
+    return ordered
 
 
 def sort_key(plant_id: str, category: str) -> tuple:
@@ -53,24 +39,44 @@ def sort_key(plant_id: str, category: str) -> tuple:
     return (cat_idx, plant_id.lower())
 
 
+def reorder_metadata_entry(entry: dict) -> dict:
+    """Return entry with keys in canonical order. Unknown keys appended."""
+    ordered = {}
+    for key in METADATA_KEY_ORDER:
+        if key in entry:
+            ordered[key] = entry[key]
+    for key in entry:
+        if key not in ordered:
+            ordered[key] = entry[key]
+    return ordered
+
+
 def main():
     meta_path = SOURCE_DIR / "common_plants_metadata.json"
     with open(meta_path, "r", encoding="utf-8") as f:
         meta = json.load(f)
 
+    # Separate _metadata from plant entries
+    meta_block = meta.pop("_metadata", None)
+    plant_ids = [k for k in meta.keys() if k != "_metadata"]
+
     # Build sorted order: (category_index, id) -> sort
     sorted_ids = sorted(
-        meta.keys(),
+        plant_ids,
         key=lambda pid: sort_key(pid, meta[pid].get("category", ""))
     )
 
-    # Rebuild metadata dict in sorted order (Python 3.7+ preserves insertion order)
-    sorted_meta = {pid: meta[pid] for pid in sorted_ids}
+    # Rebuild metadata dict: _metadata first (if present), then sorted plants
+    sorted_meta = {}
+    if meta_block is not None:
+        sorted_meta["_metadata"] = meta_block
+    for pid in sorted_ids:
+        sorted_meta[pid] = reorder_metadata_entry(meta[pid])
 
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(sorted_meta, f, indent=2, ensure_ascii=False)
 
-    print(f"  ✅ common_plants_metadata.json: {len(sorted_meta)} plants sorted by category, then id")
+    print(f"  ✅ common_plants_metadata.json: {len(sorted_ids)} plants sorted by category, then id")
 
     # Build id -> index for lookup
     id_to_order = {pid: i for i, pid in enumerate(sorted_ids)}
@@ -97,11 +103,11 @@ def main():
 
         plant_entries.sort(key=entry_order)
 
-        # Rebuild: metadata first, then sorted plants
+        # Rebuild: metadata first, then sorted plants with canonical key order
         result = []
         if metadata_block is not None:
             result.append(metadata_block)
-        result.extend(plant_entries)
+        result.extend(reorder_plant_entry(e) for e in plant_entries)
 
         with open(path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
