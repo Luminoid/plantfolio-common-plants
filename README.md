@@ -67,13 +67,13 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 
 To use the default dataset without forking, copy the URLs below into your app config.
 
-| Locale | URL |
-|--------|-----|
-| EN | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants.json` |
-| ES | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_es.json` |
-| ZH | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_zh-Hans.json` |
+**Folder:** `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/`
 
-**Folder:** [dist/](https://github.com/Luminoid/plantfolio-common-plants/tree/main/dist)
+| Locale | File | URL |
+|--------|------|-----|
+| EN | common_plants.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants.json` |
+| ES | common_plants_es.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_es.json` |
+| ZH | common_plants_zh-Hans.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_zh-Hans.json` |
 
 ## Docs
 
