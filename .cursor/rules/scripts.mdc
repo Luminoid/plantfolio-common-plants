@@ -15,6 +15,7 @@ alwaysApply: false
 | `schema.py` | Shared constants (CATEGORY_ORDER, enums) |
 | `sort_plants.py` | Sort by category, then id |
 | `extract_by_category.py` | Extract by category for audit sessions |
+| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan (`--dry-run` first) |
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
 | `audit_metadata_completeness.py` | Line-by-line metadata audit |
 | `audit_scientific_names.py` | Check commonExamples for accepted names |

@@ -47,8 +47,10 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 | Audit also known as | `python3 scripts/audit_also_known_as.py` (use `--fix` to apply) |
 | Run all quality audits | `python3 scripts/audit_quality.py` |
 | Audit toxicity vs care tips | `python3 scripts/audit_toxicity_care_tips.py` |
+| List plants with unknown toxicity | `python3 scripts/audit_toxicity_unknown.py` (optionally `--category "Name"` or `--output file.json`) |
 | Ensure complementary aka | `python3 scripts/ensure_complementary_aka.py --dry-run` first |
 | Add aliases to new plants | `python3 scripts/add_common_alias_to_description.py --dry-run` first |
+| Infer missing metadata | `python3 scripts/improve_plant_data.py` (soil pH, drainage, lifespan; `--dry-run` first) |
 | Translate typeNames | `python3 scripts/translate_typenames.py --lang zh-Hans` or `--lang es` |
 | Optimize duplicate typeNames | `python3 scripts/optimize_duplicate_typenames.py --dry-run` then `--fix` |
 
@@ -62,10 +64,11 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 | `sort_plants.py` | Sort source by category, canonical keys |
 | `validate_json.py` | Schema & structure validation |
 | `schema.py` | CATEGORY_ORDER, enums (imported by other scripts) |
-| `audit_*.py` | Metadata, scientific names, duplicates, also known as, generic descriptions, translation sync, target language, toxicity |
+| `audit_*.py` | Metadata, scientific names, duplicates, also known as, generic descriptions, translation sync, target language, toxicity vs care tips, toxicity unknown |
 | `ensure_complementary_aka.py` | Ensure aka has complementary form (nickname→formal, formal→nickname) per locale |
 | `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (`--dry-run` first) |
 | `extract_by_category.py` | Extract category for audit sessions |
+| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan (`--dry-run` first) |
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
 | `translate_typenames.py` | Translate typeNames (EN→ZH or EN→ES via `--lang zh-Hans` / `--lang es`) |
 | `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file |
