@@ -94,13 +94,16 @@ def validate_metadata_schema(metadata_path):
                 elif tp[0] < -10 or tp[1] > 45:
                     errors.append(f"{plant_id}: temperaturePreference out of range (-10 to 45°C)")
 
-        # plantLifeSpan: [min, max] or [min, null], min >= 0
+        # plantLifeSpan: [min, max] or [min, null], min >= 0, min <= max when both set
         if "plantLifeSpan" in entry:
             pls = entry["plantLifeSpan"]
             if not isinstance(pls, list) or len(pls) != 2:
                 errors.append(f"{plant_id}: invalid plantLifeSpan {pls!r}")
-            elif pls[0] is not None and pls[0] < 0:
-                errors.append(f"{plant_id}: plantLifeSpan min < 0")
+            else:
+                if pls[0] is not None and pls[0] < 0:
+                    errors.append(f"{plant_id}: plantLifeSpan min < 0")
+                if pls[0] is not None and pls[1] is not None and pls[0] > pls[1]:
+                    errors.append(f"{plant_id}: plantLifeSpan min > max")
 
     # plantCount in _metadata must match actual number of plant entries
     declared = None

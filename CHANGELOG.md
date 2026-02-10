@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.7.3] - 2026-02-09
+
+### Fixed
+
+- **plantLifeSpan:** Enforce min ≤ max in schema validation; corrected 29 Farm & Field Crops from `[2, 1]` to `[1, 2]` years.
+
 ## [1.7.2] - 2026-02-09
 
 ### Changed
