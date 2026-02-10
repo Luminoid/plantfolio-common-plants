@@ -1,7 +1,7 @@
 # Dataset Reference
 
 **800 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.6.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**Version:** 1.7.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 

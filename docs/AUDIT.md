@@ -131,7 +131,7 @@ Ensures every plant has complete, valid metadata. Run: `python3 scripts/audit_me
 | soilPhPreference | string | acidic, neutral, alkaline, adaptable |
 | drainagePreference | string | excellentDrainage, wellDraining, moistureRetentive, waterloggingTolerant |
 | wateringMethod | string or null | topWatering, bottomWatering, misting, immersion, or null |
-| plantLifeSpan | [min, max] | min ≥ 0; max is int or null |
+| plantLifeSpan | [min, max] | min ≥ 0; both should be concrete integers (null only when truly unknown) |
 | category | string | One of 28 valid categories |
 
 **Optional:** `hardinessZones` [min, max] — outdoor plants only; USDA zones 1–11.

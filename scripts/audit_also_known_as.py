@@ -76,6 +76,8 @@ COMMON_FIRST_WORDS = {
     "listada", "margarita", "enredadera", "tortuga", "pachysandra",
     "english", "albahaca", "pimiento", "camelia", "impatiens", "lizzie", "lavanda",
     "cebolla", "nabo", "yucca", "pera", "dracaena",
+    "pak", "mosaic", "oyster", "mexican", "breadfruit", "espada", "plateada",
+    "amor", "hombre", "spiderwort", "blanket",
 }
 
 

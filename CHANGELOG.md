@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-02-09
+
+### Changed
+
+- **plantLifeSpan:** Replaced 602 open-ended `[xx, null]` lifespans with concrete `[min, max]` ranges; all 810 plants now have both values (species-level inference across 28 categories).
+- **Watering:** Desert cacti (5 species) corrected to less frequent intervals (14/14/21/30).
+- **Tree lifespans:** 9 trees corrected from [3, null] to accurate min/max values.
+- **Toxicity:** Standardized aroids (Pothos, Monstera, Philodendron) → mildlyToxic; Begonia and Spathiphyllum Domino → toxic.
+- **Drainage:** 7 carnivorous/bog species corrected from excellentDrainage → moistureRetentive.
+- **Light:** 21 corrections (snake plants, variegated houseplants → brightIndirect; desert cacti → strongDirect; Haworthia Cooperi → brightIndirect).
+- **Also known as:** Removed 28 conflicting aka entries; resolved all duplicate/conflicting akas across EN/ES/ZH (10 EN, 14 ES, 34 ZH).
+- **Descriptions:** Fixed corrupted repeated text (20 EN + 19 ES); replaced 12 EN + 9 ZH placeholder perennials text with unique descriptions; added trailing periods and fixed formatting (EN/ES/ZH).
+- **ES typeNames:** Differentiated 2 duplicates (clover-red, mung-bean-field).
+
 ## [1.6.0] - 2025-02-08
 
 ### Changed

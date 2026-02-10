@@ -32,7 +32,90 @@ python3 scripts/release.py   # Build dist/, validate, run all audits (run before
 
 Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them.
 
-**Language rules:** Each language file must contain only its target language (EN, ES, or ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (use common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). First-segment aliases only for category plants; do not duplicate typeName. Run `audit_target_language.py` to verify.
+**Language rules:** Each language file must contain only its target language (EN, ES, or ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. **Descriptions** must end with a period (`.`). **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (use common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). **No aka that matches another plant's typeName** — if two entries share a common name, keep them separate without cross-referencing via aka. **No duplicate aka** — no two plants may share the same aka within a locale. **Category entries** should not use specific entries' names as aka (e.g., Pothos category should not aka "Devil's ivy" when Golden Pothos already has it). First-segment aliases only for category plants; do not duplicate typeName. **No duplicate typeNames** within a locale. Run `audit_target_language.py` and `audit_also_known_as.py` to verify.
+
+## Data Conventions
+
+Horticultural rules applied when setting or reviewing metadata. Use these when adding or auditing plants.
+
+### Light preference
+
+`lightPreference` represents the plant's **optimal** light, not just what it tolerates.
+
+| Rule | Example |
+|------|---------|
+| Variegated/colored plants need more light than their all-green counterparts | Red Valentine Aglaonema → brightIndirect (not lowIndirect) |
+| Snake plants (Dracaena trifasciata/angolensis) prefer bright indirect, only tolerate low | All snake plant varieties → brightIndirect |
+| Plants that drop leaves in low light should not be lowIndirect | Weeping Fig, False Aralia, Ming Aralia → brightIndirect |
+| Desert cacti need strong direct sun | Mammillaria, Echinopsis, Opuntia → strongDirect |
+| Forest/jungle cacti prefer bright indirect (no direct sun) | Christmas Cactus, Rhipsalis, Epiphyllum → brightIndirect |
+| Sun-loving flowering plants need strongDirect for blooming | Tropical Hibiscus, Mandevilla → strongDirect |
+| Carnivorous bog plants (Venus flytrap, Sarracenia) need strong direct | Venus Flytrap, Sarracenia → strongDirect |
+| Translucent/windowed succulents burn in strong direct | Haworthia Cooperi → brightIndirect |
+| Outdoor plants use outdoor* values | outdoorFullSun, outdoorPartialSun, outdoorShade |
+
+### Watering intervals
+
+| Plant type | Spring | Summer | Fall | Winter | Notes |
+|------------|--------|--------|------|--------|-------|
+| Desert cacti (large) | 21 | 21 | 30 | 45 | Barrel, Prickly Pear, Star |
+| Desert cacti (small globular) | 14 | 14 | 21 | 30 | Mammillaria, Echinopsis, Parodia |
+| Forest/jungle cacti | 7 | 7 | 10 | 14 | Christmas, Rhipsalis, Epiphyllum |
+| Summer-dormant succulents | longer intervals in summer | | | | Aeonium, Lithops |
+| Mediterranean herbs | 7 | 10 | 14 | null | Drought-tolerant; longer in summer is correct |
+| Sprouts & microgreens | 1–3 | 1–3 | 1–3 | 1–3 | Very frequent |
+| Aquatic plants | null | null | null | null | No watering intervals |
+
+### Toxicity
+
+**Consistency rule:** All plants in the same genus sharing the same toxic compound must have the same `plantToxicity` value — do not mix mildlyToxic and toxic within a family.
+
+| Family/compound | Level | Examples |
+|----------------|-------|---------|
+| Insoluble calcium oxalate aroids | mildlyToxic | Pothos, Monstera, Philodendron, Syngonium |
+| Begonia (soluble calcium oxalates) | toxic | Tubers most toxic; potential kidney effects |
+| Peace lilies (Spathiphyllum) | toxic | More severe irritation than typical calcium oxalate |
+| Dracaena / Snake plants | toxic | ASPCA-listed toxic |
+| Ficus (latex) | toxic | Rubber Plant, Fiddle-Leaf Fig, Weeping Fig |
+| Kalanchoe (cardiac glycosides) | toxic | All Kalanchoe species |
+| Peperomia, Hoya, Calathea/Maranta, Spider Plant, Palms, Ferns | nonToxic | ASPCA non-toxic |
+| Edible plants with toxic parts | toxic | Avocado (persin), Elderberry (raw), Taro (raw oxalate) |
+
+### Drainage
+
+| Plant type | Drainage | Notes |
+|------------|----------|-------|
+| Succulents & desert cacti | excellentDrainage or wellDraining | Never moistureRetentive |
+| Bog carnivorous (Venus flytrap, Sarracenia, Sundew) | moistureRetentive | Sit in water trays; null wateringMethod |
+| Epiphytic carnivorous (Nepenthes) | excellentDrainage | Airy mix, not standing water |
+| Aquatic plants | waterloggingTolerant | null wateringMethod |
+| Alpine plants | excellentDrainage or wellDraining | Mountain drainage |
+
+### Descriptions
+
+| Rule | Notes |
+|------|-------|
+| Must end with a period (`.`) | All descriptions, all locales |
+| "Also known as:" must be capitalized and at start of description | `Also known as: X. Actual description.` |
+| No repeated/corrupted subspecies text | Check for `word. word. word.` patterns |
+| Each plant must have a unique description | No placeholder or duplicate descriptions across plants |
+| Category entries get brief genus/family overviews | Specific entries get species-level detail |
+| Sprouts & microgreens need specific descriptions | Not generic "Microgreens" labels |
+| commonExamples use species-specific common names | `Pisum sativum (Pea shoots)` not `Pisum sativum (Microgreens)` |
+
+### Lifespan
+
+`plantLifeSpan` is `[min_years, max_years]`. Both values should be concrete integers when possible. Use `null` only when a bound is truly unknown.
+
+| Plant type | plantLifeSpan [min, max] | Notes |
+|------------|-------------------------|-------|
+| Trees | [20, 100] to [100, 500] | Species-specific; 3 is never correct for a tree |
+| Shrubs | [5, 10] to [30, 100] | Long-lived shrubs (boxwood, lilac) can exceed 100 |
+| Perennial houseplants | [3, 10] to [10, 50] | Varies by species; cacti and jade plants live longest |
+| Annuals | [1, 1] | Single growing season |
+| Sprouts & microgreens | [1, 1] | Very short lifecycle |
+| Fruits & berries | [1, 6] to [60, 100] | Banana [1, 6] vs Coconut [60, 100] |
+| Bulbs | [3, 8] to [10, 30] | Most naturalize and persist many years |
 
 ## Common Tasks
 
@@ -68,7 +151,7 @@ Metadata is shared across locales; language is per-locale. `merge_plant_data.py`
 | `ensure_complementary_aka.py` | Ensure aka has complementary form (nickname→formal, formal→nickname) per locale |
 | `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (`--dry-run` first) |
 | `extract_by_category.py` | Extract category for audit sessions |
-| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan (`--dry-run` first) |
+| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan; optimize open-ended `[xx, null]` lifespans to `[min, max]` (`--dry-run` first) |
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
 | `translate_typenames.py` | Translate typeNames (EN→ZH or EN→ES via `--lang zh-Hans` / `--lang es`) |
 | `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file |

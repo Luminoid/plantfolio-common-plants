@@ -1,6 +1,6 @@
 {
   "_metadata": {
-    "version": "1.6.0"
+    "version": "1.7.0"
   },
   "aglaonema": {
     "springInterval": 7,
@@ -18,8 +18,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -28,7 +28,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -39,8 +39,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -49,7 +49,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -60,8 +60,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -81,8 +81,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -102,8 +102,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -123,8 +123,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -144,8 +144,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -165,8 +165,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -186,8 +186,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -207,8 +207,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -228,8 +228,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -238,7 +238,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -249,8 +249,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -270,8 +270,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -280,7 +280,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -291,8 +291,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -301,7 +301,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -312,8 +312,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -322,7 +322,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -333,8 +333,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -343,7 +343,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -354,8 +354,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -375,8 +375,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -396,8 +396,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -406,7 +406,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -417,8 +417,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -438,8 +438,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -459,8 +459,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -480,8 +480,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -501,8 +501,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -522,8 +522,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -543,8 +543,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -559,13 +559,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -574,7 +574,7 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 28,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       18,
@@ -585,8 +585,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -595,7 +595,7 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 28,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       18,
@@ -606,8 +606,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -616,7 +616,7 @@
     "summerInterval": 14,
     "fallInterval": 21,
     "winterInterval": 28,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       18,
@@ -627,8 +627,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -669,8 +669,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -690,8 +690,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -700,19 +700,19 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
       27
     ],
-    "plantToxicity": "mildlyToxic",
+    "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -732,8 +732,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -742,7 +742,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "lowIndirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "medium",
     "temperaturePreference": [
       18,
@@ -753,8 +753,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -774,8 +774,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -795,8 +795,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -816,8 +816,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Low Maintenance"
   },
@@ -837,8 +837,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -858,8 +858,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -879,8 +879,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -900,8 +900,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -921,8 +921,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -942,8 +942,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -963,8 +963,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -984,8 +984,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1005,8 +1005,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1026,8 +1026,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1047,8 +1047,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1068,8 +1068,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1089,8 +1089,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1110,8 +1110,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1131,8 +1131,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1152,8 +1152,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1173,8 +1173,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1195,7 +1195,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1216,7 +1216,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1236,8 +1236,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1257,8 +1257,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1273,13 +1273,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1299,8 +1299,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1320,8 +1320,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1341,8 +1341,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1357,13 +1357,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1378,13 +1378,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1399,13 +1399,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1420,13 +1420,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1441,13 +1441,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1467,8 +1467,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1488,8 +1488,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1504,13 +1504,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1525,13 +1525,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1546,13 +1546,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1567,13 +1567,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1588,13 +1588,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1609,13 +1609,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1635,8 +1635,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1656,8 +1656,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1672,13 +1672,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1693,13 +1693,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1714,13 +1714,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1735,13 +1735,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1756,13 +1756,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1777,13 +1777,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1798,13 +1798,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1819,13 +1819,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1840,13 +1840,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1866,8 +1866,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1887,8 +1887,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1908,8 +1908,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1929,8 +1929,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1950,8 +1950,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1971,8 +1971,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Houseplants - Aroids"
   },
@@ -1993,7 +1993,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Aroids"
   },
@@ -2013,8 +2013,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2035,7 +2035,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2056,7 +2056,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2076,8 +2076,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2098,7 +2098,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2119,7 +2119,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2161,7 +2161,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2182,7 +2182,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2203,7 +2203,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2223,8 +2223,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2245,7 +2245,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2265,8 +2265,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2287,7 +2287,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2308,7 +2308,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2328,8 +2328,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2349,8 +2349,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Ferns"
   },
@@ -2370,8 +2370,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Palms"
   },
@@ -2391,8 +2391,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Palms"
   },
@@ -2434,7 +2434,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Houseplants - Palms"
   },
@@ -2455,7 +2455,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      40
     ],
     "category": "Houseplants - Palms"
   },
@@ -2476,7 +2476,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Houseplants - Palms"
   },
@@ -2496,8 +2496,29 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      20
+    ],
+    "category": "Houseplants - Palms"
+  },
+  "palms": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      30
     ],
     "category": "Houseplants - Palms"
   },
@@ -2517,8 +2538,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Palms"
   },
@@ -2538,8 +2559,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Palms"
   },
@@ -2560,7 +2581,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Houseplants - Palms"
   },
@@ -2580,8 +2601,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2601,8 +2622,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      25
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2622,8 +2643,29 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      25
+    ],
+    "category": "Houseplants - Succulents"
+  },
+  "bears-paw": {
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2643,8 +2685,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2664,8 +2706,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2685,8 +2727,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2706,8 +2748,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2727,8 +2769,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2748,8 +2790,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2769,8 +2811,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2790,8 +2832,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2811,8 +2853,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2833,7 +2875,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2854,7 +2896,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2874,8 +2916,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      40
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2895,8 +2937,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2916,8 +2958,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2937,8 +2979,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2958,8 +3000,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2980,7 +3022,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3000,8 +3042,29 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
+    ],
+    "category": "Houseplants - Succulents"
+  },
+  "split-rock": {
+    "springInterval": 30,
+    "summerInterval": 90,
+    "fallInterval": 30,
+    "winterInterval": 60,
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      10,
+      40
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3022,7 +3085,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3043,7 +3106,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3064,7 +3127,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3085,7 +3148,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3106,7 +3169,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3126,8 +3189,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      25
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3147,8 +3210,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3168,8 +3231,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3178,7 +3241,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "strongDirect",
+    "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       16,
@@ -3189,8 +3252,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3210,8 +3273,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      25
     ],
     "category": "Houseplants - Succulents"
   },
@@ -3231,8 +3294,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      10,
-      null
+      20,
+      100
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3253,7 +3316,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      50
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3273,8 +3336,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3294,17 +3357,17 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
   "echinopsis": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       18,
@@ -3315,8 +3378,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3336,8 +3399,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3357,16 +3420,16 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Cacti"
   },
   "gymnocalycium": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3378,17 +3441,17 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
   "mammillaria": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
+    "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
       18,
@@ -3399,8 +3462,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3420,16 +3483,16 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
   "opuntia-microdasys": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3441,16 +3504,16 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Cacti"
   },
   "parodia": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 30,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3462,8 +3525,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3484,7 +3547,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      50
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3505,7 +3568,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3525,8 +3588,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3546,8 +3609,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3567,8 +3630,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      10,
-      null
+      20,
+      100
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3588,8 +3651,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Cacti"
   },
@@ -3609,8 +3672,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      25
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3631,7 +3694,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3652,7 +3715,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3672,8 +3735,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3694,7 +3757,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3715,7 +3778,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3736,7 +3799,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3777,8 +3840,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3798,8 +3861,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3819,8 +3882,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3862,7 +3925,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3903,8 +3966,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3913,7 +3976,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "high",
     "temperaturePreference": [
       18,
@@ -3924,8 +3987,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3945,8 +4008,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3966,8 +4029,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Flowering"
   },
@@ -3987,8 +4050,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4009,7 +4072,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4030,7 +4093,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4051,7 +4114,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4071,8 +4134,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4081,7 +4144,7 @@
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "high",
     "temperaturePreference": [
       18,
@@ -4092,8 +4155,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4113,8 +4176,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4134,8 +4197,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4156,7 +4219,7 @@
     "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4177,7 +4240,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4198,7 +4261,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4219,7 +4282,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4239,8 +4302,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4261,7 +4324,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4282,7 +4345,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4303,7 +4366,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4324,7 +4387,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4344,8 +4407,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4365,8 +4428,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4387,7 +4450,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4407,8 +4470,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4428,8 +4491,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4449,8 +4512,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4470,8 +4533,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4491,8 +4554,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4513,7 +4576,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4534,7 +4597,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4554,8 +4617,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4575,8 +4638,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4596,8 +4659,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Prayer Plants"
   },
@@ -4617,8 +4680,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4639,7 +4702,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4659,8 +4722,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4680,8 +4743,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4701,8 +4764,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4722,8 +4785,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4743,8 +4806,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4764,8 +4827,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4785,8 +4848,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4806,8 +4869,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4827,8 +4890,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4848,8 +4911,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4864,13 +4927,13 @@
       18,
       27
     ],
-    "plantToxicity": "toxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4890,8 +4953,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4911,8 +4974,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4932,8 +4995,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4953,8 +5016,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4975,7 +5038,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -4996,7 +5059,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -5017,7 +5080,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -5038,7 +5101,28 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
+    ],
+    "category": "Houseplants - Vines & Trailing"
+  },
+  "vines-trailing": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      27
+    ],
+    "plantToxicity": "unknown",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -5058,8 +5142,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5080,7 +5164,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5100,8 +5184,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      50
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5142,8 +5226,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5163,8 +5247,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5184,8 +5268,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      10,
-      null
+      20,
+      100
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5248,7 +5332,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5257,7 +5341,7 @@
     "summerInterval": 5,
     "fallInterval": 7,
     "winterInterval": 10,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "high",
     "temperaturePreference": [
       16,
@@ -5268,8 +5352,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5289,8 +5373,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      50
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5310,8 +5394,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5332,7 +5416,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5352,8 +5436,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5373,8 +5457,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5394,8 +5478,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5415,8 +5499,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5436,8 +5520,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5457,8 +5541,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5478,8 +5562,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5499,8 +5583,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5520,8 +5604,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5541,8 +5625,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5562,8 +5646,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5626,7 +5710,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5646,8 +5730,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5667,8 +5751,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Houseplants - Specialty"
   },
@@ -5688,8 +5772,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      100,
+      500
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5714,7 +5798,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5738,8 +5822,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      50
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5764,7 +5848,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5788,8 +5872,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      20,
-      null
+      100,
+      300
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5813,8 +5897,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      30,
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5838,8 +5922,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      50
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5864,7 +5948,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5889,7 +5973,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5914,7 +5998,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       30,
-      null
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5939,7 +6023,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5964,7 +6048,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -5989,7 +6073,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       100,
-      null
+      500
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6014,7 +6098,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6038,8 +6122,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      50,
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6064,7 +6148,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6089,7 +6173,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6114,11 +6198,36 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       100,
-      null
+      500
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
       3,
+      9
+    ]
+  },
+  "pine": {
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      300
+    ],
+    "category": "Outdoor - Trees",
+    "hardinessZones": [
+      2,
       9
     ]
   },
@@ -6139,7 +6248,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6164,7 +6273,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      80
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6189,7 +6298,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6213,8 +6322,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      50
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6238,8 +6347,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      15,
+      40
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6263,8 +6372,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      50,
+      200
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6288,8 +6397,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      50
     ],
     "category": "Outdoor - Trees",
     "hardinessZones": [
@@ -6313,8 +6422,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6339,7 +6448,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      40
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6363,8 +6472,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6389,7 +6498,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6413,8 +6522,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6438,8 +6547,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6464,7 +6573,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6488,8 +6597,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6514,7 +6623,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6538,8 +6647,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6564,7 +6673,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6589,7 +6698,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      30
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6614,7 +6723,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6638,8 +6747,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6664,7 +6773,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6689,7 +6798,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6738,8 +6847,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6764,7 +6873,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       30,
-      null
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6788,8 +6897,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6813,8 +6922,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6838,8 +6947,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6864,7 +6973,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6889,7 +6998,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6913,8 +7022,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      40
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6964,7 +7073,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      30
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -6988,8 +7097,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -7013,8 +7122,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      20
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -7039,7 +7148,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -7063,8 +7172,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -7088,8 +7197,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      20,
+      100
     ],
     "category": "Outdoor - Shrubs",
     "hardinessZones": [
@@ -7138,8 +7247,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7163,8 +7272,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7214,7 +7323,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7238,8 +7347,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7263,8 +7372,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7289,7 +7398,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7313,8 +7422,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7364,7 +7473,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7388,8 +7497,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7413,8 +7522,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7438,8 +7547,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7464,7 +7573,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7489,7 +7598,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7514,7 +7623,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7538,8 +7647,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7588,8 +7697,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7614,7 +7723,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7639,7 +7748,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7663,8 +7772,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7688,8 +7797,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7714,7 +7823,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      3
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7739,7 +7848,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7763,8 +7872,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7789,7 +7898,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      2
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7813,8 +7922,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7839,7 +7948,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7864,7 +7973,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7888,8 +7997,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      30
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7914,7 +8023,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      20
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7938,8 +8047,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7963,8 +8072,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -7988,8 +8097,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8013,8 +8122,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8039,7 +8148,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      5
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8063,8 +8172,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8088,8 +8197,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8113,8 +8222,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8138,8 +8247,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8163,8 +8272,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8189,7 +8298,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8213,8 +8322,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8239,7 +8348,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8264,7 +8373,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8288,8 +8397,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8313,8 +8422,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8338,8 +8447,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8363,8 +8472,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8388,8 +8497,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8413,8 +8522,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8439,7 +8548,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8464,7 +8573,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      20
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8489,7 +8598,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8514,7 +8623,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8538,8 +8647,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8563,8 +8672,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8588,8 +8697,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8613,8 +8722,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8638,8 +8747,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8664,7 +8773,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      8
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8688,8 +8797,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8713,8 +8822,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8738,8 +8847,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -8763,8 +8872,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Perennials",
     "hardinessZones": [
@@ -9538,8 +9647,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9564,7 +9673,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9589,7 +9698,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9613,8 +9722,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9639,7 +9748,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      50
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9663,8 +9772,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9689,7 +9798,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9714,7 +9823,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9739,7 +9848,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      50
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9789,7 +9898,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9813,8 +9922,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9838,8 +9947,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9863,8 +9972,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      50
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9889,7 +9998,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Outdoor - Vines & Climbers",
     "hardinessZones": [
@@ -9914,7 +10023,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -9939,7 +10048,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -9964,7 +10073,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -9989,7 +10098,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10014,7 +10123,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10038,8 +10147,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10063,8 +10172,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10089,7 +10198,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10114,7 +10223,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10139,7 +10248,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10164,7 +10273,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10189,7 +10298,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10214,7 +10323,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10239,7 +10348,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10264,7 +10373,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10289,7 +10398,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10314,7 +10423,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10339,7 +10448,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10364,7 +10473,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10389,7 +10498,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10414,7 +10523,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10439,7 +10548,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10464,7 +10573,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      25
     ],
     "category": "Outdoor - Groundcovers & Grasses",
     "hardinessZones": [
@@ -10740,8 +10849,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      10
     ],
     "category": "Vegetables - Leafy Greens"
   },
@@ -10839,6 +10948,27 @@
     "temperaturePreference": [
       10,
       21
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Vegetables - Leafy Greens"
+  },
+  "leafy-greens": {
+    "springInterval": 2,
+    "summerInterval": 2,
+    "fallInterval": 3,
+    "winterInterval": null,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      5,
+      25
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -11522,6 +11652,27 @@
     ],
     "category": "Vegetables - Fruiting"
   },
+  "fruiting-vegetables": {
+    "springInterval": 2,
+    "summerInterval": 2,
+    "fallInterval": 3,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      15,
+      35
+    ],
+    "plantToxicity": "unknown",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Vegetables - Fruiting"
+  },
   "green-beans": {
     "springInterval": 3,
     "summerInterval": 3,
@@ -11602,7 +11753,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      1
     ],
     "category": "Vegetables - Fruiting"
   },
@@ -11644,7 +11795,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      1
     ],
     "category": "Vegetables - Fruiting"
   },
@@ -11665,7 +11816,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      1
     ],
     "category": "Vegetables - Fruiting"
   },
@@ -12215,7 +12366,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      20
     ],
     "category": "Vegetables - Root & Bulb"
   },
@@ -12236,7 +12387,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Vegetables - Root & Bulb"
   },
@@ -12467,7 +12618,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      80
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12492,7 +12643,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      40
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12517,7 +12668,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12542,7 +12693,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      6
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12642,7 +12793,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12667,7 +12818,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       60,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12692,7 +12843,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12742,7 +12893,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       50,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12767,7 +12918,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12792,7 +12943,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12817,7 +12968,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      200
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12842,7 +12993,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       10,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12892,7 +13043,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12916,8 +13067,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      10,
+      40
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12942,7 +13093,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12966,8 +13117,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      15,
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -12992,7 +13143,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13042,7 +13193,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13067,7 +13218,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13092,7 +13243,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13116,8 +13267,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      10,
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13142,7 +13293,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13167,7 +13318,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      1
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13192,7 +13343,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      40
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13217,7 +13368,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      200
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13242,7 +13393,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      4
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13267,7 +13418,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      7
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13292,7 +13443,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13317,7 +13468,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13342,7 +13493,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13367,7 +13518,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      75
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13391,8 +13542,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      15,
+      80
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13417,7 +13568,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       15,
-      null
+      30
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13442,7 +13593,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13467,7 +13618,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13491,8 +13642,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      20,
+      100
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13517,7 +13668,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      50
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13592,7 +13743,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       1,
-      null
+      1
     ],
     "category": "Fruits & Berries",
     "hardinessZones": [
@@ -13642,7 +13793,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       20,
-      null
+      100
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13716,8 +13867,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      8
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13741,8 +13892,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      10
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13792,7 +13943,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13817,7 +13968,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13866,8 +14017,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -13992,7 +14143,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      3
     ],
     "category": "Herbs"
   },
@@ -14012,8 +14163,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      8
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14038,7 +14189,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14062,8 +14213,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14087,8 +14238,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      5
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14113,7 +14264,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14137,8 +14288,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14187,8 +14338,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14212,8 +14363,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      5
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14262,8 +14413,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14312,8 +14463,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14362,8 +14513,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14412,8 +14563,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      1,
-      null
+      3,
+      8
     ],
     "category": "Herbs",
     "hardinessZones": [
@@ -14437,8 +14588,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14463,7 +14614,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14487,8 +14638,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14513,7 +14664,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14538,7 +14689,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14563,7 +14714,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14588,7 +14739,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14613,7 +14764,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14638,7 +14789,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14663,7 +14814,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      5
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14688,7 +14839,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14713,7 +14864,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14738,7 +14889,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14763,7 +14914,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14787,8 +14938,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14813,7 +14964,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14837,8 +14988,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14863,7 +15014,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14888,7 +15039,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14913,7 +15064,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14938,7 +15089,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14963,7 +15114,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -14988,7 +15139,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15013,7 +15164,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15038,7 +15189,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15063,7 +15214,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15088,7 +15239,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15113,7 +15264,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15138,7 +15289,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15163,7 +15314,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15188,7 +15339,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15213,7 +15364,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      2
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15237,8 +15388,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15263,7 +15414,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15288,7 +15439,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15313,7 +15464,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15337,8 +15488,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15363,7 +15514,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15388,7 +15539,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       2,
-      null
+      1
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -16173,6 +16324,27 @@
     ],
     "category": "Sprouts & Microgreens"
   },
+  "sprouts-microgreens": {
+    "springInterval": 1,
+    "summerInterval": 1,
+    "fallInterval": 1,
+    "winterInterval": null,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      10,
+      32
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "misting",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Sprouts & Microgreens"
+  },
   "sunflower-sprouts": {
     "springInterval": 1,
     "summerInterval": 1,
@@ -16294,8 +16466,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16319,8 +16491,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      25
     ],
     "category": "Bulbs"
   },
@@ -16340,10 +16512,35 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Bulbs"
+  },
+  "bulbs": {
+    "springInterval": 5,
+    "summerInterval": null,
+    "fallInterval": null,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      25
+    ],
+    "plantToxicity": "unknown",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      20
+    ],
+    "category": "Bulbs",
+    "hardinessZones": [
+      3,
+      8
+    ]
   },
   "calla-lily": {
     "springInterval": 7,
@@ -16361,8 +16558,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16386,8 +16583,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16411,8 +16608,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Bulbs"
   },
@@ -16432,8 +16629,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16457,8 +16654,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16478,8 +16675,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16499,8 +16696,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16524,8 +16721,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16549,8 +16746,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Bulbs"
   },
@@ -16570,8 +16767,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16591,8 +16788,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16662,8 +16859,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Bulbs"
   },
@@ -16708,8 +16905,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16729,8 +16926,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16750,8 +16947,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16771,8 +16968,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16792,8 +16989,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16813,8 +17010,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Bulbs"
   },
@@ -16834,8 +17031,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Bulbs"
   },
@@ -16855,8 +17052,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Bulbs"
   },
@@ -16876,8 +17073,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Bulbs"
   },
@@ -16897,8 +17094,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      30
     ],
     "category": "Bulbs"
   },
@@ -16918,8 +17115,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Bulbs",
     "hardinessZones": [
@@ -16969,7 +17166,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -16993,8 +17190,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17018,8 +17215,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17044,7 +17241,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17068,8 +17265,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17094,7 +17291,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17119,7 +17316,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17144,7 +17341,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Specialty - Aquatic & Bog"
   },
@@ -17164,8 +17361,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17189,8 +17386,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      10,
+      30
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17214,8 +17411,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17240,7 +17437,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17264,8 +17461,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17290,7 +17487,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17314,8 +17511,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17340,7 +17537,7 @@
     "wateringMethod": null,
     "plantLifeSpan": [
       2,
-      null
+      3
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17364,8 +17561,8 @@
     "drainagePreference": "waterloggingTolerant",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Aquatic & Bog",
     "hardinessZones": [
@@ -17386,11 +17583,32 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      10
+    ],
+    "category": "Specialty - Carnivorous"
+  },
+  "carnivorous-plant": {
+    "springInterval": 2,
+    "summerInterval": 2,
+    "fallInterval": 3,
+    "winterInterval": 5,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      10,
+      28
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": null,
+    "plantLifeSpan": [
+      3,
+      15
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17407,11 +17625,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Carnivorous",
     "hardinessZones": [
@@ -17432,11 +17650,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17456,8 +17674,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17477,8 +17695,8 @@
     "drainagePreference": "excellentDrainage",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17495,11 +17713,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17508,7 +17726,7 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "high",
     "temperaturePreference": [
       10,
@@ -17516,11 +17734,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Carnivorous",
     "hardinessZones": [
@@ -17541,11 +17759,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -17554,7 +17772,7 @@
     "summerInterval": 2,
     "fallInterval": 3,
     "winterInterval": 5,
-    "lightPreference": "brightIndirect",
+    "lightPreference": "strongDirect",
     "humidityPreference": "high",
     "temperaturePreference": [
       16,
@@ -17562,11 +17780,11 @@
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "acidic",
-    "drainagePreference": "excellentDrainage",
+    "drainagePreference": "moistureRetentive",
     "wateringMethod": null,
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Carnivorous",
     "hardinessZones": [
@@ -17591,7 +17809,7 @@
     "wateringMethod": "misting",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17611,8 +17829,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      5
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17632,8 +17850,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      10
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17653,8 +17871,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17675,7 +17893,7 @@
     "wateringMethod": "misting",
     "plantLifeSpan": [
       3,
-      null
+      15
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17695,8 +17913,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      50
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17716,8 +17934,8 @@
     "drainagePreference": "moistureRetentive",
     "wateringMethod": "misting",
     "plantLifeSpan": [
-      3,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17737,8 +17955,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17758,8 +17976,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      5,
-      null
+      10,
+      25
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17780,7 +17998,7 @@
     "wateringMethod": "misting",
     "plantLifeSpan": [
       5,
-      null
+      20
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17800,8 +18018,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      20
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17821,8 +18039,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "misting",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17842,8 +18060,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "immersion",
     "plantLifeSpan": [
-      2,
-      null
+      10,
+      25
     ],
     "category": "Specialty - Epiphytes & Moss"
   },
@@ -17884,8 +18102,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -17909,8 +18127,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -17935,7 +18153,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
-      null
+      10
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -17959,8 +18177,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      5
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -17985,7 +18203,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18009,8 +18227,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18034,8 +18252,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18059,8 +18277,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18085,7 +18303,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      10
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18110,7 +18328,7 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
-      null
+      15
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18134,8 +18352,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      10
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18159,8 +18377,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      3,
+      8
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18184,8 +18402,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -18209,8 +18427,8 @@
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
-      2,
-      null
+      5,
+      15
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [

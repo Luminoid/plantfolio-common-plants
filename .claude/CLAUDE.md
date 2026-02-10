@@ -74,6 +74,9 @@ python3 scripts/audit_*.py               # Various quality checks
 - **Scientific names**: Accepted name first; synonyms in parentheses
 - **plantID**: Lowercase, hyphenated, unique across all locales
 - **Locales**: Keep EN, ES, ZH-Hans synchronized
+- **Descriptions**: Must end with period. "Also known as:" capitalized, at start of description. Each plant unique — no placeholders or duplicates
+- **aka rules**: No scientific names. No aka matching another plant's typeName. No duplicate aka within a locale. Category entries must not use specific entries' names as aka. No duplicate typeNames within a locale
+- **commonExamples**: Use species-specific common names (not generic labels like "Microgreens")
 
 ### Script Standards
 
