@@ -60,7 +60,15 @@ def merge_plant_entry(lang_entry: dict, metadata: dict, category_translations: l
     return merged
 
 
-def merge_locale(source_dir: Path, output_dir: Path, lang_filename: str, output_filename: str, metadata: dict) -> int:
+def merge_locale(
+    source_dir: Path,
+    output_dir: Path,
+    lang_filename: str,
+    output_filename: str,
+    metadata: dict,
+    version: str | None,
+    plant_count: int,
+) -> int:
     """Merge one locale file. Returns count of merged plant entries."""
     lang_path = source_dir / lang_filename
     if not lang_path.exists():
@@ -68,23 +76,37 @@ def merge_locale(source_dir: Path, output_dir: Path, lang_filename: str, output_
         return 0
     with open(lang_path, "r", encoding="utf-8") as f:
         lang_data = json.load(f)
-    # Extract category translations from _metadata.sorting.categories
+    # Extract category translations and sorting from _metadata
     category_translations = None
+    sorting_block = None
     for entry in lang_data:
         if "_metadata" in entry:
-            category_translations = entry["_metadata"].get("sorting", {}).get("categories")
+            meta = entry["_metadata"]
+            category_translations = meta.get("sorting", {}).get("categories")
+            sorting_block = meta.get("sorting")
             break
-    merged = []
+    merged_entries = []
     count = 0
     for entry in lang_data:
         result = merge_plant_entry(entry, metadata, category_translations)
         if result is not None:
-            merged.append(result)
+            merged_entries.append(result)
             if "id" in result:
                 count += 1
+    # Prepend _metadata so dist includes version for custom URL consumers
+    header: dict = {}
+    if version is not None or plant_count >= 0 or sorting_block:
+        header["_metadata"] = {}
+        if version is not None:
+            header["_metadata"]["version"] = version
+        if plant_count >= 0:
+            header["_metadata"]["totalPlants"] = plant_count
+        if sorting_block:
+            header["_metadata"]["sorting"] = sorting_block
+    output_list = ([header] if header else []) + merged_entries
     output_path = output_dir / f"{output_filename}.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(merged, f, indent=2, ensure_ascii=False)
+        json.dump(output_list, f, indent=2, ensure_ascii=False)
     print(f"  ✅ {output_filename}.json ({count} plants)")
     return count
 
@@ -113,14 +135,18 @@ def main():
     with open(metadata_path, "r", encoding="utf-8") as f:
         metadata = json.load(f)
     plant_count = len([k for k in metadata if k != "_metadata"])
-    print(f"  Loaded metadata for {plant_count} plants\n")
+    meta_header = metadata.get("_metadata") or {}
+    version = meta_header.get("version") if isinstance(meta_header, dict) else None
+    print(f"  Loaded metadata for {plant_count} plants (version={version or 'n/a'})\n")
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print("🔧 Merging...")
     total = 0
     for _locale, lang_filename, output_name in LOCALES:
-        total += merge_locale(source_dir, output_dir, lang_filename, output_name, metadata)
+        total += merge_locale(
+            source_dir, output_dir, lang_filename, output_name, metadata, version, plant_count
+        )
 
     print(f"\n✅ Done. Merged {total} plant entries across {len(LOCALES)} locales.")
     print("=" * 60)

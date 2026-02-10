@@ -1,5 +1,45 @@
 [
   {
+    "_metadata": {
+      "version": "1.7.2",
+      "totalPlants": 810,
+      "sorting": {
+        "method": "Categorized then alphabetical",
+        "categories": [
+          "Houseplants - Low Maintenance",
+          "Houseplants - Aroids",
+          "Houseplants - Ferns",
+          "Houseplants - Palms",
+          "Houseplants - Succulents",
+          "Houseplants - Cacti",
+          "Houseplants - Flowering",
+          "Houseplants - Prayer Plants",
+          "Houseplants - Vines & Trailing",
+          "Houseplants - Specialty",
+          "Outdoor - Trees",
+          "Outdoor - Shrubs",
+          "Outdoor - Perennials",
+          "Outdoor - Annuals",
+          "Outdoor - Vines & Climbers",
+          "Outdoor - Groundcovers & Grasses",
+          "Vegetables - Leafy Greens",
+          "Vegetables - Fruiting",
+          "Vegetables - Root & Bulb",
+          "Fruits & Berries",
+          "Herbs",
+          "Farm & Field Crops",
+          "Sprouts & Microgreens",
+          "Bulbs",
+          "Specialty - Aquatic & Bog",
+          "Specialty - Carnivorous",
+          "Specialty - Epiphytes & Moss",
+          "Specialty - Alpine"
+        ],
+        "note": "Each plant entry includes a 'category' field for annotation. Plants are sorted by category, then alphabetically by typeName within each category."
+      }
+    }
+  },
+  {
     "id": "aglaonema",
     "typeName": "Aglaonema",
     "description": "Also known as: Chinese evergreen. Low-light tolerant aroids with variegated foliage in shades of green, silver, pink, or red.",

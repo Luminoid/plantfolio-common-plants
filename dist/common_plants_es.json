@@ -1,5 +1,45 @@
 [
   {
+    "_metadata": {
+      "version": "1.7.2",
+      "totalPlants": 810,
+      "sorting": {
+        "method": "Por categoría y luego alfabéticamente",
+        "categories": [
+          "Plantas de Interior - Bajo Mantenimiento",
+          "Plantas de Interior - Aráceas",
+          "Plantas de Interior - Helechos",
+          "Plantas de Interior - Palmeras",
+          "Plantas de Interior - Suculentas",
+          "Plantas de Interior - Cactus",
+          "Plantas de Interior - Con Flores",
+          "Plantas de Interior - Plantas de Oración",
+          "Plantas de Interior - Enredaderas y Colgantes",
+          "Plantas de Interior - Especiales",
+          "Exterior - Árboles",
+          "Exterior - Arbustos",
+          "Exterior - Perennes",
+          "Exterior - Anuales",
+          "Exterior - Enredaderas y Trepadoras",
+          "Exterior - Coberturas y Pastos",
+          "Verduras - Hojas Verdes",
+          "Verduras - Con Frutos",
+          "Verduras - Raíz y Bulbo",
+          "Frutas y Bayas",
+          "Hierbas",
+          "Cultivos y Campo",
+          "Brotes y Microgreens",
+          "Bulbos",
+          "Especiales - Acuáticas y Pantanosas",
+          "Especiales - Carnívoras",
+          "Especiales - Epífitas y Musgo",
+          "Especiales - Alpinas"
+        ],
+        "note": "Cada entrada de planta incluye un campo 'category' para anotación. Las plantas se ordenan por categoría, luego alfabéticamente por typeName dentro de cada categoría."
+      }
+    }
+  },
+  {
     "id": "aglaonema",
     "typeName": "Aglaonema",
     "description": "También conocida como: siempreverde chino. Aráceas tolerantes a poca luz con follaje variegado en tonos de verde, plateado, rosa o rojo.",

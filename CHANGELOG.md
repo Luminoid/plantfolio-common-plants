@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.7.2] - 2026-02-09
+
+### Changed
+
+- **Metadata:** Dist output now includes `_metadata` (version, totalPlants, sorting) in merged JSON for custom URL consumers.
+
 ## [1.7.1] - 2026-02-09
 
 ### Changed
