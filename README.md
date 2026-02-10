@@ -1,6 +1,6 @@
 # plantfolio-common-plants
 
-Curated plant care dataset (800 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
+Curated plant care dataset (810 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
 
 ## Disclaimer
 
@@ -30,7 +30,7 @@ python3 scripts/release.py   # Build dist/, validate, run all audits (run before
 | `scripts/` | Merge, validate, audit, translate. Run from repo root |
 | `dist/` | Generated merged JSON; do not edit |
 
-Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them.
+Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them. When adding or removing plants, update `_metadata.plantCount` in `common_plants_metadata.json` to match the number of plant entries; release validation will fail if it doesn’t.
 
 **Language rules:** Each language file must contain only its target language (EN, ES, or ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. **Descriptions** must end with a period (`.`). **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (use common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). **No aka that matches another plant's typeName** — if two entries share a common name, keep them separate without cross-referencing via aka. **No duplicate aka** — no two plants may share the same aka within a locale. **Category entries** should not use specific entries' names as aka (e.g., Pothos category should not aka "Devil's ivy" when Golden Pothos already has it). First-segment aliases only for category plants; do not duplicate typeName. **No duplicate typeNames** within a locale. Run `audit_target_language.py` and `audit_also_known_as.py` to verify.
 

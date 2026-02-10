@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.7.1] - 2026-02-09
+
+### Changed
+
+- **_metadata.plantCount:** Added `plantCount: 810` to metadata.
+
 ## [1.7.0] - 2026-02-09
 
 ### Changed

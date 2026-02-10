@@ -1,6 +1,7 @@
 {
   "_metadata": {
-    "version": "1.7.0"
+    "version": "1.7.1",
+    "plantCount": 810
   },
   "aglaonema": {
     "springInterval": 7,

@@ -50,9 +50,11 @@ def validate_metadata_schema(metadata_path):
         return False, [str(e)]
 
     errors = []
+    plant_count = 0
     for plant_id, entry in meta.items():
         if plant_id == "_metadata" or not isinstance(entry, dict):
             continue
+        plant_count += 1
 
         # Enums
         if "lightPreference" in entry and entry["lightPreference"] not in VALID_LIGHT_PREFERENCES:
@@ -100,6 +102,49 @@ def validate_metadata_schema(metadata_path):
             elif pls[0] is not None and pls[0] < 0:
                 errors.append(f"{plant_id}: plantLifeSpan min < 0")
 
+    # plantCount in _metadata must match actual number of plant entries
+    declared = None
+    if "_metadata" in meta and isinstance(meta["_metadata"], dict):
+        declared = meta["_metadata"].get("plantCount")
+    if declared is not None and declared != plant_count:
+        errors.append(
+            f"_metadata.plantCount is {declared} but metadata has {plant_count} plant entries"
+        )
+
+    return len(errors) == 0, errors
+
+
+def validate_language_metadata(source_dir: Path, repo_root: Path) -> tuple[bool, list[str]]:
+    """Validate source language files: _metadata.totalPlants must match actual plant entry count."""
+    errors = []
+    for name in ("common_plants_language_en.json", "common_plants_language_es.json", "common_plants_language_zh-Hans.json"):
+        path = source_dir / name
+        if not path.exists():
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            errors.append(f"{name}: {e}")
+            continue
+        if not isinstance(data, list) or len(data) < 1:
+            errors.append(f"{name}: expected non-empty array")
+            continue
+        first = data[0]
+        if not isinstance(first, dict) or "_metadata" not in first:
+            errors.append(f"{name}: first element must have _metadata")
+            continue
+        meta = first["_metadata"]
+        if not isinstance(meta, dict):
+            errors.append(f"{name}: _metadata must be an object")
+            continue
+        declared = meta.get("totalPlants")
+        # Plant entries are all array elements except the first (metadata wrapper)
+        actual = len(data) - 1
+        if declared is not None and declared != actual:
+            errors.append(
+                f"{name}: _metadata.totalPlants is {declared} but file has {actual} plant entries"
+            )
     return len(errors) == 0, errors
 
 
@@ -130,6 +175,15 @@ def main():
                 print(f"   {e}")
             if len(errs) > 20:
                 print(f"   ... and {len(errs) - 20} more")
+            sys.exit(1)
+        # Source language files: _metadata.totalPlants must match actual count
+        lang_ok, lang_errs = validate_language_metadata(source_dir, repo_root)
+        if lang_ok:
+            print("✅ Source language _metadata.totalPlants valid")
+        else:
+            print("❌ Source language metadata errors:")
+            for e in lang_errs:
+                print(f"   {e}")
             sys.exit(1)
         if not args.files and not args.check_structure:
             sys.exit(0)

@@ -1,7 +1,7 @@
 # Dataset Reference
 
-**800 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.7.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**810 plants** across **28 categories** (EN, ZH, ES).  
+**Version:** 1.7.1 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 
@@ -50,7 +50,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 | Milestone | Notes |
 |-----------|-------|
-| 800 plants | 28 categories, EN/ES/ZH |
+| 810 plants | 28 categories, EN/ES/ZH |
 | Reorganization | 12 duplicates removed; category reassignments |
 | Hardiness zones | 91 outdoor plants (USDA zones) |
 | Dormancy notes | Entries with null winterInterval |
