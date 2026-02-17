@@ -1,0 +1,2942 @@
+[
+  {
+    "id": "mexican-hat",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 10,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        -20,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        3,
+        10
+      ],
+      "category": "Outdoor - Perennials"
+    },
+    "en": {
+      "typeName": "Mexican Hat",
+      "description": "Also known as: Prairie coneflower. Native prairie wildflower with distinctive drooping yellow or red-brown petals surrounding a tall central cone.",
+      "commonExamples": "Ratibida columnifera (Mexican hat, Prairie coneflower, Upright prairie coneflower)",
+      "careTips": "Very drought-tolerant once established; water sparingly, every 1-2 weeks in dry spells. Full sun essential—at least 6 hours daily. Thrives in poor, well-drained soil; avoid rich or wet conditions. Do not fertilize—excess nutrients reduce flowering. Self-sows freely. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Sombrero Mexicano",
+      "description": "También conocida como: Coneflor de pradera. Flor silvestre nativa de pradera con pétalos amarillos o rojo-marrón colgantes que rodean un cono central alto.",
+      "commonExamples": "Ratibida columnifera (Sombrero mexicano, Coneflor de pradera)",
+      "careTips": "Muy tolerante a la sequía una vez establecida; regar moderadamente, cada 1-2 semanas en períodos secos. Sol pleno esencial—al menos 6 horas diarias. Prospera en suelo pobre y bien drenado; evitar condiciones ricas o húmedas. No fertilizar—el exceso de nutrientes reduce la floración. Se resiembra sola. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "墨西哥帽花",
+      "description": "也称：草原锥花。原产草原的野花，花瓣黄色或红褐色下垂，围绕高耸的中央花锥。",
+      "commonExamples": "Ratibida columnifera (墨西哥帽花, 草原锥花)",
+      "careTips": "定植后非常耐旱；干旱期每1-2周少量浇水。需要全日照—每天至少6小时。适合贫瘠、排水良好的土壤；避免肥沃或潮湿的环境。不需施肥—过多养分会减少开花。可自播繁殖。对宠物无毒。"
+    }
+  },
+  {
+    "id": "deer-fern",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "lowIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        5,
+        24
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "moistureRetentive",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Houseplants - Ferns"
+    },
+    "en": {
+      "typeName": "Deer Fern",
+      "description": "Evergreen fern native to western North America with dimorphic fronds—sterile fronds spread outward while fertile fronds grow upright from the center.",
+      "commonExamples": "Blechnum spicant (Deer fern, Hard fern)",
+      "careTips": "Keep soil consistently moist but not waterlogged; never let it dry out completely. Low to medium indirect light—avoid direct sun which scorches fronds. High humidity (60%+) essential; mist regularly or use a pebble tray. Use acidic, humus-rich soil with good moisture retention. Fertilize monthly spring through fall with diluted balanced fertilizer. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Helecho de Ciervo",
+      "description": "Helecho perenne nativo del oeste de Norteamérica con frondas dimorfas—las frondas estériles se extienden mientras las fértiles crecen erectas desde el centro.",
+      "commonExamples": "Blechnum spicant (Helecho de ciervo, Helecho duro)",
+      "careTips": "Mantener el suelo consistentemente húmedo pero no encharcado; nunca dejar secar completamente. Luz indirecta baja a media—evitar sol directo que quema las frondas. Humedad alta (60%+) esencial; rociar regularmente o usar bandeja de guijarros. Usar suelo ácido rico en humus con buena retención de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado diluido. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "鹿蕨",
+      "description": "原产于北美西部的常绿蕨类，具二型叶——不育叶向外展开，能育叶从中心直立生长。",
+      "commonExamples": "Blechnum spicant (鹿蕨, 硬蕨)",
+      "careTips": "保持土壤持续湿润但不积水；切勿完全干透。低至中等间接光—避免直射光灼伤叶片。需要高湿度（60%+）；定期喷雾或使用卵石托盘。使用酸性、腐殖质丰富的保湿土壤。春至秋每月用稀释平衡肥料施肥。对宠物无毒。"
+    }
+  },
+  {
+    "id": "joshua-tree",
+    "meta": {
+      "springInterval": 21,
+      "summerInterval": 14,
+      "fallInterval": 30,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        5,
+        45
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        150,
+        1000
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Joshua Tree",
+      "description": "Iconic tree-like yucca of the Mojave Desert with twisted branches and spiky leaf clusters, a symbol of the American Southwest.",
+      "commonExamples": "Yucca brevifolia (Joshua tree)",
+      "careTips": "Extremely drought-tolerant; water deeply but infrequently (every 2-3 weeks in summer, rarely in winter). Full sun essential—needs intense direct sunlight. Requires excellent drainage; sandy or gravelly soil ideal. Do not fertilize. Very slow-growing. Protect from frost below -10°C. Mildly toxic (saponins) to pets."
+    },
+    "es": {
+      "typeName": "Árbol de Josué",
+      "description": "Yuca arbórea icónica del desierto de Mojave con ramas retorcidas y grupos de hojas puntiagudas, símbolo del suroeste americano.",
+      "commonExamples": "Yucca brevifolia (Árbol de Josué)",
+      "careTips": "Extremadamente tolerante a la sequía; regar profundamente pero con poca frecuencia (cada 2-3 semanas en verano, rara vez en invierno). Sol pleno esencial—necesita luz solar directa intensa. Requiere excelente drenaje; suelo arenoso o pedregoso ideal. No fertilizar. Crecimiento muy lento. Proteger de heladas bajo -10°C. Ligeramente tóxico (saponinas) para mascotas."
+    },
+    "zh": {
+      "typeName": "约书亚树",
+      "description": "莫哈韦沙漠标志性的树状丝兰，枝条扭曲，叶簇尖锐，是美国西南部的象征。",
+      "commonExamples": "Yucca brevifolia (约书亚树)",
+      "careTips": "极其耐旱；深浇但不频繁（夏季每2-3周，冬季几乎不浇）。需要全日照—强烈直射阳光。要求极佳排水；沙质或砖石土壤理想。无需施肥。生长非常缓慢。保护免受-10°C以下霜冻。对宠物有轻度毒性（皂苷）。"
+    }
+  },
+  {
+    "id": "giant-sequoia",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1000,
+        3000
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Giant Sequoia",
+      "description": "Also known as: Sierra redwood. The largest trees on Earth by volume, native to the western Sierra Nevada with massive trunks and spongy, fire-resistant bark.",
+      "commonExamples": "Sequoiadendron giganteum (Giant sequoia, Sierra redwood, Wellingtonia)",
+      "careTips": "Water regularly during establishment (first 3-5 years); mature trees are moderately drought-tolerant. Full sun preferred. Well-drained, deep soil. Fertilize young trees in spring with balanced fertilizer. Very long-lived—some specimens exceed 3,000 years. Extremely cold-hardy. Needs space for massive trunk and root system. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Secuoya Gigante",
+      "description": "También conocida como: Secuoya de la Sierra. Los árboles más grandes del planeta por volumen, nativos de la Sierra Nevada occidental con troncos masivos y corteza esponjosa resistente al fuego.",
+      "commonExamples": "Sequoiadendron giganteum (Secuoya gigante, Wellingtonia)",
+      "careTips": "Regar regularmente durante el establecimiento (primeros 3-5 años); árboles maduros son moderadamente tolerantes a la sequía. Sol pleno preferido. Suelo profundo y bien drenado. Fertilizar árboles jóvenes en primavera con fertilizante balanceado. Muy longevos—algunos ejemplares superan los 3,000 años. Extremadamente resistentes al frío. Necesita espacio para tronco y sistema radicular masivos. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "巨杉",
+      "description": "也称：世界爷。地球上体积最大的树木，原产于美国西部内华达山脉，拥有巨大的树干和海绵状防火树皮。",
+      "commonExamples": "Sequoiadendron giganteum (巨杉, 世界爷)",
+      "careTips": "建立期（前3-5年）定期浇水；成熟树木中度耐旱。偏好全日照。深层排水良好的土壤。春季对幼树施平衡肥料。极其长寿—部分个体超过3000年。非常耐寒。需要充足空间容纳巨大的树干和根系。对宠物无毒。"
+    }
+  },
+  {
+    "id": "coast-redwood",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        -5,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        500,
+        2000
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Coast Redwood",
+      "description": "The tallest trees on Earth, native to the foggy coastal forests of California and Oregon, with soft reddish bark and flat needles.",
+      "commonExamples": "Sequoia sempervirens (Coast redwood, California redwood)",
+      "careTips": "Keep soil consistently moist; benefits greatly from fog or supplemental misting in dry climates. Full sun to partial shade. Prefers deep, acidic, well-drained soil rich in organic matter. Fertilize young trees in spring. Needs humidity—struggles in arid inland climates. Very fast-growing (up to 1 meter per year). Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Secuoya de la Costa",
+      "description": "Los árboles más altos del planeta, nativos de los bosques costeros neblinosos de California y Oregón, con corteza rojiza suave y agujas planas.",
+      "commonExamples": "Sequoia sempervirens (Secuoya de la costa, Secuoya roja de California)",
+      "careTips": "Mantener el suelo consistentemente húmedo; se beneficia enormemente de la niebla o nebulización suplementaria en climas secos. Sol pleno a sombra parcial. Prefiere suelo profundo, ácido y bien drenado rico en materia orgánica. Fertilizar árboles jóvenes en primavera. Necesita humedad—difícil en climas áridos del interior. Crecimiento muy rápido (hasta 1 metro por año). No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "北美红杉",
+      "description": "地球上最高的树木，原产于加利福尼亚和俄勒冈州的雾气海岸森林，具柔软红色树皮和扁平针叶。",
+      "commonExamples": "Sequoia sempervirens (北美红杉, 加州红杉)",
+      "careTips": "保持土壤持续湿润；在干燥气候中需要雾气或额外喷雾。全日照至半阴。偏好深层、酸性、排水良好且富含有机质的土壤。春季对幼树施肥。需要湿度—在干旱内陆气候中生长困难。生长极快（每年可达1米）。对宠物无毒。"
+    }
+  },
+  {
+    "id": "dawn-redwood",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        100,
+        600
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Dawn Redwood",
+      "description": "Also known as: Living fossil. Deciduous conifer discovered in China in 1944, previously known only from fossils, with feathery foliage that turns russet-bronze in autumn.",
+      "commonExamples": "Metasequoia glyptostroboides (Dawn redwood)",
+      "careTips": "Keep soil consistently moist, especially during the first few years. Tolerates wet and even temporarily flooded conditions. Full sun preferred. Prefers moist, slightly acidic, well-drained soil but adapts to various conditions. Fertilize in spring with balanced fertilizer. Fast-growing (up to 60 cm per year). Deciduous—drops needles in fall. Very cold-hardy. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Secuoya del Amanecer",
+      "description": "También conocida como: Fósil viviente. Conífera caducifolia descubierta en China en 1944, previamente conocida solo por fósiles, con follaje plumoso que se torna bronce-rojizo en otoño.",
+      "commonExamples": "Metasequoia glyptostroboides (Secuoya del amanecer)",
+      "careTips": "Mantener el suelo consistentemente húmedo, especialmente durante los primeros años. Tolera condiciones húmedas e incluso inundaciones temporales. Sol pleno preferido. Prefiere suelo húmedo, ligeramente ácido y bien drenado pero se adapta a diversas condiciones. Fertilizar en primavera con fertilizante balanceado. Crecimiento rápido (hasta 60 cm por año). Caducifolia—pierde agujas en otoño. Muy resistente al frío. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "水杉",
+      "description": "也称：活化石。1944年在中国发现的落叶针叶树，此前仅见于化石记录，羽状叶秋季转为铜褐色。",
+      "commonExamples": "Metasequoia glyptostroboides (水杉)",
+      "careTips": "保持土壤持续湿润，尤其是前几年。可耐受潮湿甚至短期水淋。偏好全日照。喜湿润、微酸性、排水良好的土壤，但适应性强。春季施平衡肥。生长快速（每年可达60厘米）。落叶性—秋季落针。非常耐寒。对宠物无毒。"
+    }
+  },
+  {
+    "id": "bristlecone-pine",
+    "meta": {
+      "springInterval": 21,
+      "summerInterval": 14,
+      "fallInterval": 30,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        -30,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "alkaline",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1000,
+        5000
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Bristlecone Pine",
+      "description": "The oldest known living organisms on Earth, with gnarled, wind-sculpted forms found at high elevations in the American West. Some specimens exceed 5,000 years old.",
+      "commonExamples": "Pinus longaeva (Great Basin bristlecone pine), P. aristata (Rocky Mountain bristlecone pine)",
+      "careTips": "Extremely drought-tolerant; water sparingly. Full sun essential. Requires excellent drainage—thrives in rocky, alkaline, nutrient-poor soil. Do not fertilize. Extremely slow-growing (may add only a few centimeters per year). Very cold-hardy. Difficult to cultivate outside its native high-altitude habitat. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Pino Bristlecone",
+      "description": "Los organismos vivos más antiguos conocidos en la Tierra, con formas retorcidas esculpidas por el viento en elevaciones altas del oeste americano. Algunos ejemplares superan los 5,000 años.",
+      "commonExamples": "Pinus longaeva (Pino bristlecone de la Gran Cuenca), P. aristata (Pino bristlecone de las Montañas Rocosas)",
+      "careTips": "Extremadamente tolerante a la sequía; regar con moderación. Sol pleno esencial. Requiere excelente drenaje—prospera en suelo rocoso, alcalino y pobre en nutrientes. No fertilizar. Crecimiento extremadamente lento (puede añadir solo unos centímetros por año). Muy resistente al frío. Difícil de cultivar fuera de su hábitat nativo de alta altitud. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "狐尾松",
+      "description": "地球上已知最古老的生物，以风蚀扭曲的形态生长于美国西部高海拔地区。部分个体树龄超过5000年。",
+      "commonExamples": "Pinus longaeva (大盆地狐尾松), P. aristata (落基山狐尾松)",
+      "careTips": "极其耐旱；少量浇水。需要全日照。要求极佳排水—适合岩石质、碱性、贫瘠土壤。无需施肥。生长极其缓慢（每年可能仅增长数厘米）。非常耐寒。在原生高海拔栖息地外难以栽培。对宠物无毒。"
+    }
+  },
+  {
+    "id": "baobab",
+    "meta": {
+      "springInterval": 21,
+      "summerInterval": 14,
+      "fallInterval": 30,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        10,
+        40
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        500,
+        2500
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Baobab",
+      "description": "Also known as: Tree of Life. Massive African tree with a hugely swollen trunk that stores water, sparse crown, and edible fruit rich in vitamin C.",
+      "commonExamples": "Adansonia digitata (African baobab, Tree of Life), A. grandidieri (Grandidier's baobab), A. madagascariensis",
+      "careTips": "Very drought-tolerant; water sparingly during growing season and withhold water entirely during dormancy (leaf-drop period). Full sun essential. Requires excellent drainage—sandy, well-drained soil. Do not overwater; trunk rot is the primary killer. Frost-sensitive—protect below 10°C. Can be grown as a bonsai or container specimen in temperate climates. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Baobab",
+      "description": "También conocido como: Árbol de la vida. Árbol africano masivo con tronco enormemente hinchado que almacena agua, copa dispersa y fruto comestible rico en vitamina C.",
+      "commonExamples": "Adansonia digitata (Baobab africano, Árbol de la vida), A. grandidieri (Baobab de Grandidier), A. madagascariensis",
+      "careTips": "Muy tolerante a la sequía; regar moderadamente durante la temporada de crecimiento y suspender el riego completamente durante la latencia (período sin hojas). Sol pleno esencial. Requiere excelente drenaje—suelo arenoso y bien drenado. No regar en exceso; la pudrición del tronco es la principal causa de muerte. Sensible a las heladas—proteger bajo 10°C. Se puede cultivar como bonsái o en contenedor en climas templados. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "猴面包树",
+      "description": "也称：生命之树。非洲巨型树木，树干膨大储水，树冠稀疏，果实富含维生素C且可食用。",
+      "commonExamples": "Adansonia digitata (非洲猴面包树, 生命之树), A. grandidieri (格兰迪尔猴面包树), A. madagascariensis",
+      "careTips": "非常耐旱；生长季少量浇水，休眠期（落叶期）完全停水。需要全日照。要求极佳排水—沙质排水良好的土壤。切勿过度浇水；树干腐烂是主要致死原因。不耐霜冻—10°C以下需保护。可在温带气候中作为盆景或容器植物种植。对宠物无毒。"
+    }
+  },
+  {
+    "id": "banyan",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        15,
+        40
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        200,
+        500
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Banyan Tree",
+      "description": "Strangler fig with a dramatic aerial root system that forms secondary trunks, allowing a single tree to cover several acres. National tree of India.",
+      "commonExamples": "Ficus benghalensis (Indian banyan), F. macrophylla (Moreton Bay fig), F. citrifolia (Shortleaf fig)",
+      "careTips": "Water regularly to keep soil consistently moist, especially when young. Full sun preferred for outdoor specimens. Rich, well-drained soil with high organic matter. Fertilize monthly during growing season. Aerial roots need humidity to develop—mist regularly in dry climates. Requires enormous space outdoors; can also be grown as an indoor bonsai. Mildly toxic to pets (latex sap causes irritation)."
+    },
+    "es": {
+      "typeName": "Árbol Banyan",
+      "description": "Higuera estranguladora con un dramático sistema de raíces aéreas que forman troncos secundarios, permitiendo que un solo árbol cubra varias hectáreas. Árbol nacional de India.",
+      "commonExamples": "Ficus benghalensis (Banyan indio), F. macrophylla (Higuera de la bahía Moreton), F. citrifolia",
+      "careTips": "Regar regularmente para mantener el suelo consistentemente húmedo, especialmente cuando es joven. Sol pleno preferido para ejemplares de exterior. Suelo rico, bien drenado con alto contenido de materia orgánica. Fertilizar mensualmente durante la temporada de crecimiento. Las raíces aéreas necesitan humedad para desarrollarse—rociar regularmente en climas secos. Requiere espacio enorme al exterior; también se puede cultivar como bonsái de interior. Ligeramente tóxico para mascotas (la savia de látex causa irritación)."
+    },
+    "zh": {
+      "typeName": "榨树",
+      "description": "具戏剧性气生根系统的绞杀榨，气根形成支撑根，使单棵树可覆盖数英亘。印度国树。",
+      "commonExamples": "Ficus benghalensis (印度榨), F. macrophylla (摩顿湾无花果), F. citrifolia",
+      "careTips": "定期浇水保持土壤持续湿润，幼树期尤其重要。室外种植偏好全日照。富含有机质的排水良好土壤。生长季每月施肥。气生根需要湿度才能发育—在干燥气候中定期喷雾。室外需要巨大空间；也可作为室内盆景栽培。对宠物有轻度毒性（乳汁液引起刺激）。"
+    }
+  },
+  {
+    "id": "tulip-tree",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        150,
+        500
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Tulip Tree",
+      "description": "Also known as: Yellow poplar, Tulip poplar. The tallest eastern North American hardwood, with unique four-lobed leaves and tulip-shaped yellow-green flowers in late spring.",
+      "commonExamples": "Liriodendron tulipifera (Tulip tree, Yellow poplar, Tulip poplar)",
+      "careTips": "Water deeply and regularly during establishment and dry spells; somewhat drought-sensitive. Full sun preferred. Prefers deep, moist, well-drained, slightly acidic to neutral soil. Fertilize young trees in early spring. Fast-growing shade tree. Prune in late winter when dormant. Aphids on leaves may produce sticky honeydew. Brilliant golden-yellow fall color. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Tulípero",
+      "description": "También conocido como: Álamo tulipán. El árbol de madera dura más alto del este de Norteamérica, con hojas únicas de cuatro lóbulos y flores amarillo-verdosas en forma de tulipán a finales de primavera.",
+      "commonExamples": "Liriodendron tulipifera (Tulípero, Árbol de los tulipanes, Álamo tulipán)",
+      "careTips": "Regar profunda y regularmente durante el establecimiento y períodos secos; algo sensible a la sequía. Sol pleno preferido. Prefiere suelo profundo, húmedo, bien drenado, ligeramente ácido a neutro. Fertilizar árboles jóvenes a principios de primavera. Árbol de sombra de crecimiento rápido. Podar a finales de invierno cuando esté en latencia. Los pulgones en las hojas pueden producir melaza pegajosa. Brillante color otoñal dorado-amarillo. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "鹅掌楸",
+      "description": "也称：北美鹅掌楸、郁金香树。北美东部最高的阔叶硬木，叶片独特四裂，晚春开郁金香形黄绿色花。",
+      "commonExamples": "Liriodendron tulipifera (鹅掌楸, 北美鹅掌楸, 郁金香树)",
+      "careTips": "建立期和干旱期深浇且定期浇水；对干旱较敏感。偏好全日照。喜深层、湿润、排水良好、微酸至中性土壤。春季对幼树施肥。速生遮荫树。冬季休眠期修剪。叶片上的蚠虫可能产生粘性蜜露。秋季呈现金黄色彩。对宠物无毒。"
+    }
+  },
+  {
+    "id": "bald-cypress",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        -25,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "waterloggingTolerant",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        200,
+        1000
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Bald Cypress",
+      "description": "Deciduous conifer native to southeastern US swamps, famous for distinctive knees (pneumatophores) and buttressed trunk. Tolerates both flooding and moderate drought.",
+      "commonExamples": "Taxodium distichum (Bald cypress, Swamp cypress), T. distichum var. imbricarium (Pond cypress)",
+      "careTips": "Thrives in wet to moist soil; tolerates standing water and seasonal flooding. Also surprisingly drought-tolerant once established. Full sun preferred. Acidic soil preferred but adaptable. Fertilize young trees in spring. Deciduous—feathery needles turn russet-orange before dropping in fall. Signature woody knees emerge near water. Very long-lived. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Ciprés Calvo",
+      "description": "Conífera caducifolia nativa de los pantanos del sureste de EE.UU., famosa por sus distintivas rodillas (neumatóforos) y tronco con contrafuertes. Tolera tanto inundaciones como sequía moderada.",
+      "commonExamples": "Taxodium distichum (Ciprés calvo, Ciprés de los pantanos), T. distichum var. imbricarium (Ciprés de estanque)",
+      "careTips": "Prospera en suelo húmedo a mojado; tolera agua estancada e inundaciones estacionales. Sorprendentemente tolerante a la sequía una vez establecido. Sol pleno preferido. Suelo ácido preferido pero adaptable. Fertilizar árboles jóvenes en primavera. Caducifolio—agujas plumosas se tornan anaranjado-rojizo antes de caer en otoño. Las rodillas leñosas características emergen cerca del agua. Muy longevo. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "落羽杉",
+      "description": "原产于美国东南部沼泽的落叶针叶树，以独特的膝根（呼吸根）和板状根树干闻名。既耐水淋也耐中度干旱。",
+      "commonExamples": "Taxodium distichum (落羽杉, 沼泽柏), T. distichum var. imbricarium (池柏)",
+      "careTips": "适合湿润至水浸土壤；可耐受积水和季节性水淋。定植后也出奇地耐旱。偏好全日照。偏好酸性土壤但适应性强。春季对幼树施肥。落叶性—羽状针叶秋季转为橙褐色后脱落。标志性的木质膝根在水边出现。极为长寿。对宠物无毒。"
+    }
+  },
+  {
+    "id": "ginkgo",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -30,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1000,
+        2500
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Ginkgo",
+      "description": "Also known as: Maidenhair tree. Living fossil unchanged for 200 million years, with distinctive fan-shaped leaves that turn brilliant gold in autumn. One of the hardiest urban trees.",
+      "commonExamples": "Ginkgo biloba (Ginkgo, Maidenhair tree)",
+      "careTips": "Water regularly during establishment; mature trees are very drought-tolerant. Full sun preferred; tolerates partial shade. Adaptable to most well-drained soils, including urban conditions and pollution. Fertilize young trees in spring. Plant male cultivars to avoid foul-smelling fruit from female trees. Stunning golden fall color. Extremely cold-hardy and disease-resistant. Mildly toxic—fruit flesh causes contact dermatitis."
+    },
+    "es": {
+      "typeName": "Ginkgo",
+      "description": "También conocido como: Árbol de los cuarenta escudos. Fósil viviente sin cambios durante 200 millones de años, con hojas en forma de abanico que se tornan dorado brillante en otoño. Uno de los árboles urbanos más resistentes.",
+      "commonExamples": "Ginkgo biloba (Ginkgo, Árbol de los cuarenta escudos)",
+      "careTips": "Regar regularmente durante el establecimiento; árboles maduros son muy tolerantes a la sequía. Sol pleno preferido; tolera sombra parcial. Adaptable a la mayoría de suelos bien drenados, incluyendo condiciones urbanas y contaminación. Fertilizar árboles jóvenes en primavera. Plantar cultivares masculinos para evitar el fruto maloliente de árboles femeninos. Espectacular color dorado otoñal. Extremadamente resistente al frío y a enfermedades. Ligeramente tóxico—la pulpa del fruto causa dermatitis de contacto."
+    },
+    "zh": {
+      "typeName": "银杏",
+      "description": "也称：白果树、公孙树。两亿年来几乎未变的活化石，扇形叶片秋季转为金黄色。最耐城市环境的树种之一。",
+      "commonExamples": "Ginkgo biloba (银杏, 白果树)",
+      "careTips": "建立期定期浇水；成熟树木非常耐旱。偏好全日照；耐半阴。适应大多数排水良好的土壤，包括城市环境和污染条件。春季对幼树施肥。种植雄株以避免雌株产生气味难闻的果实。秋季金黄色彩极为壮观。极耐寒且抗病力强。有轻度毒性—果肉接触可致皮炎。"
+    }
+  },
+  {
+    "id": "witch-hazel",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        20,
+        40
+      ],
+      "category": "Outdoor - Shrubs"
+    },
+    "en": {
+      "typeName": "Witch Hazel",
+      "description": "Deciduous shrub or small tree that blooms in late winter to early spring with fragrant, spidery, ribbon-like flowers in yellow, orange, or red when most other plants are dormant.",
+      "commonExamples": "Hamamelis virginiana (Common witch hazel), H. x intermedia 'Jelena', H. x intermedia 'Arnold Promise', H. mollis (Chinese witch hazel)",
+      "careTips": "Keep soil evenly moist, especially during establishment. Partial shade to full sun; afternoon shade beneficial in hot climates. Prefers moist, acidic, well-drained soil rich in organic matter. Fertilize lightly in spring. Minimal pruning needed—prune right after flowering if shaping is desired. Valued for winter interest when little else blooms. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Hamamelis",
+      "description": "Arbusto caducifolio o árbol pequeño que florece a finales de invierno o principios de primavera con flores fragantes en forma de cintas en amarillo, naranja o rojo cuando la mayoría de las plantas están en latencia.",
+      "commonExamples": "Hamamelis virginiana (Hamamelis común), H. x intermedia 'Jelena', H. x intermedia 'Arnold Promise', H. mollis (Hamamelis chino)",
+      "careTips": "Mantener el suelo uniformemente húmedo, especialmente durante el establecimiento. Sombra parcial a sol pleno; sombra por la tarde beneficiosa en climas calurosos. Prefiere suelo húmedo, ácido y bien drenado rico en materia orgánica. Fertilizar ligeramente en primavera. Poda mínima necesaria—podar justo después de la floración si se desea dar forma. Valorado por su interés invernal cuando pocas plantas florecen. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "金缕梅",
+      "description": "落叶灌木或小乔木，在冬末至早春开放芳香的丝带状花朵，花色有黄、橙或红色，此时大多数植物仍在休眠。",
+      "commonExamples": "Hamamelis virginiana (北美金缕梅), H. x intermedia 'Jelena', H. x intermedia 'Arnold Promise', H. mollis (中国金缕梅)",
+      "careTips": "保持土壤均匀湿润，建立期尤其重要。半阴至全日照；炎热气候中午后遮阴有益。偏好湿润、酸性、排水良好且富含有机质的土壤。春季轻施肥料。几乎无需修剪—如需整形可在花后修剪。因冬季开花而具有重要观赏价值。对宠物无毒。"
+    }
+  },
+  {
+    "id": "mountain-laurel",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        30
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        50,
+        100
+      ],
+      "category": "Outdoor - Shrubs"
+    },
+    "en": {
+      "typeName": "Mountain Laurel",
+      "description": "Evergreen shrub native to eastern North America with leathery leaves and stunning clusters of geometric cup-shaped flowers with unique spring-loaded stamens.",
+      "commonExamples": "Kalmia latifolia (Mountain laurel), K. latifolia 'Olympic Fire', K. latifolia 'Elf', K. latifolia 'Carousel'",
+      "careTips": "Keep soil consistently moist but well-drained; never allow to sit in standing water. Partial shade preferred—tolerates deep shade but flowers best with morning sun. Requires acidic soil (pH 4.5-5.5); mulch with pine needles or oak leaves. Fertilize lightly in spring with acid-loving plant fertilizer. Minimal pruning—remove spent flower clusters to encourage next year's bloom. Toxic to pets and humans (grayanotoxins)."
+    },
+    "es": {
+      "typeName": "Laurel de Montaña",
+      "description": "Arbusto perenne nativo del este de Norteamérica con hojas coriáceas y espectaculares racimos de flores geométricas en forma de copa con estambres únicos accionados por resorte.",
+      "commonExamples": "Kalmia latifolia (Laurel de montaña), K. latifolia 'Olympic Fire', K. latifolia 'Elf', K. latifolia 'Carousel'",
+      "careTips": "Mantener el suelo consistentemente húmedo pero bien drenado; nunca permitir agua estancada. Sombra parcial preferida—tolera sombra profunda pero florece mejor con sol matutino. Requiere suelo ácido (pH 4.5-5.5); acolchar con agujas de pino u hojas de roble. Fertilizar ligeramente en primavera con fertilizante para plantas acidófilas. Poda mínima—eliminar flores marchitas para estimular floración del siguiente año. Tóxico para mascotas y humanos (grayanotoxinas)."
+    },
+    "zh": {
+      "typeName": "山月桂",
+      "description": "原产于北美东部的常绿灌木，革质叶片，花朵几何杯状、成簇盛开，具有独特的弹射式雄蕊。",
+      "commonExamples": "Kalmia latifolia (山月桂), K. latifolia 'Olympic Fire', K. latifolia 'Elf', K. latifolia 'Carousel'",
+      "careTips": "保持土壤持续湿润但排水良好；切勿积水。偏好半阴—耐深阴但有早晨阳光时开花最佳。需要酸性土壤（pH 4.5-5.5）；用松针或橡树叶覆盖。春季用酸性植物肥料轻施肥。几乎无需修剪—摘除残花以促进来年开花。对宠物和人类有毒（梫木毒素）。"
+    }
+  },
+  {
+    "id": "beautyberry",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -15,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        15,
+        25
+      ],
+      "category": "Outdoor - Shrubs"
+    },
+    "en": {
+      "typeName": "Beautyberry",
+      "description": "Deciduous shrub with arching branches and vivid magenta-purple berry clusters that encircle the stems in autumn, providing striking fall and winter interest.",
+      "commonExamples": "Callicarpa americana (American beautyberry), C. bodinieri var. giraldii 'Profusion', C. dichotoma (Purple beautyberry), C. japonica",
+      "careTips": "Water regularly during establishment; moderately drought-tolerant once mature. Full sun to partial shade—more sun means more berries. Adaptable to most well-drained soils. Fertilize lightly in spring. Can be cut back hard to the ground in late winter to rejuvenate (blooms on new wood). Berries attract birds. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Callicarpa",
+      "description": "Arbusto caducifolio con ramas arqueadas y vividos racimos de bayas magenta-púrpura que rodean los tallos en otoño, proporcionando un interés visual llamativo en otoño e invierno.",
+      "commonExamples": "Callicarpa americana (Callicarpa americana), C. bodinieri var. giraldii 'Profusion', C. dichotoma (Callicarpa púrpura), C. japonica",
+      "careTips": "Regar regularmente durante el establecimiento; moderadamente tolerante a la sequía una vez madura. Sol pleno a sombra parcial—más sol significa más bayas. Adaptable a la mayoría de suelos bien drenados. Fertilizar ligeramente en primavera. Se puede podar drásticamente al nivel del suelo a finales de invierno para rejuvenecer (florece en madera nueva). Las bayas atraen aves. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "紫珠",
+      "description": "落叶灌木，枝条弓形，秋季枝干上环绕着鲜艳的洋红紫色浆果簇，提供醒目的秋冬季观赏价值。",
+      "commonExamples": "Callicarpa americana (美洲紫珠), C. bodinieri var. giraldii 'Profusion', C. dichotoma (紫珠), C. japonica (日本紫珠)",
+      "careTips": "建立期定期浇水；成熟后中度耐旱。全日照至半阴—光照越多果实越多。适应大多数排水良好的土壤。春季轻施肥。冬末可强剪至地面以更新（在新枝上开花）。浆果可吸引鸟类。对宠物无毒。"
+    }
+  },
+  {
+    "id": "hellebore",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 7,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorShade",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        27
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Outdoor - Perennials"
+    },
+    "en": {
+      "typeName": "Hellebore",
+      "description": "Also known as: Winter rose, Lenten rose. Shade-loving perennials that bloom in late winter to early spring with nodding flowers in white, pink, purple, green, or burgundy.",
+      "commonExamples": "Helleborus orientalis (Lenten rose), H. niger (Christmas rose), H. x hybridus (Hybrid hellebore), H. foetidus (Stinking hellebore)",
+      "careTips": "Keep soil evenly moist but well-drained; reduce watering once established. Partial to full shade preferred—avoid hot afternoon sun. Rich, humus-laden soil with neutral to slightly alkaline pH. Fertilize in late winter or early spring with balanced fertilizer. Remove old foliage in late winter before flowers emerge. Self-sows readily. Toxic to pets and humans (protoanemonin)."
+    },
+    "es": {
+      "typeName": "Eléboro",
+      "description": "También conocida como: Rosa de invierno, Rosa de Cuaresma. Perennes amantes de la sombra que florecen de finales de invierno a principios de primavera con flores inclinadas en blanco, rosa, púrpura, verde o burdeos.",
+      "commonExamples": "Helleborus orientalis (Rosa de Cuaresma), H. niger (Rosa de Navidad), H. x hybridus (Eléboro híbrido), H. foetidus (Eléboro fétido)",
+      "careTips": "Mantener el suelo uniformemente húmedo pero bien drenado; reducir el riego una vez establecida. Sombra parcial a completa preferida—evitar sol de tarde caliente. Suelo rico en humus con pH neutro a ligeramente alcalino. Fertilizar a finales de invierno o principios de primavera con fertilizante balanceado. Eliminar follaje viejo a finales de invierno antes de que emerjan las flores. Se resiembra fácilmente. Tóxico para mascotas y humanos (protoanemonina)."
+    },
+    "zh": {
+      "typeName": "铁筹子",
+      "description": "也称：冬季玫瑰、四旬期玫瑰。喜阴多年生植物，冬末至早春开花，花色有白、粉、紫、绿或酒红色。",
+      "commonExamples": "Helleborus orientalis (四旬期玫瑰), H. niger (圣诞玫瑰), H. x hybridus (杂交铁筗子), H. foetidus (臭铁筗子)",
+      "careTips": "保持土壤均匀湿润但排水良好；定植后减少浇水。偏好半阴至全阴—避免午后烈日。富含腐殖质的中性至微碱性土壤。冬末或早春施平衡肥料。冬末花前清除老叶。易自播。对宠物和人类有毒（原白头翁素）。"
+    }
+  },
+  {
+    "id": "ornamental-allium",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        -20,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Outdoor - Perennials"
+    },
+    "en": {
+      "typeName": "Ornamental Allium",
+      "description": "Dramatic purple, pink, or white globe-shaped flower heads on tall stems, related to onions and garlic but grown purely for ornamental display.",
+      "commonExamples": "Allium giganteum (Giant allium), A. 'Globemaster', A. cristophii (Star of Persia), A. 'Purple Sensation'",
+      "careTips": "Water moderately during growing season; allow soil to dry between waterings. Full sun essential—at least 6 hours daily. Well-drained soil critical; bulbs rot in wet soil. Fertilize in early spring with bulb fertilizer. Allow foliage to die back naturally after flowering. Deer and rodent resistant. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Allium Ornamental",
+      "description": "Dramáticas cabezas florales en forma de globo en púrpura, rosa o blanco sobre tallos altos, emparentado con cebollas y ajos pero cultivado puramente como ornamental.",
+      "commonExamples": "Allium giganteum (Allium gigante), A. 'Globemaster', A. cristophii (Estrella de Persia), A. 'Purple Sensation'",
+      "careTips": "Regar moderadamente durante la temporada de crecimiento; permitir que el suelo seque entre riegos. Sol pleno esencial—al menos 6 horas diarias. Suelo bien drenado crítico; los bulbos se pudren en suelo húmedo. Fertilizar a principios de primavera con fertilizante para bulbos. Permitir que el follaje muera naturalmente después de la floración. Resistente a ciervos y roedores. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "观赏葱",
+      "description": "在高茸花茂上开出引人注目的紫色、粉色或白色球形花序，与洋葱和大蒜同科但纯用于观赏。",
+      "commonExamples": "Allium giganteum (巨型观赏葱), A. 'Globemaster', A. cristophii (波斯之星), A. 'Purple Sensation'",
+      "careTips": "生长季适度浇水；两次浇水之间让土壤干燥。需要全日照—每天至少6小时。排水良好至关重要；潮湿土壤中球茉易腐烂。早春施球根肥。花后让叶片自然枯萎。鹿和啸齿动物不喜食。对宠物无毒。"
+    }
+  },
+  {
+    "id": "japanese-anemone",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        28
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Outdoor - Perennials"
+    },
+    "en": {
+      "typeName": "Japanese Anemone",
+      "description": "Elegant fall-blooming perennials with simple pink or white flowers on tall, wiry stems, thriving in partial shade where few other plants flower in autumn.",
+      "commonExamples": "Anemone hupehensis (Japanese anemone), A. x hybrida 'Honorine Jobert', A. x hybrida 'September Charm', A. tomentosa 'Robustissima'",
+      "careTips": "Keep soil evenly moist during growing season; more drought-tolerant once established. Partial shade preferred—tolerates morning sun but avoid hot afternoon exposure. Rich, moist, well-drained soil. Fertilize in spring with balanced fertilizer. Can spread by underground runners—may need containment. Cut back after frost kills foliage. Mildly toxic to pets (protoanemonin)."
+    },
+    "es": {
+      "typeName": "Anémona Japonesa",
+      "description": "Elegantes perennes de floración otoñal con flores simples rosadas o blancas sobre tallos altos y delgados, prosperando en sombra parcial donde pocas plantas florecen en otoño.",
+      "commonExamples": "Anemone hupehensis (Anémona japonesa), A. x hybrida 'Honorine Jobert', A. x hybrida 'September Charm', A. tomentosa 'Robustissima'",
+      "careTips": "Mantener el suelo uniformemente húmedo durante la temporada de crecimiento; más tolerante a la sequía una vez establecida. Sombra parcial preferida—tolera sol matutino pero evitar exposición de tarde caliente. Suelo rico, húmedo y bien drenado. Fertilizar en primavera con fertilizante balanceado. Puede expandirse por estolones subterráneos—puede necesitar contención. Cortar después de que las heladas maten el follaje. Ligeramente tóxica para mascotas (protoanemonina)."
+    },
+    "zh": {
+      "typeName": "秋牡丹",
+      "description": "优雅的秋季开花多年生植物，粉色或白色花朵在高耸细茂上开放，在少有植物开花的秋季半阴处茁壮生长。",
+      "commonExamples": "Anemone hupehensis (秋牡丹), A. x hybrida 'Honorine Jobert', A. x hybrida 'September Charm', A. tomentosa 'Robustissima'",
+      "careTips": "生长季保持土壤均匀湿润；定植后更耐旱。偏好半阴—耐早晨日照但避免午后烈日。富含有机质的湿润排水良好土壤。春季施平衡肥料。可通过地下茁扩散—可能需要控制。霜冻后剪去枯叶。对宠物有轻度毒性（原白头翁素）。"
+    }
+  },
+  {
+    "id": "sedum-autumn-joy",
+    "meta": {
+      "springInterval": 10,
+      "summerInterval": 10,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        -30,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Outdoor - Perennials"
+    },
+    "en": {
+      "typeName": "Autumn Joy Sedum",
+      "description": "One of the most popular garden perennials, forming neat mounds of succulent foliage topped by large flat flower heads that progress from pink to copper-red through autumn.",
+      "commonExamples": "Hylotelephium 'Herbstfreude' (syn. Sedum 'Autumn Joy')",
+      "careTips": "Very drought-tolerant once established; water sparingly—overwatering causes floppy growth. Full sun essential for compact habit. Thrives in poor to average, well-drained soil; avoid rich, fertile conditions. Do not fertilize. Leave dried flower heads for winter interest; cut back in early spring. Divide clumps every 3-4 years. Attracts butterflies. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Sedum Autumn Joy",
+      "description": "Una de las perennes de jardín más populares, formando montículos ordenados de follaje suculento coronados por grandes cabezas florales planas que progresan de rosa a rojo-cobrizo durante el otoño.",
+      "commonExamples": "Hylotelephium 'Herbstfreude' (sin. Sedum 'Autumn Joy')",
+      "careTips": "Muy tolerante a la sequía una vez establecida; regar con moderación—el exceso de riego causa crecimiento flojo. Sol pleno esencial para hábito compacto. Prospera en suelo pobre a medio, bien drenado; evitar condiciones ricas y fértiles. No fertilizar. Dejar cabezas florales secas para interés invernal; cortar a principios de primavera. Dividir matas cada 3-4 años. Atrae mariposas. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "秋喜景天",
+      "description": "最受欢迎的庙埴多年生植物之一，形成整齐的多肉叶丛，顶部大型平头花序从粉色逐渐变为铜红色。",
+      "commonExamples": "Hylotelephium 'Herbstfreude' (同义 Sedum 'Autumn Joy')",
+      "careTips": "定植后非常耐旱；少量浇水—过多浇水导致植株松软。需要全日照以保持紧凑株型。适合贫瘠至中等、排水良好的土壤；避免肥沃条件。无需施肥。保留干花头提供冬季观赏；早春剪除。每3-4年分株。可吸引蝴蝶。对宠物无毒。"
+    }
+  },
+  {
+    "id": "dahlia-annual",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        10,
+        30
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        1
+      ],
+      "category": "Outdoor - Annuals"
+    },
+    "en": {
+      "typeName": "Annual Dahlia",
+      "description": "Seed-grown dahlia varieties treated as annuals, producing colorful single or semi-double flowers all summer without the need to store tubers over winter.",
+      "commonExamples": "Dahlia pinnata 'Bishop's Children', D. 'Figaro', D. 'Harlequin', D. 'Redskin'",
+      "careTips": "Water deeply 2-3 times per week; consistent moisture important during flowering. Full sun essential—at least 6 hours daily. Rich, well-drained soil. Fertilize every 2-3 weeks with balanced fertilizer during blooming. Deadhead spent flowers to encourage continuous blooms. Pinch growing tips when young for bushier plants. Frost-sensitive—plant after last frost. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Dalia Anual",
+      "description": "Variedades de dalia cultivadas desde semilla tratadas como anuales, produciendo flores coloridas simples o semi-dobles todo el verano sin necesidad de almacenar tubérculos en invierno.",
+      "commonExamples": "Dahlia pinnata 'Bishop's Children', D. 'Figaro', D. 'Harlequin', D. 'Redskin'",
+      "careTips": "Regar profundamente 2-3 veces por semana; humedad consistente importante durante la floración. Sol pleno esencial—al menos 6 horas diarias. Suelo rico y bien drenado. Fertilizar cada 2-3 semanas con fertilizante balanceado durante la floración. Eliminar flores marchitas para estimular floración continua. Pellizcar puntas de crecimiento cuando jóvenes para plantas más tupidas. Sensible a las heladas—plantar después de la última helada. Ligeramente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "一年生大丽花",
+      "description": "播种繁殖的大丽花品种，作为一年生栽培，整个夏季开出色彩缤纷的单瓣或半重瓣花，无需越冬储存块茉。",
+      "commonExamples": "Dahlia pinnata 'Bishop's Children', D. 'Figaro', D. 'Harlequin', D. 'Redskin'",
+      "careTips": "每周深浇2-3次；花期保持稳定水分很重要。需要全日照—每天至少6小时。肥沃、排水良好的土壤。花期每2-3周施平衡肥料。及时摘除残花促进持续开花。幼苗期摘心促进分枝。不耐霜—末次霜后再种植。对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "cleome",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        10,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        1
+      ],
+      "category": "Outdoor - Annuals"
+    },
+    "en": {
+      "typeName": "Cleome",
+      "description": "Also known as: Spider flower. Tall, dramatic annual with spidery flower clusters in pink, purple, or white atop long stems, self-sowing freely for return displays.",
+      "commonExamples": "Cleome hassleriana (Spider flower), C. hassleriana 'Violet Queen', C. hassleriana 'White Queen', C. 'Senorita Rosalita'",
+      "careTips": "Water regularly but allow soil to dry slightly between waterings; moderately drought-tolerant once established. Full sun preferred; tolerates light shade. Average, well-drained soil. Fertilize monthly with balanced fertilizer. Deadhead to extend blooming or leave some for self-sowing. Heat and humidity tolerant. Thorny stems—handle with gloves. Annual; grown for one season; no winter watering needed. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Cleome",
+      "description": "También conocida como: Flor araña. Anual alta y dramática con racimos de flores en forma de araña en rosa, púrpura o blanco sobre tallos largos, se resiembra libremente para exhibiciones recurrentes.",
+      "commonExamples": "Cleome hassleriana (Flor araña), C. hassleriana 'Violet Queen', C. hassleriana 'White Queen', C. 'Senorita Rosalita'",
+      "careTips": "Regar regularmente pero permitir que el suelo seque ligeramente entre riegos; moderadamente tolerante a la sequía una vez establecida. Sol pleno preferido; tolera sombra ligera. Suelo promedio, bien drenado. Fertilizar mensualmente con fertilizante balanceado. Eliminar flores marchitas para extender la floración o dejar algunas para resiembra. Tolerante al calor y humedad. Tallos espinosos—manejar con guantes. Anual; no requiere riego invernal. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "采雀花",
+      "description": "也称：蟹爪花。高大引人注目的一年生植物，粉、紫或白色蟹爪状花簇在长茂顶端开放，能自由自播。",
+      "commonExamples": "Cleome hassleriana (采雀花), C. hassleriana 'Violet Queen', C. hassleriana 'White Queen', C. 'Senorita Rosalita'",
+      "careTips": "定期浇水但两次之间让土壤略微干燥；定植后中度耐旱。偏好全日照；耐轻度遮阴。普通排水良好土壤。每月施平衡肥。摘除残花延长花期或留部分自播。耐热耐湿。茂有刺—戴手套操作。一年生；无需冬季浇水。对宠物无毒。"
+    }
+  },
+  {
+    "id": "larkspur",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        5,
+        25
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        1
+      ],
+      "category": "Outdoor - Annuals"
+    },
+    "en": {
+      "typeName": "Larkspur",
+      "description": "Cool-season annual with tall spikes of delphinium-like flowers in blue, purple, pink, or white, a cottage garden favorite and excellent cut flower.",
+      "commonExamples": "Consolida ajacis (Larkspur, Rocket larkspur), C. regalis (Forking larkspur)",
+      "careTips": "Keep soil evenly moist; does not tolerate drought. Full sun preferred in cool climates; afternoon shade in hot areas. Rich, well-drained soil. Fertilize at planting and again mid-season. Direct sow in fall or early spring—dislikes transplanting. Excellent cut flower. Prefers cool weather; declines in heat. Toxic to pets and humans (alkaloids similar to delphinium)."
+    },
+    "es": {
+      "typeName": "Espuela de Caballero",
+      "description": "Anual de estación fresca con espigas altas de flores similares al delfinio en azul, púrpura, rosa o blanco, favorita de jardines cottage y excelente flor de corte.",
+      "commonExamples": "Consolida ajacis (Espuela de caballero), C. regalis (Espuela de caballero ramificada)",
+      "careTips": "Mantener el suelo uniformemente húmedo; no tolera la sequía. Sol pleno preferido en climas frescos; sombra por la tarde en áreas calurosas. Suelo rico y bien drenado. Fertilizar al plantar y de nuevo a mitad de temporada. Sembrar directamente en otoño o principios de primavera—no le gusta el trasplante. Excelente flor de corte. Prefiere clima fresco; decae con el calor. Tóxica para mascotas y humanos (alcaloides similares al delfinio)."
+    },
+    "zh": {
+      "typeName": "翼足花",
+      "description": "凉季一年生植物，高耸花穗上开出类似飞燕草的蓝、紫、粉或白色花朵，是乡村花园的宠儿和优质切花。",
+      "commonExamples": "Consolida ajacis (翼足花, 火箭翼足花), C. regalis (分枝翼足花)",
+      "careTips": "保持土壤均匀湿润；不耐干旱。凉爽气候中偏好全日照；炎热地区午后遮阴。肥沃、排水良好的土壤。种植时和季中各施肥一次。秋季或早春直播—不喜移植。优质切花。喜凉爽天气；热天衰退。对宠物和人类有毒（含类似飞燕草的生物碱）。"
+    }
+  },
+  {
+    "id": "bougainvillea",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": 21,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        5,
+        40
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        20,
+        40
+      ],
+      "category": "Outdoor - Vines & Climbers"
+    },
+    "en": {
+      "typeName": "Bougainvillea",
+      "description": "Vigorous tropical vine with brilliant papery bracts in magenta, purple, red, orange, white, or pink that surround tiny true flowers, thriving in hot, dry climates.",
+      "commonExamples": "Bougainvillea glabra (Lesser bougainvillea), B. spectabilis (Great bougainvillea), B. 'Barbara Karst', B. 'San Diego Red'",
+      "careTips": "Allow soil to dry between waterings; drought stress actually promotes more prolific blooming. Full sun essential—at least 6 hours of direct sun for best color. Well-drained soil critical; does not tolerate wet feet. Fertilize with high-phosphorus fertilizer during growing season. Prune after flowering to shape. Frost-sensitive—protect below 5°C. Thorny—handle with gloves. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Bugambilia",
+      "description": "Enredadera tropical vigorosa con brillantes brácteas papiráceas en magenta, púrpura, rojo, naranja, blanco o rosa que rodean pequeñas flores verdaderas, prosperando en climas cálidos y secos.",
+      "commonExamples": "Bougainvillea glabra (Bugambilia menor), B. spectabilis (Gran bugambilia), B. 'Barbara Karst', B. 'San Diego Red'",
+      "careTips": "Permitir que el suelo seque entre riegos; el estrés hídrico en realidad promueve una floración más prolífica. Sol pleno esencial—al menos 6 horas de sol directo para mejor color. Suelo bien drenado crítico; no tolera encharcamiento. Fertilizar con fertilizante alto en fósforo durante la temporada de crecimiento. Podar después de la floración para dar forma. Sensible a las heladas—proteger bajo 5°C. Espinosa—manejar con guantes. Ligeramente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "三角梅",
+      "description": "旺盛的热带藤本植物，花色亮丽的纸质苞片有洋红、紫、红、橙、白或粉色，围绕微小的真正花朵，在炖热干燥的气候中茁壮生长。",
+      "commonExamples": "Bougainvillea glabra (小三角梅), B. spectabilis (大三角梅), B. 'Barbara Karst', B. 'San Diego Red'",
+      "careTips": "两次浇水之间让土壤干燥；干旱胁迫实际上促进更多开花。需要全日照—至少6小时直射阳光以获得最佳色彩。排水良好至关重要；不耐积水。生长季施高磷肥料。花后修剪整形。不耐霜— 5°C以下需保护。有刺—戴手套操作。对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "star-jasmine",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 14,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -5,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        15,
+        30
+      ],
+      "category": "Outdoor - Vines & Climbers"
+    },
+    "en": {
+      "typeName": "Star Jasmine",
+      "description": "Also known as: Confederate jasmine. Evergreen twining vine with intensely fragrant, pinwheel-shaped white flowers in spring and summer, excellent as groundcover or wall climber.",
+      "commonExamples": "Trachelospermum jasminoides (Star jasmine, Confederate jasmine), T. asiaticum (Asian star jasmine)",
+      "careTips": "Water regularly during establishment; moderately drought-tolerant once mature. Full sun to partial shade—flowers best in full sun. Well-drained soil. Fertilize in spring with balanced fertilizer. Prune after flowering to control size and shape. Can be trained on trellises, walls, or used as groundcover. Evergreen in mild climates. Mildly toxic to pets (milky latex sap)."
+    },
+    "es": {
+      "typeName": "Jazmín Estrella",
+      "description": "También conocida como: Jazmín confederado. Enredadera perenne con flores blancas intensamente fragantes en forma de molinete en primavera y verano, excelente como cubresuelos o trepadora de muros.",
+      "commonExamples": "Trachelospermum jasminoides (Jazmín estrella, Jazmín confederado), T. asiaticum (Jazmín estrella asiático)",
+      "careTips": "Regar regularmente durante el establecimiento; moderadamente tolerante a la sequía una vez madura. Sol pleno a sombra parcial—florece mejor a sol pleno. Suelo bien drenado. Fertilizar en primavera con fertilizante balanceado. Podar después de la floración para controlar tamaño y forma. Se puede guiar en espalderas, muros, o usar como cubresuelos. Perenne en climas templados. Ligeramente tóxica para mascotas (savia látex lechosa)."
+    },
+    "zh": {
+      "typeName": "络石",
+      "description": "也称：南方茉莉。常绿缠绕藤本，春夏开出浓郁芳香的白色风车状花朵，可作地被或墙面攽缘植物。",
+      "commonExamples": "Trachelospermum jasminoides (络石, 南方茉莉), T. asiaticum (亚洲络石)",
+      "careTips": "建立期定期浇水；成熟后中度耐旱。全日照至半阴—全日照下开花最佳。排水良好的土壤。春季施平衡肥。花后修剪控制大小和形状。可在棚架、墙面上引导或作地被使用。温和气候中常绿。对宠物有轻度毒性（乳白色乳汁液）。"
+    }
+  },
+  {
+    "id": "wisteria",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        35
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        50,
+        100
+      ],
+      "category": "Outdoor - Vines & Climbers"
+    },
+    "en": {
+      "typeName": "Wisteria",
+      "description": "Spectacular deciduous vine with cascading racemes of fragrant blue, purple, pink, or white flowers in spring, one of the most dramatic flowering vines.",
+      "commonExamples": "Wisteria sinensis (Chinese wisteria), W. floribunda (Japanese wisteria), W. frutescens (American wisteria), W. 'Amethyst Falls'",
+      "careTips": "Water regularly during establishment; drought-tolerant once mature. Full sun essential for best flowering—at least 6 hours. Well-drained soil. Avoid high-nitrogen fertilizer which promotes foliage over flowers. Prune twice yearly—summer and winter—to control growth and promote flowering. Extremely vigorous; needs strong support (pergola, stone wall). Can damage structures if unsupported. Toxic to pets (seeds and pods contain wisterin)."
+    },
+    "es": {
+      "typeName": "Glicina",
+      "description": "Espectacular enredadera caducifolia con racimos en cascada de flores fragantes azules, púrpura, rosas o blancas en primavera, una de las trepadoras con flores más dramáticas.",
+      "commonExamples": "Wisteria sinensis (Glicina china), W. floribunda (Glicina japonesa), W. frutescens (Glicina americana), W. 'Amethyst Falls'",
+      "careTips": "Regar regularmente durante el establecimiento; tolerante a la sequía una vez madura. Sol pleno esencial para mejor floración—al menos 6 horas. Suelo bien drenado. Evitar fertilizante alto en nitrógeno que promueve follaje sobre flores. Podar dos veces al año—verano e invierno—para controlar crecimiento y promover floración. Extremadamente vigorosa; necesita soporte fuerte (pérgola, muro de piedra). Puede dañar estructuras sin soporte. Tóxica para mascotas (semillas y vainas contienen wisterina)."
+    },
+    "zh": {
+      "typeName": "紫藤",
+      "description": "壮观的落叶藤本，春季开出瀑布般的芳香花穗，花色有蓝、紫、粉或白色，是最引人注目的开花藤本之一。",
+      "commonExamples": "Wisteria sinensis (中国紫藤), W. floribunda (日本紫藤), W. frutescens (美洲紫藤), W. 'Amethyst Falls'",
+      "careTips": "建立期定期浇水；成熟后耐旱。需要全日照以获得最佳开花—至少6小时。排水良好的土壤。避免高氮肥以免促叶不促花。每年修剪两次—夏季和冬季—控制生长并促进开花。生长极为旺盛；需坚固支撑（花架、石墙）。无支撑可能损坏建筑。对宠物有毒（种子和豆莈含紫藤素）。"
+    }
+  },
+  {
+    "id": "liriope",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Outdoor - Groundcovers & Grasses"
+    },
+    "en": {
+      "typeName": "Liriope",
+      "description": "Also known as: Monkey grass, Lilyturf. Shade-tolerant evergreen groundcover with grass-like foliage and spikes of purple or white flowers followed by dark berries.",
+      "commonExamples": "Liriope muscari (Big blue lilyturf), L. spicata (Creeping lilyturf), L. muscari 'Variegata'",
+      "careTips": "Water regularly during establishment; drought-tolerant once mature. Full sun to deep shade—extremely adaptable. Tolerates a wide range of soils. Fertilize in spring with balanced fertilizer. Mow or cut back old foliage in late winter before new growth emerges. Divide clumps every few years. Deer resistant. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Liriope",
+      "description": "También conocida como: Pasto mono. Cubresuelos perenne tolerante a la sombra con follaje similar al pasto y espigas de flores púrpura o blancas seguidas de bayas oscuras.",
+      "commonExamples": "Liriope muscari (Liriope azul), L. spicata (Liriope rastrera), L. muscari 'Variegata'",
+      "careTips": "Regar regularmente durante el establecimiento; tolerante a la sequía una vez madura. Sol pleno a sombra profunda—extremadamente adaptable. Tolera una amplia gama de suelos. Fertilizar en primavera con fertilizante balanceado. Cortar follaje viejo a finales de invierno antes de que emerja nuevo crecimiento. Dividir matas cada pocos años. Resistente a ciervos. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "麦冬",
+      "description": "也称：猴尾草。耐阴常绿地被植物，叶片草状，开紫色或白色穗状花，花后结深色浆果。",
+      "commonExamples": "Liriope muscari (大叶麦冬), L. spicata (匆匆麦冬), L. muscari 'Variegata'",
+      "careTips": "建立期定期浇水；成熟后耐旱。全日照至深阴—适应性极强。耐受各种土壤。春季施平衡肥。冬末新芽前剪除老叶。每几年分株一次。鹿不喜食。对宠物无毒。"
+    }
+  },
+  {
+    "id": "mondo-grass",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -15,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Outdoor - Groundcovers & Grasses"
+    },
+    "en": {
+      "typeName": "Mondo Grass",
+      "description": "Low-growing evergreen groundcover with fine, dark green grass-like foliage, including the dramatic black-leaved variety used as an accent in modern gardens.",
+      "commonExamples": "Ophiopogon japonicus (Mondo grass, Dwarf lilyturf), O. planiscapus 'Nigrescens' (Black mondo grass)",
+      "careTips": "Keep soil evenly moist during establishment; moderately drought-tolerant once mature. Partial shade preferred; tolerates full shade. Moist, well-drained soil with organic matter. Fertilize in spring with balanced fertilizer. Very low maintenance once established. Slow to fill in but forms dense mats over time. Black mondo grass needs some morning sun to maintain dark color. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Pasto Mondo",
+      "description": "Cubresuelos perenne de bajo crecimiento con follaje fino similar al pasto verde oscuro, incluyendo la dramática variedad de hojas negras usada como acento en jardines modernos.",
+      "commonExamples": "Ophiopogon japonicus (Pasto mondo), O. planiscapus 'Nigrescens' (Pasto mondo negro)",
+      "careTips": "Mantener el suelo uniformemente húmedo durante el establecimiento; moderadamente tolerante a la sequía una vez maduro. Sombra parcial preferida; tolera sombra completa. Suelo húmedo, bien drenado con materia orgánica. Fertilizar en primavera con fertilizante balanceado. Muy bajo mantenimiento una vez establecido. Lento para cubrir pero forma alfombras densas con el tiempo. El mondo negro necesita algo de sol matutino para mantener el color oscuro. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "沉弟草",
+      "description": "低矮常绿地被植物，叶片细密深绿似草，包括在现代花园中用作点缀的黑叶品种。",
+      "commonExamples": "Ophiopogon japonicus (沉弟草, 矮麦冬), O. planiscapus 'Nigrescens' (黑沉弟草)",
+      "careTips": "建立期保持土壤均匀湿润；成熟后中度耐旱。偏好半阴；耐全阴。湿润、排水良好且含有机质的土壤。春季施平衡肥。定植后极低维护。覆盖速度慢但随时间形成密实草垀。黑沉弟草需要一些早晨阳光以保持深色。对宠物无毒。"
+    }
+  },
+  {
+    "id": "medinilla",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        27
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Flowering"
+    },
+    "en": {
+      "typeName": "Medinilla",
+      "description": "Also known as: Rose Grape, Philippine orchid. Dramatic tropical houseplant with large, leathery leaves and cascading clusters of pink flowers that can last for months.",
+      "commonExamples": "Medinilla magnifica (Rose grape, Philippine orchid, Showy medinilla)",
+      "careTips": "Water when top 2-3 cm of soil is dry; reduce watering in winter. Bright indirect light—avoid direct sun which scorches leaves. High humidity (60%+) essential; mist daily or use a humidifier. Use well-draining, slightly acidic potting mix. Fertilize every 2 weeks spring through summer with half-strength balanced fertilizer. Needs a cool dry rest period (16-18°C) in winter to trigger reblooming. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Medinilla",
+      "description": "También conocida como: Uva rosa, Orquídea filipina. Dramática planta tropical de interior con hojas grandes y coriáceas y racimos colgantes de flores rosas que pueden durar meses.",
+      "commonExamples": "Medinilla magnifica (Uva rosa, Orquídea filipina, Medinilla vistosa)",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos; reducir el riego en invierno. Luz indirecta brillante—evitar sol directo que quema las hojas. Humedad alta (60%+) esencial; rociar diariamente o usar humidificador. Usar sustrato bien drenado y ligeramente ácido. Fertilizar cada 2 semanas de primavera a verano con fertilizante balanceado a media fuerza. Necesita un período de descanso fresco y seco (16-18°C) en invierno para reflorecimiento. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "宝莲花",
+      "description": "也称：粉葡萄、菲律宾兰花。引人注目的热带室内植物，叶片大而革质，粉色花簇垂垂而下，花期可持续数月。",
+      "commonExamples": "Medinilla magnifica (宝莲花, 粉葡萄, 菲律宾兰花)",
+      "careTips": "当表层2-3厘米土壤干燥时浇水；冬季减少浇水。明亮间接光—避免直射光灼伤叶片。需要高湿度（60%+）；每天喷雾或使用加湿器。使用排水良好的微酸性培养土。春夏季每2周用半浓度平衡肥施肥。冬季需要凉爽干燥的休息期（16-18°C）以触发再次开花。对宠物无毒。"
+    }
+  },
+  {
+    "id": "anthurium-flamingo",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Flowering"
+    },
+    "en": {
+      "typeName": "Flamingo Flower",
+      "description": "Classic tropical houseplant with glossy, heart-shaped spathes in red, pink, white, or coral that bloom year-round with proper care.",
+      "commonExamples": "Anthurium andraeanum (Flamingo flower, Flamingo lily, Laceleaf), A. scherzerianum (Pigtail anthurium)",
+      "careTips": "Water when top 2-3 cm of soil is dry; keep slightly moist but never soggy. Bright indirect light—direct sun bleaches spathes. High humidity (60%+) preferred; mist regularly or use a pebble tray. Well-draining, chunky aroid mix. Fertilize monthly spring through fall with quarter-strength phosphorus-rich fertilizer to promote flowering. Wipe leaves to remove dust. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Flor de Flamingo",
+      "description": "Clásica planta tropical de interior con espatas brillantes en forma de corazón en rojo, rosa, blanco o coral que florecen todo el año con cuidado adecuado.",
+      "commonExamples": "Anthurium andraeanum (Flor de flamingo, Anturio), A. scherzerianum (Anturio rizado)",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos; mantener ligeramente húmedo pero nunca encharcado. Luz indirecta brillante—sol directo destiñe espatas. Humedad alta (60%+) preferida; rociar regularmente o usar bandeja de guijarros. Mezcla para aráceas bien drenada y gruesa. Fertilizar mensualmente de primavera a otoño con fertilizante rico en fósforo a un cuarto de fuerza para promover floración. Limpiar hojas para eliminar polvo. Tóxica para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "红掌",
+      "description": "经典热带室内植物，心形佛焰苞光泽亮丽，色彩有红、粉、白或珊瑩色，养护得当可全年开花。",
+      "commonExamples": "Anthurium andraeanum (红掌, 火鹤花), A. scherzerianum (猪尾红掌)",
+      "careTips": "当表层2-3厘米土壤干燥时浇水；保持微湿但勿积水。明亮间接光—直射光会使佛焰苞褰色。偏好高湿度（60%+）；定期喷雾或使用卵石托盘。排水良好的粗粒天南星科培养土。春至秋每月用四分之一浓度高磷肥施肥促花。擦拭叶片除尘。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "ixora",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Flowering"
+    },
+    "en": {
+      "typeName": "Ixora",
+      "description": "Also known as: Jungle geranium, Flame of the woods. Tropical shrub producing dense clusters of tiny star-shaped flowers in vibrant red, orange, yellow, or pink.",
+      "commonExamples": "Ixora coccinea (Jungle geranium, Flame of the woods), I. chinensis, I. 'Nora Grant', I. 'Maui Yellow'",
+      "careTips": "Keep soil evenly moist during growing season; reduce in winter. Bright direct to indirect light for best flowering. Medium humidity preferred. Acidic soil essential (pH 5.0-6.0)—iron chlorosis (yellow leaves) in alkaline soil. Fertilize monthly spring through fall with acid-forming fertilizer. Prune after flowering to maintain shape. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Ixora",
+      "description": "También conocida como: Geranio de la selva, Llama del bosque. Arbusto tropical que produce densos racimos de pequeñas flores estrelladas en vibrante rojo, naranja, amarillo o rosa.",
+      "commonExamples": "Ixora coccinea (Geranio de la selva, Llama del bosque), I. chinensis, I. 'Nora Grant', I. 'Maui Yellow'",
+      "careTips": "Mantener el suelo uniformemente húmedo durante la temporada de crecimiento; reducir en invierno. Luz directa brillante a indirecta para mejor floración. Humedad media preferida. Suelo ácido esencial (pH 5.0-6.0)—clorosis férrica (hojas amarillas) en suelo alcalino. Fertilizar mensualmente de primavera a otoño con fertilizante acidificante. Podar después de la floración para mantener forma. Ligeramente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "龙船花",
+      "description": "也称：仙丹花、林丹。热带灌木，开出密集的小星形花簇，花色有鲜艳的红、橙、黄或粉色。",
+      "commonExamples": "Ixora coccinea (龙船花, 仙丹花), I. chinensis, I. 'Nora Grant', I. 'Maui Yellow'",
+      "careTips": "生长季保持土壤均匀湿润；冬季减少。明亮直射至间接光以获得最佳开花。偏好中等湿度。需要酸性土壤（pH 5.0-6.0）—碱性土壤中会出现缺铁黄化。春至秋每月施酸性肥料。花后修剪保持株型。对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "stephanotis",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        15,
+        27
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Houseplants - Flowering"
+    },
+    "en": {
+      "typeName": "Stephanotis",
+      "description": "Also known as: Madagascar jasmine, Bridal wreath. Twining vine with waxy, tubular white flowers of exquisite fragrance, traditionally used in wedding bouquets.",
+      "commonExamples": "Stephanotis floribunda (Madagascar jasmine, Bridal wreath, Wax flower)",
+      "careTips": "Keep soil evenly moist spring through fall; reduce in winter but don't let it dry out completely. Bright indirect light—some morning sun beneficial. High humidity (50-60%+) preferred. Well-draining potting mix. Fertilize every 2 weeks spring through summer with half-strength balanced fertilizer. Provide a trellis or hoop for climbing. Avoid moving once buds form—bud drop is common from changes in position or light. Cool winter rest (13-16°C) promotes flowering. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Estefanota",
+      "description": "También conocida como: Jazmín de Madagascar, Corona de novia. Enredadera con flores blancas cerosas y tubulares de exquisita fragancia, tradicionalmente usadas en ramos de boda.",
+      "commonExamples": "Stephanotis floribunda (Jazmín de Madagascar, Corona de novia, Flor de cera)",
+      "careTips": "Mantener el suelo uniformemente húmedo de primavera a otoño; reducir en invierno pero no dejar secar completamente. Luz indirecta brillante—algo de sol matutino beneficioso. Humedad alta (50-60%+) preferida. Sustrato bien drenado. Fertilizar cada 2 semanas de primavera a verano con fertilizante balanceado a media fuerza. Proporcionar espaldera o aro para trepar. Evitar mover una vez que se forman los capullos—la caída de capullos es común por cambios de posición o luz. Descanso invernal fresco (13-16°C) promueve floración. Ligeramente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "非洲茉莉",
+      "description": "也称：马达加斯加茉莉、新娘花。缠绕藤本，开出蜡质管状白色花朵，香气精致，传统上用于婚礼花束。",
+      "commonExamples": "Stephanotis floribunda (非洲茉莉, 新娘花, 蜡花)",
+      "careTips": "春至秋保持土壤均匀湿润；冬季减少但勿完全干透。明亮间接光—一些早晨阳光有益。偏好高湿度（50-60%+）。排水良好的培养土。春夏季每2周用半浓度平衡肥施肥。提供棚架或环形支架供其攽缘。花苞形成后避免移动—位置或光照改变常导致落苞。凉爽的冬季休息（13-16°C）促进开花。对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "dracaena-compacta",
+    "meta": {
+      "springInterval": 10,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": 21,
+      "lightPreference": "lowIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        27
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Low Maintenance"
+    },
+    "en": {
+      "typeName": "Dracaena Compacta",
+      "description": "Also known as: Janet Craig Compacta. Very compact dracaena with dense rosettes of dark green, glossy leaves on thick stems, one of the most low-light tolerant houseplants.",
+      "commonExamples": "Dracaena deremensis 'Compacta' (Janet Craig Compacta, Dracaena compacta)",
+      "careTips": "Allow soil to dry out between waterings—very susceptible to root rot from overwatering. Low to bright indirect light tolerated; thrives in office lighting. Medium humidity fine. Fertilize 2-3 times per year with balanced fertilizer at quarter strength. Extremely slow-growing. Very sensitive to fluoride in tap water—use filtered or rainwater if leaf tips brown. Toxic to pets."
+    },
+    "es": {
+      "typeName": "Dracaena Compacta",
+      "description": "También conocida como: Janet Craig Compacta. Dracaena muy compacta con densas rosetas de hojas verde oscuro brillantes sobre tallos gruesos, una de las plantas de interior más tolerantes a poca luz.",
+      "commonExamples": "Dracaena deremensis 'Compacta' (Janet Craig Compacta, Dracaena compacta)",
+      "careTips": "Permitir que el suelo seque entre riegos—muy susceptible a pudrición de raíces por exceso de riego. Luz baja a indirecta brillante tolerada; prospera con iluminación de oficina. Humedad media adecuada. Fertilizar 2-3 veces al año con fertilizante balanceado a un cuarto de fuerza. Crecimiento extremadamente lento. Muy sensible al flúor del agua del grifo—usar agua filtrada o de lluvia si las puntas de las hojas se oscurecen. Tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "密叶龙血树",
+      "description": "也称：Janet Craig Compacta。极其紧凑的龙血树，深绿色光泽叶片在粗茂上形成密集莲座状，是最耐低光的室内植物之一。",
+      "commonExamples": "Dracaena deremensis 'Compacta' (Janet Craig Compacta, 密叶龙血树)",
+      "careTips": "两次浇水之间让土壤干燥—过度浇水极易引起根腐。低光至明亮间接光均可；办公室灯光下也能生长良好。中等湿度即可。每年2-3次以四分之一浓度施肥。生长极其缓慢。对自来水中的氟化物非常敏感—叶尖发棕时请改用过滤水或雨水。对宠物有毒。"
+    }
+  },
+  {
+    "id": "ficus-elastica-tineke",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        30
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        25
+      ],
+      "category": "Houseplants - Low Maintenance"
+    },
+    "en": {
+      "typeName": "Ficus Tineke",
+      "description": "Variegated rubber plant cultivar with striking cream, green, and pink-edged leaves, more colorful than the standard rubber plant while retaining its easy-care nature.",
+      "commonExamples": "Ficus elastica 'Tineke' (Variegated rubber plant, Tineke rubber plant)",
+      "careTips": "Water when top 2-5 cm of soil is dry; reduce in winter. Bright indirect light essential to maintain variegation—too little light causes green reversion. Medium humidity fine. Well-draining potting mix. Fertilize monthly spring through fall with balanced fertilizer at half strength. Wipe large leaves with damp cloth to remove dust. Prune to control height and encourage branching. Rotate regularly for even growth. Toxic to pets (milky latex sap)."
+    },
+    "es": {
+      "typeName": "Ficus Tineke",
+      "description": "Cultivar variegado de planta de caucho con llamativas hojas en crema, verde y bordes rosados, más colorida que la planta de caucho estándar manteniendo su naturaleza fácil de cuidar.",
+      "commonExamples": "Ficus elastica 'Tineke' (Planta de caucho variegada, Ficus Tineke)",
+      "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos; reducir en invierno. Luz indirecta brillante esencial para mantener la variegación—poca luz causa reversión al verde. Humedad media adecuada. Sustrato bien drenado. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a media fuerza. Limpiar hojas grandes con paño húmedo para eliminar polvo. Podar para controlar altura y estimular ramificación. Rotar regularmente para crecimiento uniforme. Tóxica para mascotas (savia látex lechosa)."
+    },
+    "zh": {
+      "typeName": "花叶橡皮树",
+      "description": "橡皮树的斜纹品种，叶片具引人注目的奶油色、绿色和粉色边缘，比普通橡皮树更丰富多彩，同时保持易养特性。",
+      "commonExamples": "Ficus elastica 'Tineke' (花叶橡皮树, Tineke橡皮树)",
+      "careTips": "当表层2-5厘米土壤干燥时浇水；冬季减少。明亮间接光对保持斜纹至关重要—光照不足会导致叶片变绿。中等湿度即可。排水良好的培养土。春至秋每月半浓度施肥。用湿布擦拭大叶除尘。修剪控制高度并促进分枝。定期转盆促进均匀生长。对宠物有毒（乳白色乳汁液）。"
+    }
+  },
+  {
+    "id": "philodendron-florida-ghost",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Houseplants - Aroids"
+    },
+    "en": {
+      "typeName": "Florida Ghost Philodendron",
+      "description": "Highly sought-after hybrid philodendron whose new leaves emerge ghostly white before gradually maturing to pale green, then deep green, with multi-lobed foliage.",
+      "commonExamples": "Philodendron 'Florida Ghost' (Florida Ghost philodendron)",
+      "careTips": "Water when top 2-3 cm of soil is dry; never let sit in water. Bright indirect light essential for best white coloration—too little light produces green new growth. High humidity (60%+) preferred. Chunky, well-draining aroid mix with perlite and bark. Fertilize monthly spring through fall with balanced fertilizer at half strength. Provide a moss pole for climbing. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Filodendro Florida Ghost",
+      "description": "Filodendro híbrido muy buscado cuyas hojas nuevas emergen de un blanco fantasmal antes de madurar gradualmente a verde pálido y luego verde oscuro, con follaje multilobulado.",
+      "commonExamples": "Philodendron 'Florida Ghost' (Filodendro Florida Ghost)",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos; nunca dejar en agua estancada. Luz indirecta brillante esencial para mejor coloración blanca—poca luz produce crecimiento nuevo verde. Humedad alta (60%+) preferida. Mezcla para aráceas gruesa y bien drenada con perlita y corteza. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a media fuerza. Proporcionar poste de musgo para trepar. Tóxico para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "佛罗里达鬼魂蛔",
+      "description": "极受追捧的杂交蛔苋，新叶呈幽灵般的白色，逐渐成熟为淡绿色再转为深绿，叶片多裂。",
+      "commonExamples": "Philodendron 'Florida Ghost' (佛罗里达鬼魂蛔)",
+      "careTips": "当表层2-3厘米土壤干燥时浇水；切勿浸泡在水中。明亮间接光对获得最佳白色至关重要—光照不足新叶会直接变绿。偏好高湿度（60%+）。含珠光岩和树皮的粗粒排水良好天南星科培养土。春至秋每月半浓度施肥。提供苔藓柱供其攽缘。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "monstera-lechleriana",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Houseplants - Aroids"
+    },
+    "en": {
+      "typeName": "Monstera Lechleriana",
+      "description": "Climbing Monstera species with elongated, lance-shaped leaves that develop small fenestrations (holes) as they mature, more compact than M. deliciosa.",
+      "commonExamples": "Monstera lechleriana",
+      "careTips": "Water when top 2-3 cm of soil is dry. Bright indirect light preferred. Medium to high humidity (50-70%). Chunky, well-draining aroid mix. Fertilize monthly spring through fall at half strength. Provide a moss pole or trellis for climbing—leaves grow larger with support. Regularly check for spider mites. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Monstera Lechleriana",
+      "description": "Especie de Monstera trepadora con hojas alargadas en forma de lanza que desarrollan pequeñas fenestraciones (agujeros) al madurar, más compacta que M. deliciosa.",
+      "commonExamples": "Monstera lechleriana",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos. Luz indirecta brillante preferida. Humedad media a alta (50-70%). Mezcla para aráceas gruesa y bien drenada. Fertilizar mensualmente de primavera a otoño a media fuerza. Proporcionar poste de musgo o espaldera para trepar—las hojas crecen más con soporte. Revisar regularmente araña roja. Tóxica para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "莱氏龟背竹",
+      "description": "攽缘性龟背竹属植物，叶片拉长披针形，成熟后发展出小型天窗（孔洞），比龟背竹更紧凑。",
+      "commonExamples": "Monstera lechleriana",
+      "careTips": "当表层2-3厘米土壤干燥时浇水。偏好明亮间接光。中等至高湿度（50-70%）。粗粒排水良好的天南星科培养土。春至秋每月半浓度施肥。提供苔藓柱或棚架供其攽缘—有支撑时叶片会长得更大。定期检查是否有红蜘蛛。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "philodendron-gloriosum",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Houseplants - Aroids"
+    },
+    "en": {
+      "typeName": "Philodendron Gloriosum",
+      "description": "Stunning terrestrial philodendron with large, velvety heart-shaped leaves featuring prominent white or pink veining, crawling along the soil rather than climbing.",
+      "commonExamples": "Philodendron gloriosum",
+      "careTips": "Water when top 2-3 cm of soil is dry; sensitive to overwatering. Bright indirect light—avoid direct sun which burns velvety leaves. High humidity (60%+) essential for lush growth. Airy, well-draining mix with orchid bark and perlite. Fertilize monthly spring through fall at half strength. Terrestrial crawler—use a long, shallow pot rather than a deep one. Does not climb; rhizome creeps along the surface. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Filodendro Gloriosum",
+      "description": "Impresionante filodendro terrestre con grandes hojas aterciopeladas en forma de corazón con prominente venación blanca o rosa, que se arrastra por el suelo en lugar de trepar.",
+      "commonExamples": "Philodendron gloriosum",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos; sensible al exceso de riego. Luz indirecta brillante—evitar sol directo que quema las hojas aterciopeladas. Humedad alta (60%+) esencial para crecimiento exuberante. Mezcla aireada y bien drenada con corteza de orquídea y perlita. Fertilizar mensualmente de primavera a otoño a media fuerza. Rastrera terrestre—usar maceta larga y poco profunda en vez de profunda. No trepa; el rizoma se arrastra por la superficie. Tóxico para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "光辉蛔苋",
+      "description": "令人惊叹的地生蛔苋，大型天鹅绒心形叶片，具有突出的白色或粉色叶脉，沿土壤褰行而非攽缘。",
+      "commonExamples": "Philodendron gloriosum",
+      "careTips": "当表层2-3厘米土壤干燥时浇水；对过度浇水敏感。明亮间接光—避免直射光灼伤天鹅绒叶面。需要高湿度（60%+）以促进茁壮生长。含兰花树皮和珠光岩的透气排水良好培养土。春至秋每月半浓度施肥。地生褰行植物—使用长而浅的花盆而非深盆。不会攽缘；根茂沿表面褰行。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "monstera-standleyana",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        15
+      ],
+      "category": "Houseplants - Aroids"
+    },
+    "en": {
+      "typeName": "Monstera Standleyana",
+      "description": "Smaller Monstera species with elongated oval leaves featuring cream or yellow variegation (spots and splashes), a climbing vine often confused with Philodendron.",
+      "commonExamples": "Monstera standleyana, M. standleyana 'Albo Variegata'",
+      "careTips": "Water when top 2-3 cm of soil is dry. Bright indirect light to maintain variegation. Medium humidity (50%+) fine. Well-draining aroid mix. Fertilize monthly spring through fall at half strength. Provide support for climbing—leaves stay smaller without it. Faster growing than many collector Monsteras. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Monstera Standleyana",
+      "description": "Especie de Monstera más pequeña con hojas ovaladas alargadas con variegación crema o amarilla (puntos y salpicaduras), una enredadera trepadora frecuentemente confundida con Philodendron.",
+      "commonExamples": "Monstera standleyana, M. standleyana 'Albo Variegata'",
+      "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos. Luz indirecta brillante para mantener la variegación. Humedad media (50%+) adecuada. Mezcla para aráceas bien drenada. Fertilizar mensualmente de primavera a otoño a media fuerza. Proporcionar soporte para trepar—las hojas permanecen más pequeñas sin soporte. Crecimiento más rápido que muchas Monsteras de colección. Tóxica para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "斯坦利龟背竹",
+      "description": "较小的龟背竹属植物，椭圆形叶片带有奶油色或黄色斜纹（点状和泼墨状），攽缘藤本，常被误认为蛔苋。",
+      "commonExamples": "Monstera standleyana, M. standleyana 'Albo Variegata'",
+      "careTips": "当表层2-3厘米土壤干燥时浇水。明亮间接光以保持斜纹。中等湿度（50%+）即可。排水良好的天南星科培养土。春至秋每月半浓度施肥。提供支撑供其攽缘—无支撑时叶片会较小。比许多收藏级龟背竹生长更快。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "hoya-wayetii",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        28
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        20
+      ],
+      "category": "Houseplants - Vines & Trailing"
+    },
+    "en": {
+      "typeName": "Hoya Wayetii",
+      "description": "Trailing hoya with narrow, elongated leaves edged in red or dark maroon, producing clusters of fragrant star-shaped flowers when mature.",
+      "commonExamples": "Hoya wayetii, H. wayetii 'Variegata'",
+      "careTips": "Allow soil to dry mostly between waterings (every 1-2 weeks). Bright indirect light preferred—some direct morning sun enhances leaf color. Medium humidity (40-50%) fine. Well-draining mix with perlite and orchid bark. Fertilize monthly spring through fall at half strength. Don't remove old flower stems (peduncles)—they rebloom. Let it become slightly rootbound for flowering. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Hoya Wayetii",
+      "description": "Hoya colgante con hojas estrechas y alargadas bordeadas en rojo o marrón oscuro, produciendo racimos de flores estrelladas fragantes cuando madura.",
+      "commonExamples": "Hoya wayetii, H. wayetii 'Variegata'",
+      "careTips": "Permitir que el suelo seque mayormente entre riegos (cada 1-2 semanas). Luz indirecta brillante preferida—algo de sol matutino directo realza el color de las hojas. Humedad media (40-50%) adecuada. Mezcla bien drenada con perlita y corteza de orquídea. Fertilizar mensualmente de primavera a otoño a media fuerza. No eliminar tallos florales viejos (pedúnculos)—reflorecen. Permitir que esté ligeramente enraízada en la maceta para floración. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "韦氏球兰",
+      "description": "垂吊型球兰，叶片细长，边缘红色或深栗色，成熟后开出芳香的星形花簇。",
+      "commonExamples": "Hoya wayetii, H. wayetii 'Variegata'",
+      "careTips": "两次浇水之间让土壤大部分干燥（每1-2周）。偏好明亮间接光—一些早晨直射光可增强叶色。中等湿度（40-50%）即可。含珠光岩和兰花树皮的排水良好培养土。春至秋每月半浓度施肥。不要摘除旧花茂（花梦）—它们会重新开花。让其略微根满以促进开花。对宠物无毒。"
+    }
+  },
+  {
+    "id": "cissus-discolor",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        10
+      ],
+      "category": "Houseplants - Vines & Trailing"
+    },
+    "en": {
+      "typeName": "Rex Begonia Vine",
+      "description": "Tropical climbing vine with stunning elongated leaves featuring silver, green, and purple coloring with deep red-purple undersides, not a true begonia despite the common name.",
+      "commonExamples": "Cissus discolor (Rex begonia vine, Tapestry vine)",
+      "careTips": "Keep soil evenly moist but not soggy; sensitive to both drought and overwatering. Bright indirect light—direct sun fades the stunning leaf colors. High humidity (60%+) essential—drops leaves rapidly in dry air. Well-draining potting mix. Fertilize monthly spring through fall at half strength. Provide a trellis or moss pole. May go semi-dormant in winter, losing some leaves—reduce watering. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Parra Begonia Rex",
+      "description": "Enredadera tropical trepadora con impresionantes hojas alargadas en plateado, verde y púrpura con envés rojo-púrpura profundo, no es una begonia verdadera a pesar del nombre común.",
+      "commonExamples": "Cissus discolor (Parra begonia rex, Parra tapiz)",
+      "careTips": "Mantener el suelo uniformemente húmedo pero no encharcado; sensible tanto a la sequía como al exceso de riego. Luz indirecta brillante—el sol directo desvanece los colores de las hojas. Humedad alta (60%+) esencial—pierde hojas rápidamente en aire seco. Sustrato bien drenado. Fertilizar mensualmente de primavera a otoño a media fuerza. Proporcionar espaldera o poste de musgo. Puede entrar en semi-latencia en invierno, perdiendo algunas hojas—reducir el riego. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "锦叶葡萄",
+      "description": "热带攽缘藤本，叶片独特修长，正面银、绿、紫相间，背面深红紫色，虽俗称秋海棠藤但并非真正的秋海棠。",
+      "commonExamples": "Cissus discolor (锦叶葡萄, 织锦藤)",
+      "careTips": "保持土壤均匀湿润但不积水；对干旱和过浇都敏感。明亮间接光—直射光会使叶色褰色。需要高湿度（60%+）—干燥空气中会迅速落叶。排水良好的培养土。春至秋每月半浓度施肥。提供棚架或苔藓柱。冬季可能半休眠，脱落部分叶片—减少浇水。对宠物无毒。"
+    }
+  },
+  {
+    "id": "hoya-pubicalyx",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        28
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        25
+      ],
+      "category": "Houseplants - Vines & Trailing"
+    },
+    "en": {
+      "typeName": "Hoya Pubicalyx",
+      "description": "Fast-growing hoya with dark green leaves speckled with silver flecks, producing fragrant star-shaped flower clusters in pink, red, or nearly black.",
+      "commonExamples": "Hoya pubicalyx, H. pubicalyx 'Royal Hawaiian Purple', H. pubicalyx 'Splash', H. pubicalyx 'Black Dragon'",
+      "careTips": "Allow soil to dry mostly between waterings. Bright indirect light preferred—tolerates lower light but won't flower. Medium humidity (40-50%) fine. Well-draining mix. Fertilize monthly spring through fall at half strength. One of the easiest hoyas to bloom—don't cut old peduncles. Can trail or climb. Fairly cold-tolerant for a hoya. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Hoya Pubicalyx",
+      "description": "Hoya de crecimiento rápido con hojas verde oscuro moteadas con destellos plateados, produciendo racimos de flores estrelladas fragantes en rosa, rojo o casi negro.",
+      "commonExamples": "Hoya pubicalyx, H. pubicalyx 'Royal Hawaiian Purple', H. pubicalyx 'Splash', H. pubicalyx 'Black Dragon'",
+      "careTips": "Permitir que el suelo seque mayormente entre riegos. Luz indirecta brillante preferida—tolera menos luz pero no florecerá. Humedad media (40-50%) adecuada. Mezcla bien drenada. Fertilizar mensualmente de primavera a otoño a media fuerza. Una de las hoyas más fáciles de florecer—no cortar pedúnculos viejos. Puede colgar o trepar. Bastante tolerante al frío para una hoya. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "毛萼球兰",
+      "description": "生长快速的球兰，深绿叶片上布满银色斑点，开出芳香的星形花簇，花色有粉、红或近黑色。",
+      "commonExamples": "Hoya pubicalyx, H. pubicalyx 'Royal Hawaiian Purple', H. pubicalyx 'Splash', H. pubicalyx 'Black Dragon'",
+      "careTips": "两次浇水之间让土壤大部分干燥。偏好明亮间接光—耐低光但不会开花。中等湿度（40-50%）即可。排水良好的培养土。春至秋每月半浓度施肥。最容易开花的球兰之一—勿剪旧花梦。可垂吊或攽缘。在球兰中较耐寒。对宠物无毒。"
+    }
+  },
+  {
+    "id": "ficus-audrey",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        30
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        15,
+        30
+      ],
+      "category": "Houseplants - Specialty"
+    },
+    "en": {
+      "typeName": "Ficus Audrey",
+      "description": "The more forgiving cousin of the Fiddle Leaf Fig, with velvety, oval leaves and pale trunk, increasingly popular as a statement houseplant.",
+      "commonExamples": "Ficus benghalensis (Ficus Audrey, Banyan fig—indoor cultivar)",
+      "careTips": "Water when top 2-5 cm of soil is dry; more forgiving than Fiddle Leaf Fig but still dislikes soggy soil. Bright indirect light preferred—tolerates some direct morning sun. Medium humidity fine. Well-draining potting mix. Fertilize monthly spring through fall at half strength. Wipe velvety leaves with damp cloth to remove dust. Less prone to leaf drop than Fiddle Leaf Fig but still dislikes being moved. Toxic to pets (milky latex sap)."
+    },
+    "es": {
+      "typeName": "Ficus Audrey",
+      "description": "La prima más tolerante del Ficus Lira, con hojas ovaladas aterciopeladas y tronco pálido, cada vez más popular como planta de interior destacada.",
+      "commonExamples": "Ficus benghalensis (Ficus Audrey, Higuera banyan—cultivar de interior)",
+      "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos; más tolerante que el Ficus Lira pero aún no le gusta el suelo encharcado. Luz indirecta brillante preferida—tolera algo de sol matutino directo. Humedad media adecuada. Sustrato bien drenado. Fertilizar mensualmente de primavera a otoño a media fuerza. Limpiar hojas aterciopeladas con paño húmedo para eliminar polvo. Menos propensa a la caída de hojas que el Ficus Lira pero aún no le gusta ser movida. Tóxica para mascotas (savia látex lechosa)."
+    },
+    "zh": {
+      "typeName": "奥黠丽橡皮树",
+      "description": "比琴叶榨更容易养护的近亲，叶片天鹅绒卵圆形，树干浅色，作为大型室内观叶植物越来越受欢迎。",
+      "commonExamples": "Ficus benghalensis (奥黠丽橡皮树, 室内榨树品种)",
+      "careTips": "当表层2-5厘米土壤干燥时浇水；比琴叶榨更容易但仍不喜浇水过多。偏好明亮间接光—耐一些早晨直射光。中等湿度即可。排水良好的培养土。春至秋每月半浓度施肥。用湿布擦拭天鹅绒叶面除尘。比琴叶榨更少落叶但仍不喜被移动。对宠物有毒（乳白色乳汁液）。"
+    }
+  },
+  {
+    "id": "alocasia-dragon-scale",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        28
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Specialty"
+    },
+    "en": {
+      "typeName": "Dragon Scale Alocasia",
+      "description": "Compact Alocasia with extraordinarily textured, thick leaves featuring deep silvery-green coloring and prominent dark veining that resembles dragon scales.",
+      "commonExamples": "Alocasia baginda 'Dragon Scale'",
+      "careTips": "Keep soil lightly moist but never soggy; allow top layer to dry slightly. Bright indirect light—avoid direct sun. High humidity (60%+) essential; struggles in dry indoor air. Very well-draining aroid mix with perlite, bark, and sphagnum. Fertilize monthly spring through fall at quarter strength. May go dormant in winter, losing leaves—reduce watering and keep warm. Sensitive to overwatering. Toxic to pets (calcium oxalate crystals)."
+    },
+    "es": {
+      "typeName": "Alocasia Escama de Dragón",
+      "description": "Alocasia compacta con hojas extraordinariamente texturizadas y gruesas, de color verde-plateado profundo con prominente venación oscura que asemeja escamas de dragón.",
+      "commonExamples": "Alocasia baginda 'Dragon Scale'",
+      "careTips": "Mantener el suelo ligeramente húmedo pero nunca encharcado; permitir que la capa superior seque ligeramente. Luz indirecta brillante—evitar sol directo. Humedad alta (60%+) esencial; difícil en aire seco de interiores. Mezcla para aráceas muy bien drenada con perlita, corteza y esfagno. Fertilizar mensualmente de primavera a otoño a un cuarto de fuerza. Puede entrar en latencia en invierno, perdiendo hojas—reducir riego y mantener cálida. Sensible al exceso de riego. Tóxica para mascotas (cristales de oxalato de calcio)."
+    },
+    "zh": {
+      "typeName": "龙鳞海芋",
+      "description": "紧凑型海芋，叶片特别厚实，质感独特，银绿色叶面带有突出的深色叶脉，如同龙鳞。",
+      "commonExamples": "Alocasia baginda 'Dragon Scale'",
+      "careTips": "保持土壤微湿但勿积水；让表层略微干燥。明亮间接光—避免直射光。需要高湿度（60%+）；在干燥室内空气中难以生长。含珠光岩、树皮和水苔的极佳排水天南星科培养土。春至秋每月四分之一浓度施肥。冬季可能休眠落叶—减少浇水并保持温暖。对过浇敏感。对宠物有毒（草酸钙结晶）。"
+    }
+  },
+  {
+    "id": "bird-of-paradise-white",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        10,
+        30
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        20,
+        50
+      ],
+      "category": "Houseplants - Specialty"
+    },
+    "en": {
+      "typeName": "White Bird of Paradise",
+      "description": "Giant tropical plant with enormous banana-like leaves that can reach ceiling height indoors, producing dramatic white and blue crane-shaped flowers outdoors.",
+      "commonExamples": "Strelitzia nicolai (White bird of paradise, Giant bird of paradise, Wild banana)",
+      "careTips": "Water when top 2-5 cm of soil is dry; reduce in winter. Bright direct to indirect light—the more light, the more compact growth. Medium humidity fine. Rich, well-draining potting mix. Fertilize monthly spring through fall with balanced fertilizer. Leaf splitting is natural and helps the plant withstand wind. Clean large leaves regularly. Rarely flowers indoors. Needs space—can reach 2-3 meters indoors. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Ave del Paraíso Blanca",
+      "description": "Planta tropical gigante con enormes hojas similares al banano que pueden alcanzar la altura del techo en interiores, produciendo dramáticas flores blancas y azules en forma de grulla al exterior.",
+      "commonExamples": "Strelitzia nicolai (Ave del paraíso blanca, Ave del paraíso gigante, Banano silvestre)",
+      "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos; reducir en invierno. Luz directa brillante a indirecta—más luz produce crecimiento más compacto. Humedad media adecuada. Sustrato rico y bien drenado. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado. El rasgado de hojas es natural y ayuda a la planta a soportar el viento. Limpiar hojas grandes regularmente. Rara vez florece en interiores. Necesita espacio—puede alcanzar 2-3 metros en interior. Ligeramente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "白色天堂鸟",
+      "description": "巨型热带植物，巨大的芭蕉状叶片在室内可达天花板高度，在室外可开出壮观的白蓝色鹤形花。",
+      "commonExamples": "Strelitzia nicolai (白色天堂鸟, 巨型天堂鸟, 野蕉)",
+      "careTips": "当表层2-5厘米土壤干燥时浇水；冬季减少。明亮直射至间接光—光照越多生长越紧凑。中等湿度即可。肥沃、排水良好的培养土。春至秋每月施平衡肥。叶片开裂是自然现象，有助于抗风。定期清洁大叶。室内很少开花。需要空间—室内可达2-3米。对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "calathea-musaica",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        18,
+        27
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        10
+      ],
+      "category": "Houseplants - Prayer Plants"
+    },
+    "en": {
+      "typeName": "Calathea Musaica",
+      "description": "Stunning prayer plant with an intricate mosaic-like network pattern on its leaves that resembles stained glass or circuit boards, one of the most visually complex leaf patterns in nature.",
+      "commonExamples": "Goeppertia kegeljanii (syn. Calathea musaica, Network calathea)",
+      "careTips": "Keep soil consistently moist but not waterlogged; very sensitive to drying out. Bright indirect light—no direct sun. High humidity (60%+) essential; leaf edges brown quickly in dry air. Use filtered or distilled water—sensitive to fluoride and chlorine in tap water. Well-draining, peat-based mix. Fertilize monthly spring through fall at quarter strength. Leaves fold up at night (nyctinasty). Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Calathea Musaica",
+      "description": "Impresionante planta de oración con un intrincado patrón de mosaico en red en sus hojas que asemeja vitral o circuitos, uno de los patrones foliares más visualmente complejos de la naturaleza.",
+      "commonExamples": "Goeppertia kegeljanii (sin. Calathea musaica, Calathea red)",
+      "careTips": "Mantener el suelo consistentemente húmedo pero no encharcado; muy sensible a secarse. Luz indirecta brillante—sin sol directo. Humedad alta (60%+) esencial; los bordes de las hojas se oscurecen rápidamente en aire seco. Usar agua filtrada o destilada—sensible al flúor y cloro del agua del grifo. Mezcla bien drenada a base de turba. Fertilizar mensualmente de primavera a otoño a un cuarto de fuerza. Las hojas se pliegan por la noche (nictinastia). No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "马赛克竹芋",
+      "description": "令人惊叹的竹芋科植物，叶片上布满精密的网格马赛克图案，如同彩绘玻璃或电路板，是自然界中最复杂的叶片图案之一。",
+      "commonExamples": "Goeppertia kegeljanii (同义 Calathea musaica, 网络竹芋)",
+      "careTips": "保持土壤持续湿润但不积水；对干燥非常敏感。明亮间接光—禁止直射光。需要高湿度（60%+）；干燥空气中叶缘快速发棕。使用过滤水或蒸馏水—对自来水中的氟和氯敏感。排水良好的泥炭基质培养土。春至秋每月四分之一浓度施肥。叶片夜间折叠（感夜性）。对宠物无毒。"
+    }
+  },
+  {
+    "id": "pachyphytum",
+    "meta": {
+      "springInterval": 14,
+      "summerInterval": 10,
+      "fallInterval": 21,
+      "winterInterval": 30,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        5,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "bottomWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Succulents"
+    },
+    "en": {
+      "typeName": "Pachyphytum",
+      "description": "Also known as: Moonstones. Adorable succulents with plump, egg-shaped leaves in pastel shades of lavender, pink, and blue-grey, often covered in a powdery farina coating.",
+      "commonExamples": "Pachyphytum oviferum (Moonstones, Sugar almond plant), P. compactum (Little jewel), P. bracteosum (Silverbracts)",
+      "careTips": "Water only when soil is completely dry; soak and drain method works best. Bright indirect to gentle direct light—too much harsh sun can sunburn delicate leaves. Low humidity preferred—prone to rot in damp conditions. Gritty, fast-draining succulent mix essential. Fertilize once in spring with diluted cactus fertilizer. Avoid touching leaves—the farina coating doesn't grow back. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Pachyphytum",
+      "description": "También conocido como: Piedras lunares. Adorables suculentas con hojas regordetas en forma de huevo en tonos pastel de lavanda, rosa y gris azulado, a menudo cubiertas de una capa de farina polvorienta.",
+      "commonExamples": "Pachyphytum oviferum (Piedras lunares, Planta almendra de azúcar), P. compactum (Pequeña joya), P. bracteosum (Brazaletes plateados)",
+      "careTips": "Regar solo cuando el suelo esté completamente seco; el método de remojo y drenaje funciona mejor. Luz indirecta brillante a directa suave—demasiado sol fuerte puede quemar las hojas delicadas. Humedad baja preferida—propensa a pudrirse en condiciones húmedas. Mezcla arenosa de suculentas de drenaje rápido esencial. Fertilizar una vez en primavera con fertilizante de cactus diluido. Evitar tocar las hojas—la capa de farina no vuelve a crecer. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "星美人",
+      "description": "也称：月光石。可爱的多肉植物，叶片肥厚呢圆如鸡蛋形，呈淡紫、粉红和蓝灰等粉色色调，常覆有粉状果粉。",
+      "commonExamples": "Pachyphytum oviferum (星美人, 月光石), P. compactum (小宝石), P. bracteosum (银苞星美人)",
+      "careTips": "仅在土壤完全干燥时浇水；浸盆法效果最佳。明亮间接至柔和直射光—过强日照会晒伤娇嫩叶片。偏好低湿度—潮湿环境易腐烂。必须使用排水极快的砂质多肉培养土。春季用稀释仙人掌肥施肥一次。避免触摸叶片—果粉不会再生。对宠物无毒。"
+    }
+  },
+  {
+    "id": "euphorbia-tirucalli",
+    "meta": {
+      "springInterval": 14,
+      "summerInterval": 10,
+      "fallInterval": 21,
+      "winterInterval": 30,
+      "lightPreference": "strongDirect",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        10,
+        35
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Succulents"
+    },
+    "en": {
+      "typeName": "Pencil Cactus",
+      "description": "Also known as: Firestick plant, Milk bush. Striking succulent with thin, pencil-like branches that turn vibrant red-orange in bright light, though actually a euphorbia, not a true cactus.",
+      "commonExamples": "Euphorbia tirucalli (Pencil cactus, Firestick plant, Milk bush), E. tirucalli 'Sticks on Fire'",
+      "careTips": "Water sparingly; allow soil to dry completely between waterings. Strong direct light for best color—full sun produces vibrant red tips. Low humidity preferred. Well-draining sandy or gritty succulent mix. Fertilize lightly once in spring. Handle with extreme care—white milky sap is highly irritating to skin and eyes; wear gloves when pruning. Can grow quite large indoors (up to 2 meters). Toxic to pets and humans (caustic latex sap)."
+    },
+    "es": {
+      "typeName": "Cactus Lápiz",
+      "description": "También conocido como: Planta de fuego, Arbusto de leche. Suculenta llamativa con ramas delgadas como lápices que se vuelven rojo-naranja vibrante con luz intensa, aunque en realidad es una euforbia, no un cactus verdadero.",
+      "commonExamples": "Euphorbia tirucalli (Cactus lápiz, Planta de fuego, Arbusto de leche), E. tirucalli 'Sticks on Fire'",
+      "careTips": "Regar escasamente; dejar secar el suelo completamente entre riegos. Luz directa fuerte para mejor color—sol pleno produce puntas rojas vibrantes. Humedad baja preferida. Mezcla arenosa o granulosa de suculentas bien drenada. Fertilizar ligeramente una vez en primavera. Manejar con extremo cuidado—la savia lechosa blanca es muy irritante para piel y ojos; usar guantes al podar. Puede crecer bastante en interiores (hasta 2 metros). Tóxica para mascotas y humanos (savia látex cáustica)."
+    },
+    "zh": {
+      "typeName": "铅笔仙人掌",
+      "description": "也称：火棍植物、光棍树。引人注目的多肉植物，细长的铅笔状枝条在强光下变为鲜艳的红橙色，实际上是大戟科而非真正的仙人掌。",
+      "commonExamples": "Euphorbia tirucalli (铅笔仙人掌, 火棍植物, 光棍树), E. tirucalli 'Sticks on Fire'",
+      "careTips": "少量浇水；两次浇水间让土壤完全干透。强直射光可获得最佳色彩—全日照使枝尖呈鲜艳红色。偏好低湿度。排水良好的砂质或粗粒多肉培养土。春季轻微施肥一次。处理时要极其小心—白色乳状汁液对皮肤和眼睛刺激性强；修剪时戴手套。室内可长得很大（达2米）。对宠物和人类有毒（腐蚀性乳胶汁液）。"
+    }
+  },
+  {
+    "id": "lavender-herb",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        -15,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "alkaline",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Herbs"
+    },
+    "en": {
+      "typeName": "Lavender",
+      "description": "Beloved aromatic herb with silvery-green foliage and fragrant purple flower spikes prized for culinary use, essential oils, sachets, and ornamental garden borders.",
+      "commonExamples": "Lavandula angustifolia (English lavender, True lavender), L. stoechas (French lavender, Spanish lavender), L. x intermedia (Lavandin, Grosso lavender)",
+      "careTips": "Drought-tolerant once established; water deeply but infrequently, allowing soil to dry between waterings. Full sun essential—at least 6-8 hours daily. Low humidity preferred; good air circulation prevents fungal disease. Well-draining, slightly alkaline soil (add lime to acidic soils). Avoid rich fertilizer—lean soil concentrates fragrance. Prune after flowering by cutting back one-third; never cut into old wood. Mildly toxic to pets if ingested in large quantities."
+    },
+    "es": {
+      "typeName": "Lavanda",
+      "description": "Querida hierba aromática con follaje verde plateado y espigas de flores púrpuras fragantes apreciadas para uso culinario, aceites esenciales, saquitos y borduras ornamentales de jardín.",
+      "commonExamples": "Lavandula angustifolia (Lavanda inglesa, Lavanda verdadera), L. stoechas (Lavanda francesa, Cantueso), L. x intermedia (Lavandín, Lavanda Grosso)",
+      "careTips": "Tolerante a la sequía una vez establecida; regar profundamente pero con poca frecuencia, dejando secar el suelo entre riegos. Sol pleno esencial—al menos 6-8 horas diarias. Humedad baja preferida; buena circulación de aire previene enfermedades fúngicas. Suelo bien drenado ligeramente alcalino (añadir cal a suelos ácidos). Evitar fertilizante rico—suelo pobre concentra la fragancia. Podar después de la floración cortando un tercio; nunca cortar en madera vieja. Ligeramente tóxica para mascotas si se ingiere en grandes cantidades."
+    },
+    "zh": {
+      "typeName": "薰衣草",
+      "description": "深受喜爱的芳香草本，银绿色叶片和芳香的紫色花穗，广泛用于烹饪、精油、香囊和观赏性花圆边缘。",
+      "commonExamples": "Lavandula angustifolia (英国薰衣草, 真薰衣草), L. stoechas (法国薰衣草, 西班牙薰衣草), L. x intermedia (杂交薰衣草)",
+      "careTips": "定植后耐旱；深层浇水但不要频繁，两次浇水间让土壤干燥。需要全日照—每天至少6-8小时。偏好低湿度；良好的空气流通可预防真菌病。排水良好的微碱性土壤（酸性土可加石灰）。避免施肥过重—贫瘠土壤使香气更浓郁。花后剪去三分之一；切勿剪到老木。大量摄入对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "peppermint",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        30
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "moistureRetentive",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        3,
+        10
+      ],
+      "category": "Herbs"
+    },
+    "en": {
+      "typeName": "Peppermint",
+      "description": "Vigorous aromatic herb with dark green leaves edged in purple and a strong, cooling menthol flavor used in teas, desserts, cocktails, and herbal remedies.",
+      "commonExamples": "Mentha x piperita (Peppermint), M. x piperita 'Chocolate' (Chocolate mint), M. x piperita citrata (Orange mint)",
+      "careTips": "Keep soil consistently moist; never let it dry out. Partial sun to partial shade—4-6 hours of sun ideal. Medium humidity fine. Rich, moisture-retentive soil. Fertilize monthly with balanced liquid fertilizer during growing season. Extremely invasive—always grow in containers to prevent spreading. Pinch tips regularly to promote bushy growth and prevent flowering. Harvest frequently; flavor is best just before flowering. Mildly toxic to pets (menthol can cause gastrointestinal upset)."
+    },
+    "es": {
+      "typeName": "Menta Piperita",
+      "description": "Vigorosa hierba aromática con hojas verde oscuro bordeadas de púrpura y un fuerte sabor refrescante a mentol, usada en tés, postres, cócteles y remedios herbales.",
+      "commonExamples": "Mentha x piperita (Menta piperita), M. x piperita 'Chocolate' (Menta chocolate), M. x piperita citrata (Menta naranja)",
+      "careTips": "Mantener el suelo consistentemente húmedo; nunca dejar secar. Sol parcial a sombra parcial—4-6 horas de sol ideal. Humedad media adecuada. Suelo rico y con retención de humedad. Fertilizar mensualmente con fertilizante líquido balanceado durante la temporada de crecimiento. Extremadamente invasiva—siempre cultivar en contenedores para prevenir propagación. Pellizcar puntas regularmente para promover crecimiento tupido y prevenir floración. Cosechar frecuentemente; el sabor es mejor justo antes de florecer. Ligeramente tóxica para mascotas (el mentol puede causar malestar gastrointestinal)."
+    },
+    "zh": {
+      "typeName": "胡椒薄荷",
+      "description": "生命力旺盛的芳香草本，深绿色叶片边缘带紫色，具有强烈清凉的薄荷醇味，用于茶饮、甐点、鸡尾酒和草药疗法。",
+      "commonExamples": "Mentha x piperita (胡椒薄荷), M. x piperita 'Chocolate' (巧克力薄荷), M. x piperita citrata (橙味薄荷)",
+      "careTips": "保持土壤持续湿润；切勿干透。半日照至半阴—每天4-6小时光照为佳。中等湿度即可。肥沃、保湿的土壤。生长季每月施平衡液肥。极具侵略性—始终用容器种植以防扩散。定期捐尖促进丛生生长并防止开花。勤采收；开花前风味最佳。对宠物有轻度毒性（薄荷醇可引起胃肠不适）。"
+    }
+  },
+  {
+    "id": "fennel-herb",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -10,
+        30
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        2,
+        5
+      ],
+      "category": "Herbs"
+    },
+    "en": {
+      "typeName": "Fennel",
+      "description": "Tall, feathery herb with an anise-like flavor used in Mediterranean cooking, producing edible fronds, seeds, pollen, and a crunchy bulb in the Florence variety.",
+      "commonExamples": "Foeniculum vulgare (Sweet fennel, Common fennel), F. vulgare var. azoricum (Florence fennel, Finocchio), F. vulgare 'Purpureum' (Bronze fennel)",
+      "careTips": "Keep soil evenly moist; water regularly in hot weather. Full sun essential—at least 6 hours daily. Medium humidity fine. Deep, well-draining, fertile soil. Fertilize at planting with compost; side-dress with balanced fertilizer mid-season. Do not plant near dill—they cross-pollinate and produce poor-flavored seeds. Hill soil around Florence fennel bulbs to blanch them. Attracts swallowtail butterfly caterpillars. Mildly toxic to pets in large amounts."
+    },
+    "es": {
+      "typeName": "Hinojo",
+      "description": "Hierba alta y plumosa con sabor a anís utilizada en cocina mediterránea, que produce frondas comestibles, semillas, polen y un bulbo crujiente en la variedad Florencia.",
+      "commonExamples": "Foeniculum vulgare (Hinojo dulce, Hinojo común), F. vulgare var. azoricum (Hinojo de Florencia, Finocchio), F. vulgare 'Purpureum' (Hinojo bronce)",
+      "careTips": "Mantener el suelo uniformemente húmedo; regar regularmente en clima caluroso. Sol pleno esencial—al menos 6 horas diarias. Humedad media adecuada. Suelo profundo, bien drenado y fértil. Fertilizar al plantar con compost; aplicar fertilizante balanceado a mitad de temporada. No plantar cerca del eneldo—se polinizan cruzadamente y producen semillas de mal sabor. Aporcar tierra alrededor de bulbos de hinojo Florencia para blanquearlos. Atrae orugas de mariposa cola de golondrina. Ligeramente tóxico para mascotas en grandes cantidades."
+    },
+    "zh": {
+      "typeName": "茴香",
+      "description": "高大羽状草本，具有茸香般的风味，广泛用于地中海烹饪，可食用部分包括叶片、种子、花粉，佛罗伦萨品种还有脆嫩的鳞茄。",
+      "commonExamples": "Foeniculum vulgare (甜茴香, 普通茴香), F. vulgare var. azoricum (佛罗伦萨茴香), F. vulgare 'Purpureum' (古铜茴香)",
+      "careTips": "保持土壤均匀湿润；炒热天气定期浇水。需要全日照—每天至少6小时。中等湿度即可。深层、排水良好、肥沃的土壤。种植时施堆肥；中季追施平衡肥。不要与莳萝种在一起—两者会交叉授粉产生风味不佳的种子。在佛罗伦萨茴香的鳞茄周围培土以软化。能吸引凤蝶幼虫。大量摄入对宠物有轻度毒性。"
+    }
+  },
+  {
+    "id": "cacao",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "veryHigh",
+      "temperaturePreference": [
+        18,
+        32
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        25,
+        50
+      ],
+      "category": "Farm & Field"
+    },
+    "en": {
+      "typeName": "Cacao",
+      "description": "Also known as: Chocolate tree. The tropical tree whose seeds are fermented and processed to produce chocolate, cocoa butter, and cocoa powder—one of the world's most economically important crops.",
+      "commonExamples": "Theobroma cacao (Cacao, Chocolate tree), T. cacao Criollo group, T. cacao Forastero group, T. cacao Trinitario group",
+      "careTips": "Keep soil consistently moist but not waterlogged; sensitive to both drought and standing water. Partial shade preferred—naturally an understory tree. Very high humidity (80%+) essential. Rich, well-draining acidic soil (pH 5.0-6.5). Fertilize monthly with balanced fertilizer during growing season. Flowers and fruits grow directly from the trunk (cauliflory). Needs temperatures above 18°C year-round. Theobromine in all parts is toxic to pets."
+    },
+    "es": {
+      "typeName": "Cacao",
+      "description": "También conocido como: Árbol del chocolate. Árbol tropical cuyas semillas se fermentan y procesan para producir chocolate, manteca de cacao y cacao en polvo—uno de los cultivos más importantes económicamente del mundo.",
+      "commonExamples": "Theobroma cacao (Cacao, Árbol del chocolate), T. cacao grupo Criollo, T. cacao grupo Forastero, T. cacao grupo Trinitario",
+      "careTips": "Mantener el suelo consistentemente húmedo pero no encharcado; sensible tanto a la sequía como al agua estancada. Sombra parcial preferida—naturalmente un árbol del sotobosque. Humedad muy alta (80%+) esencial. Suelo ácido, rico y bien drenado (pH 5.0-6.5). Fertilizar mensualmente con fertilizante balanceado durante la temporada de crecimiento. Las flores y frutos crecen directamente del tronco (caulifloría). Necesita temperaturas superiores a 18°C todo el año. La teobromina en todas sus partes es tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "可可树",
+      "description": "也称：巧克力树。热带树木，其种子经发酵加工后可生产巧克力、可可脂和可可粉—是世界上经济价值最高的作物之一。",
+      "commonExamples": "Theobroma cacao (可可树, 巧克力树), T. cacao Criollo组, T. cacao Forastero组, T. cacao Trinitario组",
+      "careTips": "保持土壤持续湿润但不积水；对干旱和浸水都敏感。偏好半阴—天然林下树种。需要极高湿度（80%+）。肥沃、排水良好的酸性土壤（pH 5.0-6.5）。生长季每月施平衡肥。花果直接生长在树干上（茁生花）。全年需要温度超过18°C。所有部分含可可碱，对宠物有毒。"
+    }
+  },
+  {
+    "id": "coffee-arabica",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        15,
+        25
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        30,
+        70
+      ],
+      "category": "Farm & Field"
+    },
+    "en": {
+      "typeName": "Coffee Plant",
+      "description": "Also known as: Arabian coffee. The glossy-leaved tropical shrub that produces the world's most popular beverage, also grown as an attractive houseplant with fragrant white flowers and red cherry-like fruits.",
+      "commonExamples": "Coffea arabica (Arabica coffee, Arabian coffee), C. arabica 'Nana' (Dwarf coffee plant)",
+      "careTips": "Keep soil evenly moist but not soggy; water when top 2 cm dries. Bright indirect light—scorches in direct sun. High humidity (60%+) preferred; mist regularly. Rich, well-draining, acidic soil (pH 6.0-6.5). Fertilize every 2 weeks spring through summer with balanced acidic fertilizer. May produce fragrant white flowers and red berries indoors after 3-5 years. Prefers cool nights (15-18°C). All parts except the beans are toxic to pets (caffeine)."
+    },
+    "es": {
+      "typeName": "Planta de Café",
+      "description": "También conocida como: Café arábigo. Arbusto tropical de hojas brillantes que produce la bebida más popular del mundo, también cultivado como atractiva planta de interior con flores blancas fragantes y frutos rojos tipo cereza.",
+      "commonExamples": "Coffea arabica (Café arábica, Café arábigo), C. arabica 'Nana' (Planta de café enana)",
+      "careTips": "Mantener el suelo uniformemente húmedo pero no encharcado; regar cuando los primeros 2 cm se sequen. Luz indirecta brillante—se quema con sol directo. Humedad alta (60%+) preferida; rociar regularmente. Suelo rico, bien drenado y ácido (pH 6.0-6.5). Fertilizar cada 2 semanas de primavera a verano con fertilizante ácido balanceado. Puede producir flores blancas fragantes y bayas rojas en interior después de 3-5 años. Prefiere noches frescas (15-18°C). Todas las partes excepto los granos son tóxicas para mascotas (cafeína)."
+    },
+    "zh": {
+      "typeName": "咖啡树",
+      "description": "也称：阿拉比卡咖啡。叶片光泽的热带灘木，生产世界上最受欢迎的饮品，也作为室内观赏植物种植，可开芳香白花并结红色樱桃状果实。",
+      "commonExamples": "Coffea arabica (阿拉比卡咖啡, 阿拉伯咖啡), C. arabica 'Nana' (矮生咖啡)",
+      "careTips": "保持土壤均匀湿润但不积水；表层2厘米干燥时浇水。明亮间接光—直射光会灼伤。偏好高湿度（60%+）；定期喷雾。肥沃、排水良好的酸性土壤（pH 6.0-6.5）。春夏季每2周施平衡酸性肥。室内种植3-5年后可能开芳香白花并结红果。偏好凉爽夜温（15-18°C）。除咖啡豆外所有部分对宠物有毒（咖啡因）。"
+    }
+  },
+  {
+    "id": "vanilla-crop",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "veryHigh",
+      "temperaturePreference": [
+        18,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Farm & Field"
+    },
+    "en": {
+      "typeName": "Vanilla",
+      "description": "Also known as: Vanilla orchid. A climbing orchid vine that produces the world's second most expensive spice; each flower must be hand-pollinated to produce the familiar aromatic seed pods.",
+      "commonExamples": "Vanilla planifolia (Madagascar vanilla, Bourbon vanilla), V. tahitensis (Tahitian vanilla), V. pompona (West Indian vanilla)",
+      "careTips": "Keep soil evenly moist but never waterlogged; needs consistent moisture. Bright indirect light—mimics dappled forest canopy. Very high humidity (80%+) essential; struggles in dry environments. Well-draining, bark-based orchid mix with added sphagnum moss. Fertilize weekly with diluted orchid fertilizer during growing season. Provide a sturdy support for climbing. Flowers only when vine is 3+ meters long and mature. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Vainilla",
+      "description": "También conocida como: Orquídea de vainilla. Orquídea trepadora que produce la segunda especia más cara del mundo; cada flor debe ser polinizada a mano para producir las famosas vainas aromáticas.",
+      "commonExamples": "Vanilla planifolia (Vainilla de Madagascar, Vainilla Bourbon), V. tahitensis (Vainilla de Tahití), V. pompona (Vainilla antillana)",
+      "careTips": "Mantener el suelo uniformemente húmedo pero nunca encharcado; necesita humedad consistente. Luz indirecta brillante—imita el dosel forestal moteado. Humedad muy alta (80%+) esencial; sufre en ambientes secos. Mezcla para orquídeas a base de corteza bien drenada con musgo esfagno añadido. Fertilizar semanalmente con fertilizante de orquídeas diluido durante la temporada de crecimiento. Proporcionar soporte resistente para trepar. Florece solo cuando la enredadera tiene 3+ metros y es madura. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "香草兰",
+      "description": "也称：香草兰兰花。攽缘兰花藤本植物，生产世界上第二昂贵的香料；每朵花必须人工授粉才能结出特有的芳香豆莔。",
+      "commonExamples": "Vanilla planifolia (马达加斯加香草兰, 波旁香草兰), V. tahitensis (大溪地香草兰), V. pompona (西印度香草兰)",
+      "careTips": "保持土壤均匀湿润但勿积水；需要稳定的水分。明亮间接光—模拟森林斑驳光线。需要极高湿度（80%+）；干燥环境难以生存。排水良好的树皮基兰花培养土加水苔。生长季每周施稀释兰花肥。提供牢固的支撑供攀爬。藤长达3米以上且成熟后才开花。对宠物无毒。"
+    }
+  },
+  {
+    "id": "hemp",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -5,
+        30
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        1
+      ],
+      "category": "Farm & Field"
+    },
+    "en": {
+      "typeName": "Hemp",
+      "description": "Also known as: Industrial hemp. Fast-growing annual crop cultivated for thousands of years for its strong fibers, nutritious seeds, and versatile industrial applications including textiles, rope, paper, and building materials.",
+      "commonExamples": "Cannabis sativa (Industrial hemp, Fiber hemp, Seed hemp)",
+      "careTips": "Keep soil consistently moist during seedling stage; once established, moderate watering every 3-5 days. Full sun essential—at least 6 hours daily for optimal growth. Medium humidity fine. Deep, well-draining, nutrient-rich soil (pH 6.0-7.0). Heavy nitrogen feeder during vegetative growth; switch to phosphorus-potassium at flowering. Plant after last frost when soil reaches 10°C. Grows very fast—3-4 meters in one season. Non-toxic (industrial hemp contains negligible THC)."
+    },
+    "es": {
+      "typeName": "Cáñamo",
+      "description": "También conocido como: Cáñamo industrial. Cultivo anual de rápido crecimiento cultivado durante miles de años por sus fibras fuertes, semillas nutritivas y versátiles aplicaciones industriales incluyendo textiles, cuerdas, papel y materiales de construcción.",
+      "commonExamples": "Cannabis sativa (Cáñamo industrial, Cáñamo de fibra, Cáñamo de semilla)",
+      "careTips": "Mantener el suelo consistentemente húmedo durante la etapa de plántula; una vez establecido, riego moderado cada 3-5 días. Sol pleno esencial—al menos 6 horas diarias para crecimiento óptimo. Humedad media adecuada. Suelo profundo, bien drenado y rico en nutrientes (pH 6.0-7.0). Alto consumo de nitrógeno durante crecimiento vegetativo; cambiar a fósforo-potasio en floración. Plantar después de la última helada cuando el suelo alcance 10°C. Crece muy rápido—3-4 metros en una temporada. No tóxico (el cáñamo industrial contiene THC insignificante)."
+    },
+    "zh": {
+      "typeName": "工业大麻",
+      "description": "也称：纤维大麻。种植数千年的快速生长一年生作物，因其强韧纤维、营养种子和多用途工业应用而被广泛种植，包括纺织、绳索、造纸和建筑材料。",
+      "commonExamples": "Cannabis sativa (工业大麻, 纤维大麻, 籽用大麻)",
+      "careTips": "幼苗期保持土壤持续湿润；定植后每3-5天适量浇水。需要全日照—每天至少6小时以获得最佳生长。中等湿度即可。深层、排水良好、富含养分的土壤（pH 6.0-7.0）。营养生长期需大量氮肥；花期转用磷钾肥。末次霜后土温达10°C时播种。生长极快—一季可达3-4米。无毒（工业大麻 THC 含量微乎其微）。"
+    }
+  },
+  {
+    "id": "pigeon-pea",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        10,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        3,
+        5
+      ],
+      "category": "Farm & Field"
+    },
+    "en": {
+      "typeName": "Pigeon Pea",
+      "description": "Also known as: Red gram, Tropical green pea. Drought-hardy tropical legume widely grown in South Asia, Africa, and the Caribbean for its protein-rich seeds used in dal, soups, and stews.",
+      "commonExamples": "Cajanus cajan (Pigeon pea, Red gram, Arhar dal, Toor dal, Gandules)",
+      "careTips": "Drought-tolerant once established; water moderately during flowering and pod development. Full sun essential—at least 6 hours daily. Medium humidity fine. Tolerates poor soils—as a legume, it fixes nitrogen and actually improves soil fertility. Minimal fertilizer needed; too much nitrogen promotes leaves over pods. Can grow as an annual or short-lived perennial in frost-free areas. Pods can be harvested green or dry. Excellent intercrop companion. Non-toxic to humans and animals."
+    },
+    "es": {
+      "typeName": "Gandul",
+      "description": "También conocido como: Guandú, Frijol de palo. Leguminosa tropical resistente a la sequía ampliamente cultivada en el sur de Asia, África y el Caribe por sus semillas ricas en proteína usadas en dal, sopas y guisos.",
+      "commonExamples": "Cajanus cajan (Gandul, Guandú, Frijol de palo, Arveja tropical)",
+      "careTips": "Tolerante a la sequía una vez establecido; regar moderadamente durante la floración y desarrollo de vainas. Sol pleno esencial—al menos 6 horas diarias. Humedad media adecuada. Tolera suelos pobres—como leguminosa, fija nitrógeno y mejora la fertilidad del suelo. Mínimo fertilizante necesario; demasiado nitrógeno promueve hojas sobre vainas. Puede crecer como anual o perenne de corta vida en áreas libres de heladas. Las vainas pueden cosecharse verdes o secas. Excelente compañero de intercultivo. No tóxico para humanos y animales."
+    },
+    "zh": {
+      "typeName": "木豆",
+      "description": "也称：柘豆、热带青豆。耐旱的热带豆科植物，广泛种植于南亚、非洲和加勒比地区，其富含蛋白质的种子用于制作豆汤、汤品和炖菜。",
+      "commonExamples": "Cajanus cajan (木豆, 柘豆, 树豆)",
+      "careTips": "定植后耐旱；开花和结莔期适量浇水。需要全日照—每天至少6小时。中等湿度即可。耐贫瘠土壤—作为豆科植物能固氮并改善土壤肥力。几乎不需施肥；过多氮肥会促进叶片而非豆莔生长。在无霜地区可作一年生或短命多年生种植。豆莔可鲜摘或晒干。优秀的间作伴侣。对人和动物无毒。"
+    }
+  },
+  {
+    "id": "jackfruit",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        16,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        50,
+        100
+      ],
+      "category": "Fruits & Berries"
+    },
+    "en": {
+      "typeName": "Jackfruit",
+      "description": "The world's largest tree-borne fruit, with individual fruits weighing up to 35 kg. A tropical evergreen producing sweet, aromatic golden flesh used fresh, dried, or as a popular meat substitute when young and unripe.",
+      "commonExamples": "Artocarpus heterophyllus (Jackfruit, Jack tree, Nangka)",
+      "careTips": "Water regularly during growing season; keep soil evenly moist but never waterlogged. Full sun essential for fruit production. High humidity (60%+) preferred. Deep, well-draining, fertile soil. Fertilize quarterly with balanced fertilizer, increasing potassium during fruiting. Young trees are frost-sensitive—protect below 10°C. Fruits grow directly from the trunk (cauliflory). Can grow 15-20 meters tall; choose dwarf cultivars for containers. Latex sap is sticky—oil hands before handling fruit. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Jaca",
+      "description": "La fruta más grande del mundo nacida de un árbol, con frutos individuales que pesan hasta 35 kg. Perenne tropical que produce pulpa dorada dulce y aromática, usada fresca, seca, o como popular sustituto de carne cuando está joven y verde.",
+      "commonExamples": "Artocarpus heterophyllus (Jaca, Árbol de jaca, Nangka)",
+      "careTips": "Regar regularmente durante la temporada de crecimiento; mantener el suelo uniformemente húmedo pero nunca encharcado. Sol pleno esencial para producción de fruta. Humedad alta (60%+) preferida. Suelo profundo, bien drenado y fértil. Fertilizar trimestralmente con fertilizante balanceado, aumentando potasio durante fructificación. Árboles jóvenes sensibles a heladas—proteger bajo 10°C. Los frutos crecen directamente del tronco (caulifloría). Puede crecer 15-20 metros de alto; elegir cultivares enanos para contenedores. La savia látex es pegajosa—aceitar las manos antes de manipular fruta. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "菠蕭蜜",
+      "description": "世界上最大的树生水果，单果重达35公斤。热带常绿树木，果肉金黄香甜，可鲜食、贮干，未成熟时还是流行的肉类替代品。",
+      "commonExamples": "Artocarpus heterophyllus (菠蕭蜜, 大树菠蕭)",
+      "careTips": "生长季定期浇水；保持土壤均匀湿润但勿积水。结果需要全日照。偏好高湿度（60%+）。深层、排水良好、肥沃的土壤。每季度施平衡肥，结果期增加钾肥。幼树不耐霜—低于10°C需保护。果实直接生长在树干上（茁生果）。可长到15-20米高；盆栽建议选矮化品种。乳胶汁液很粘—处理果实前双手涂油。对宠物无毒。"
+    }
+  },
+  {
+    "id": "durian",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "veryHigh",
+      "temperaturePreference": [
+        24,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        80,
+        150
+      ],
+      "category": "Fruits & Berries"
+    },
+    "en": {
+      "typeName": "Durian",
+      "description": "Also known as: King of fruits. Legendary tropical fruit famous for its custard-like flesh and notoriously pungent aroma—banned on public transport across Southeast Asia but revered as a delicacy.",
+      "commonExamples": "Durio zibethinus (Durian, King of fruits), D. zibethinus 'Musang King', D. zibethinus 'Monthong'",
+      "careTips": "Water regularly and deeply; needs consistent moisture during flowering and fruiting. Full sun essential for fruit production. Very high humidity (80%+) required—strictly tropical. Deep, well-draining, acidic clay-loam soil (pH 5.0-6.5). Fertilize regularly with balanced fertilizer; increase potassium during fruiting. Extremely tall tree (25-40 meters)—not practical for containers. Fruit takes 3-5 months to ripen after pollination. Pollinated by bats at night. First fruit after 5-7 years from seed. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Durián",
+      "description": "También conocido como: Rey de las frutas. Legendaria fruta tropical famosa por su pulpa cremosa y aroma notoriamente fuerte—prohibida en transporte público en todo el Sudeste Asiático pero reverenciada como manjar.",
+      "commonExamples": "Durio zibethinus (Durián, Rey de las frutas), D. zibethinus 'Musang King', D. zibethinus 'Monthong'",
+      "careTips": "Regar regularmente y profundamente; necesita humedad consistente durante floración y fructificación. Sol pleno esencial para producción de fruta. Humedad muy alta (80%+) requerida—estrictamente tropical. Suelo profundo, bien drenado, arcilloso-limoso ácido (pH 5.0-6.5). Fertilizar regularmente con fertilizante balanceado; aumentar potasio durante fructificación. Árbol extremadamente alto (25-40 metros)—no práctico para contenedores. La fruta tarda 3-5 meses en madurar tras polinización. Polinizado por murciélagos por la noche. Primera fruta después de 5-7 años desde semilla. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "榴莲",
+      "description": "也称：水果之王。传奇热带水果，以其奶油般的果肉和著名的浓郁气味闻名—在东南亚各地公共交通上被禁止携带，但被尊为美味佳品。",
+      "commonExamples": "Durio zibethinus (榴莲, 水果之王), D. zibethinus '猫山王', D. zibethinus '金枚头'",
+      "careTips": "定期深层浇水；花果期需要稳定水分。结果需要全日照。需要极高湿度（80%+）—严格热带植物。深层、排水良好的酸性粘壤土（pH 5.0-6.5）。定期施平衡肥；结果期增加钾肥。极高大乔木（25-40米）—不适合盆栽。授粉后果实需3-5个月成熟。由蝠蝠夜间授粉。种子播种后5-7年首次结果。对宠物无毒。"
+    }
+  },
+  {
+    "id": "rambutan",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "veryHigh",
+      "temperaturePreference": [
+        22,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        50,
+        100
+      ],
+      "category": "Fruits & Berries"
+    },
+    "en": {
+      "typeName": "Rambutan",
+      "description": "Tropical fruit tree producing clusters of hairy red or yellow fruits with translucent, sweet, lychee-like flesh inside—the name comes from the Malay word for hair.",
+      "commonExamples": "Nephelium lappaceum (Rambutan, Hairy lychee, Chom chom)",
+      "careTips": "Water regularly; keep soil consistently moist, especially during flowering and fruiting. Full sun for best fruit production. Very high humidity (80%+) essential—strictly tropical, no frost tolerance. Deep, well-draining, organically rich acidic soil (pH 5.0-6.5). Fertilize quarterly with balanced fertilizer; increase potassium during fruiting. Trees are either male or female—plant both for pollination or choose grafted hermaphrodite varieties. Can grow 15-25 meters; choose grafted dwarf cultivars for smaller spaces. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Rambután",
+      "description": "Frutal tropical que produce racimos de frutos rojos o amarillos peludos con pulpa translúcida, dulce, similar al lichi—el nombre proviene de la palabra malaya para pelo.",
+      "commonExamples": "Nephelium lappaceum (Rambután, Lichi peludo, Chom chom)",
+      "careTips": "Regar regularmente; mantener el suelo consistentemente húmedo, especialmente durante floración y fructificación. Sol pleno para mejor producción de fruta. Humedad muy alta (80%+) esencial—estrictamente tropical, sin tolerancia a heladas. Suelo profundo, bien drenado, orgánicamente rico y ácido (pH 5.0-6.5). Fertilizar trimestralmente con fertilizante balanceado; aumentar potasio durante fructificación. Los árboles son masculinos o femeninos—plantar ambos para polinización o elegir variedades injertadas hermafroditas. Puede crecer 15-25 metros; elegir cultivares enanos injertados para espacios menores. No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "红毛丹",
+      "description": "热带果树，结成串的红色或黄色毛茸茸果实，内含半透明的香甜果肉，类似荔枝—名字源自马来语“毛发”一词。",
+      "commonExamples": "Nephelium lappaceum (红毛丹, 毛荔枝)",
+      "careTips": "定期浇水；保持土壤持续湿润，尤其是花果期。结果需要全日照。需要极高湿度（80%+）—严格热带植物，不耐霜。深层、排水良好、有机质丰富的酸性土壤（pH 5.0-6.5）。每季度施平衡肥；结果期增加钾肥。雌雄异株—需同时种植雌雄树授粉，或选择嫁接的两性品种。可长到15-25米；小空间选嫁接矮化品种。对宠物无毒。"
+    }
+  },
+  {
+    "id": "poblano",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        15,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        3
+      ],
+      "category": "Vegetables - Fruiting"
+    },
+    "en": {
+      "typeName": "Poblano Pepper",
+      "description": "Mild Mexican chile pepper with wide, dark green, heart-shaped fruits that are essential in chiles rellenos, mole sauces, and when dried become the smoky-sweet ancho chile.",
+      "commonExamples": "Capsicum annuum 'Poblano' (Poblano pepper, Ancho pepper when dried), C. annuum 'Mulato' (Mulato pepper)",
+      "careTips": "Keep soil evenly moist; consistent watering prevents blossom end rot. Full sun essential—at least 6-8 hours daily for good fruit production. Medium humidity fine. Rich, well-draining soil. Fertilize at planting and side-dress with balanced fertilizer when first fruits set. Harvest when dark green for poblano or let ripen to red for ancho. Stake plants if heavy with fruit. Start seeds indoors 8-10 weeks before last frost. Mild heat (1,000-2,000 Scoville). Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Chile Poblano",
+      "description": "Chile mexicano suave con frutos anchos, verde oscuro y en forma de corazón, esenciales en chiles rellenos, moles, y cuando se seca se convierte en el dulce y ahumado chile ancho.",
+      "commonExamples": "Capsicum annuum 'Poblano' (Chile poblano, Chile ancho cuando seco), C. annuum 'Mulato' (Chile mulato)",
+      "careTips": "Mantener el suelo uniformemente húmedo; riego consistente previene pudrición apical. Sol pleno esencial—al menos 6-8 horas diarias para buena producción. Humedad media adecuada. Suelo rico y bien drenado. Fertilizar al plantar y aplicar fertilizante balanceado cuando cuajen los primeros frutos. Cosechar verde oscuro para poblano o dejar madurar a rojo para ancho. Entutorar plantas si están cargadas de frutos. Iniciar semillas en interior 8-10 semanas antes de la última helada. Picor suave (1,000-2,000 Scoville). No tóxico para mascotas."
+    },
+    "zh": {
+      "typeName": "波布拉诺辣椒",
+      "description": "微辣的墨西哥辣椒，果实宽大、深绿色、心形，是制作辣椒酯酿、墨西哥酱的必备食材，晒干后变成烟熏甜香的安乔辣椒。",
+      "commonExamples": "Capsicum annuum 'Poblano' (波布拉诺辣椒, 晒干后称安乔辣椒), C. annuum 'Mulato' (穆拉托辣椒)",
+      "careTips": "保持土壤均匀湿润；稳定浇水可防花端腐烂。需要全日照—每天6-8小时以获得良好产量。中等湿度即可。肥沃、排水良好的土壤。种植时施基肥，初果时追施平衡肥。深绿时采收为波布拉诺辣椒，或等变红后为安乔辣椒。果实多时要支架。最后一次霜前8-10周室内育苗。微辣（1,000-2,000史高维尔）。对宠物无毒。"
+    }
+  },
+  {
+    "id": "thai-eggplant",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        20,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        1,
+        3
+      ],
+      "category": "Vegetables - Fruiting"
+    },
+    "en": {
+      "typeName": "Thai Eggplant",
+      "description": "Small, round eggplant varieties essential in Southeast Asian cuisine, producing golf-ball-sized green, white, or purple-striped fruits with a firm, slightly bitter flesh used in curries and stir-fries.",
+      "commonExamples": "Solanum melongena (Thai eggplant, Thai green eggplant, Makhuea pro), S. torvum (Pea eggplant, Turkey berry)",
+      "careTips": "Keep soil evenly moist; consistent watering is essential for fruit quality. Full sun—at least 6-8 hours daily. High humidity (60%+) preferred. Rich, well-draining soil with plenty of organic matter. Heavy feeder—fertilize every 2 weeks with balanced fertilizer once fruiting begins. Stake or cage plants as they become heavy with fruit. Harvest when fruits are firm and glossy; overripe fruits become seedy and bitter. Start seeds indoors in warm conditions (25-30°C). Leaves and stems are mildly toxic (solanine)."
+    },
+    "es": {
+      "typeName": "Berenjena Tailandesa",
+      "description": "Variedades pequeñas y redondas de berenjena esenciales en la cocina del Sudeste Asiático, que producen frutos del tamaño de una pelota de golf, verdes, blancos o con rayas moradas, con pulpa firme y ligeramente amarga, usados en curris y salteados.",
+      "commonExamples": "Solanum melongena (Berenjena tailandesa, Berenjena verde tailandesa), S. torvum (Berenjena guisante, Baya de pavo)",
+      "careTips": "Mantener el suelo uniformemente húmedo; riego consistente es esencial para calidad de fruta. Sol pleno—al menos 6-8 horas diarias. Humedad alta (60%+) preferida. Suelo rico y bien drenado con abundante materia orgánica. Gran consumidora—fertilizar cada 2 semanas con fertilizante balanceado una vez comience la fructificación. Entutorar o enjaular plantas cuando se carguen de frutos. Cosechar cuando los frutos estén firmes y brillantes; frutos demasiado maduros se vuelven llenos de semillas y amargos. Iniciar semillas en interior en condiciones cálidas (25-30°C). Hojas y tallos son ligeramente tóxicos (solanina)."
+    },
+    "zh": {
+      "typeName": "泰国茄子",
+      "description": "东南亚美食中不可或缺的小圆茄子品种，果实如高尔夫球大小，有绿色、白色或紫色条纹，果肉紧实微苦，用于咖喱和炒菜。",
+      "commonExamples": "Solanum melongena (泰国茄子, 泰国绿茄子), S. torvum (豌茄, 水茄)",
+      "careTips": "保持土壤均匀湿润；稳定浇水对果实品质至关重要。需要全日照—每天6-8小时。偏好高湿度（60%+）。肥沃、排水良好、富含有机质的土壤。重肥植物—结果后每2周施平衡肥。果实较重时需支撑。果实坚实有光泽时采收；过熟果实多籽且苦。在温暖条件下（25-30°C）室内育苗。叶和茄有轻度毒性（茄碱）。"
+    }
+  },
+  {
+    "id": "agapanthus",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -5,
+        35
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Bulbs"
+    },
+    "en": {
+      "typeName": "Agapanthus",
+      "description": "Also known as: Lily of the Nile, African lily. Elegant perennial producing tall stems topped with globes of tubular blue or white flowers above strappy, arching foliage—despite the common name, not a true lily.",
+      "commonExamples": "Agapanthus africanus (Lily of the Nile, African lily), A. praecox (Common agapanthus), A. 'Peter Pan' (Dwarf agapanthus), A. 'Black Buddhist'",
+      "careTips": "Water regularly during active growth; reduce significantly in winter dormancy. Full sun for best flowering—at least 6 hours daily. Medium humidity fine. Well-draining, moderately fertile soil. Fertilize monthly spring through summer with balanced fertilizer. Flowers best when slightly root-bound—avoid over-potting. Remove spent flower stalks. Evergreen types need winter protection below -5°C; deciduous types are hardier. Divide congested clumps every 4-5 years. Mildly toxic to pets (sap can irritate skin)."
+    },
+    "es": {
+      "typeName": "Agapanto",
+      "description": "También conocido como: Lirio del Nilo, Lirio africano. Elegante perenne que produce tallos altos coronados con globos de flores tubulares azules o blancas sobre follaje arqueado en forma de cinta—a pesar del nombre, no es un lirio verdadero.",
+      "commonExamples": "Agapanthus africanus (Lirio del Nilo, Lirio africano), A. praecox (Agapanto común), A. 'Peter Pan' (Agapanto enano), A. 'Black Buddhist'",
+      "careTips": "Regar regularmente durante crecimiento activo; reducir significativamente en dormancia invernal. Sol pleno para mejor floración—al menos 6 horas diarias. Humedad media adecuada. Suelo bien drenado, moderadamente fértil. Fertilizar mensualmente de primavera a verano con fertilizante balanceado. Florece mejor cuando ligeramente comprimido en raíces—evitar macetas excesivamente grandes. Retirar tallos florales marchitos. Tipos perennifolios necesitan protección invernal bajo -5°C; tipos caducos son más resistentes. Dividir matas congestionadas cada 4-5 años. Ligeramente tóxico para mascotas (la savia puede irritar la piel)."
+    },
+    "zh": {
+      "typeName": "百子莲",
+      "description": "也称：尼罗河百合、非洲百合。优雅的多年生植物，高耸的花茄顶端结出球形的蓝色或白色管状花簇，下方是弧形带状叶片—尽管俗称如此，实际上并非真正的百合。",
+      "commonExamples": "Agapanthus africanus (百子莲, 尼罗河百合), A. praecox (普通百子莲), A. 'Peter Pan' (矮生百子莲), A. 'Black Buddhist'",
+      "careTips": "生长期定期浇水；冬季休眠期显著减少。全日照开花最佳—每天至少6小时。中等湿度即可。排水良好、中等肥沃的土壤。春夏季每月施平衡肥。微微根缚时开花最好—避免过大花盆。去除凋谢花茄。常绿型-5°C以下需保护；落叶型更耐寒。每4-5年分株一次。对宠物有轻度毒性（汁液可刺激皮肤）。"
+    }
+  },
+  {
+    "id": "camassia",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": null,
+      "fallInterval": null,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        25
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "moistureRetentive",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Bulbs"
+    },
+    "en": {
+      "typeName": "Camassia",
+      "description": "Also known as: Camas lily, Wild hyacinth. Native North American bulb producing tall spikes of starry blue, purple, or white flowers in late spring—historically an important food source for Indigenous peoples.",
+      "commonExamples": "Camassia quamash (Common camas, Small camas), C. leichtlinii (Great camas, Large camas), C. leichtlinii 'Alba' (White camas)",
+      "careTips": "Water regularly during spring growth and flowering; allow to go dry after foliage dies back in summer (summer dormant). Full sun to partial shade. Medium humidity fine. Prefers moist, moisture-retentive clay or loam soil that dries out in summer—perfect for seasonal wet meadows. Minimal fertilizer needed; top-dress with compost in fall. Plant bulbs in fall, 10-15 cm deep. Naturalizes beautifully in lawns and meadows. Leave foliage to die back naturally. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Camassia",
+      "description": "También conocida como: Lirio camas, Jacinto silvestre. Bulbo nativo de Norteamérica que produce espigas altas de flores estrelladas azules, púrpuras o blancas a finales de primavera—históricamente una fuente alimentaria importante para pueblos indígenas.",
+      "commonExamples": "Camassia quamash (Camas común, Camas pequeña), C. leichtlinii (Gran camas, Camas grande), C. leichtlinii 'Alba' (Camas blanca)",
+      "careTips": "Regar regularmente durante el crecimiento primaveral y floración; dejar secar después de que el follaje muera en verano (dormancia estival). Sol pleno a sombra parcial. Humedad media adecuada. Prefiere suelo húmedo, arcilloso o franco con retención de humedad que se seque en verano—perfecto para praderas estacionalmente húmedas. Mínimo fertilizante necesario; cubrir con compost en otoño. Plantar bulbos en otoño, 10-15 cm de profundidad. Se naturaliza hermosamente en céspedes y praderas. Dejar que el follaje muera naturalmente. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "卡马斯百合",
+      "description": "也称：卡马斯、野风信子。北美原生球根植物，晚春开出高耸的星形蓝色、紫色或白色花穗—历史上是原住民的重要食物来源。",
+      "commonExamples": "Camassia quamash (普通卡马斯, 小卡马斯), C. leichtlinii (大卡马斯), C. leichtlinii 'Alba' (白色卡马斯)",
+      "careTips": "春季生长和花期定期浇水；夏季叶片枯萎后停止浇水（夏季休眠）。全日照至半阴。中等湿度即可。偏好湿润、保水的粘土或壤土，夏季变干—非常适合季节性湿草地。几乎不需施肥；秋季覆盖堆肥。秋季种植球根，深度10-15厘米。在草地和草甸中自然归化效果美丽。让叶片自然枯萎。对宠物无毒。"
+    }
+  },
+  {
+    "id": "victoria-water-lily",
+    "meta": {
+      "springInterval": 1,
+      "summerInterval": 1,
+      "fallInterval": 1,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "veryHigh",
+      "temperaturePreference": [
+        20,
+        35
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "waterloggingTolerant",
+      "wateringMethod": null,
+      "plantLifeSpan": [
+        1,
+        3
+      ],
+      "category": "Specialty - Aquatic & Bog"
+    },
+    "en": {
+      "typeName": "Giant Water Lily",
+      "description": "Also known as: Victoria water lily, Amazon water lily. The world's largest water lily with enormous circular pads up to 3 meters across that can support a child's weight, producing spectacular night-blooming white-to-pink flowers.",
+      "commonExamples": "Victoria amazonica (Amazon water lily, Royal water lily), V. cruziana (Santa Cruz water lily), V. 'Longwood Hybrid'",
+      "careTips": "Fully aquatic—grow in still, warm water at least 60 cm deep. Full sun essential—at least 8 hours daily for pad development. Very high humidity (naturally provided by water). Rich, heavy clay-loam pond soil topped with gravel. Feed heavily with aquatic plant fertilizer tablets pushed into soil monthly. Water temperature must stay above 20°C—grown as annual in temperate climates. Pads have sharp spines underneath. Flowers open white at night, turn pink by morning, then close and submerge. Non-toxic."
+    },
+    "es": {
+      "typeName": "Nenúfar Gigante",
+      "description": "También conocido como: Nenúfar Victoria, Nenúfar amazónico. El nenúfar más grande del mundo con enormes platos circulares de hasta 3 metros de diámetro capaces de soportar el peso de un niño, produciendo espectaculares flores nocturnas de blanco a rosa.",
+      "commonExamples": "Victoria amazonica (Nenúfar amazónico, Nenúfar real), V. cruziana (Nenúfar de Santa Cruz), V. 'Longwood Hybrid'",
+      "careTips": "Totalmente acuática—cultivar en agua quieta y cálida de al menos 60 cm de profundidad. Sol pleno esencial—al menos 8 horas diarias para desarrollo de platos. Humedad muy alta (proporcionada naturalmente por el agua). Suelo de estanque pesado, arcilloso-limoso rico, cubierto con grava. Fertilizar abundantemente con tabletas de fertilizante acuático empujadas en el suelo mensualmente. La temperatura del agua debe mantenerse sobre 20°C—cultivada como anual en climas templados. Los platos tienen espinas afiladas debajo. Las flores abren blancas de noche, se tornan rosas por la mañana, luego se cierran y sumergen. No tóxica."
+    },
+    "zh": {
+      "typeName": "王莲",
+      "description": "也称：维多利亚睡莲、亚马逊睡莲。世界上最大的睡莲，巨大的圆形叶片直径可达3米，能承受一个孩子的重量，开出壮观的夜间继而变粉的白色花朵。",
+      "commonExamples": "Victoria amazonica (亚马逊王莲, 皇家睡莲), V. cruziana (圣卡鲁斯王莲), V. 'Longwood Hybrid'",
+      "careTips": "完全水生—在至少60厘米深的静止温暖水中种植。需要全日照—每天至少8小时以促进叶片发育。极高湿度（水面自然提供）。肥沃的重质粘土塘泥，表面覆码码。每月将水生植物肥料片压入土中重施肥。水温须保持20°C以上—温带气候作一年生种植。叶片背面有尖刺。花朵夜间白色绽放，清晨变粉，然后关闭沉入水中。无毒。"
+    }
+  },
+  {
+    "id": "cephalotus",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        5,
+        25
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "bottomWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Specialty - Carnivorous"
+    },
+    "en": {
+      "typeName": "Albany Pitcher Plant",
+      "description": "Also known as: Western Australian pitcher plant, Fly-catcher plant. Rare and highly sought-after carnivorous plant endemic to a small coastal area of Western Australia, producing charming miniature pitchers with toothy lids that trap insects.",
+      "commonExamples": "Cephalotus follicularis (Albany pitcher plant, Australian pitcher plant, Fly-catcher plant)",
+      "careTips": "Keep soil consistently moist using bottom watering with mineral-free water (rain, distilled, or reverse osmosis); never let it dry out or sit in deep water. Bright indirect light—some gentle direct morning sun is beneficial. High humidity (60-80%) preferred; terrariums work well. Use a mix of peat and perlite (1:1) or sphagnum moss. Never fertilize through the soil—only occasional foliar feeding with very diluted (1/4 strength) fertilizer if no insects are available. Pitchers color up more in bright light. Slow-growing. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Planta Jarro de Albany",
+      "description": "También conocida como: Planta jarro de Australia Occidental, Atrapa-moscas. Rara y muy codiciada planta carnívora endémica de una pequeña zona costera de Australia Occidental, que produce encantadoras jarras miniatura con tapas dentadas que atrapan insectos.",
+      "commonExamples": "Cephalotus follicularis (Planta jarro de Albany, Planta jarro australiana, Atrapa-moscas)",
+      "careTips": "Mantener el suelo consistentemente húmedo usando riego por abajo con agua libre de minerales (lluvia, destilada u ósmosis inversa); nunca dejar secar ni dejar en agua profunda. Luz indirecta brillante—algo de sol matutino suave es beneficioso. Humedad alta (60-80%) preferida; terrarios funcionan bien. Usar mezcla de turba y perlita (1:1) o musgo esfagno. Nunca fertilizar por el suelo—solo alimentación foliar ocasional con fertilizante muy diluido (1/4 de fuerza) si no hay insectos disponibles. Las jarras se colorean más con luz brillante. Crecimiento lento. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "奥尔巴尼瓶子草",
+      "description": "也称：西澳瓶子草、捕蝇植物。稀有且备受追捧的食虫植物，仅产于西澳大利亚小片沿海地区，生长出带有齿状盖子的迷你捕虫瓶，十分别致。",
+      "commonExamples": "Cephalotus follicularis (奥尔巴尼瓶子草, 澳洲瓶子草, 捕蝇植物)",
+      "careTips": "用无矿物质水（雨水、蒸馏水或反渗透水）底部浇水保持土壤持续湿润；切勿干透或浸泡在深水中。明亮间接光—柔和的早晨直射光有益。偏好高湿度（60-80%）；生态瓶效果很好。使用泥炭和珠光岩（1:1）或水苔培养土。切勿在土壤中施肥—仅在无昆虫时偶尔用极稀释（1/4浓度）肥料叶面喷施。光照越强瓶子着色越深。生长缓慢。对宠物无毒。"
+    }
+  },
+  {
+    "id": "paphiopedilum",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 3,
+      "fallInterval": 5,
+      "winterInterval": 7,
+      "lightPreference": "mediumIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        13,
+        27
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        10,
+        30
+      ],
+      "category": "Specialty - Epiphytes & Moss"
+    },
+    "en": {
+      "typeName": "Slipper Orchid",
+      "description": "Also known as: Lady's slipper orchid, Venus slipper. Terrestrial orchids prized for their distinctive pouch-shaped lip that traps pollinating insects, with blooms in rich earth tones, greens, and dramatic spotted or striped patterns.",
+      "commonExamples": "Paphiopedilum maudiae (Maudiae slipper orchid), P. delenatii (Vietnamese slipper orchid), P. rothschildianum (Gold of Kinabalu orchid), P. insigne",
+      "careTips": "Keep potting mix evenly moist but never soggy; water when top layer feels slightly dry. Medium indirect light—no direct sun; mottled-leaf types tolerate lower light than plain-leaf types. High humidity (60%+) essential. Use fine-grade bark orchid mix with perlite and sphagnum; they are terrestrial, not epiphytic like most orchids. Fertilize weakly every 2 weeks with balanced orchid fertilizer (flush monthly to prevent salt buildup). Do not mist water into the pouch—causes rot. Repot every 1-2 years when medium breaks down. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Orquídea Zapatilla",
+      "description": "También conocida como: Zapatilla de dama, Zapatilla de Venus. Orquídeas terrestres apreciadas por su labio distintivo en forma de bolsa que atrapa insectos polinizadores, con flores en ricos tonos tierra, verdes y dramáticos patrones moteados o rayados.",
+      "commonExamples": "Paphiopedilum maudiae (Orquídea zapatilla Maudiae), P. delenatii (Zapatilla vietnamita), P. rothschildianum (Oro de Kinabalu), P. insigne",
+      "careTips": "Mantener el sustrato uniformemente húmedo pero nunca empapado; regar cuando la capa superior se sienta ligeramente seca. Luz indirecta media—sin sol directo; tipos de hojas moteadas toleran menos luz que los de hojas lisas. Humedad alta (60%+) esencial. Usar mezcla de corteza fina para orquídeas con perlita y esfagno; son terrestres, no epífitas como la mayoría de orquídeas. Fertilizar débilmente cada 2 semanas con fertilizante para orquídeas balanceado (enjuagar mensualmente para prevenir acumulación de sales). No rociar agua en la bolsa—causa pudrición. Trasplantar cada 1-2 años cuando el medio se descomponga. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "兆兰",
+      "description": "也称：拖鞋兰、维纳斯拖鞋。地生兰花，因其独特的囊袋状唇瓣而备受珍视，可捕获传粉昆虫，花色丰富，有大地色、绿色以及引人注目的斑点或条纹图案。",
+      "commonExamples": "Paphiopedilum maudiae (莫迪拖鞋兰), P. delenatii (越南拖鞋兰), P. rothschildianum (罗斯柴尔德拖鞋兰), P. insigne",
+      "careTips": "保持培养土均匀湿润但勿积水；表层微干时浇水。中等间接光—禁直射光；斑叶品种比绿叶品种更耐弱光。需要高湿度（60%+）。使用细粒兰花树皮加珠光岩和水苔；为地生兰，非大多数兰花的附生型。每2周用淡薄平衡兰花肥施肥（每月冲洗一次防盐分积累）。勿向囊袋中喷水—会导致腐烂。培养土分解时每1-2年换盆。对宠物无毒。"
+    }
+  },
+  {
+    "id": "primula-alpine",
+    "meta": {
+      "springInterval": 3,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        20
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        3,
+        10
+      ],
+      "category": "Specialty - Alpine"
+    },
+    "en": {
+      "typeName": "Alpine Primrose",
+      "description": "Delicate alpine perennials forming rosettes of leaves with clusters of jewel-toned flowers in spring, native to mountain meadows and rocky crevices of Europe and Asia where they endure harsh winters under snow cover.",
+      "commonExamples": "Primula auricula (Auricula primrose, Bear's ear), P. marginata (Silver-edged primrose), P. hirsuta (Red alpine primrose), P. allionii (Allioni's primrose)",
+      "careTips": "Keep soil evenly moist during spring growth and flowering; reduce watering in summer heat and winter. Partial sun with afternoon shade in hot climates—full morning sun is ideal. Medium humidity fine; good air circulation essential to prevent crown rot. Excellent drainage critical—use gritty, mineral-rich alpine mix (50% grit to 50% compost). Minimal fertilizer; light top-dressing with fine gravel and lean compost in autumn. Protect rosettes from winter wet—an overhead rain cover works well. Grows well in troughs, rock gardens, and alpine houses. Mildly toxic—contact with leaves can cause skin irritation."
+    },
+    "es": {
+      "typeName": "Prímula Alpina",
+      "description": "Delicadas perennes alpinas que forman rosetas de hojas con racimos de flores de tonos vivos en primavera, nativas de praderas montañosas y grietas rocosas de Europa y Asia donde soportan inviernos severos bajo la nieve.",
+      "commonExamples": "Primula auricula (Prímula aurícula, Oreja de oso), P. marginata (Prímula de borde plateado), P. hirsuta (Prímula alpina roja), P. allionii (Prímula de Allioni)",
+      "careTips": "Mantener el suelo uniformemente húmedo durante crecimiento primaveral y floración; reducir riego en calor veraniego e invierno. Sol parcial con sombra por la tarde en climas calurosos—sol matutino pleno es ideal. Humedad media adecuada; buena circulación de aire esencial para prevenir pudrición de corona. Drenaje excelente crítico—usar mezcla alpina arenosa rica en minerales (50% gravilla, 50% compost). Mínimo fertilizante; cubrir ligeramente con gravilla fina y compost magro en otoño. Proteger rosetas de la humedad invernal—una cubierta contra lluvia funciona bien. Crece bien en artesas, jardines de rocas y casas alpinas. Ligeramente tóxica—el contacto con las hojas puede causar irritación cutánea."
+    },
+    "zh": {
+      "typeName": "高山报春花",
+      "description": "精致的高山多年生植物，叶片形成莲座，春季开出一簇簇色彩绚丽的花朵，原产于欧亚山地草甸和岩缝，能在雪层下忍受严酷冬季。",
+      "commonExamples": "Primula auricula (报春花, 熊耳草), P. marginata (银边报春花), P. hirsuta (红色高山报春花), P. allionii (阿利奥尼报春花)",
+      "careTips": "春季生长和花期保持土壤均匀湿润；夏季高温和冬季减少浇水。半日照，炒热气候下午需要防晒—上午全日照最理想。中等湿度即可；良好的空气流通可预防莲座腐烂。排水极其关键—使用富含矿物质的砂质高山培养土（50%砂砾+50%堆肥）。几乎不需施肥；秋季薄薄覆盖细砂砾和贫瘠堆肥。保护莲座免受冬雨—可用防雨罩。适合石槽、岩石花园和高山花房种植。有轻度毒性—接触叶片可能引起皮肤刺激。"
+    }
+  },
+  {
+    "id": "bird-of-paradise-giant",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": 14,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        10,
+        30
+      ],
+      "plantToxicity": "mildlyToxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        20,
+        50
+      ],
+      "category": "Houseplants - Specialty"
+    },
+    "en": {
+      "typeName": "Giant Bird of Paradise",
+      "description": "Also known as: Wild banana, White bird of paradise. Massive tropical plant with banana-like leaves and striking white-and-blue flowers; can reach 6-10m tall outdoors.",
+      "commonExamples": "Strelitzia nicolai (Giant bird of paradise, White bird of paradise, Wild banana)",
+      "careTips": "Water when top 2 inches of soil is dry; keep evenly moist in growing season. Bright indirect to direct light for best growth—tolerates some shade indoors but won't flower. Medium humidity fine; mist occasionally in dry environments. Fertilize monthly spring through fall with balanced fertilizer. Repot when root-bound. Clean large leaves regularly. Mildly toxic to pets."
+    },
+    "es": {
+      "typeName": "Ave del Paraíso Gigante",
+      "description": "También conocida como: Banano silvestre, Ave del paraíso blanca. Planta tropical masiva con hojas tipo banana y flores blancas con azul; puede alcanzar 6-10m al exterior.",
+      "commonExamples": "Strelitzia nicolai (Ave del paraíso gigante, Ave del paraíso blanca, Banano silvestre)",
+      "careTips": "Regar cuando los primeros 5 cm de suelo estén secos; mantener uniformemente húmedo en temporada de crecimiento. Luz indirecta brillante a directa para mejor crecimiento—tolera algo de sombra interior pero no florecerá. Humedad media suficiente; rociar ocasionalmente. Fertilizar mensualmente de primavera a otoño. Trasplantar cuando las raíces llenen la maceta. Limpiar hojas grandes regularmente. Levemente tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "大鹤望兰",
+      "description": "也称：白花天堂鸟、野生芭蕉。大型热带植物，叶片似芭蕉，花白蓝相间；户外可达6-10米高。",
+      "commonExamples": "Strelitzia nicolai (大鹤望兰, 白花天堂鸟, 野生芭蕉)",
+      "careTips": "表层5厘米土壤干燥时浇水；生长季保持均匀湿润。明亮间接光至直射光最佳——室内耐阴但不会开花。中等湿度即可；干燥环境偶尔喷雾。春至秋每月施平衡肥料。根满盆时换盆。定期清洁大叶片。对宠物轻度有毒。"
+    }
+  },
+  {
+    "id": "magnolia-stellata",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 14,
+      "winterInterval": null,
+      "lightPreference": "outdoorFullSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -25,
+        32
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "slightlyAcidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        50,
+        150
+      ],
+      "category": "Outdoor - Trees"
+    },
+    "en": {
+      "typeName": "Star Magnolia",
+      "description": "Compact deciduous magnolia with fragrant star-shaped white flowers appearing before leaves in early spring; ideal small garden tree.",
+      "commonExamples": "Magnolia stellata (Star magnolia), M. stellata 'Royal Star', M. stellata 'Rosea' (Pink star magnolia)",
+      "careTips": "Water regularly during first 2-3 years; established trees are moderately drought-tolerant. Full sun to partial shade; protect from late frosts that damage early blooms. Prefers moist, acidic, well-draining soil rich in organic matter. Mulch around base to retain moisture and keep roots cool. Minimal pruning needed—prune only after flowering if necessary. Fertilize in spring with acid-loving plant food. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Magnolia Estrellada",
+      "description": "Magnolia caducifolia compacta con flores blancas estrelladas y fragantes que aparecen antes que las hojas a principios de primavera; árbol ideal para jardines pequeños.",
+      "commonExamples": "Magnolia stellata (Magnolia estrellada), M. stellata 'Royal Star', M. stellata 'Rosea'",
+      "careTips": "Regar regularmente durante los primeros 2-3 años; árboles establecidos toleran sequía moderada. Sol pleno a sombra parcial; proteger de heladas tardías que dañan las flores tempranas. Prefiere suelo húmedo, ácido y bien drenado rico en materia orgánica. Acolchar alrededor de la base. Poda mínima necesaria—podar solo después de la floración. Fertilizar en primavera con alimento para plantas acidófilas. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "星花玉兰",
+      "description": "紧凑型落叶玉兰，早春叶前开放芳香的白色星形花朵；适合小型花园。",
+      "commonExamples": "Magnolia stellata (星花玉兰), M. stellata 'Royal Star', M. stellata 'Rosea' (粉色星花玉兰)",
+      "careTips": "前2-3年定期浇水；成熟树木耐中度干旱。全日照至半阴；保护免受晚霜损害早期花朵。喜湿润、微酸性、排水良好且富含有机质的土壤。根部周围覆盖保持湿润。几乎不需修剪——仅在花后必要时修剪。春季施用酸性植物肥料。对宠物无毒。"
+    }
+  },
+  {
+    "id": "pieris",
+    "meta": {
+      "springInterval": 7,
+      "summerInterval": 7,
+      "fallInterval": 10,
+      "winterInterval": null,
+      "lightPreference": "outdoorPartialSun",
+      "humidityPreference": "medium",
+      "temperaturePreference": [
+        -20,
+        30
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "acidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        20,
+        50
+      ],
+      "category": "Outdoor - Shrubs"
+    },
+    "en": {
+      "typeName": "Pieris",
+      "description": "Also known as: Lily of the valley shrub, Andromeda. Evergreen shrub with cascading clusters of bell-shaped white or pink flowers in spring and colorful new growth in shades of red, bronze, or pink.",
+      "commonExamples": "Pieris japonica (Japanese pieris, Lily of the valley shrub), P. japonica 'Mountain Fire', P. japonica 'Flaming Silver'",
+      "careTips": "Keep soil consistently moist but not waterlogged; water deeply during dry periods. Partial shade preferred—morning sun with afternoon shade is ideal. Requires acidic soil (pH 4.5-6.0); amend with peat or sulfur if needed. Mulch with pine needles or bark to maintain acidity. Prune lightly after flowering to shape. Fertilize in spring with acid-loving plant food. All parts toxic to pets and humans (grayanotoxins)."
+    },
+    "es": {
+      "typeName": "Pieris",
+      "description": "También conocida como: Arbusto del lirio del valle, Andrómeda. Arbusto perenne con racimos colgantes de flores acampanadas blancas o rosadas en primavera y brotes nuevos coloridos en tonos rojos, bronce o rosados.",
+      "commonExamples": "Pieris japonica (Pieris japonés, Arbusto del lirio del valle), P. japonica 'Mountain Fire', P. japonica 'Flaming Silver'",
+      "careTips": "Mantener suelo constantemente húmedo pero no encharcado; regar profundamente en períodos secos. Sombra parcial preferida—sol matutino con sombra por la tarde es ideal. Requiere suelo ácido (pH 4.5-6.0). Acolchar con acículas de pino para mantener acidez. Podar ligeramente después de la floración. Fertilizar en primavera con alimento para plantas acidófilas. Todas las partes tóxicas para mascotas y humanos."
+    },
+    "zh": {
+      "typeName": "马醉木",
+      "description": "也称：铃兰灌木。常绿灌木，春季开出串串铃铛状白色或粉色花朵，新叶呈红色、铜色或粉色。",
+      "commonExamples": "Pieris japonica (马醉木, 铃兰灌木), P. japonica 'Mountain Fire', P. japonica 'Flaming Silver'",
+      "careTips": "保持土壤持续湿润但不积水；干旱期深浇水。偏好半阴——上午阳光下午遮阴最理想。需酸性土壤（pH 4.5-6.0）；必要时用泥炭或硫磺改良。用松针或树皮覆盖保持酸性。花后轻度修剪造型。春季施酸性植物肥料。所有部位对宠物和人类有毒（梫木毒素）。"
+    }
+  },
+  {
+    "id": "calathea-freddie",
+    "meta": {
+      "springInterval": 5,
+      "summerInterval": 5,
+      "fallInterval": 7,
+      "winterInterval": 10,
+      "lightPreference": "lowIndirect",
+      "humidityPreference": "high",
+      "temperaturePreference": [
+        16,
+        27
+      ],
+      "plantToxicity": "nonToxic",
+      "soilPhPreference": "slightlyAcidic",
+      "drainagePreference": "wellDraining",
+      "wateringMethod": "topWatering",
+      "plantLifeSpan": [
+        5,
+        10
+      ],
+      "category": "Houseplants - Prayer Plants"
+    },
+    "en": {
+      "typeName": "Calathea Freddie",
+      "description": "Compact prayer plant with light green leaves featuring bold dark green striping along the veins; folds leaves upward at night.",
+      "commonExamples": "Goeppertia concinna (syn. Calathea concinna 'Freddie')",
+      "careTips": "Keep soil evenly moist but never soggy; use filtered or distilled water as sensitive to minerals and chlorine. Low to bright indirect light—no direct sun which scorches leaves. High humidity essential (60%+); use humidifier or pebble tray. Fertilize monthly spring through fall at quarter strength. Sensitive to drafts and temperature changes. Non-toxic to pets."
+    },
+    "es": {
+      "typeName": "Calathea Freddie",
+      "description": "Planta de oración compacta con hojas verde claro y rayas verde oscuro marcadas a lo largo de las venas; pliega las hojas hacia arriba por la noche.",
+      "commonExamples": "Goeppertia concinna (sin. Calathea concinna 'Freddie')",
+      "careTips": "Mantener suelo uniformemente húmedo pero nunca empapado; usar agua filtrada o destilada ya que es sensible a minerales y cloro. Luz baja a indirecta brillante—sin sol directo que quema las hojas. Humedad alta esencial (60%+); usar humidificador o bandeja con piedras. Fertilizar mensualmente de primavera a otoño a cuarta fuerza. Sensible a corrientes de aire y cambios de temperatura. No tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "孔雀竹芋弗雷迪",
+      "description": "紧凑型竹芋，浅绿色叶片沿脉络有醒目的深绿色条纹；夜间叶片向上折叠。",
+      "commonExamples": "Goeppertia concinna (异名 Calathea concinna 'Freddie')",
+      "careTips": "保持土壤均匀湿润但不积水；使用过滤水或蒸馏水，对矿物质和氯敏感。低至明亮间接光——避免直射阳光灼伤叶片。高湿度必需（60%以上）；使用加湿器或石子托盘。春至秋每月以四分之一浓度施肥。对气流和温度变化敏感。对宠物无毒。"
+    }
+  },
+  {
+    "id": "string-of-rubies",
+    "meta": {
+      "springInterval": 10,
+      "summerInterval": 14,
+      "fallInterval": 14,
+      "winterInterval": 21,
+      "lightPreference": "brightIndirect",
+      "humidityPreference": "low",
+      "temperaturePreference": [
+        10,
+        27
+      ],
+      "plantToxicity": "toxic",
+      "soilPhPreference": "neutral",
+      "drainagePreference": "excellentDrainage",
+      "wateringMethod": "bottomWatering",
+      "plantLifeSpan": [
+        5,
+        15
+      ],
+      "category": "Houseplants - Succulents"
+    },
+    "en": {
+      "typeName": "String of Rubies",
+      "description": "Also known as: Ruby necklace. Trailing succulent with bean-shaped leaves that turn deep ruby-red in bright light; stems are purple-tinged.",
+      "commonExamples": "Othonna capensis (String of rubies, Ruby necklace, Little pickles)",
+      "careTips": "Water thoroughly when soil is completely dry; drought-tolerant. Bright indirect to direct light brings out intense red coloring—green in low light. Low humidity fine. Use well-draining succulent/cactus mix. Fertilize sparingly 2-3 times during growing season at quarter strength. Propagates easily from stem cuttings. Toxic to pets."
+    },
+    "es": {
+      "typeName": "Collar de Rubíes",
+      "description": "También conocida como: Collar rubí. Suculenta colgante con hojas en forma de frijol que se vuelven rojo rubí intenso con luz brillante; tallos con tinte púrpura.",
+      "commonExamples": "Othonna capensis (Collar de rubíes, Collar rubí, Pepinillos pequeños)",
+      "careTips": "Regar abundantemente cuando el suelo esté completamente seco; tolerante a la sequía. Luz indirecta brillante a directa intensifica el color rojo—verde con poca luz. Humedad baja suficiente. Usar mezcla de suculentas/cactus bien drenada. Fertilizar moderadamente 2-3 veces durante la temporada de crecimiento a cuarta fuerza. Se propaga fácilmente por esquejes de tallo. Tóxica para mascotas."
+    },
+    "zh": {
+      "typeName": "红宝石串珠",
+      "description": "也称：红宝石项链。垂吊多肉植物，豆形叶片在强光下变为深红宝石色；茎带紫色调。",
+      "commonExamples": "Othonna capensis (红宝石串珠, 红宝石项链)",
+      "careTips": "土壤完全干透后充分浇水；耐旱。明亮间接光至直射光可呈现浓烈红色——低光下为绿色。低湿度即可。使用排水良好的多肉/仙人掌混合土。生长季节少量施肥2-3次，四分之一浓度。茎插容易繁殖。对宠物有毒。"
+    }
+  }
+]

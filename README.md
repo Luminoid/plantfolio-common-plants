@@ -1,6 +1,6 @@
 # plantfolio-common-plants
 
-Curated plant care dataset (810 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
+Curated plant care dataset (864 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
 
 ## Disclaimer
 
@@ -155,6 +155,7 @@ Horticultural rules applied when setting or reviewing metadata. Use these when a
 | `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
 | `translate_typenames.py` | Translate typeNames (EN→ZH or EN→ES via `--lang zh-Hans` / `--lang es`) |
 | `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file |
+| `optimize_plants.py` | Comprehensive optimizer: merges, toxicity fixes, name corrections, new plants |
 
 ## Schema (quick reference)
 

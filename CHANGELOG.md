@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.8.0] - 2026-02-17
+
+### Added
+
+- **65 new plants** (810 → 864): Joshua Tree, Giant Sequoia, Coast Redwood, Bristlecone Pine, Baobab, Banyan, Ginkgo, Plumeria, Bougainvillea, Wisteria, Hellebore, Star Jasmine, Witch Hazel, Mountain Laurel, Medinilla, Ficus Audrey, Calathea Musaica, Philodendron Florida Ghost, Cacao, Arabica Coffee, Hemp, Jackfruit, Durian, Rambutan, Giant Water Lily, Cephalotus, Paphiopedilum, and more. Full metadata + EN/ES/ZH translations for all.
+- **2 split entries:** Mexican Hat (Ratibida columnifera) and Deer Fern (Blechnum spicant) — separated from entries that conflated two different genera.
+
+### Fixed
+
+- **Toxicity (pet safety):** 7 plants corrected to nonToxic (portulacaria-afra, string-of-hearts, phoenix-roebelenii, hibiscus-tropical, pteris, pteris-cretica, gaillardia). 7 plants corrected to mildlyToxic (scindapsus ×3, tradescantia ×4) for consistency with calcium-oxalate aroid classification.
+- **Scientific names:** 11 corrections — Monstera sp. 'Peru', Salvia yangii (was "may be reclassified"), Brassica rapa var. nipposinica (mizuna), Lilium Asiatic/Oriental hybrid divisions, Zantedeschia rehmannii, boysenberry binomial, Goeppertia references added to calathea-zebrina and calathea-white-star, Dracaena reflexa 'Song of India' cultivar name, gasteria family description.
+- **Care tips:** Removed incorrect "prairie native" label from 6 European wildflowers (field-scabious, meadow-cranesbill, oxeye-daisy, great-mullein, red-clover, vipers-bugloss). Corrected "drought tolerant" to "prefers moist soil" for 4 moisture-loving species (joe-pye-weed, ironweed, swamp-milkweed, new-england-aster). Added missing toxicity warning to foxglove, mildew guidance to phlox, ant note to peony, pruning groups to clematis, frost-tender note to lantana. Fixed lithops growth period description.
+- **Metadata:** crassula-ovata-minor watering 7→14 days; english-ivy temperature [16,21]→[10,27]; cast-iron-plant temperature [18,24]→[7,27]; bird-of-paradise humidity high→medium.
+- **TypeNames:** Fixed echinopsis "Sea Urchin Cactus"→"Easter Lily Cactus"; blechnum "Deer Fern"→"Dwarf Tree Fern"; removed invalid "Also known as" from category entries (warm-season-annuals, root-vegetables, flowering-shrubs); fixed beet-greens, dandelion-greens, currant, catnip, sweet-potato-vine naming issues.
+
+### Changed
+
+- **Merged 11 duplicates** into their more common names: burros-tail ← sedum-morganianum, string-of-dolphins ← senecio-peregrinus, maranta-prayer-plant ← maranta-leuconeura, gloxinia ← sinningia, joe-pye-weed ← sweet-joe-pye, string-of-turtles ← peperomia-prostrata, switchgrass-prairie ← panicum, luffa ← loofah, parlor-palm ← neanthe-bella-palm, philodendron-heartleaf ← philodendron-scandens + philodendron-hederaceum-scandal. Alternate names preserved as "Also known as" in descriptions.
+- **Renamed 5 IDs:** common-viper → vipers-bugloss, alocasia-mahorani → alocasia-maharani (spelling fix), purple-cone-prairie → prairie-coneflower, chinese-evergreen-maria → aglaonema-maria, chinese-evergreen-silver → aglaonema-silver-bay (Aglaonema naming standardized).
+- **Differentiated 5 duplicate typeNames** across locales: coffee-arabica → "Arabica Coffee", lavender-herb → "Culinary Lavender", fennel-herb → "Herb Fennel", vanilla-crop → "Vanilla (Crop)", anthurium-flamingo ZH → "火烈鸟花".
+
 ## [1.7.3] - 2026-02-09
 
 ### Fixed
