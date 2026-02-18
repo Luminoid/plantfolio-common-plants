@@ -60,7 +60,7 @@ For each plant ID:
 
 ### Post-session
 - [ ] Apply corrections to common_plants_metadata.json
-- [ ] Run: python3 scripts/validate_json.py --check-schema
+- [ ] Run: python3 scripts/validate_json.py
 - [ ] Run: python3 scripts/audit_metadata_completeness.py
 ```
 
@@ -110,7 +110,7 @@ For each plant ID:
 - [ ] Apply corrections to common_plants_language_es.json
 - [ ] Apply corrections to common_plants_language_zh-Hans.json
 - [ ] Run: python3 scripts/merge_plant_data.py
-- [ ] Run: python3 scripts/validate_json.py --check-schema --check-structure
+- [ ] Run: python3 scripts/validate_json.py
 ```
 
 ---
@@ -132,7 +132,7 @@ Ensures every plant has complete, valid metadata. Run: `python3 scripts/audit_me
 | drainagePreference | string | excellentDrainage, wellDraining, moistureRetentive, waterloggingTolerant |
 | wateringMethod | string or null | topWatering, bottomWatering, misting, immersion, or null |
 | plantLifeSpan | [min, max] | min ≥ 0; both should be concrete integers (null only when truly unknown) |
-| category | string | One of 28 valid categories |
+| category | string | One of 29 valid categories |
 
 **Optional:** `hardinessZones` [min, max] — outdoor plants only; USDA zones 1–11.
 
@@ -294,10 +294,7 @@ Generic entries (bonsai, succulents, deciduous-trees, grasses, etc.) should rema
 
 ### General
 
-- **Generic descriptions to flag:** Replace with species-specific descriptions where possible.
-  - EN: "Common plant for gardens, farms, or indoor spaces.", "Edible plant for kitchen gardens.", "Specialty plant for gardens or collections."
-  - ES: "Planta especial para jardines o colecciones"
-  - ZH: "园艺或收藏用特色植物"
+- **Generic descriptions to flag:** Replace with species-specific descriptions where possible. Run `audit_generic_descriptions.py` to detect remaining placeholders.
 - **Scientific names:** Follow docs/DATASET.md reclassifications (Dracaena, Curio, Alocasia ×).
 - **Consistency:** Metadata and language must align — e.g., if metadata says "high humidity," careTips should mention humidity.
 - **Toxicity:** Use ASPCA as primary reference. See section 6 above.

@@ -1,6 +1,6 @@
 # plantfolio-common-plants
 
-Curated plant care dataset (864 plants, 28 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
+Curated plant care dataset (872 plants, 29 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
 
 ## Disclaimer
 
@@ -29,8 +29,9 @@ python3 scripts/release.py   # Build dist/, validate, run all audits (run before
 | `source/` | **Metadata** (`common_plants_metadata.json`): intervals, preferences, category per plant. **Language** (`common_plants_language_*.json`): typeName, description, commonExamples, careTips per locale |
 | `scripts/` | Merge, validate, audit, translate. Run from repo root |
 | `dist/` | Generated merged JSON; do not edit |
+| `docs/` | DATASET.md (schema, categories), AUDIT.md, RELEASE.md |
 
-Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them. When adding or removing plants, update `_metadata.plantCount` in `common_plants_metadata.json` to match the number of plant entries; release validation will fail if it doesn’t.
+Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them. When adding or removing plants, update `_metadata.plantCount` in `common_plants_metadata.json` to match the number of plant entries; release validation will fail if it doesn't.
 
 **Language rules:** Each language file must contain only its target language (EN, ES, or ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. **Descriptions** must end with a period (`.`). **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (use common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). **No aka that matches another plant's typeName** — if two entries share a common name, keep them separate without cross-referencing via aka. **No duplicate aka** — no two plants may share the same aka within a locale. **Category entries** should not use specific entries' names as aka (e.g., Pothos category should not aka "Devil's ivy" when Golden Pothos already has it). First-segment aliases only for category plants; do not duplicate typeName. **No duplicate typeNames** within a locale. Run `audit_target_language.py` and `audit_also_known_as.py` to verify.
 
@@ -52,7 +53,7 @@ Horticultural rules applied when setting or reviewing metadata. Use these when a
 | Sun-loving flowering plants need strongDirect for blooming | Tropical Hibiscus, Mandevilla → strongDirect |
 | Carnivorous bog plants (Venus flytrap, Sarracenia) need strong direct | Venus Flytrap, Sarracenia → strongDirect |
 | Translucent/windowed succulents burn in strong direct | Haworthia Cooperi → brightIndirect |
-| Outdoor plants use outdoor* values | outdoorFullSun, outdoorPartialSun, outdoorShade |
+| Outdoor plants use outdoor\* values | outdoorFullSun, outdoorPartialSun, outdoorShade |
 
 ### Watering intervals
 
@@ -122,8 +123,7 @@ Horticultural rules applied when setting or reviewing metadata. Use these when a
 | Task | Command |
 |------|---------|
 | Build dist only | `python3 scripts/merge_plant_data.py` |
-| Validate dist | `python3 scripts/validate_json.py --check-structure` |
-| Validate source metadata | `python3 scripts/validate_json.py --check-schema` |
+| Validate dist | `python3 scripts/validate_json.py` |
 | Extract category for audit | `python3 scripts/extract_by_category.py "Category Name"` |
 | Audit metadata completeness | `python3 scripts/audit_metadata_completeness.py` |
 | Audit target language | `python3 scripts/audit_target_language.py` |
@@ -140,26 +140,33 @@ Horticultural rules applied when setting or reviewing metadata. Use these when a
 ## Scripts
 
 | Script | Purpose |
-|-------|---------|
-| `release.py` | Full build + validate + all audits |
+|--------|---------|
+| `release.py` | Full build + validate + all audits (run before release) |
 | `audit_quality.py` | Run all quality audits and produce summary |
 | `merge_plant_data.py` | Build dist/ from source |
 | `sort_plants.py` | Sort source by category, canonical keys |
 | `validate_json.py` | Schema & structure validation |
 | `schema.py` | CATEGORY_ORDER, enums (imported by other scripts) |
-| `audit_*.py` | Metadata, scientific names, duplicates, also known as, generic descriptions, translation sync, target language, toxicity vs care tips, toxicity unknown |
+| `extract_by_category.py` | Extract category for audit sessions |
+| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan (`--dry-run` first) |
+| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
 | `ensure_complementary_aka.py` | Ensure aka has complementary form (nickname→formal, formal→nickname) per locale |
 | `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (`--dry-run` first) |
-| `extract_by_category.py` | Extract category for audit sessions |
-| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan; optimize open-ended `[xx, null]` lifespans to `[min, max]` (`--dry-run` first) |
-| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES |
 | `translate_typenames.py` | Translate typeNames (EN→ZH or EN→ES via `--lang zh-Hans` / `--lang es`) |
-| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file |
-| `optimize_plants.py` | Comprehensive optimizer: merges, toxicity fixes, name corrections, new plants |
+| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file (`--dry-run` then `--fix`) |
+| `audit_metadata_completeness.py` | Line-by-line metadata audit (C1–C15, X1–X2) |
+| `audit_scientific_names.py` | Check commonExamples for accepted names |
+| `audit_duplicates.py` | Duplicate typeNames, genus/species overlap, similar typeNames |
+| `audit_generic_descriptions.py` | Flag generic/placeholder descriptions |
+| `audit_translation_sync.py` | Verify EN/ES/ZH coverage (ID sync) |
+| `audit_target_language.py` | Detect mixed-language content in locale files |
+| `audit_also_known_as.py` | Check aka rules; use `--fix` to apply corrections |
+| `audit_toxicity_care_tips.py` | Toxicity metadata vs care tips alignment |
+| `audit_toxicity_unknown.py` | List plants with unknown toxicity (optionally by `--category`) |
 
 ## Schema (quick reference)
 
-**Required per plant:** `id`, `typeName`, `description`, `commonExamples`, `category`, `categoryIndex`, `springInterval`–`winterInterval` (1–90 or null), `lightPreference`, `humidityPreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `temperaturePreference` [min,max] °C, `plantLifeSpan` [min,max|null].
+**Required per plant:** `id`, `typeName`, `description`, `commonExamples`, `category`, `categoryIndex`, `springInterval`–`winterInterval` (1–90 or null), `lightPreference`, `humidityPreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `temperaturePreference` [min,max] °C, `plantLifeSpan` [min,max].
 
 **Enums:** [docs/DATASET.md#8-schema-reference](docs/DATASET.md#8-schema-reference) • **Categories:** [docs/DATASET.md#3-category-structure](docs/DATASET.md#3-category-structure)
 
@@ -167,7 +174,7 @@ Horticultural rules applied when setting or reviewing metadata. Use these when a
 
 **Fork & edit:** Edit `source/`, run `merge_plant_data.py`, host dist JSON, use URLs in app.
 
-**Raw JSON:** Output array of plant objects with schema above. Validate with `--check-structure` or `--check-schema`. See [docs/DATASET.md](docs/DATASET.md) for full spec.
+**Raw JSON:** Output array of plant objects with schema above. Validate with `validate_json.py`. See [docs/DATASET.md](docs/DATASET.md) for full spec.
 
 ## Pre-built data URLs
 
@@ -192,4 +199,4 @@ To use the default dataset without forking, copy the URLs below into your app co
 
 ---
 
-**AI:** [.cursor/CONTEXT.md](.cursor/CONTEXT.md) | [.cursor/rules/](.cursor/rules/)
+**AI:** [.claude/CLAUDE.md](.claude/CLAUDE.md) | [.cursor/rules/](.cursor/rules/)

@@ -1,7 +1,7 @@
 # Dataset Reference
 
-**810 plants** across **28 categories** (EN, ZH, ES).  
-**Version:** 1.7.3 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**872 plants** across **29 categories** (EN, ZH, ES).
+**Version:** 1.8.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 
@@ -57,6 +57,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 | Scientific names | Dracaena, Curio, Alocasia × accepted |
 | plantToxicity | nonToxic, mildlyToxic, toxic (expert schema) |
 | Expert audit (Feb 2025) | Phase 1 metadata + Phase 2 language verified for all 28 categories; 46 plants had generic descriptions replaced |
+| 872 plants (v1.8.0) | 106 added, 47 merged; 29 categories; 34 toxicity fixes; full EN/ES/ZH translation quality pass |
 
 ---
 
@@ -66,36 +67,37 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 | # | Category | Plant Count | Audit Focus |
 |---|----------|-------------|-------------|
-| 1 | Houseplants - Low Maintenance | 40 | Low-light tolerance, watering intervals, toxicity |
-| 2 | Houseplants - Aroids | 56 | Light, humidity, drainage; toxic vs non-toxic |
-| 3 | Houseplants - Ferns | 17 | High humidity, moisture-retentive soil, watering frequency |
-| 4 | Houseplants - Palms | 10 | Light, humidity, drainage consistency |
-| 5 | Houseplants - Succulents | 31 | Drainage (excellent/well), long intervals, low humidity |
+| 1 | Houseplants - Low Maintenance | 37 | Low-light tolerance, watering intervals, toxicity |
+| 2 | Houseplants - Aroids | 59 | Light, humidity, drainage; toxic vs non-toxic |
+| 3 | Houseplants - Ferns | 16 | High humidity, moisture-retentive soil, watering frequency |
+| 4 | Houseplants - Palms | 12 | Light, humidity, drainage consistency |
+| 5 | Houseplants - Succulents | 35 | Drainage (excellent/well), long intervals, low humidity |
 | 6 | Houseplants - Cacti | 18 | Excellent drainage, long intervals, temperature ranges |
-| 7 | Houseplants - Flowering | 30 | Blooming-specific needs, watering method |
-| 8 | Houseplants - Prayer Plants | 17 | High humidity, moisture-retentive, bottom watering where applicable |
-| 9 | Houseplants - Vines & Trailing | 21 | Light, watering, toxicity for pothos/philodendron |
-| 10 | Houseplants - Specialty | 30 | Bonsai, bromeliads, croton — special houseplant cases |
-| 11 | Outdoor - Trees | 25 | hardinessZones, light, dormancy (null winterInterval) |
-| 12 | Outdoor - Shrubs | 32 | hardinessZones, light, soil pH |
-| 13 | Outdoor - Perennials | 67 | Largest; hardiness, light, watering intervals |
-| 14 | Outdoor - Annuals | 30 | Short lifespan, frequent watering |
-| 15 | Outdoor - Vines & Climbers | 15 | Light, support, hardiness |
-| 16 | Outdoor - Groundcovers & Grasses | 23 | Light, drainage, hardiness |
-| 17 | Vegetables - Leafy Greens | 31 | Watering, light, soil |
-| 18 | Vegetables - Fruiting | 46 | Watering, light, temperature |
-| 19 | Vegetables - Root & Bulb | 17 | Soil, drainage, harvesting |
-| 20 | Fruits & Berries | 46 | hardinessZones, soil pH, pollination |
-| 21 | Herbs | 33 | Light, watering, lifespan |
-| 22 | Farm & Field Crops | 39 | Hardiness, soil, growing season |
-| 23 | Sprouts & Microgreens | 42 | Very short intervals, moisture |
-| 24 | Bulbs | 30 | Dormancy (null summer/fall), watering method |
-| 25 | Specialty - Aquatic & Bog | 17 | null watering, waterloggingTolerant |
-| 26 | Specialty - Carnivorous | 9 | null watering, acidic soil, immersion |
-| 27 | Specialty - Epiphytes & Moss | 14 | misting/immersion, high humidity |
-| 28 | Specialty - Alpine | 14 | Cold-tolerant, drainage, light |
+| 7 | Houseplants - Flowering | 34 | Blooming-specific needs, watering method |
+| 8 | Houseplants - Prayer Plants | 15 | High humidity, moisture-retentive, bottom watering where applicable |
+| 9 | Houseplants - Vines & Trailing | 23 | Light, watering, toxicity for pothos/philodendron |
+| 10 | Houseplants - Ficus & Rubber Trees | 7 | Light, latex toxicity, humidity |
+| 11 | Houseplants - Specialty | 29 | Bonsai, bromeliads, croton — special houseplant cases |
+| 12 | Outdoor - Trees | 40 | hardinessZones, light, dormancy (null winterInterval) |
+| 13 | Outdoor - Shrubs | 37 | hardinessZones, light, soil pH |
+| 14 | Outdoor - Perennials | 74 | Largest; hardiness, light, watering intervals |
+| 15 | Outdoor - Annuals | 38 | Short lifespan, frequent watering |
+| 16 | Outdoor - Vines & Climbers | 17 | Light, support, hardiness |
+| 17 | Outdoor - Groundcovers & Grasses | 24 | Light, drainage, hardiness |
+| 18 | Vegetables - Leafy Greens | 25 | Watering, light, soil |
+| 19 | Vegetables - Fruiting | 51 | Watering, light, temperature |
+| 20 | Vegetables - Root & Bulb | 21 | Soil, drainage, harvesting |
+| 21 | Fruits & Berries | 49 | hardinessZones, soil pH, pollination |
+| 22 | Herbs | 36 | Light, watering, lifespan |
+| 23 | Farm & Field Crops | 44 | Hardiness, soil, growing season |
+| 24 | Sprouts & Microgreens | 43 | Very short intervals, moisture |
+| 25 | Bulbs | 31 | Dormancy (null summer/fall), watering method |
+| 26 | Specialty - Aquatic & Bog | 18 | null watering, waterloggingTolerant |
+| 27 | Specialty - Carnivorous | 10 | null watering, acidic soil, immersion |
+| 28 | Specialty - Epiphytes & Moss | 14 | misting/immersion, high humidity |
+| 29 | Specialty - Alpine | 15 | Cold-tolerant, drainage, light |
 
-**Rationale:** Generic types (succulents, cacti, aroids) kept as parent categories. Farm crops separate from garden vegetables. Sprouts & Microgreens separate for distinct care.
+**Rationale:** Generic types (succulents, cacti, aroids) kept as parent categories. Farm crops separate from garden vegetables. Sprouts & Microgreens separate for distinct care. Ficus & Rubber Trees split from Specialty for better organization.
 
 ---
 
@@ -156,7 +158,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 | Decision | Rationale |
 |----------|-----------|
-| Keep 28 categories | Balance of granularity vs. simplicity |
+| Keep 29 categories | Balance of granularity vs. simplicity; Ficus split from Specialty |
 | Farm & Field Crops separate | Distinct from garden vegetables |
 | Sprouts & Microgreens separate | Fast-growing niche with distinct care |
 | Generic types kept | Parent categories (succulents, cacti, aroids) aid UX |
@@ -165,16 +167,16 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 ## 8. Schema Reference
 
-`validate_json.py --check-schema` validates: all enums, category required, intervals 1–90 or null, temperature and plantLifeSpan structure.
+`validate_json.py` validates dist JSON structure. `schema.py` defines all enums, category order, intervals 1–90 or null, temperature and plantLifeSpan structure.
 
 ### Enums
 
 | Field | Values | Notes |
 |-------|--------|-------|
-| **lightPreference** | outdoorFullSun, brightIndirect, lowIndirect, outdoorPartialSun, mediumIndirect, strongDirect, outdoorShade, gentleDirect, deepShade | Use outdoor* for outdoor plants; indoor semantics for houseplants |
+| **lightPreference** | outdoorFullSun, brightIndirect, lowIndirect, outdoorPartialSun, mediumIndirect, strongDirect, outdoorShade | Use outdoor\* for outdoor plants; indoor semantics for houseplants |
 | **plantToxicity** | nonToxic, unknown, mildlyToxic, toxic | ASPCA-aligned severity |
 | **humidityPreference** | low, medium, high, veryHigh | ~30–40%, 40–60%, 60–80%, 80%+ |
-| **soilPhPreference** | acidic, neutral, alkaline, adaptable | pH &lt;6.5, 6.5–7.5, &gt;7.5 |
+| **soilPhPreference** | acidic, neutral, alkaline, adaptable | pH &lt;6.5, 6.5–7.5, &gt;7.5, wide range |
 | **drainagePreference** | excellentDrainage, wellDraining, moistureRetentive, waterloggingTolerant | |
 | **wateringMethod** | topWatering, bottomWatering, immersion, misting | null for aquatic/carnivorous |
 
@@ -196,7 +198,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 python3 scripts/release.py                               # Build, validate, audit (before release)
 python3 scripts/audit_quality.py                         # Run all quality audits (summary)
 python3 scripts/merge_plant_data.py                      # Build dist/ from source
-python3 scripts/validate_json.py --check-schema           # Validate metadata schema
+python3 scripts/validate_json.py                           # Validate dist JSON
 python3 scripts/extract_by_category.py "Category Name"    # Extract category for audit session
 python3 scripts/audit_metadata_completeness.py            # Full metadata audit (C1–C15, X1–X2)
 python3 scripts/audit_toxicity_care_tips.py              # Toxicity vs care tips alignment

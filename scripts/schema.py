@@ -9,7 +9,7 @@ CATEGORY_ORDER = [
     "Houseplants - Low Maintenance", "Houseplants - Aroids", "Houseplants - Ferns",
     "Houseplants - Palms", "Houseplants - Succulents", "Houseplants - Cacti",
     "Houseplants - Flowering", "Houseplants - Prayer Plants", "Houseplants - Vines & Trailing",
-    "Houseplants - Specialty",
+    "Houseplants - Ficus & Rubber Trees", "Houseplants - Specialty",
     "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
     "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
     "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
@@ -24,8 +24,8 @@ VALID_CATEGORIES = frozenset(CATEGORY_ORDER)
 
 # Enums (Plantfolio app compatible)
 VALID_LIGHT_PREFERENCES = frozenset({
-    "brightIndirect", "deepShade", "gentleDirect", "lowIndirect",
-    "mediumIndirect", "outdoorFullSun", "outdoorPartialSun", "outdoorShade",
+    "brightIndirect", "lowIndirect", "mediumIndirect",
+    "outdoorFullSun", "outdoorPartialSun", "outdoorShade",
     "strongDirect",
 })
 VALID_PLANT_TOXICITY = frozenset({"mildlyToxic", "nonToxic", "toxic", "unknown"})

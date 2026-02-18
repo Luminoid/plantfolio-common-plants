@@ -2,7 +2,7 @@
 
 > Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663)
 
-**810 plants**, 28 categories, EN/ES/ZH-Hans. Edit `source/` → `release.py` builds and validates.
+**872 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` → `release.py` builds and validates.
 
 ---
 
@@ -136,4 +136,4 @@ When changing schema or scripts here, also update:
 
 ---
 
-*Optimized for Claude Code • Last updated: 2026-02-09*
+*Optimized for Claude Code • Last updated: 2026-02-17*

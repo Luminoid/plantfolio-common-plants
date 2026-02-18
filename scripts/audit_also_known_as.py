@@ -78,6 +78,10 @@ COMMON_FIRST_WORDS = {
     "cebolla", "nabo", "yucca", "pera", "dracaena",
     "pak", "mosaic", "oyster", "mexican", "breadfruit", "espada", "plateada",
     "amor", "hombre", "spiderwort", "blanket",
+    "common", "small", "large", "great", "lenten", "pincushion", "bee",
+    "rose", "rosa", "trailing", "wavyleaf", "cider", "nagoya", "broad", "night",
+    "hoary", "ruby", "ornamental", "bearded", "yellow", "tulip",
+    "amazon", "victoria", "albany", "devil", "hay", "old", "man",
 }
 
 

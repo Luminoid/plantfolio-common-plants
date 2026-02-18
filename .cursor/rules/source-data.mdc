@@ -19,7 +19,7 @@ Object keyed by plant ID. Optional `_metadata` key with `version` (e.g. `1.5.0`)
 - **plantToxicity:** nonToxic, unknown, mildlyToxic, toxic
 - **lightPreference:** outdoorFullSun, brightIndirect, lowIndirect, outdoorPartialSun, etc.
 - **wateringMethod:** topWatering, bottomWatering, immersion, misting (null for aquatic/carnivorous)
-- **category:** Must be in VALID_CATEGORIES (28 categories)
+- **category:** Must be in VALID_CATEGORIES (29 categories)
 
 ## Locales
 
