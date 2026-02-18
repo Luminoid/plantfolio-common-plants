@@ -1,202 +1,336 @@
 # plantfolio-common-plants
 
-Curated plant care dataset (872 plants, 29 categories, EN/ES/ZH-Hans) for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)). Care intervals, preferences, toxicity, localization.
+Curated plant care dataset for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)).
 
-## Disclaimer
+**872 plants** | **29 categories** | **3 locales** (EN, ES, ZH-Hans) | **v1.8.0**
 
-This dataset is provided for general informational purposes only. It is not maintained by horticultural or botanical professionals and may contain inaccuracies, omissions, or errors. Care recommendations, toxicity information, and plant identifiers are best-effort compilations — do not rely on them as a substitute for expert advice. For plant identification, toxicity concerns, or specialized care, consult a qualified horticulturist, botanist, or veterinarian.
+Care intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, scientific nomenclature (POWO/Kew), and localized descriptions.
+
+> **Disclaimer** — This dataset is provided for general informational purposes only. It is not maintained by horticultural or botanical professionals and may contain inaccuracies or omissions. Care recommendations and toxicity information are best-effort compilations — do not rely on them as a substitute for expert advice. For plant identification, toxicity concerns, or specialized care, consult a qualified horticulturist, botanist, or veterinarian.
+
+---
+
+## Table of Contents
+
+- [Background](#background)
+- [Quick Start](#quick-start)
+- [Repository Structure](#repository-structure)
+- [Data Architecture](#data-architecture)
+- [Scripts](#scripts)
+- [Data Conventions](#data-conventions)
+- [Categories](#categories)
+- [Schema Reference](#schema-reference)
+- [Custom Data Source](#custom-data-source)
+- [Pre-built Data URLs](#pre-built-data-urls)
+- [Documentation](#documentation)
+
+---
 
 ## Background
 
-**Plantfolio** is a plant care app for iPhone, iPad, and Mac. It helps users track watering schedules, care records, growth history, and photos. This dataset powers the app’s default common plants library — the built-in suggestions when adding a new plant.
+**Plantfolio** is a plant care app for iPhone, iPad, and Mac. It helps users track watering schedules, care records, growth history, and photos. This dataset powers the app's default common plants library — the built-in suggestions when adding a new plant.
 
-**This dataset** — Each plant entry includes descriptions, care tips, seasonal watering intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, and optional USDA hardiness zones for outdoor plants. Scientific names follow botanical conventions (POWO/Kew). The dataset has been audited for metadata completeness, naming overlaps, and translation sync across EN, ES, and ZH-Hans.
+Each plant entry includes descriptions, care tips, seasonal watering intervals, light/humidity/temperature preferences, toxicity classification, soil pH, drainage, and optional USDA hardiness zones for outdoor plants. The dataset has been audited for metadata completeness, naming overlaps, and translation sync across EN, ES, and ZH-Hans.
 
 Fork this repo to build your own data source — keep the same structure so Plantfolio can parse it. Found errors or have ideas? Open an issue or pull request.
+
+---
 
 ## Quick Start
 
 ```bash
-python3 scripts/release.py   # Build dist/, validate, run all audits (run before release)
+# Full build + validate + all audits (run before release)
+python3 scripts/release.py
+
+# Build dist/ only
+python3 scripts/merge_plant_data.py
+
+# Quick quality summary
+python3 scripts/audit_quality.py
 ```
 
-**Workflow:** Edit `source/` → `sort_plants.py` → `merge_plant_data.py` → `dist/` → validate + audit. Run `audit_quality.py` for a quick summary of all checks.
+**Workflow:** Edit `source/` → `sort_plants.py` → `merge_plant_data.py` → `dist/` → validate + audit
 
-## Repo Structure
-
-| Path | Contents |
-|------|----------|
-| `source/` | **Metadata** (`common_plants_metadata.json`): intervals, preferences, category per plant. **Language** (`common_plants_language_*.json`): typeName, description, commonExamples, careTips per locale |
-| `scripts/` | Merge, validate, audit, translate. Run from repo root |
-| `dist/` | Generated merged JSON; do not edit |
-| `docs/` | DATASET.md (schema, categories), AUDIT.md, RELEASE.md |
-
-Metadata is shared across locales; language is per-locale. `merge_plant_data.py` combines them. When adding or removing plants, update `_metadata.plantCount` in `common_plants_metadata.json` to match the number of plant entries; release validation will fail if it doesn't.
-
-**Language rules:** Each language file must contain only its target language (EN, ES, or ZH). Exceptions: scientific names, Latin, cultivar names, proper nouns. **Descriptions** must end with a period (`.`). **Also known as (aka):** Optional. When used, show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). Remove if aka only repeats commonExamples names without adding value. **No scientific names** in aka (use common names only). **No subtypes** in aka (e.g., Fruit Trees should not aka Apple; Cacti should not aka Barrel cactus). **No aka that matches another plant's typeName** — if two entries share a common name, keep them separate without cross-referencing via aka. **No duplicate aka** — no two plants may share the same aka within a locale. **Category entries** should not use specific entries' names as aka (e.g., Pothos category should not aka "Devil's ivy" when Golden Pothos already has it). First-segment aliases only for category plants; do not duplicate typeName. **No duplicate typeNames** within a locale. Run `audit_target_language.py` and `audit_also_known_as.py` to verify.
-
-## Data Conventions
-
-Horticultural rules applied when setting or reviewing metadata. Use these when adding or auditing plants.
-
-### Light preference
-
-`lightPreference` represents the plant's **optimal** light, not just what it tolerates.
-
-| Rule | Example |
-|------|---------|
-| Variegated/colored plants need more light than their all-green counterparts | Red Valentine Aglaonema → brightIndirect (not lowIndirect) |
-| Snake plants (Dracaena trifasciata/angolensis) prefer bright indirect, only tolerate low | All snake plant varieties → brightIndirect |
-| Plants that drop leaves in low light should not be lowIndirect | Weeping Fig, False Aralia, Ming Aralia → brightIndirect |
-| Desert cacti need strong direct sun | Mammillaria, Echinopsis, Opuntia → strongDirect |
-| Forest/jungle cacti prefer bright indirect (no direct sun) | Christmas Cactus, Rhipsalis, Epiphyllum → brightIndirect |
-| Sun-loving flowering plants need strongDirect for blooming | Tropical Hibiscus, Mandevilla → strongDirect |
-| Carnivorous bog plants (Venus flytrap, Sarracenia) need strong direct | Venus Flytrap, Sarracenia → strongDirect |
-| Translucent/windowed succulents burn in strong direct | Haworthia Cooperi → brightIndirect |
-| Outdoor plants use outdoor\* values | outdoorFullSun, outdoorPartialSun, outdoorShade |
-
-### Watering intervals
-
-| Plant type | Spring | Summer | Fall | Winter | Notes |
-|------------|--------|--------|------|--------|-------|
-| Desert cacti (large) | 21 | 21 | 30 | 45 | Barrel, Prickly Pear, Star |
-| Desert cacti (small globular) | 14 | 14 | 21 | 30 | Mammillaria, Echinopsis, Parodia |
-| Forest/jungle cacti | 7 | 7 | 10 | 14 | Christmas, Rhipsalis, Epiphyllum |
-| Summer-dormant succulents | longer intervals in summer | | | | Aeonium, Lithops |
-| Mediterranean herbs | 7 | 10 | 14 | null | Drought-tolerant; longer in summer is correct |
-| Sprouts & microgreens | 1–3 | 1–3 | 1–3 | 1–3 | Very frequent |
-| Aquatic plants | null | null | null | null | No watering intervals |
-
-### Toxicity
-
-**Consistency rule:** All plants in the same genus sharing the same toxic compound must have the same `plantToxicity` value — do not mix mildlyToxic and toxic within a family.
-
-| Family/compound | Level | Examples |
-|----------------|-------|---------|
-| Insoluble calcium oxalate aroids | mildlyToxic | Pothos, Monstera, Philodendron, Syngonium |
-| Begonia (soluble calcium oxalates) | toxic | Tubers most toxic; potential kidney effects |
-| Peace lilies (Spathiphyllum) | toxic | More severe irritation than typical calcium oxalate |
-| Dracaena / Snake plants | toxic | ASPCA-listed toxic |
-| Ficus (latex) | toxic | Rubber Plant, Fiddle-Leaf Fig, Weeping Fig |
-| Kalanchoe (cardiac glycosides) | toxic | All Kalanchoe species |
-| Peperomia, Hoya, Calathea/Maranta, Spider Plant, Palms, Ferns | nonToxic | ASPCA non-toxic |
-| Edible plants with toxic parts | toxic | Avocado (persin), Elderberry (raw), Taro (raw oxalate) |
-
-### Drainage
-
-| Plant type | Drainage | Notes |
-|------------|----------|-------|
-| Succulents & desert cacti | excellentDrainage or wellDraining | Never moistureRetentive |
-| Bog carnivorous (Venus flytrap, Sarracenia, Sundew) | moistureRetentive | Sit in water trays; null wateringMethod |
-| Epiphytic carnivorous (Nepenthes) | excellentDrainage | Airy mix, not standing water |
-| Aquatic plants | waterloggingTolerant | null wateringMethod |
-| Alpine plants | excellentDrainage or wellDraining | Mountain drainage |
-
-### Descriptions
-
-| Rule | Notes |
-|------|-------|
-| Must end with a period (`.`) | All descriptions, all locales |
-| "Also known as:" must be capitalized and at start of description | `Also known as: X. Actual description.` |
-| No repeated/corrupted subspecies text | Check for `word. word. word.` patterns |
-| Each plant must have a unique description | No placeholder or duplicate descriptions across plants |
-| Category entries get brief genus/family overviews | Specific entries get species-level detail |
-| Sprouts & microgreens need specific descriptions | Not generic "Microgreens" labels |
-| commonExamples use species-specific common names | `Pisum sativum (Pea shoots)` not `Pisum sativum (Microgreens)` |
-
-### Lifespan
-
-`plantLifeSpan` is `[min_years, max_years]`. Both values should be concrete integers when possible. Use `null` only when a bound is truly unknown.
-
-| Plant type | plantLifeSpan [min, max] | Notes |
-|------------|-------------------------|-------|
-| Trees | [20, 100] to [100, 500] | Species-specific; 3 is never correct for a tree |
-| Shrubs | [5, 10] to [30, 100] | Long-lived shrubs (boxwood, lilac) can exceed 100 |
-| Perennial houseplants | [3, 10] to [10, 50] | Varies by species; cacti and jade plants live longest |
-| Annuals | [1, 1] | Single growing season |
-| Sprouts & microgreens | [1, 1] | Very short lifecycle |
-| Fruits & berries | [1, 6] to [60, 100] | Banana [1, 6] vs Coconut [60, 100] |
-| Bulbs | [3, 8] to [10, 30] | Most naturalize and persist many years |
-
-## Common Tasks
-
-| Task | Command |
-|------|---------|
-| Build dist only | `python3 scripts/merge_plant_data.py` |
-| Validate dist | `python3 scripts/validate_json.py` |
-| Extract category for audit | `python3 scripts/extract_by_category.py "Category Name"` |
-| Audit metadata completeness | `python3 scripts/audit_metadata_completeness.py` |
-| Audit target language | `python3 scripts/audit_target_language.py` |
-| Audit also known as | `python3 scripts/audit_also_known_as.py` (use `--fix` to apply) |
-| Run all quality audits | `python3 scripts/audit_quality.py` |
-| Audit toxicity vs care tips | `python3 scripts/audit_toxicity_care_tips.py` |
-| List plants with unknown toxicity | `python3 scripts/audit_toxicity_unknown.py` (optionally `--category "Name"` or `--output file.json`) |
-| Ensure complementary aka | `python3 scripts/ensure_complementary_aka.py --dry-run` first |
-| Add aliases to new plants | `python3 scripts/add_common_alias_to_description.py --dry-run` first |
-| Infer missing metadata | `python3 scripts/improve_plant_data.py` (soil pH, drainage, lifespan; `--dry-run` first) |
-| Translate typeNames | `python3 scripts/translate_typenames.py --lang zh-Hans` or `--lang es` |
-| Optimize duplicate typeNames | `python3 scripts/optimize_duplicate_typenames.py --dry-run` then `--fix` |
-
-## Scripts
-
-| Script | Purpose |
-|--------|---------|
-| `release.py` | Full build + validate + all audits (run before release) |
-| `audit_quality.py` | Run all quality audits and produce summary |
-| `merge_plant_data.py` | Build dist/ from source |
-| `sort_plants.py` | Sort source by category, canonical keys |
-| `validate_json.py` | Schema & structure validation |
-| `schema.py` | CATEGORY_ORDER, enums (imported by other scripts) |
-| `extract_by_category.py` | Extract category for audit sessions |
-| `improve_plant_data.py` | Infer missing soilPhPreference, drainagePreference, plantLifeSpan (`--dry-run` first) |
-| `reorganize_plants.py` | Apply REMOVE_IDS, CATEGORY_CHANGES (edit in file first) |
-| `ensure_complementary_aka.py` | Ensure aka has complementary form (nickname→formal, formal→nickname) per locale |
-| `add_common_alias_to_description.py` | Add formal names/aliases from commonExamples to description (`--dry-run` first) |
-| `translate_typenames.py` | Translate typeNames (EN→ZH or EN→ES via `--lang zh-Hans` / `--lang es`) |
-| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames in each language file (`--dry-run` then `--fix`) |
-| `audit_metadata_completeness.py` | Line-by-line metadata audit (C1–C15, X1–X2) |
-| `audit_scientific_names.py` | Check commonExamples for accepted names |
-| `audit_duplicates.py` | Duplicate typeNames, genus/species overlap, similar typeNames |
-| `audit_generic_descriptions.py` | Flag generic/placeholder descriptions |
-| `audit_translation_sync.py` | Verify EN/ES/ZH coverage (ID sync) |
-| `audit_target_language.py` | Detect mixed-language content in locale files |
-| `audit_also_known_as.py` | Check aka rules; use `--fix` to apply corrections |
-| `audit_toxicity_care_tips.py` | Toxicity metadata vs care tips alignment |
-| `audit_toxicity_unknown.py` | List plants with unknown toxicity (optionally by `--category`) |
-
-## Schema (quick reference)
-
-**Required per plant:** `id`, `typeName`, `description`, `commonExamples`, `category`, `categoryIndex`, `springInterval`–`winterInterval` (1–90 or null), `lightPreference`, `humidityPreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `temperaturePreference` [min,max] °C, `plantLifeSpan` [min,max].
-
-**Enums:** [docs/DATASET.md#8-schema-reference](docs/DATASET.md#8-schema-reference) • **Categories:** [docs/DATASET.md#3-category-structure](docs/DATASET.md#3-category-structure)
-
-## Custom Data Source
-
-**Fork & edit:** Edit `source/`, run `merge_plant_data.py`, host dist JSON, use URLs in app.
-
-**Raw JSON:** Output array of plant objects with schema above. Validate with `validate_json.py`. See [docs/DATASET.md](docs/DATASET.md) for full spec.
-
-## Pre-built data URLs
-
-To use the default dataset without forking, copy the URLs below into your app config.
-
-**Folder:** `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/`
-
-| Locale | File | URL |
-|--------|------|-----|
-| EN | common_plants.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants.json` |
-| ES | common_plants_es.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_es.json` |
-| ZH | common_plants_zh-Hans.json | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_zh-Hans.json` |
-
-## Docs
-
-| Doc | Content |
-|-----|---------|
-| [docs/DATASET.md](docs/DATASET.md) | Schema, categories, enums, commonExamples format, description "also known as" |
-| [docs/AUDIT.md](docs/AUDIT.md) | Phase 1/2 checklists, toxicity, naming overlap |
-| [docs/RELEASE.md](docs/RELEASE.md) | Release checklist |
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
+No external Python dependencies — all scripts use stdlib only.
 
 ---
 
-**AI:** [.claude/CLAUDE.md](.claude/CLAUDE.md) | [.cursor/rules/](.cursor/rules/)
+## Repository Structure
+
+```
+plantfolio-common-plants/
+├── source/                              # Source data — edit these
+│   ├── common_plants_metadata.json      # Shared metadata (intervals, preferences, category)
+│   ├── common_plants_language_en.json   # English (typeName, description, careTips)
+│   ├── common_plants_language_es.json   # Spanish translations
+│   └── common_plants_language_zh-Hans.json  # Simplified Chinese translations
+│
+├── dist/                                # Generated merged JSON — DO NOT EDIT
+│   ├── common_plants.json              # Merged EN (language + metadata)
+│   ├── common_plants_es.json           # Merged ES
+│   └── common_plants_zh-Hans.json      # Merged ZH-Hans
+│
+├── scripts/                             # Build, validate, and audit tools
+├── docs/                                # DATASET.md, AUDIT.md, RELEASE.md
+├── CHANGELOG.md                         # Version history (data changes only)
+└── VERSION                              # Current version number
+```
+
+---
+
+## Data Architecture
+
+### Source vs. Dist
+
+| | Source (`source/`) | Dist (`dist/`) |
+|---|---|---|
+| **Structure** | Metadata separate from language files | Merged into one file per locale |
+| **Edit?** | Yes — all edits happen here | No — generated by `merge_plant_data.py` |
+| **Files** | 1 metadata + 3 language files | 3 merged files |
+| **Used by** | Scripts, contributors | App (custom URL download) |
+
+### Source Files
+
+**Metadata** (`common_plants_metadata.json`) — Dictionary keyed by plant ID. Contains watering intervals, light/humidity/temperature preferences, toxicity, soil pH, drainage, watering method, lifespan, category, and optional hardiness zones.
+
+**Language files** (`common_plants_language_*.json`) — Array of plant entries per locale. Each entry has `id`, `typeName`, `description`, `commonExamples`, and `careTips`. The first element is a `_metadata` header with version, plant count, and category translations.
+
+### Merge Process
+
+`merge_plant_data.py` combines each language file with metadata:
+- Joins entries by plant ID
+- Translates category names to the target locale
+- Adds `categoryIndex` for client-side sorting
+- Prepends `_metadata` header (version, totalPlants, sorting info)
+
+### Plant Count Tracking
+
+- `_metadata.plantCount` in metadata must match the number of plant entries
+- `_metadata.totalPlants` in language files must match entry count
+- Release validation fails on mismatch — update when adding or removing plants
+
+---
+
+## Scripts
+
+### Build Pipeline
+
+| Script | Purpose |
+|--------|---------|
+| `release.py` | Full pipeline: sort → merge → validate → all audits |
+| `sort_plants.py` | Sort source by category then ID; reorder keys to canonical order |
+| `merge_plant_data.py` | Build `dist/` from `source/` |
+| `validate_json.py` | Schema & structure validation on `dist/` |
+| `schema.py` | Shared constants: `CATEGORY_ORDER`, enums, key orders (imported by other scripts) |
+
+### Quality Audits
+
+| Script | Purpose |
+|--------|---------|
+| `audit_quality.py` | Run all audits and produce pass/fail summary (`--full` for verbose) |
+| `audit_metadata_completeness.py` | Field-by-field metadata checks (C1–C15, X1–X2) |
+| `audit_scientific_names.py` | Check `commonExamples` for accepted names (POWO/Kew) |
+| `audit_duplicates.py` | Duplicate typeNames, genus/species overlap, similar names |
+| `audit_generic_descriptions.py` | Flag placeholder or generic descriptions |
+| `audit_translation_sync.py` | Verify EN/ES/ZH ID coverage and translation completeness |
+| `audit_target_language.py` | Detect mixed-language content in locale files |
+| `audit_also_known_as.py` | Check aka rules; use `--fix` to apply corrections |
+| `audit_toxicity_care_tips.py` | Toxicity metadata vs. care tips alignment |
+| `audit_toxicity_unknown.py` | List plants with unknown toxicity (`--category` to filter) |
+
+### Data Improvement
+
+| Script | Purpose |
+|--------|---------|
+| `improve_plant_data.py` | Infer missing soilPh, drainage, lifespan (`--dry-run` first) |
+| `ensure_complementary_aka.py` | Add complementary aka (nickname↔formal) per locale (`--dry-run` first) |
+| `add_common_alias_to_description.py` | Add formal names from `commonExamples` to aka (`--dry-run` first) |
+| `translate_typenames.py` | Translate typeNames EN→ZH (`--lang zh-Hans`) or EN→ES (`--lang es`) |
+| `optimize_duplicate_typenames.py` | Differentiate duplicate typeNames per locale (`--dry-run` then `--fix`) |
+| `extract_by_category.py` | Extract plants by category for focused audit sessions |
+| `reorganize_plants.py` | Apply bulk removals and category changes (edit lists in file first) |
+
+---
+
+## Data Conventions
+
+### Light Preference
+
+| Rule | Example |
+|------|---------|
+| Variegated/colored plants need more light than all-green counterparts | Red Valentine Aglaonema → `brightIndirect` |
+| Snake plants prefer bright indirect, only tolerate low | All Dracaena trifasciata/angolensis → `brightIndirect` |
+| Plants that drop leaves in low light → not `lowIndirect` | Weeping Fig, False Aralia → `brightIndirect` |
+| Desert cacti need strong direct sun | Mammillaria, Echinopsis, Opuntia → `strongDirect` |
+| Forest/jungle cacti prefer bright indirect | Christmas Cactus, Rhipsalis → `brightIndirect` |
+| Sun-loving flowering plants need direct for blooming | Tropical Hibiscus, Mandevilla → `strongDirect` |
+| Carnivorous bog plants need strong direct | Venus Flytrap, Sarracenia → `strongDirect` |
+| Translucent/windowed succulents burn in strong direct | Haworthia Cooperi → `brightIndirect` |
+| Outdoor plants use outdoor values | `outdoorFullSun`, `outdoorPartialSun`, `outdoorShade` |
+
+### Watering Intervals
+
+| Plant Type | Spring | Summer | Fall | Winter | Notes |
+|------------|--------|--------|------|--------|-------|
+| Desert cacti (large) | 21 | 21 | 30 | 45 | Barrel, Prickly Pear, Star |
+| Desert cacti (small) | 14 | 14 | 21 | 30 | Mammillaria, Echinopsis |
+| Forest/jungle cacti | 7 | 7 | 10 | 14 | Christmas, Rhipsalis |
+| Summer-dormant succulents | Longer in summer | | | | Aeonium, Lithops |
+| Mediterranean herbs | 7 | 10 | 14 | null | Drought-tolerant |
+| Sprouts & microgreens | 1–3 | 1–3 | 1–3 | 1–3 | Very frequent |
+| Aquatic plants | null | null | null | null | No intervals needed |
+
+### Toxicity
+
+**Consistency rule:** All plants in the same genus sharing the same toxic compound must have the same `plantToxicity` value.
+
+| Family / Compound | Level | Examples |
+|-------------------|-------|---------|
+| Insoluble calcium oxalate aroids | `mildlyToxic` | Pothos, Monstera, Philodendron, Syngonium |
+| Begonia (soluble calcium oxalates) | `toxic` | Tubers most toxic |
+| Peace lilies (Spathiphyllum) | `toxic` | More severe irritation |
+| Dracaena / Snake plants | `toxic` | ASPCA-listed |
+| Ficus (latex) | `toxic` | Rubber Plant, Fiddle-Leaf Fig |
+| Kalanchoe (cardiac glycosides) | `toxic` | All Kalanchoe species |
+| Peperomia, Hoya, Calathea, Spider Plant, Palms, Ferns | `nonToxic` | ASPCA non-toxic |
+| Edible plants with toxic parts | `toxic` | Avocado (persin), Elderberry (raw) |
+
+### Drainage
+
+| Plant Type | Drainage | Notes |
+|------------|----------|-------|
+| Succulents & desert cacti | `excellentDrainage` / `wellDraining` | Never `moistureRetentive` |
+| Bog carnivorous | `moistureRetentive` | Sit in water trays; null `wateringMethod` |
+| Epiphytic carnivorous (Nepenthes) | `excellentDrainage` | Airy mix, not standing water |
+| Aquatic plants | `waterloggingTolerant` | null `wateringMethod` |
+| Alpine plants | `excellentDrainage` / `wellDraining` | Mountain drainage |
+
+### Lifespan
+
+`plantLifeSpan` is `[min_years, max_years]`. Use concrete integers when possible; `null` only when truly unknown.
+
+| Plant Type | Range | Notes |
+|------------|-------|-------|
+| Trees | [20, 100] to [100, 500] | Species-specific |
+| Shrubs | [5, 10] to [30, 100] | Long-lived shrubs can exceed 100 |
+| Perennial houseplants | [3, 10] to [10, 50] | Cacti and jade longest |
+| Annuals | [1, 1] | Single growing season |
+| Sprouts & microgreens | [1, 1] | Very short lifecycle |
+
+### Descriptions
+
+| Rule | Details |
+|------|---------|
+| Must end with a period (`.`) | All descriptions, all locales |
+| "Also known as:" capitalized, at start | `Also known as: X. Actual description.` |
+| No repeated/corrupted text | Check for `word. word. word.` patterns |
+| Each plant must have a unique description | No placeholders or duplicates |
+| Category entries get genus/family overviews | Specific entries get species-level detail |
+
+### Language Rules
+
+Each language file must contain only its target language. Exceptions: scientific names, Latin, cultivar names, proper nouns.
+
+**Also known as (aka):** Optional. Show complementary common-name aliases — nickname typeName → formal in aka; formal typeName → nickname(s). No scientific names, no subtypes, no aka matching another plant's typeName, no duplicates within a locale.
+
+---
+
+## Categories
+
+**29 categories** organized: Houseplants → Outdoor → Edibles → Farm/Sprouts → Bulbs → Specialty
+
+| Group | Categories |
+|-------|------------|
+| **Houseplants** (11) | Low Maintenance, Aroids, Ferns, Palms, Succulents, Cacti, Flowering, Prayer Plants, Vines & Trailing, Ficus & Rubber Trees, Specialty |
+| **Outdoor** (6) | Trees, Shrubs, Perennials, Annuals, Vines & Climbers, Groundcovers & Grasses |
+| **Edibles** (3) | Leafy Greens, Fruiting Vegetables, Root & Bulb Vegetables |
+| **Other Edibles** (4) | Fruits & Berries, Herbs, Farm & Field Crops, Sprouts & Microgreens |
+| **Bulbs** (1) | Bulbs |
+| **Specialty** (4) | Aquatic & Bog, Carnivorous, Epiphytes & Moss, Alpine |
+
+Full category details with plant counts and audit focus: [docs/DATASET.md](docs/DATASET.md#3-category-structure)
+
+---
+
+## Schema Reference
+
+### Required Fields (per plant)
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `id` | string | Kebab-case identifier |
+| `typeName` | string | Display name |
+| `description` | string | Plant description (ends with `.`) |
+| `commonExamples` | string | Scientific names with aliases |
+| `careTips` | string | Care instructions |
+| `category` | string | One of 29 categories |
+| `springInterval` | int (1–90) or null | Days between watering |
+| `summerInterval` | int (1–90) or null | |
+| `fallInterval` | int (1–90) or null | |
+| `winterInterval` | int (1–90) or null | |
+| `lightPreference` | enum | See below |
+| `humidityPreference` | enum | See below |
+| `temperaturePreference` | [min, max] | °C, range: -10 to 45 |
+| `plantToxicity` | enum | See below |
+| `soilPhPreference` | enum | See below |
+| `drainagePreference` | enum | See below |
+| `wateringMethod` | enum or null | See below |
+| `plantLifeSpan` | [min, max] | Years |
+
+**Optional:** `hardinessZones` [min, max] — USDA zones 1–11, outdoor plants only
+
+### Enum Values
+
+| Field | Values |
+|-------|--------|
+| `lightPreference` | `lowIndirect`, `mediumIndirect`, `brightIndirect`, `strongDirect`, `outdoorFullSun`, `outdoorPartialSun`, `outdoorShade` |
+| `humidityPreference` | `low`, `medium`, `high`, `veryHigh` |
+| `plantToxicity` | `nonToxic`, `mildlyToxic`, `toxic`, `unknown` |
+| `soilPhPreference` | `acidic`, `neutral`, `alkaline`, `adaptable` |
+| `drainagePreference` | `excellentDrainage`, `wellDraining`, `moistureRetentive`, `waterloggingTolerant` |
+| `wateringMethod` | `topWatering`, `bottomWatering`, `immersion`, `misting`, `null` |
+
+Full schema documentation: [docs/DATASET.md](docs/DATASET.md#8-schema-reference)
+
+---
+
+## Custom Data Source
+
+**Fork & customize:**
+
+1. Fork this repo
+2. Edit files in `source/`
+3. Run `python3 scripts/merge_plant_data.py` to build `dist/`
+4. Validate with `python3 scripts/validate_json.py`
+5. Host the dist JSON files and use the URLs in Plantfolio's settings
+
+**Raw JSON:** Output an array of plant objects matching the schema above. See [docs/DATASET.md](docs/DATASET.md) for full spec.
+
+---
+
+## Pre-built Data URLs
+
+Use the default dataset without forking — copy these URLs into your app config.
+
+**Folder URL:** `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/`
+
+| Locale | File | URL |
+|--------|------|-----|
+| EN | `common_plants.json` | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants.json` |
+| ES | `common_plants_es.json` | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_es.json` |
+| ZH | `common_plants_zh-Hans.json` | `https://raw.githubusercontent.com/Luminoid/plantfolio-common-plants/main/dist/common_plants_zh-Hans.json` |
+
+---
+
+## Documentation
+
+| Document | Content |
+|----------|---------|
+| [docs/DATASET.md](docs/DATASET.md) | Full schema, categories, enums, nomenclature, "also known as" rules |
+| [docs/AUDIT.md](docs/AUDIT.md) | Audit checklists, toxicity review, naming overlap |
+| [docs/RELEASE.md](docs/RELEASE.md) | Release checklist |
+| [CHANGELOG.md](CHANGELOG.md) | Version history (data changes only) |
+
+---
+
+**AI guides:** [.claude/CLAUDE.md](.claude/CLAUDE.md) | [.cursor/rules/](.cursor/rules/)
