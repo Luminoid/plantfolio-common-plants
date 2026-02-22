@@ -1,8 +1,9 @@
 # plantfolio-common-plants — Claude Code Guide
 
 > Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663)
+> **Inherits cross-project rules from [workspace CLAUDE.md](../../.claude/CLAUDE.md).** This file contains data-specific rules only.
 
-**872 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` → `release.py` builds and validates.
+**872 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` -> `release.py` builds and validates.
 
 ---
 
