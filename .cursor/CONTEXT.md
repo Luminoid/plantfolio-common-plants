@@ -2,7 +2,7 @@
 
 > [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) dataset. Rules: [.cursor/rules/](.cursor/rules/)
 
-**872 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` → `release.py` builds and validates.
+**873 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` → `release.py` builds and validates.
 
 ## Structure
 
