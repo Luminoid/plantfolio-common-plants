@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.8.0",
+      "version": "1.8.1",
       "totalPlants": 872,
       "sorting": {
         "method": "Por categoría y luego alfabéticamente",
@@ -15,7 +15,7 @@
           "Plantas de Interior - Con Flores",
           "Plantas de Interior - Plantas de Oración",
           "Plantas de Interior - Enredaderas y Colgantes",
-          "Plantas de Interior - Ficus y Caucho",
+          "Plantas de Interior - Ficus e Higueras",
           "Plantas de Interior - Especiales",
           "Exterior - Árboles",
           "Exterior - Arbustos",
@@ -257,37 +257,10 @@
     "categoryIndex": 0
   },
   {
-    "id": "dracaena-deremensis",
-    "typeName": "Dracaena Janet Craig",
-    "description": "También conocida como: Janet Craig compacta. Dracaena de hojas verdes oscuras y brillantes de color sólido; una de las más tolerantes a la sombra, excelente para oficinas con poca luz.",
-    "commonExamples": "Dracaena deremensis 'Janet Craig' (Janet Craig, Janet Craig compacta)",
-    "careTips": "Regar cuando la mitad superior del suelo esté seca. Usar agua filtrada o destilada para evitar puntas marrones por fluoruro. Luz baja a indirecta brillante tolerada. Humedad media adecuada. Fertilizar mensualmente de primavera a otoño a media fuerza. Tóxica para mascotas.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Plantas de Interior - Bajo Mantenimiento",
-    "categoryIndex": 0
-  },
-  {
     "id": "dracaena-fragrans",
     "typeName": "Dracaena Fragrans",
-    "description": "También conocida como: Planta de maíz. Planta de maíz con hojas anchas y arqueadas, puede crecer bastante alta.",
-    "commonExamples": "Dracaena fragrans (Planta de maíz, Dracaena de tallo de maíz), D. fragrans 'Massangeana'",
+    "description": "También conocida como: Planta de maíz. Planta de maíz con hojas anchas y arqueadas, puede crecer bastante alta. Incluye los populares cultivares 'Janet Craig' (Grupo Deremensis) y 'Massangeana'.",
+    "commonExamples": "Dracaena fragrans 'Massangeana' (Planta de maíz), D. fragrans 'Janet Craig' (Grupo Deremensis), D. fragrans 'Compacta' (forma enana)",
     "careTips": "Regar cuando la mitad superior del suelo esté seca. Usar agua filtrada, destilada o de lluvia para prevenir puntas marrones de hojas por fluoruro y cloro. Luz indirecta brillante a media preferida. Mantener 40-50% de humedad. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado diluido a la mitad. Limpiar hojas mensualmente para eliminar polvo. Trasplantar cada 2-3 años cuando las raíces llenen el contenedor. Podar puntas marrones y eliminar hojas inferiores amarillentas. Sensible a corrientes de aire y fluctuaciones de temperatura. Tóxico para mascotas.",
     "springInterval": 10,
     "summerInterval": 10,
@@ -298,33 +271,6 @@
     "temperaturePreference": [
       18,
       24
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Plantas de Interior - Bajo Mantenimiento",
-    "categoryIndex": 0
-  },
-  {
-    "id": "dracaena-goldieana",
-    "typeName": "Dracaena Goldieana",
-    "description": "También conocida como: dracaena cebra. Dracaena rara con hojas anchas ovaladas que presentan llamativas bandas horizontales verde-plateadas sobre fondo verde oscuro. Planta de colección llamativa.",
-    "commonExamples": "Dracaena goldieana (dracaena cebra)",
-    "careTips": "Regar cuando los primeros 2-5 cm de suelo estén secos. Luz indirecta brillante para mantener el patrón de bandas. Humedad alta (60%+) preferida; pulverizar regularmente o usar bandeja de humedad. Sustrato con buen drenaje. Fertilizar mensualmente de primavera a otoño a media fuerza. Crecimiento lento. Sensible al flúor del agua del grifo — usar agua filtrada o destilada. Proteger de corrientes frías. Tóxica para mascotas.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -422,7 +368,7 @@
     "id": "dracaena-warneckii",
     "typeName": "Dracaena Warneckii",
     "description": "También conocida como: Dracaena listada. Dracaena de bordes listados con variegación verde y blanco o crema; porte erecto.",
-    "commonExamples": "Dracaena deremensis 'Warneckii' (Warneckii, Dracaena listada)",
+    "commonExamples": "Dracaena fragrans (Grupo Deremensis) 'Warneckei' (Dracena rayada, Warneckii)",
     "careTips": "Regar cuando el primer centímetro de suelo esté seco. Usar agua filtrada o destilada para evitar puntas marrones. Luz baja a indirecta brillante. Humedad media adecuada. Fertilizar mensualmente de primavera a otoño. Tóxica para mascotas.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -851,6 +797,33 @@
     "categoryIndex": 0
   },
   {
+    "id": "shangri-la-pothos",
+    "typeName": "Pothos Shangri La",
+    "description": "Cultivar único de pothos con hojas enrolladas y retorcidas que dan una apariencia compacta y texturizada. Mismo cuidado fácil que el pothos estándar.",
+    "commonExamples": "Epipremnum aureum 'Shangri La' (Pothos Godzilla)",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Tolera de poca a mucha luz indirecta. Muy bajo mantenimiento. Ligeramente tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Plantas de Interior - Bajo Mantenimiento",
+    "categoryIndex": 0
+  },
+  {
     "id": "snake-plants",
     "typeName": "Plantas Serpiente",
     "description": "También conocida como: Lengua de suegra. Suculentas de extremadamente bajo mantenimiento de la familia Asparagaceae con hojas erguidas en forma de espada. Incluye varios cultivares con diferentes formas y patrones de hojas.",
@@ -1038,6 +1011,33 @@
     ],
     "category": "Plantas de Interior - Bajo Mantenimiento",
     "categoryIndex": 0
+  },
+  {
+    "id": "alocasia-amazonica",
+    "typeName": "Alocasia Amazónica",
+    "description": "Aroide dramática con hojas en forma de flecha, verde oscuro con venas blancas o plateadas prominentes. Híbrido padre de la Alocasia Polly más pequeña.",
+    "commonExamples": "Alocasia × amazonica (Planta máscara africana, Oreja de elefante)",
+    "careTips": "Regar cuando el primer cm de tierra esté seco. Luz indirecta brillante. Humedad alta (60%+). Puede entrar en dormancia en invierno. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
   },
   {
     "id": "alocasia-black-velvet",
@@ -1310,6 +1310,33 @@
     "categoryIndex": 1
   },
   {
+    "id": "anthurium-bird-nest",
+    "typeName": "Anturio Nido de Pájaro",
+    "description": "Anturio en forma de roseta con hojas grandes, onduladas y coriáceas que forman una forma de nido de pájaro. Cultivado por su follaje dramático más que por espatas coloridas.",
+    "commonExamples": "Anthurium hookeri (Anturio nido de pájaro), A. superbum, A. plowmanii",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Luz indirecta brillante. Humedad alta (60%+). Sustrato grueso y bien drenado para aroides. Las hojas pueden alcanzar 1 metro. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
+  },
+  {
     "id": "anthurium-clarinervium",
     "typeName": "Anturio Cartón Aterciopelado",
     "description": "También conocida como: Anthurium cartón aterciopelado. Anthurium con hojas aterciopeladas en forma de corazón y nervaduras blancas prominentes; cultivado por follaje, no flores.",
@@ -1490,6 +1517,33 @@
     "plantToxicity": "toxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
+  },
+  {
+    "id": "burle-marx-philodendron",
+    "typeName": "Filodendro Burle Marx",
+    "description": "Filodendro de crecimiento rápido y fácil cuidado con hojas angostas en forma de corazón. Nombrado en honor al famoso arquitecto paisajista brasileño Roberto Burle Marx.",
+    "commonExamples": "Philodendron burle-marxii (Filodendro Burle Marx)",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Tolera desde luz media hasta indirecta brillante. Humedad promedio. Crecimiento rápido. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -2412,6 +2466,33 @@
     "plantLifeSpan": [
       10,
       20
+    ],
+    "category": "Plantas de Interior - Aráceas",
+    "categoryIndex": 1
+  },
+  {
+    "id": "philodendron-white-princess",
+    "typeName": "Filodendro Princesa Blanca",
+    "description": "Filodendro auto-formante variegado con salpicaduras blancas en hojas verdes. De crecimiento más lento que el White Knight, con un hábito más compacto y variegación blanca más brillante.",
+    "commonExamples": "Philodendron 'White Princess' (Filodendro princesa blanca)",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Luz indirecta brillante esencial para la variegación. Humedad alta (60%+) preferida. Fertilizar mensualmente de primavera a otoño a media dosis. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
     ],
     "category": "Plantas de Interior - Aráceas",
     "categoryIndex": 1
@@ -3394,10 +3475,10 @@
     "description": "También conocida como: Siempreviva arbórea. Suculentas de la familia Crassulaceae con hojas formadoras de roseta, algunas variedades son monocárpicas.",
     "commonExamples": "Aeonium arboreum (Siempreviva arbórea), A. 'Zwartkop' (Rosa negra), A. haworthii (Aeonium molinillo), A. 'Kiwi'",
     "careTips": "Regar cuando el suelo esté completamente seco (cada 2-3 semanas). Más tolerante al agua que algunas suculentas pero aún tolerante a la sequía. Luz indirecta brillante a directa preferida. Baja humedad está bien. Fertilizar 2-3 veces al año durante la temporada de crecimiento con fertilizante para suculentas. Suelo bien drenado esencial. Algunas variedades son monocárpicas (mueren después de florecer). Trasplantar cada 2-3 años. Suculentas formadoras de roseta.",
-    "springInterval": 14,
+    "springInterval": 10,
     "summerInterval": 21,
     "fallInterval": 14,
-    "winterInterval": 21,
+    "winterInterval": 10,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3411,6 +3492,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
+  },
+  {
+    "id": "agave",
+    "typeName": "Agave",
+    "description": "Suculenta en forma de roseta con hojas gruesas y carnosas. Extremadamente tolerante a la sequía. Muchas especies son monocárpicas — florecen una vez después de muchos años y luego mueren, pero producen hijuelos.",
+    "commonExamples": "Agave americana (Maguey), A. attenuata (Agave cola de zorro), A. victoriae-reginae (Agave reina Victoria)",
+    "careTips": "Regar profunda pero infrecuentemente — cada 2-4 semanas. Pleno sol a luz directa brillante. Drenaje excelente es crítico. Ligeramente tóxico — la savia puede causar irritación de piel.",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 28,
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      38
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      100
     ],
     "category": "Plantas de Interior - Suculentas",
     "categoryIndex": 4
@@ -3855,8 +3963,8 @@
     "careTips": "Regar SOLO durante períodos de crecimiento (primavera y otoño) cuando aparecen hojas nuevas. Mantener completamente seco durante la latencia de verano e invierno - incluso el riego mínimo durante la latencia causa podredumbre. Riego muy mínimo incluso cuando está activo (cada 2-4 semanas). Luz directa brillante esencial. Baja humedad preferida. Fertilizar muy escasamente solo durante el crecimiento activo. Trasplantar cada 3-5 años en suelo muy bien drenado. Apariencia similar a piedra imita guijarros. Requisitos de cuidado muy específicos.",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 90,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3958,7 +4066,7 @@
   {
     "id": "sempervivum",
     "typeName": "Sempervivum",
-    "description": "También conocida como: Siempreviva común. Suculentas resistentes de la familia Crassulaceae conocidas como gallina y pollitos, forman rosetas y producen vástagos.",
+    "description": "También conocida como: Siempreviva. Suculentas resistentes de la familia Crassulaceae conocidas como gallina con pollitos, forman rosetas y producen brotes. Extremadamente resistentes al frío y la sequía. Excelentes para jardines de rocas, jardines alpinos y macetas.",
     "commonExamples": "Sempervivum tectorum (Siempreviva común, Gallina y pollitos), S. arachnoideum (Siempreviva telaraña), muchos cultivares",
     "careTips": "Regar cuando el suelo esté completamente seco (cada 2-3 semanas). Muy tolerante a la sequía. Luz indirecta brillante a directa preferida. Baja humedad está bien. Fertilizar escasamente (2-3 veces al año) con fertilizante para suculentas a un cuarto de fuerza. Suelo bien drenado esencial. Produce vástagos (pollitos) alrededor de la planta padre (gallina). Trasplantar cada 2-3 años. Suculentas muy resistentes al frío.",
     "springInterval": 14,
@@ -4017,8 +4125,8 @@
     "careTips": "Regar SOLO cuando las hojas viejas se hayan secado completamente y absorbido en el nuevo par - típicamente solo 2-4 veces al año. El exceso de riego causa apilamiento (pares de hojas extra) y pudrición. Luz directa brillante esencial - al menos 5 horas diarias. Humedad muy baja preferida. No fertilizar. Excelente drenaje esencial - usar principalmente sustrato mineral (pómez, perlita). Riego por debajo preferido. Trasplantar cada 3-5 años. Requisitos de riego muy específicos similares a lithops.",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 60,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4112,6 +4220,33 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
+      10
+    ],
+    "category": "Plantas de Interior - Suculentas",
+    "categoryIndex": 4
+  },
+  {
+    "id": "string-of-needles",
+    "typeName": "Cadena de Agujas",
+    "description": "Suculenta colgante delicada con hojas finas en forma de aguja a lo largo de tallos delgados. Relacionada con la cadena de corazones pero con apariencia más fina y aireada.",
+    "commonExamples": "Ceropegia linearis (Cadena de agujas)",
+    "careTips": "Regar cuando la tierra esté completamente seca. Luz indirecta brillante. Baja humedad. Muy susceptible al exceso de riego. No tóxico para mascotas.",
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      15,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
       10
     ],
     "category": "Plantas de Interior - Suculentas",
@@ -4874,33 +5009,6 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-amphioxus",
-    "typeName": "Begonia Amphioxus",
-    "description": "Begonia rara de Borneo ideal para terrarios, con hojas alargadas en forma de lanza cubiertas de puntos rojos en relieve sobre fondo verde oscuro.",
-    "commonExamples": "Begonia amphioxus (Begonia de puntos rojos)",
-    "careTips": "Mantener el suelo ligeramente húmedo pero nunca encharcado; dejar que la capa superior se seque levemente entre riegos. La luz indirecta brillante resalta los puntos rojos — evitar sol directo que quema las hojas delgadas. Requiere humedad muy alta (70%+); prospera en terrarios o vitrinas cerradas. Usar mezcla aireada de perlita, corteza de orquídea y turba. Fertilizar mensualmente en primavera y verano a un cuarto de fuerza. Tóxica para mascotas.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Plantas de Interior - Con Flores",
-    "categoryIndex": 6
-  },
-  {
     "id": "begonia-angel-wing",
     "typeName": "Begonia Ala de Ángel",
     "description": "Begonias de caña con hojas moteadas en forma de ala y racimos de flores colgantes en rojo, rosa o blanco.",
@@ -4930,8 +5038,8 @@
   {
     "id": "begonia-maculata",
     "typeName": "Begonia Punta de Lucero",
-    "description": "Begonia de caña con hojas moteadas plateadas, envés rojo y racimos de flores blancas.",
-    "commonExamples": "Begonia maculata (Begonia ala de ángel)",
+    "description": "Begonia de caña con hojas manchadas de plata, envés rojo y racimos de flores blancas. La forma más comúnmente vendida es el cultivar 'Wightii'.",
+    "commonExamples": "Begonia maculata (Begonia de lunares), B. maculata 'Wightii' (cultivar más común)",
     "careTips": "Regar cuando la capa superior del sustrato esté seca. Luz indirecta brillante preferida; evitar sol directo. Humedad media (40-50%). Fertilizar mensualmente de primavera a otoño con fertilizante balanceado. Las manchas foliares se desvanecen con poca luz. Tóxico para mascotas. Trasplantar cada 1-2 años cuando las raíces llenen el contenedor.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -4955,28 +5063,28 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-maculata-wightii",
-    "typeName": "Begonia Maculata Wightii",
-    "description": "Cultivar de begonia punteada con manchas plateadas más grandes y prominentes en hojas verde oscuro y envés rojo; produce racimos de flores blancas.",
-    "commonExamples": "Begonia maculata 'Wightii'",
-    "careTips": "Regar cuando la capa superior del sustrato esté seca. Luz indirecta brillante preferida; evitar sol directo. Humedad media (40-50%). Fertilizar mensualmente de primavera a otoño con fertilizante balanceado. Las manchas se desvanecen con poca luz. Tóxica para mascotas. Trasplantar cada 1-2 años cuando las raíces llenen el contenedor.",
+    "id": "begonia-rex",
+    "typeName": "Begonia Rex",
+    "description": "Begonia rizomatosa cultivada por su espectacular follaje multicolor en patrones de espiral de plata, púrpura, rosa, rojo y verde.",
+    "commonExamples": "Begonia rex-cultorum (Begonia Rex, Begonia hoja pintada), 'Escargot', 'Fireworks', 'Silver Dollar'",
+    "careTips": "Regar cuando el primer cm de tierra esté seco; evitar mojar las hojas. Luz indirecta brillante. Humedad alta (50%+). Puede entrar en dormancia en invierno. Tóxico para mascotas.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      18,
+      16,
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       3,
-      10
+      5
     ],
     "category": "Plantas de Interior - Con Flores",
     "categoryIndex": 6
@@ -5927,10 +6035,64 @@
     "categoryIndex": 7
   },
   {
+    "id": "calathea-roseopicta",
+    "typeName": "Calathea Roseopicta",
+    "description": "Planta de oración con hojas ovaladas con borde rosa o crema sobre verde oscuro y envés púrpura.",
+    "commonExamples": "Goeppertia roseopicta (Calathea pintada rosa), G. roseopicta 'Dottie', G. roseopicta 'Rosy'",
+    "careTips": "Regar cuando el primer cm de tierra esté ligeramente seco. Usar agua filtrada. Luz indirecta media. Humedad alta (60%+) esencial. No tóxico para mascotas.",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
+  },
+  {
+    "id": "calathea-vittata",
+    "typeName": "Calathea Vittata",
+    "description": "Planta de oración con delicadas rayas blancas sobre hojas verdes brillantes y elípticas. Más compacta que la Calathea ornata.",
+    "commonExamples": "Goeppertia elliptica 'Vittata' (sin. Calathea vittata)",
+    "careTips": "Regar cuando el primer cm de tierra esté ligeramente seco. Usar agua filtrada. Luz indirecta media. Humedad alta (60%+) esencial. No tóxico para mascotas.",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Plantas de Interior - Plantas de Oración",
+    "categoryIndex": 7
+  },
+  {
     "id": "calathea-white-fusion",
     "typeName": "Calathea White Fusion",
     "description": "Planta de oración con hojas variegadas en blanco, verde y lavanda; hojas se pliegan por la noche.",
-    "commonExamples": "Calathea lietzei 'White Fusion'",
+    "commonExamples": "Goeppertia lietzei 'White Fusion' (sin. Calathea lietzei 'White Fusion')",
     "careTips": "Mantener el suelo uniformemente húmedo, nunca dejar secar. Luz indirecta brillante preferida; evitar sol directo. Alta humedad (60%+) esencial—la variegación revierte con baja humedad. Usar agua destilada o filtrada para evitar pardeamiento foliar. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Trasplantar cada 1-2 años cuando las raíces llenen el contenedor. No tóxico para mascotas.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -5957,7 +6119,7 @@
     "id": "calathea-white-star",
     "typeName": "Calathea White Star",
     "description": "Planta de oración con rayas blancas destacadas sobre hojas verde oscuro; hojas se pliegan por la noche.",
-    "commonExamples": "Calathea 'White Star'",
+    "commonExamples": "Goeppertia majestica 'Whitestar' (sin. Calathea 'White Star', Calathea majestica 'Whitestar')",
     "careTips": "Mantener el suelo uniformemente húmedo, nunca dejar secar. Luz indirecta brillante preferida; evitar sol directo. Alta humedad (60%+) preferida. Usar agua destilada o filtrada para evitar pardeamiento foliar. Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Trasplantar cada 1-2 años cuando las raíces llenen el contenedor. No tóxico para mascotas.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -6278,6 +6440,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "hoya-bella",
+    "typeName": "Hoya Bella",
+    "description": "Hoya compacta y colgante con hojas pequeñas y puntiagudas y racimos de flores blancas estrelladas y fragantes con centros rosados o púrpuras.",
+    "commonExamples": "Hoya lanceolata subsp. bella (Hoya bella, Planta de cera miniatura)",
+    "careTips": "Regar cuando el primer cm de tierra esté seco. Luz indirecta brillante fomenta la floración. No retirar los tallos florales gastados. Humedad media a alta. Ligeramente tóxico.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
+  },
+  {
     "id": "hoya-callistophylla",
     "typeName": "Hoya Callistophylla",
     "description": "Especie de Hoya distintiva con hojas largas y puntiagudas con nervaduras oscuras prominentes sobre fondo verde claro, dando apariencia de vitral. Una Hoya de colección muy buscada.",
@@ -6548,33 +6737,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pellionia",
-    "typeName": "Pellionia",
-    "description": "También conocida como: begonia sandía rastrera. Planta tropical rastrera de bajo crecimiento con hojas bellamente estampadas en plata, verde y púrpura. Excelente para terrarios y cestas colgantes.",
-    "commonExamples": "Pellionia repens (begonia sandía rastrera), P. pulchra (vid arcoíris)",
-    "careTips": "Mantener suelo constantemente húmedo pero sin encharcar. Luz indirecta media — evitar sol directo que decolora patrones foliares. Humedad alta (60%+) esencial; prospera en terrarios. Sustrato con buen drenaje. Fertilizar mensualmente de primavera a otoño a media fuerza. Propaga fácilmente por esquejes de tallo. Pellizcar puntas para fomentar ramificación. No tóxica para mascotas.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Plantas de Interior - Enredaderas y Colgantes",
-    "categoryIndex": 8
-  },
-  {
     "id": "philodendron-brasil",
     "typeName": "Philodendron Brasil",
     "description": "También conocida como: Philodendron limón-lima. Philodendron hoja de corazón variegado con hojas verdes y amarillo verdoso, planta colgante fácil de cuidar.",
@@ -6602,33 +6764,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pilea-depressa",
-    "typeName": "Pilea Lágrimas de Bebé",
-    "description": "Pilea colgante con hojas pequeñas verde brillante; forma estera densa, ideal para terrarios o cestas colgantes.",
-    "commonExamples": "Pilea depressa",
-    "careTips": "Regar cuando la capa superior del sustrato esté seca. Luz indirecta brillante preferida. Humedad media (40-50%). Fertilizar mensualmente de primavera a otoño con fertilizante balanceado a la mitad de fuerza. Crecimiento rápido. Trasplantar cada 1-2 años cuando las raíces llenen el contenedor.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      10
-    ],
-    "category": "Plantas de Interior - Enredaderas y Colgantes",
-    "categoryIndex": 8
-  },
-  {
     "id": "scindapsus",
     "typeName": "Scindapsus",
     "description": "Aráceas colgantes a menudo llamadas pothos satinado, con hojas manchadas plateadas, plantas de interior fáciles de cuidar.",
@@ -6651,6 +6786,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Plantas de Interior - Enredaderas y Colgantes",
+    "categoryIndex": 8
+  },
+  {
+    "id": "scindapsus-pictus",
+    "typeName": "Pothos Satinado Plateado",
+    "description": "Enredadera colgante con hojas en forma de corazón, verde mate cubiertas de manchas y parches plateados. No es un pothos verdadero; pertenece al género Scindapsus.",
+    "commonExamples": "Scindapsus pictus 'Argyraeus' (Pothos satinado), S. pictus 'Exotica', S. pictus 'Silver Ann'",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Luz indirecta brillante resalta las marcas plateadas. Humedad promedio. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
     ],
     "category": "Plantas de Interior - Enredaderas y Colgantes",
     "categoryIndex": 8
@@ -6764,6 +6926,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "ficus-altissima",
+    "typeName": "Ficus Altissima",
+    "description": "También conocida como: Árbol del consejo. Higuera alta con hojas coriáceas variegadas en tonos de verde y amarillo. Más fácil de cuidar que el ficus lyrata.",
+    "commonExamples": "Ficus altissima (Árbol del consejo), F. altissima 'Yellow Gem'",
+    "careTips": "Regar cuando los primeros 2-3 cm de tierra estén secos. Luz indirecta brillante a directa. Evitar mover frecuentemente. Fertilizar mensualmente de primavera a otoño. Tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      50
+    ],
+    "category": "Plantas de Interior - Ficus e Higueras",
+    "categoryIndex": 9
+  },
+  {
     "id": "ficus-audrey",
     "typeName": "Ficus Audrey",
     "description": "La prima más tolerante del Ficus Lira, con hojas ovaladas aterciopeladas y tronco pálido, cada vez más popular como planta de interior destacada.",
@@ -6787,7 +6976,7 @@
       15,
       30
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -6814,34 +7003,7 @@
       10,
       50
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
-    "categoryIndex": 9
-  },
-  {
-    "id": "ficus-shivereana",
-    "typeName": "Ficus Shivereana",
-    "description": "También conocida como: Ficus Moonshine. Raro cultivar de Ficus elastica con variegación moteada única en verde lima, crema y salvia, con aspecto de acuarela.",
-    "commonExamples": "Ficus elastica 'Shivereana' (Ficus Moonshine, Ficus Shivereana)",
-    "careTips": "Regar cuando los primeros 2-3 cm de suelo estén secos; evitar suelo encharcado que causa pudrición de raíces. La luz indirecta brillante resalta la mejor variegación — evitar sol directo de la tarde. Mantener alejada de corrientes frías y temperaturas por debajo de 15°C. La humedad ambiental promedio (40-50%) es suficiente. Fertilizar mensualmente durante la temporada de crecimiento con fertilizante líquido balanceado a media fuerza. Rotar la maceta trimestralmente para crecimiento uniforme. Ligeramente tóxica — la savia de látex irrita la piel y las membranas mucosas y es dañina para mascotas.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      27
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      30
-    ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -6868,7 +7030,7 @@
       10,
       25
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -6895,7 +7057,7 @@
       10,
       25
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -6922,7 +7084,7 @@
       10,
       25
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -6949,7 +7111,7 @@
       10,
       30
     ],
-    "category": "Plantas de Interior - Ficus y Caucho",
+    "category": "Plantas de Interior - Ficus e Higueras",
     "categoryIndex": 9
   },
   {
@@ -7520,6 +7682,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "peperomia-rosso",
+    "typeName": "Peperomia Rosso",
+    "description": "Peperomia compacta con hojas profundamente surcadas, verde oscuro con envés rojo llamativo. Semi-suculenta. Excelente planta de escritorio.",
+    "commonExamples": "Peperomia caperata 'Rosso' (Peperomia roja ondulada)",
+    "careTips": "Regar cuando el primer cm de tierra esté seco. Luz indirecta brillante mejora el color rojo. Humedad promedio. Compacta, raramente necesita trasplante. No tóxico para mascotas.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 10
+  },
+  {
     "id": "peperomia-watermelon",
     "typeName": "Peperomia Sandía",
     "description": "Peperomia compacta con hojas con rayas plateadas que se parecen a la cáscara de sandía.",
@@ -7736,6 +7925,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "welwitschia",
+    "typeName": "Welwitschia",
+    "description": "Una de las plantas más inusuales de la Tierra — un fósil viviente del desierto de Namib. Solo produce dos hojas en toda su vida, que crecen continuamente. Puede vivir más de 1.000 años.",
+    "commonExamples": "Welwitschia mirabilis (Welwitschia, Tumbo)",
+    "careTips": "Extremadamente tolerante a la sequía. Pleno sol. Drenaje excelente es crítico. Crecimiento muy lento. Casi imposible de trasplantar. No tóxico.",
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      5,
+      45
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      400,
+      2000
+    ],
+    "category": "Plantas de Interior - Especiales",
+    "categoryIndex": 10
+  },
+  {
     "id": "bald-cypress",
     "typeName": "Ciprés Calvo",
     "description": "Conífera caducifolia con follaje plumoso y distintivas \"rodillas\"; tolera sitios húmedos o pantanosos.",
@@ -7907,6 +8123,33 @@
       5,
       8
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "chinese-elm",
+    "typeName": "Olmo Chino",
+    "description": "También conocido como: Olmo de corteza de encaje. Árbol elegante con hojas pequeñas, ramificación fina y corteza moteada atractiva. La especie más popular para bonsái.",
+    "commonExamples": "Ulmus parvifolia (Olmo chino, Olmo de corteza de encaje)",
+    "careTips": "Regar regularmente. Pleno sol a sombra parcial. Se adapta a la mayoría de suelos. Altamente resistente a la grafiosis. Excelente para bonsái. No tóxico.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      150
+    ],
+    "category": "Exterior - Árboles",
     "categoryIndex": 11
   },
   {
@@ -8174,6 +8417,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "dragon-blood-tree",
+    "typeName": "Árbol Sangre de Dragón",
+    "description": "Árbol icónico en forma de sombrilla endémico de la isla de Socotra, Yemen. Conocido por su copa distintiva y resina roja carmesí (sangre de dragón).",
+    "commonExamples": "Dracaena cinnabari (Drago de Socotra, Árbol sangre de dragón)",
+    "careTips": "Extremadamente tolerante a la sequía. Pleno sol. Suelo bien drenado esencial. Crecimiento muy lento — puede vivir 300-600+ años. No tóxico.",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      600
+    ],
+    "category": "Exterior - Árboles",
     "categoryIndex": 11
   },
   {
@@ -8448,6 +8718,33 @@
     "categoryIndex": 11
   },
   {
+    "id": "kapok-tree",
+    "typeName": "Árbol de Kapok",
+    "description": "Árbol tropical masivo que puede alcanzar 60-70 metros con raíces tabulares. Produce vainas grandes con fibra sedosa (kapok) usada para relleno y aislamiento.",
+    "commonExamples": "Ceiba pentandra (Ceiba, Árbol de kapok, Algodón de seda)",
+    "careTips": "Regar regularmente cuando joven; tolerante a la sequía una vez establecido. Pleno sol. No tolera heladas. Árbol sagrado en muchas culturas. No tóxico.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      15,
+      38
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      60,
+      200
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 11
+  },
+  {
     "id": "magnolia",
     "typeName": "Magnolia",
     "description": "Árboles caducifolios y perennes de la familia Magnoliaceae con flores grandes y fragantes, muchas especies son plantas con flores antiguas.",
@@ -8561,6 +8858,60 @@
       3,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "moringa",
+    "typeName": "Moringa",
+    "description": "También conocida como: Árbol milagro. Árbol de crecimiento rápido y tolerante a la sequía con hojas, vainas, semillas y flores comestibles. Extremadamente nutritivo.",
+    "commonExamples": "Moringa oleifera (Moringa, Árbol de tambor, Árbol de rábano picante)",
+    "careTips": "Regar profundamente. Pleno sol esencial. Crecimiento extremadamente rápido. No tolera heladas. Podar regularmente para fomentar crecimiento arbustivo. No tóxico — todas las partes son comestibles.",
+    "springInterval": 7,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Exterior - Árboles",
+    "categoryIndex": 11
+  },
+  {
+    "id": "neem",
+    "typeName": "Árbol de Neem",
+    "description": "También conocido como: Lila india. Árbol perenne nativo del subcontinente indio, ampliamente cultivado por sus propiedades medicinales e insecticidas.",
+    "commonExamples": "Azadirachta indica (Neem, Lila india, Margosa)",
+    "careTips": "Regar regularmente cuando joven; muy tolerante a la sequía una vez establecido. Pleno sol. Se adapta a suelos pobres. No tolera heladas. El aceite de neem es un pesticida orgánico popular. Ligeramente tóxico si se ingiere en grandes cantidades.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      42
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      200
+    ],
+    "category": "Exterior - Árboles",
     "categoryIndex": 11
   },
   {
@@ -8921,6 +9272,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "wollemi-pine",
+    "typeName": "Pino de Wollemi",
+    "description": "También conocido como: Árbol dinosaurio. Fósil viviente descubierto en 1994 en un cañón remoto de Australia. Se pensaba extinto hace 2 millones de años.",
+    "commonExamples": "Wollemia nobilis (Pino de Wollemi, Árbol dinosaurio)",
+    "careTips": "Regar regularmente. Sol parcial a pleno sol. Suelo ácido y bien drenado. Resistente hasta -5°C. Crecimiento lento. En peligro crítico en estado silvestre. No tóxico.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      500
+    ],
+    "category": "Exterior - Árboles",
     "categoryIndex": 11
   },
   {
@@ -9443,6 +9821,33 @@
     "categoryIndex": 12
   },
   {
+    "id": "knockout-rose",
+    "typeName": "Rosa Knock Out",
+    "description": "Rosa paisajística resistente a enfermedades, de floración continua. Requiere mínimo mantenimiento comparada con las rosas híbridas de té tradicionales.",
+    "commonExamples": "Rosa 'Radrazz' (Rosa Knock Out), 'Double Knock Out', 'Pink Knock Out'",
+    "careTips": "Regar profundamente una o dos veces por semana. Pleno sol (6+ horas). Suelo ligeramente ácido y bien drenado. Podar a principios de primavera. Autolimpiante. Altamente resistente al mildiu negro. No tóxico.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      15,
+      25
+    ],
+    "category": "Exterior - Arbustos",
+    "categoryIndex": 12
+  },
+  {
     "id": "lavender",
     "typeName": "Lavanda",
     "description": "También conocida como: Lavanda inglesa. Hierbas con flores aromáticas de la familia Lamiaceae con follaje plateado y flores púrpura fragantes, tolerantes a la sequía una vez establecidas.",
@@ -9533,6 +9938,33 @@
       3,
       9
     ],
+    "categoryIndex": 12
+  },
+  {
+    "id": "limelight-hydrangea",
+    "typeName": "Hortensia Limelight",
+    "description": "Hortensia paniculada con grandes racimos cónicos que emergen verde lima, se vuelven blancos y luego rosa en otoño. Florece en madera nueva.",
+    "commonExamples": "Hydrangea paniculata 'Limelight', 'Little Lime' (forma enana)",
+    "careTips": "Regar regularmente. Sol parcial a pleno sol. A diferencia de las hortensias de hoja grande, el color no se ve afectado por el pH del suelo. Podar a fines del invierno. Muy resistente al frío. Tóxico si se ingiere.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      32
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Exterior - Arbustos",
     "categoryIndex": 12
   },
   {
@@ -10718,6 +11150,33 @@
       3,
       9
     ],
+    "categoryIndex": 13
+  },
+  {
+    "id": "dianthus-carnation",
+    "typeName": "Clavel",
+    "description": "Una de las flores cultivadas más antiguas del mundo, cultivada durante más de 2.000 años. Apreciada por sus flores rizadas y fragantes en casi todos los colores.",
+    "commonExamples": "Dianthus caryophyllus (Clavel), 'Chabaud', 'Grenadin', Claveles spray",
+    "careTips": "Regar cuando el primer cm de tierra esté seco. Pleno sol (6+ horas). Suelo bien drenado, neutro a ligeramente alcalino. Retirar flores marchitas regularmente. Fertilizar mensualmente. Ligeramente tóxico para mascotas.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      5
+    ],
+    "category": "Exterior - Perennes",
     "categoryIndex": 13
   },
   {
@@ -13324,6 +13783,33 @@
     "categoryIndex": 14
   },
   {
+    "id": "sweet-pea",
+    "typeName": "Guisante de Olor",
+    "description": "Amada flor trepadora anual apreciada por sus floraciones fragantes y rizadas en una amplia gama de colores pastel. Un clásico del jardín cottage.",
+    "commonExamples": "Lathyrus odoratus (Guisante de olor), variedades 'Spencer', 'Cupani'",
+    "careTips": "Regar regularmente. Pleno sol con raíces frescas. Plantar a principios de primavera. Proporcionar soporte para trepar. Retirar flores marchitas para prolongar la floración. Las semillas son tóxicas.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      5,
+      25
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "alkaline",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Exterior - Anuales",
+    "categoryIndex": 14
+  },
+  {
     "id": "sweet-potato-vine",
     "typeName": "Sweet Potato Vine",
     "description": "También conocida como: ornamental cultivar. Planta de follaje rastrero en lima, púrpura o bronce; cultivada por las hojas, no los tubérculos; de crecimiento rápido.",
@@ -13782,6 +14268,33 @@
       4,
       9
     ],
+    "categoryIndex": 15
+  },
+  {
+    "id": "japanese-wisteria",
+    "typeName": "Glicinia Japonesa",
+    "description": "Enredadera trepadora vigorosa y longeva famosa por sus cascadas de racimos de flores fragantes púrpuras, azules, rosas o blancas en primavera. Icónica en jardines japoneses.",
+    "commonExamples": "Wisteria floribunda (Glicinia japonesa), 'Royal Purple', 'Alba' (flores blancas)",
+    "careTips": "Regar regularmente cuando joven. Pleno sol esencial para mejor floración. Necesita soporte fuerte. Podar dos veces al año. Puede tardar 3-5 años en florecer. Semillas y vainas son tóxicas.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      100
+    ],
+    "category": "Exterior - Enredaderas y Trepadoras",
     "categoryIndex": 15
   },
   {
@@ -15891,33 +16404,6 @@
     "categoryIndex": 18
   },
   {
-    "id": "crenshaw-melon",
-    "typeName": "Melón Crenshaw",
-    "description": "Melón híbrido grande de la familia Cucurbitaceae con carne dulce y aromática rosa salmón, cruce de casaba y persa.",
-    "commonExamples": "Cucumis melo (Crenshaw)",
-    "careTips": "Regar profundamente 2-3 veces por semana, aumentar durante el desarrollo de frutos. Humedad constante crítica durante la fructificación. Acolchar alrededor de las plantas. Sol completo esencial (6-8 horas diarias). Fertilizar cada 3-4 semanas con fertilizante balanceado. Plantas enredaderas requieren espacio. Cosechar cuando el tallo se separe fácilmente y el fruto tenga aroma dulce. Cultivo de temporada cálida. Cultivo estacional; el riego varía según la zona y el momento de cosecha.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Verduras - Con Frutos",
-    "categoryIndex": 18
-  },
-  {
     "id": "cucumbers",
     "typeName": "Pepinos",
     "description": "Verduras con frutos enredaderas de la familia Cucurbitaceae, necesitan humedad constante y soporte para tipos trepadores.",
@@ -15959,6 +16445,33 @@
     "temperaturePreference": [
       10,
       32
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 18
+  },
+  {
+    "id": "edamame",
+    "typeName": "Edamame",
+    "description": "Soja inmadura cosechada mientras aún está verde y tierna, un snack popular e ingrediente en la cocina del este asiático. Mayor contenido proteico que la mayoría de verduras.",
+    "commonExamples": "Glycine max (Edamame, Soja verde)",
+    "careTips": "Regar regularmente — mantener el suelo húmedo durante la floración. Pleno sol. Cultivo de temporada cálida. Cosechar cuando las vainas estén rollizas pero aún verdes. No tóxico.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      15,
+      30
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -16431,6 +16944,33 @@
     "categoryIndex": 18
   },
   {
+    "id": "rhubarb",
+    "typeName": "Ruibarbo",
+    "description": "Hortaliza perenne cultivada por sus tallos ácidos, rojos o verdes, usados en tartas, mermeladas y salsas. Solo los tallos son comestibles — las hojas contienen ácido oxálico tóxico.",
+    "commonExamples": "Rheum rhabarbarum (Ruibarbo), 'Victoria', 'Crimson Cherry'",
+    "careTips": "Regar regularmente. Pleno sol a sombra parcial. Suelo rico y bien drenado con mucho compost. No cosechar el primer año. Las hojas son tóxicas — solo comer los tallos.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 18
+  },
+  {
     "id": "roma-tomato",
     "typeName": "Roma Tomato",
     "description": "También conocida como: Plum tomato. Tomate ciruela de la familia Solanaceae con carne carnosa y baja humedad, ideal para salsas, pasta y enlatado.",
@@ -16453,6 +16993,33 @@
     "plantLifeSpan": [
       1,
       1
+    ],
+    "category": "Verduras - Con Frutos",
+    "categoryIndex": 18
+  },
+  {
+    "id": "serrano",
+    "typeName": "Chile Serrano",
+    "description": "Chile de picor medio (10.000-23.000 Scoville) comúnmente usado en la cocina mexicana, especialmente salsas y pico de gallo. Más pequeño y picante que los jalapeños.",
+    "commonExamples": "Capsicum annuum 'Serrano' (Chile serrano)",
+    "careTips": "Regar cuando el primer cm de tierra esté seco. Pleno sol (6-8 horas). Suelo rico y bien drenado. Cosechar verde o rojo. Muy productivo. No tóxico.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      3
     ],
     "category": "Verduras - Con Frutos",
     "categoryIndex": 18
@@ -17033,6 +17600,33 @@
     "categoryIndex": 19
   },
   {
+    "id": "leek",
+    "typeName": "Puerro",
+    "description": "Allium de sabor suave con un largo tallo blanco y abanico de hojas verdes planas. Un básico en la cocina europea, especialmente la francesa.",
+    "commonExamples": "Allium ampeloprasum var. porrum (Puerro), 'King Richard', 'Musselburgh'",
+    "careTips": "Regar regularmente para mantener el suelo húmedo. Pleno sol. Suelo rico y bien drenado. Aporcar tierra alrededor de la base para extender la porción blanca. Tolerante a heladas. No tóxico.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      7,
+      24
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      2
+    ],
+    "category": "Verduras - Raíz y Bulbo",
+    "categoryIndex": 19
+  },
+  {
     "id": "onions-garlic",
     "typeName": "Cebollas y Ajo",
     "description": "También conocida como: Chalote. Verduras de bulbo de la familia Amaryllidaceae, reducir el riego a medida que los bulbos maduran para prevenir podredumbre.",
@@ -17543,37 +18137,6 @@
     "hardinessZones": [
       3,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "boysenberry",
-    "typeName": "Baya de Boysen",
-    "description": "Híbrido de zarzamora y frambuesa de la familia Rosaceae con bayas grandes ácido-dulces, hábito de caña rastrera.",
-    "commonExamples": "Rubus × loganobaccus",
-    "careTips": "Regar profundamente una o dos veces por semana, manteniendo el suelo uniformemente húmedo durante la fructificación. Sol pleno preferido (6-8 horas diarias). Fertilizar a principios de primavera con abono equilibrado antes del nuevo crecimiento. Guiar las cañas rastreras sobre un enrejado o sistema de alambres para mejor circulación de aire y cosecha más fácil. Tras la fructificación, podar las cañas agotadas al nivel del suelo, ya que la fruta se produce en cañas de segundo año. Acolchar generosamente para controlar malezas y retener humedad. No tóxico para mascotas.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Frutas y Bayas",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18093,37 +18656,6 @@
     "hardinessZones": [
       9,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "loganberry",
-    "typeName": "Loganberry",
-    "description": "Híbrido de zarzamora y frambuesa de la familia Rosaceae con bayas rojo oscuro alargadas, hábito de caña rastrera.",
-    "commonExamples": "Rubus × loganobaccus",
-    "careTips": "Regar cuando la capa superior del sustrato esté seca. Sol pleno preferido. Fertilizar regularmente en temporada de crecimiento. Cosechar según necesidad.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Frutas y Bayas",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18691,9 +19223,9 @@
     "description": "Cactus de la familia Cactaceae con palas y frutos dulces coloridos (tunas) comestibles, tolerante a la sequía.",
     "commonExamples": "Opuntia ficus-indica (Tuna fruit)",
     "careTips": "Regar muy escasamente: empapar bien el suelo y luego dejar secar completamente antes de volver a regar; en invierno, suspender el riego casi por completo. Sol pleno esencial (8+ horas diarias). Fertilizar una vez en primavera con fertilizante diluido para cactus o bajo en nitrógeno. NO acolchar; la tuna necesita suelo desnudo y de drenaje rápido, ya que el mulch retiene demasiada humedad y causa pudrición. Usar pinzas y guantes gruesos al cosechar frutos (tunas), pues tanto frutos como palas tienen gloquidios (pequeñas espinas con ganchos). Extremadamente tolerante a sequía y calor una vez establecida. Las palas enraízan simplemente apoyándolas sobre suelo seco. No tóxico para mascotas; los gloquidios pueden causar irritación mecánica.",
-    "springInterval": 14,
-    "summerInterval": 10,
-    "fallInterval": 7,
+    "springInterval": 10,
+    "summerInterval": 7,
+    "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
@@ -19968,6 +20500,33 @@
     "categoryIndex": 21
   },
   {
+    "id": "wasabi",
+    "typeName": "Wasabi",
+    "description": "También conocido como: Rábano picante japonés. Apreciado en la cocina japonesa por su sabor picante. Notoriamente difícil de cultivar — requiere condiciones frescas, sombrías y húmedas.",
+    "commonExamples": "Eutrema japonicum (sin. Wasabia japonica; Wasabi, Rábano picante japonés)",
+    "careTips": "Mantener el suelo constantemente húmedo. Sombra fresca esencial; no tolera calor por encima de 20°C. Humedad muy alta. Crecimiento extremadamente lento — 18-24 meses. No tóxico.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": 7,
+    "lightPreference": "outdoorShade",
+    "humidityPreference": "veryHigh",
+    "temperaturePreference": [
+      8,
+      20
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      3
+    ],
+    "category": "Hierbas",
+    "categoryIndex": 21
+  },
+  {
     "id": "alfalfa",
     "typeName": "Alfalfa",
     "description": "Leguminosa perenne de la familia Fabaceae. Cultivo forrajero principal para heno y pastoreo. Fijadora de nitrógeno; raíces profundas. También cultivada para brotes.",
@@ -20021,37 +20580,6 @@
     "plantLifeSpan": [
       1,
       2
-    ],
-    "category": "Cultivos y Campo",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "bahia-grass",
-    "typeName": "Pasto Bahía",
-    "description": "Pasto perenne de la familia Poaceae. Forraje y césped de temporada cálida. Tolera suelo pobre, sequía y baja fertilidad. Común en el sur de EE.UU.",
-    "commonExamples": "Paspalum notatum",
-    "careTips": "Sol pleno. Tolera suelo arenoso y ácido. Cortar o pastorear regularmente. Se establece lentamente desde semilla. Bajo mantenimiento una vez establecido.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
     ],
     "category": "Cultivos y Campo",
     "hardinessZones": [
@@ -20208,37 +20736,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "castor-bean",
-    "typeName": "Ricino",
-    "description": "Perenne tropical cultivada como anual por semillas ricas en aceite. Produce aceite de ricino; semillas contienen ricina—muy tóxica. Cultivada para aceite industrial, no consumo.",
-    "commonExamples": "Ricinus communis",
-    "careTips": "Sol pleno. Suelo bien drenado. Regar regularmente. Tóxico para mascotas y humanos—semillas contienen ricina. Mantener lejos de niños y animales. Cosechar semillas cuando cápsulas sequen.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Cultivos y Campo",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "chickpea",
     "typeName": "Garbanzo",
     "description": "Leguminosa anual de la familia Fabaceae. Tipos desi y kabuli. Legumbre densa en nutrientes; tolerante a sequía. Cultivo de temporada fría.",
@@ -20298,6 +20795,33 @@
       2,
       11
     ],
+    "categoryIndex": 22
+  },
+  {
+    "id": "clover-white",
+    "typeName": "Trébol Blanco",
+    "description": "Leguminosa perenne de bajo crecimiento usada como cobertura vegetal y cultivo forrajero. Fija nitrógeno en el suelo. Atractiva para polinizadores.",
+    "commonExamples": "Trifolium repens (Trébol blanco, Trébol holandés), 'Ladino'",
+    "careTips": "Regar ocasionalmente — tolerante a la sequía una vez establecido. Pleno sol a sombra parcial. Se adapta a la mayoría de suelos. Tolera siega y pisoteo. No tóxico.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      30
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      8
+    ],
+    "category": "Cultivos y Campo",
     "categoryIndex": 22
   },
   {
@@ -20452,37 +20976,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "fescue-tall",
-    "typeName": "Festuca alta",
-    "description": "Pasto perenne de temporada fría de la familia Poaceae. Forraje y césped principal. Tolera sequía, sombra y pastoreo intenso. Variedades con endófitos mejoran persistencia.",
-    "commonExamples": "Festuca arundinacea",
-    "careTips": "Sol pleno a sombra parcial. Se adapta a muchos suelos. Cortar o pastorear regularmente. Sin endófitos para caballos (riesgo de toxicosis por festuca).",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Cultivos y Campo",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "flax",
     "typeName": "Lino",
     "description": "Anual de la familia Linaceae. Cultivado para fibra (lino) y semillas (aceite de linaza, omega-3). Flores azules. Cultivo de temporada fría.",
@@ -20563,37 +21056,6 @@
     "plantLifeSpan": [
       10,
       25
-    ],
-    "category": "Cultivos y Campo",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "jute",
-    "typeName": "Yute",
-    "description": "Cultivo de fibra anual de la familia Malvaceae. Fibra bast para cordel, arpillera, geotextiles. Yute tossa y blanco. Tropical a subtropical.",
-    "commonExamples": "Corchorus olitorius (Yute)",
-    "careTips": "Sol pleno. Suelo rico y húmedo. Temporada cálida. Cosechar tallos al florecer para fibra. Enriar en agua para separar la fibra.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      2
     ],
     "category": "Cultivos y Campo",
     "hardinessZones": [
@@ -21211,37 +21673,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "timothy-grass",
-    "typeName": "Fleo",
-    "description": "Pasto perenne de temporada fría de la familia Poaceae. Heno premium para caballos. Cabezas de semilla cilíndricas. Crece bien en climas frescos y húmedos.",
-    "commonExamples": "Phleum pratense",
-    "careTips": "Sol pleno. Suelo húmedo y bien drenado. Temporada fría. Cosechar heno al inicio del espigado. A menudo mezclado con alfalfa o trébol. No hincha.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Cultivos y Campo",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "tobacco",
     "typeName": "Tabaco",
     "description": "Hierba anual de la familia Solanaceae. Hojas contienen nicotina; cultivada para tabaco comercial. Las especies ornamentales de Nicotiana difieren. No para consumo.",
@@ -21547,119 +21978,11 @@
     "categoryIndex": 23
   },
   {
-    "id": "cabbage-microgreens",
-    "typeName": "Microgreens de col",
-    "description": "Microgreens suaves de repollo. Rojo o verde. Cosechar en primeras hojas verdaderas (8-12 días).",
-    "commonExamples": "Brassica oleracea",
-    "careTips": "Sembrar densamente en sustrato húmedo. Mantener húmedo con nebulización. Luz indirecta brillante. Cosechar cortando sobre el sustrato cuando aparezcan las primeras hojas verdaderas (8-12 días).",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "carrot-microgreens",
     "typeName": "Microgreens de zanahoria",
     "description": "Microgreens finos y plumosos de zanahoria. Germinación lenta. Cosechar en primeras hojas verdaderas (14-21 días).",
     "commonExamples": "Daucus carota",
     "careTips": "Sembrar densamente (semillas pequeñas). Mantener sustrato constantemente húmedo. Germinación lenta (7-14 días). Luz indirecta. Cosechar en 14-21 días. Paciencia requerida.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "celery-microgreens",
-    "typeName": "Microgreens de apio",
-    "description": "Sabor concentrado a apio. Cosechar en primeras hojas verdaderas (14-21 días). Crecimiento más lento.",
-    "commonExamples": "Apium graveolens",
-    "careTips": "Sembrar en superficie (semillas necesitan luz). Mantener sustrato húmedo. Germinación lenta. Luz indirecta. Cosechar en 14-21 días. Sabor concentrado de apio.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chard-microgreens",
-    "typeName": "Microgreens de acelga",
-    "description": "Tallos coloridos; sabor suave como espinaca. Cosechar en primeras hojas verdaderas (10-14 días).",
-    "commonExamples": "Beta vulgaris var. cicla",
-    "careTips": "Remojar semillas 4-8 horas. Sembrar en sustrato húmedo. Mantener húmedo con nebulización. Luz indirecta. Cosechar en 10-14 días. Tallos coloridos decorativos.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chickpea-sprouts",
-    "typeName": "Brotes de garbanzo",
-    "description": "Brotes de garbanzo. Sustanciosos, con sabor a nuez. Cosecha en 3-5 días. Remojar 8-12 horas primero.",
-    "commonExamples": "Cicer arietinum",
-    "careTips": "Remojar garbanzos 8-12 horas. Enjuagar 2-3 veces al día. Escurrir bien. Cosechar en 3-5 días cuando brotan colas cortas. Cocinar o consumir crudos.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -21790,33 +22113,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "fennel-microgreens",
-    "typeName": "Microgreens de hinojo",
-    "description": "Sabor a anís. Cosechar en primeras hojas verdaderas (12-14 días).",
-    "commonExamples": "Foeniculum vulgare",
-    "careTips": "Remojar semillas 12 horas. Sembrar en sustrato húmedo. Mantener húmedo. Luz indirecta. Cosechar en 12-14 días. Aroma anisado.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "fenugreek-sprouts",
     "typeName": "Brotes de fenogreco",
     "description": "Brotes aromáticos ligeramente amargos. Sabor a curry. Cosecha en 4-6 días. Enjuagar 2 veces al día.",
@@ -21849,33 +22145,6 @@
     "description": "Microgreens nutritivos de col rizada; sabor suave a repollo. Cosechar en primeras hojas verdaderas (8-12 días).",
     "commonExamples": "Brassica oleracea var. acephala",
     "careTips": "Sembrar densamente en sustrato húmedo. Mantener húmedo con nebulización. Luz indirecta brillante. Cosechar en 8-12 días. Rico en vitaminas y antioxidantes.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "kohlrabi-microgreens",
-    "typeName": "Microgreens de colinabo",
-    "description": "Microgreens suaves y dulces de colinabo. Púrpura o verde. Cosechar en primeras hojas verdaderas (8-12 días).",
-    "commonExamples": "Brassica oleracea var. gongylodes",
-    "careTips": "Sembrar en sustrato húmedo. Mantener húmedo con nebulización. Luz indirecta brillante. Cosechar en 8-12 días. Sabor suave y dulce.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -21939,33 +22208,6 @@
     "temperaturePreference": [
       10,
       32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "microgreen-mix",
-    "typeName": "Mix de Microgreens",
-    "description": "Mezcla de semillas de rápido crecimiento cosechadas como plántulas jóvenes (7-21 días), combinando variados sabores, colores y texturas para guarniciones y ensaladas nutritivas.",
-    "commonExamples": "Brassica oleracea (Microgreens de brócoli, col rizada), Raphanus sativus (Microgreens de rábano), Helianthus annuus (Microgreens de girasol), Pisum sativum (Brotes de guisante)",
-    "careTips": "Nebulizar 1-2 veces al día para mantener el medio de cultivo húmedo sin encharcar. Luz indirecta brillante o luz de cultivo 12-16 horas diarias produce verdes compactos y coloridos. Cultivar sobre fibra de coco, tapetes de cáñamo o una capa fina de sustrato. Remojar semillas 4-12 horas para germinación más rápida. Mantener 18-22°C para crecimiento óptimo. Cosechar con tijeras limpias cuando aparezcan las primeras hojas verdaderas, típicamente 7-14 días. No tóxico — cultivado específicamente para consumo.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": 2,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      25
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -22065,33 +22307,6 @@
     "description": "Brotes de sabor suave a cebolla. Cosechar en las primeras hojas verdaderas (10–14 días). Remojar semillas antes de sembrar.",
     "commonExamples": "Allium cepa",
     "careTips": "Remojar semillas 8-12 h. Enjuagar 2× diario; drenar bien. Luz indirecta, 18-22 °C. Cosechar a los 10-14 días cuando midan 8-10 cm. Sabor suave a cebolla, ideal para ensaladas y sopas.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "parsnip-microgreens",
-    "typeName": "Microgreens de pastinaca",
-    "description": "Sabor dulce y terroso. Germinación lenta. Cosechar en primeras hojas verdaderas (18-21 días).",
-    "commonExamples": "Pastinaca sativa",
-    "careTips": "Remojar semillas 12-24 horas. Sembrar en sustrato húmedo. Germinación lenta (5-7 días). Mantener húmedo y con luz indirecta. Cosechar en 18-21 días.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -22222,33 +22437,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "sorrel-microgreens",
-    "typeName": "Microgreens de acedera",
-    "description": "Tangy, sabor a limón. Cosechar en primeras hojas verdaderas (12-14 días).",
-    "commonExamples": "Rumex acetosa",
-    "careTips": "Sembrar en sustrato húmedo. Mantener húmedo. Luz indirecta. Germinación puede ser lenta. Cosechar en 12-14 días. Sabor ácido refrescante.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "soybean-sprouts",
     "typeName": "Brotes de soja",
     "description": "Brotes grandes de soja. Crujientes; cocinar antes de comer. Cosecha cuando midan 5-7 cm (4-6 días). Enjuagar 2 veces al día.",
@@ -22276,36 +22464,9 @@
     "categoryIndex": 23
   },
   {
-    "id": "spinach-microgreens",
-    "typeName": "Microgreens de espinaca",
-    "description": "Suaves y nutritivos. Cosechar en primeras hojas verdaderas (10-14 días).",
-    "commonExamples": "Spinacia oleracea",
-    "careTips": "Remojar semillas 8-12 horas. Sembrar en sustrato húmedo. Mantener húmedo. Luz indirecta brillante. Cosechar en 10-14 días.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Brotes y Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "sprouts-microgreens",
     "typeName": "Brotes y Microvegetales",
-    "description": "Plántulas jóvenes cosechadas en 1-3 semanas tras la germinación. Los brotes se cultivan solo en agua; los microvegetales en una fina capa de tierra o sustrato. Ricos en nutrientes y fáciles de cultivar en interior todo el año.",
+    "description": "Plántulas jóvenes cosechadas dentro de 1-3 semanas de germinación. Los brotes se cultivan solo en agua; los microgreens se cultivan en una capa delgada de tierra o medio de cultivo. Ricos en nutrientes y fáciles de cultivar en interiores durante todo el año. Las mezclas populares combinan sabores, colores y texturas variados.",
     "commonExamples": "Brotes de brócoli, brotes de alfalfa, microvegetales de girasol, brotes de guisante, microvegetales de rábano, hierba de trigo",
     "careTips": "Rociar o regar ligeramente 1-2 veces al día para mantener semillas y sustrato húmedos. Nunca dejar secar, pero evitar agua estancada que causa moho. Luz indirecta brillante preferida (ventana o luz de cultivo). Buena circulación de aire esencial para prevenir moho. No se necesita fertilizante — las semillas contienen todos los nutrientes necesarios. Usar recipientes limpios y semillas frescas. Cosechar brotes en 3-7 días, microvegetales en 7-14 días. Enjuagar brotes dos veces al día. Siembra sucesiva cada pocos días para cosecha continua.",
     "springInterval": 1,
@@ -23505,37 +23666,6 @@
     "categoryIndex": 25
   },
   {
-    "id": "floating-heart",
-    "typeName": "Corazón flotante",
-    "description": "Acuática flotante con hojas en forma de corazón y flores amarillas. Nymphoides prefiere agua estancada. Puede extenderse—contener en estanques pequeños.",
-    "commonExamples": "Nymphoides spp. (Water snowflake)",
-    "careTips": "Flota en agua estancada. Sol pleno. No plantar—añadir a superficie del estanque. Puede ser invasiva; eliminar exceso. Raíces en agua o lodo. Ligeramente tóxica para mascotas—puede causar malestar gastrointestinal si se ingiere.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Especiales - Acuáticas y Pantanosas",
-    "hardinessZones": [
-      4,
-      10
-    ],
-    "categoryIndex": 25
-  },
-  {
     "id": "giant-water-lily",
     "typeName": "Victoria Regia",
     "description": "También conocida como: lirio de agua gigante, victoria amazónica. El nenúfar más grande del mundo, con hojas flotantes circulares de hasta 3 m de diámetro que soportan el peso de un niño. Flores blancas nocturnas.",
@@ -23945,33 +24075,6 @@
     "plantLifeSpan": [
       3,
       15
-    ],
-    "category": "Especiales - Carnívoras",
-    "categoryIndex": 26
-  },
-  {
-    "id": "cephalotus",
-    "typeName": "Planta Jarro de Albany",
-    "description": "También conocida como: Planta jarro de Australia Occidental, Atrapa-moscas. Rara y muy codiciada planta carnívora endémica de una pequeña zona costera de Australia Occidental, que produce encantadoras jarras miniatura con tapas dentadas que atrapan insectos.",
-    "commonExamples": "Cephalotus follicularis (Planta jarro de Albany, Planta jarro australiana, Atrapa-moscas)",
-    "careTips": "Mantener el suelo consistentemente húmedo usando riego por abajo con agua libre de minerales (lluvia, destilada u ósmosis inversa); nunca dejar secar ni dejar en agua profunda. Luz indirecta brillante—algo de sol matutino suave es beneficioso. Humedad alta (60-80%) preferida; terrarios funcionan bien. Usar mezcla de turba y perlita (1:1) o musgo esfagno. Nunca fertilizar por el suelo—solo alimentación foliar ocasional con fertilizante muy diluido (1/4 de fuerza) si no hay insectos disponibles. Las jarras se colorean más con luz brillante. Crecimiento lento. No tóxica para mascotas.",
-    "springInterval": 3,
-    "summerInterval": 3,
-    "fallInterval": 5,
-    "winterInterval": 7,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      5,
-      25
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      10,
-      30
     ],
     "category": "Especiales - Carnívoras",
     "categoryIndex": 26
@@ -24587,37 +24690,6 @@
     "categoryIndex": 28
   },
   {
-    "id": "alpine-catchfly",
-    "typeName": "Silene alpina",
-    "description": "Planta alpina tipo musgo con flores rosadas. Silene acaulis forma almohadillas densas ideales para rocallas y grietas.",
-    "commonExamples": "Silene acaulis (Musgo de campiña)",
-    "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol. Muy tolerante a sequía. Fertilizar con moderación. Forma almohadilla de crecimiento lento. Alpino; reducir riego en reposo; evitar humedad invernal.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Especiales - Alpinas",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "alpine-plants",
     "typeName": "Plantas Alpinas",
     "description": "Plantas adaptadas a condiciones de alta altitud y rocosas con excelente drenaje, muchas son tolerantes a la sequía.",
@@ -24640,37 +24712,6 @@
     "plantLifeSpan": [
       3,
       10
-    ],
-    "category": "Especiales - Alpinas",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "alpine-poppy",
-    "typeName": "Amapola alpina",
-    "description": "Amapolas alpinas delicadas con flores en blanco, amarillo o naranja. Vida corta pero se auto-siembran. Resistente al frío.",
-    "commonExamples": "Papaver alpinum",
-    "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol. Planta perenne de vida corta - permitir auto-siembra. Alpino; reducir riego en reposo; evitar humedad invernal. Tóxica para mascotas—todas las partes; mantener alejada de mascotas.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      5
     ],
     "category": "Especiales - Alpinas",
     "hardinessZones": [
@@ -24768,37 +24809,6 @@
     "category": "Especiales - Alpinas",
     "hardinessZones": [
       3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "draba",
-    "typeName": "Draba",
-    "description": "Crucíferas alpinas pequeñas que forman almohadillas o tapetes con flores amarillas o blancas. Para rocallas.",
-    "commonExamples": "Draba spp. (Whitlow grass)",
-    "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol. Tolerante a sequía. Fertilizar con moderación. Alpino; reducir riego en reposo; evitar humedad invernal.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Especiales - Alpinas",
-    "hardinessZones": [
-      4,
       8
     ],
     "categoryIndex": 28
@@ -24924,73 +24934,11 @@
     "categoryIndex": 28
   },
   {
-    "id": "rock-jasmine",
-    "typeName": "Rock Jasmine",
-    "description": "Plantas alpinas bajas de la familia primuláceas con flores blancas o rosadas. Forma almohadilla o tapete. Para rocallas.",
-    "commonExamples": "Androsace spp. (Rock jasmine)",
-    "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol. Muchas especies son desafiantes. Fertilizar con moderación. Alpino; reducir riego en reposo; evitar humedad invernal.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Especiales - Alpinas",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "saxifrage",
     "typeName": "Saxifrage",
     "description": "También conocida como: Rockfoil. Género alpino diverso con formas almohadilla, tapete o roseta. Flores blancas, rosadas o amarillas. Para rocallas.",
     "commonExamples": "Saxifraga spp. (Rockfoil)",
     "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol a sombra parcial según especie. Fertilizar con moderación. Alpino; reducir riego en reposo; evitar humedad invernal.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Especiales - Alpinas",
-    "hardinessZones": [
-      3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "sempervivum-alpine",
-    "typeName": "Siémpreviva",
-    "description": "También conocida como: Houseleek. Rosetas suculentas que se multiplican por hijuelos. Muy resistente al frío. Tolerante a sequía. Muchos colores y formas.",
-    "commonExamples": "Sempervivum tectorum (Houseleek), S. arachnoideum (Cobweb houseleek)",
-    "careTips": "Riego ligero (cada 1-2 semanas). Drenaje excelente esencial. Pleno sol. Muy tolerante a sequía. Propagación por hijuelos. Perfecto para rocallas y techos verdes. Alpino; reducir riego en reposo; evitar humedad invernal.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,

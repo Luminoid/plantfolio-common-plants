@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.8.0",
+      "version": "1.8.1",
       "totalPlants": 872,
       "sorting": {
         "method": "Categorized then alphabetical",
@@ -15,7 +15,7 @@
           "Houseplants - Flowering",
           "Houseplants - Prayer Plants",
           "Houseplants - Vines & Trailing",
-          "Houseplants - Ficus & Rubber Trees",
+          "Houseplants - Ficus & Fig",
           "Houseplants - Specialty",
           "Outdoor - Trees",
           "Outdoor - Shrubs",
@@ -257,37 +257,10 @@
     "categoryIndex": 0
   },
   {
-    "id": "dracaena-deremensis",
-    "typeName": "Janet Craig Dracaena",
-    "description": "Also known as: Janet Craig Compacta. Versatile Dracaena with glossy dark green leaves. The full-size form has long drooping leaves reaching 10+ feet; the Compacta form is a dense rosette ideal for tabletops.",
-    "commonExamples": "Dracaena fragrans 'Janet Craig' (full-size), D. fragrans 'Compacta' (dwarf rosette form)",
-    "careTips": "Water when top half of soil is dry. Use filtered or distilled water to prevent brown leaf tips from fluoride. Low to bright indirect light tolerated. Medium humidity fine. Fertilize monthly spring through fall at half strength. Toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Houseplants - Low Maintenance",
-    "categoryIndex": 0
-  },
-  {
     "id": "dracaena-fragrans",
     "typeName": "Dracaena Fragrans",
-    "description": "Also known as: Corn plant. Corn plant with broad, arching leaves, can grow quite tall.",
-    "commonExamples": "Dracaena fragrans (Corn plant, Cornstalk dracaena), D. fragrans 'Massangeana'",
+    "description": "Also known as: Corn plant. Corn plant with broad, arching leaves, can grow quite tall. Includes the popular 'Janet Craig' (Deremensis Group) and 'Massangeana' cultivars.",
+    "commonExamples": "Dracaena fragrans 'Massangeana' (Corn plant), D. fragrans 'Janet Craig' (Deremensis Group), D. fragrans 'Compacta' (dwarf form)",
     "careTips": "Water when top half of soil is dry. Use filtered, distilled, or rainwater to prevent brown leaf tips from fluoride and chlorine. Bright indirect to medium light preferred. Maintain 40-50% humidity. Fertilize monthly spring through fall with balanced fertilizer diluted to half strength. Wipe leaves monthly to remove dust. Repot every 2-3 years when roots fill container. Prune brown tips and remove yellowing lower leaves. Sensitive to drafts and temperature fluctuations. Toxic to pets.",
     "springInterval": 10,
     "summerInterval": 10,
@@ -298,33 +271,6 @@
     "temperaturePreference": [
       18,
       24
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Houseplants - Low Maintenance",
-    "categoryIndex": 0
-  },
-  {
-    "id": "dracaena-goldieana",
-    "typeName": "Dracaena Goldieana",
-    "description": "Also known as: Zebra-striped dragon tree. Rare Dracaena with wide, oval leaves featuring dramatic horizontal silver-green banding on dark green background. A striking collector plant.",
-    "commonExamples": "Dracaena goldieana (Zebra-striped dragon tree)",
-    "careTips": "Water when top 2-5cm of soil is dry. Bright indirect light to maintain striking banding pattern. High humidity (60%+) preferred; mist regularly or use humidity tray. Well-draining potting mix. Fertilize monthly spring through fall at half strength. Slow grower. Sensitive to fluoride in tap water — use filtered or distilled water. Protect from cold drafts. Toxic to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -421,8 +367,8 @@
   {
     "id": "dracaena-warneckii",
     "typeName": "Dracaena Warneckii",
-    "description": "Also known as: Striped dracaena. Stripe-edged dracaena with green and white or cream variegation; upright growth habit.",
-    "commonExamples": "Dracaena deremensis 'Warneckii' (Warneckii, Striped dracaena)",
+    "description": "Also known as: Deremensis Group. Stripe-edged dracaena with green and white or cream variegation; upright growth habit.",
+    "commonExamples": "Dracaena fragrans (Deremensis Group) 'Warneckei' (Striped dracaena, Warneckii)",
     "careTips": "Water when top inch of soil is dry. Use filtered or distilled water to prevent brown leaf tips. Low to bright indirect light. Medium humidity fine. Fertilize monthly spring through fall. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -851,6 +797,33 @@
     "categoryIndex": 0
   },
   {
+    "id": "shangri-la-pothos",
+    "typeName": "Shangri La Pothos",
+    "description": "Unique pothos cultivar with curled and twisted leaves that give a compact, textured appearance. Same easy care as standard pothos but with distinctive ruffled foliage.",
+    "commonExamples": "Epipremnum aureum 'Shangri La' (Godzilla pothos, Sleeping pothos)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Tolerates low to bright indirect light. Very low maintenance. Curled leaves may unfurl with more light. Average humidity is fine. Fertilize monthly spring through fall. Mildly toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Low Maintenance",
+    "categoryIndex": 0
+  },
+  {
     "id": "snake-plants",
     "typeName": "Snake Plants",
     "description": "Also known as: Mother-in-law's tongue. Extremely low-maintenance succulents in the Asparagaceae family with upright sword-like leaves. Includes various cultivars with different leaf shapes and patterns.",
@@ -1038,6 +1011,33 @@
     ],
     "category": "Houseplants - Low Maintenance",
     "categoryIndex": 0
+  },
+  {
+    "id": "alocasia-amazonica",
+    "typeName": "Alocasia Amazonica",
+    "description": "Dramatic aroid with arrow-shaped, dark green leaves featuring bold white or silver veining. Parent hybrid of the smaller Alocasia Polly. Despite the name, it is a hybrid, not from the Amazon.",
+    "commonExamples": "Alocasia × amazonica (African mask plant, Elephant ear), A. × amazonica 'Polly' (compact cultivar)",
+    "careTips": "Water when top inch of soil is dry. Bright indirect light; avoid direct sun which scorches leaves. High humidity (60%+) is important. May go dormant and lose leaves in winter — reduce watering and wait for regrowth. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Aroids",
+    "categoryIndex": 1
   },
   {
     "id": "alocasia-black-velvet",
@@ -1310,6 +1310,33 @@
     "categoryIndex": 1
   },
   {
+    "id": "anthurium-bird-nest",
+    "typeName": "Bird's Nest Anthurium",
+    "description": "Rosette-forming anthurium with large, wavy, leathery leaves that form a bird's nest shape. Unlike typical anthuriums, grown for dramatic foliage rather than colorful spathes.",
+    "commonExamples": "Anthurium hookeri (Bird's nest anthurium), A. superbum, A. plowmanii (Ruffled bird's nest anthurium)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Bright indirect light preferred. High humidity (60%+) for best growth. Chunky, well-draining aroid mix. Large, dramatic plant — leaves can reach 1 meter. Fertilize monthly spring through fall. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Aroids",
+    "categoryIndex": 1
+  },
+  {
     "id": "anthurium-clarinervium",
     "typeName": "Velvet Cardboard Anthurium",
     "description": "Anthurium with velvety heart-shaped leaves and prominent white veins; grown for foliage, not flowers.",
@@ -1490,6 +1517,33 @@
     "plantToxicity": "toxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Aroids",
+    "categoryIndex": 1
+  },
+  {
+    "id": "burle-marx-philodendron",
+    "typeName": "Philodendron Burle Marx",
+    "description": "Fast-growing, easy-care philodendron with narrow, heart-shaped leaves on long stems. Named after the famous Brazilian landscape architect Roberto Burle Marx.",
+    "commonExamples": "Philodendron burle-marxii (Burle Marx philodendron)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Tolerates a range of light from medium to bright indirect. Average humidity is fine. Fast grower that benefits from regular feeding spring through fall. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -2412,6 +2466,33 @@
     "plantLifeSpan": [
       10,
       20
+    ],
+    "category": "Houseplants - Aroids",
+    "categoryIndex": 1
+  },
+  {
+    "id": "philodendron-white-princess",
+    "typeName": "White Princess Philodendron",
+    "description": "Variegated self-heading philodendron with white splashes on green leaves. Slower growing than White Knight, with a more compact habit and brighter white variegation.",
+    "commonExamples": "Philodendron 'White Princess' (White Princess philodendron)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Bright indirect light is essential for variegation; too little light reduces white sectors. High humidity (60%+) preferred. Fertilize monthly spring through fall at half strength. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
     ],
     "category": "Houseplants - Aroids",
     "categoryIndex": 1
@@ -3394,10 +3475,10 @@
     "description": "Also known as: Tree houseleek. Succulents in the Crassulaceae family with rosette-forming leaves, some varieties are monocarpic.",
     "commonExamples": "Aeonium arboreum (Tree houseleek), A. 'Zwartkop' (Black rose), A. haworthii (Pinwheel aeonium), A. 'Kiwi'",
     "careTips": "Water when soil is completely dry (every 2-3 weeks). More water-tolerant than some succulents but still drought tolerant. Bright indirect to direct light preferred. Low humidity is fine. Fertilize 2-3 times per year during growing season with succulent fertilizer. Well-draining soil essential. Some varieties are monocarpic (die after flowering). Repot every 2-3 years. Rosette-forming succulents.",
-    "springInterval": 14,
+    "springInterval": 10,
     "summerInterval": 21,
     "fallInterval": 14,
-    "winterInterval": 21,
+    "winterInterval": 10,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3411,6 +3492,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Houseplants - Succulents",
+    "categoryIndex": 4
+  },
+  {
+    "id": "agave",
+    "typeName": "Agave",
+    "description": "Rosette-forming succulent with thick, fleshy leaves often tipped with spines. Extremely drought tolerant. Many species are monocarpic — they bloom once after many years and then die, but produce offsets (pups).",
+    "commonExamples": "Agave americana (Century plant), A. attenuata (Fox tail agave), A. victoriae-reginae (Queen Victoria agave), A. parryi (Artichoke agave)",
+    "careTips": "Water deeply but infrequently — every 2-4 weeks depending on season. Full sun to bright direct light. Very low humidity tolerance. Excellent drainage is critical — use cactus/succulent mix. Cold hardiness varies by species. Mildly toxic — sap can cause skin irritation.",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 28,
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      38
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      100
     ],
     "category": "Houseplants - Succulents",
     "categoryIndex": 4
@@ -3855,8 +3963,8 @@
     "careTips": "Water sparingly in fall when new leaves emerge. Keep dry in summer dormancy and during winter/spring splitting. Very minimal watering even when active (every 2-4 weeks). Bright direct light essential. Low humidity preferred. Fertilize very sparingly during active growth only. Repot every 3-5 years in very well-draining soil. Stone-like appearance mimics pebbles. Very specific care requirements.",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 90,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3958,8 +4066,8 @@
   {
     "id": "sempervivum",
     "typeName": "Sempervivum",
-    "description": "Also known as: Hen and chicks. Hardy succulents in the Crassulaceae family known as hen and chicks, form rosettes and produce offsets.",
-    "commonExamples": "Sempervivum tectorum (Common houseleek, Hen and chicks), S. arachnoideum (Cobweb houseleek), many cultivars",
+    "description": "Also known as: Hen and chicks. Hardy succulents in the Crassulaceae family known as hen and chicks, form rosettes and produce offsets. Extremely cold hardy and drought tolerant. Excellent for rock gardens, alpine gardens, and containers.",
+    "commonExamples": "Sempervivum tectorum (Common houseleek, Hen and chicks), S. arachnoideum (Cobweb houseleek), many cultivars in various colors",
     "careTips": "Water when soil is completely dry (every 2-3 weeks). Very drought tolerant. Bright indirect to direct light preferred. Low humidity is fine. Fertilize sparingly (2-3 times per year) with succulent fertilizer at quarter strength. Well-draining soil essential. Produces offsets (chicks) around parent plant (hen). Repot every 2-3 years. Very cold-hardy succulents.",
     "springInterval": 14,
     "summerInterval": 14,
@@ -4017,8 +4125,8 @@
     "careTips": "Water ONLY when old leaves have fully dried and absorbed into the new pair - typically only 2-4 times per year. Overwatering causes stacking (extra leaf pairs) and rot. Bright direct light essential - at least 5 hours daily. Very low humidity preferred. Do not fertilize. Excellent drainage essential - use mostly mineral substrate (pumice, perlite). Bottom watering preferred. Repot every 3-5 years. Very specific watering requirements similar to lithops.",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 60,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4112,6 +4220,33 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
+      10
+    ],
+    "category": "Houseplants - Succulents",
+    "categoryIndex": 4
+  },
+  {
+    "id": "string-of-needles",
+    "typeName": "String of Needles",
+    "description": "Delicate trailing succulent with thin, needle-like leaves along wiry stems. Related to string of hearts but with a finer, more airy appearance.",
+    "commonExamples": "Ceropegia linearis (String of needles)",
+    "careTips": "Water when soil is completely dry. Bright indirect light preferred; tolerates some direct morning sun. Low humidity is fine. Very susceptible to overwatering — use well-draining succulent mix. Fertilize lightly spring through summer. Non-toxic to pets.",
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      15,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
       10
     ],
     "category": "Houseplants - Succulents",
@@ -4874,33 +5009,6 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-amphioxus",
-    "typeName": "Begonia Amphioxus",
-    "description": "Rare terrarium begonia from Borneo with elongated, lance-shaped leaves covered in raised red spots on a dark green background.",
-    "commonExamples": "Begonia amphioxus (Red-spotted lanceleaf begonia)",
-    "careTips": "Keep soil lightly moist but never soggy; allow the top layer to dry slightly between waterings. Bright indirect light brings out the red spotting — avoid direct sun which scorches the thin leaves. Requires very high humidity (70%+); thrives in terrariums or enclosed cabinets. Use a chunky, airy mix of perlite, orchid bark, and peat. Fertilize monthly during spring and summer at quarter strength. Toxic to pets.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Houseplants - Flowering",
-    "categoryIndex": 6
-  },
-  {
     "id": "begonia-angel-wing",
     "typeName": "Angel Wing Begonia",
     "description": "Cane begonias with wing-shaped spotted leaves and pendent flower clusters in red, pink, or white.",
@@ -4930,8 +5038,8 @@
   {
     "id": "begonia-maculata",
     "typeName": "Polka Dot Begonia",
-    "description": "Cane begonia with silver-spotted leaves, red undersides, and white flower clusters.",
-    "commonExamples": "Begonia maculata (Polka dot begonia, Spotted begonia)",
+    "description": "Cane begonia with silver-spotted leaves, red undersides, and white flower clusters. The most commonly sold form is the 'Wightii' cultivar.",
+    "commonExamples": "Begonia maculata (Polka dot begonia, Spotted begonia), B. maculata 'Wightii' (most common cultivar)",
     "careTips": "Water when top inch of soil is dry. Bright indirect light preferred; avoid direct sun. Medium humidity (40-50%). Fertilize monthly spring through fall with balanced fertilizer. Leaf spots fade in low light. Toxic to pets. Repot every 1-2 years when roots fill container.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -4955,28 +5063,28 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-maculata-wightii",
-    "typeName": "Begonia Maculata Wightii",
-    "description": "Cultivar of polka dot begonia with larger, more prominent silver spots on dark green leaves and red undersides; produces white flower clusters.",
-    "commonExamples": "Begonia maculata 'Wightii'",
-    "careTips": "Water when top inch of soil is dry. Bright indirect light preferred; avoid direct sun. Medium humidity (40-50%). Fertilize monthly spring through fall with balanced fertilizer. Leaf spots fade in low light. Toxic to pets. Repot every 1-2 years when roots fill container.",
+    "id": "begonia-rex",
+    "typeName": "Rex Begonia",
+    "description": "Rhizomatous begonia grown for its spectacular, multicolored foliage in swirling patterns of silver, purple, pink, red, and green. One of the most ornamental houseplant species.",
+    "commonExamples": "Begonia rex-cultorum (Rex begonia, Painted-leaf begonia, King begonia), 'Escargot' (spiral pattern), 'Fireworks', 'Silver Dollar'",
+    "careTips": "Water when top inch of soil is dry; avoid getting water on leaves. Bright indirect light — direct sun scorches leaves. High humidity (50%+) preferred. Well-draining soil. Feed every 2-4 weeks spring through fall. May go dormant in winter. Toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      18,
+      16,
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       3,
-      10
+      5
     ],
     "category": "Houseplants - Flowering",
     "categoryIndex": 6
@@ -5927,10 +6035,64 @@
     "categoryIndex": 7
   },
   {
+    "id": "calathea-roseopicta",
+    "typeName": "Calathea Roseopicta",
+    "description": "Also known as: Rose painted calathea. Prayer plant with oval leaves featuring a bold pink or cream border on dark green, with purple undersides. Multiple popular cultivars.",
+    "commonExamples": "Goeppertia roseopicta (Rose painted calathea), G. roseopicta 'Medallion', G. roseopicta 'Dottie' (nearly black leaves with pink outline), G. roseopicta 'Rosy' (pink center)",
+    "careTips": "Water when top inch of soil is slightly dry; keep consistently moist. Use filtered water. Medium indirect light preferred. High humidity (60%+) essential — brown leaf edges indicate low humidity. Non-toxic to pets.",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Houseplants - Prayer Plants",
+    "categoryIndex": 7
+  },
+  {
+    "id": "calathea-vittata",
+    "typeName": "Calathea Vittata",
+    "description": "Prayer plant with delicate white pinstripes on bright green, elliptical leaves. More compact than Calathea ornata with finer, more numerous stripes.",
+    "commonExamples": "Goeppertia elliptica 'Vittata' (syn. Calathea vittata, White-striped calathea)",
+    "careTips": "Water when top inch of soil is slightly dry; keep consistently moist but not soggy. Use filtered water — sensitive to fluoride and chlorine. Medium indirect light; direct sun scorches leaves. High humidity (60%+) essential. Non-toxic to pets.",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Houseplants - Prayer Plants",
+    "categoryIndex": 7
+  },
+  {
     "id": "calathea-white-fusion",
     "typeName": "Calathea White Fusion",
     "description": "Prayer plant with variegated leaves in white, green, and lavender; leaves fold up at night.",
-    "commonExamples": "Calathea lietzei 'White Fusion'",
+    "commonExamples": "Goeppertia lietzei 'White Fusion' (syn. Calathea lietzei 'White Fusion')",
     "careTips": "Keep soil evenly moist, never let dry. Bright indirect light preferred; avoid direct sun. High humidity (60%+) essential—variegation reverts in low humidity. Use distilled or filtered water to prevent leaf browning. Fertilize monthly spring through fall with balanced fertilizer at half strength. Repot every 1-2 years when roots fill container. Non-toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -5957,7 +6119,7 @@
     "id": "calathea-white-star",
     "typeName": "Calathea White Star",
     "description": "Prayer plant with bold white stripes on dark green leaves; leaves fold up at night.",
-    "commonExamples": "Calathea 'White Star' (syn. Goeppertia 'White Star')",
+    "commonExamples": "Goeppertia majestica 'Whitestar' (syn. Calathea 'White Star', Calathea majestica 'Whitestar')",
     "careTips": "Keep soil evenly moist, never let dry. Bright indirect light preferred; avoid direct sun. High humidity (60%+) preferred. Use distilled or filtered water to prevent leaf browning. Fertilize monthly spring through fall with balanced fertilizer at half strength. Repot every 1-2 years when roots fill container. Non-toxic to pets.",
     "springInterval": 7,
     "summerInterval": 7,
@@ -6278,6 +6440,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "hoya-bella",
+    "typeName": "Hoya Bella",
+    "description": "Compact, trailing hoya with small, pointed leaves and clusters of star-shaped, fragrant white flowers with pink or purple centers. One of the most popular hoyas for hanging baskets.",
+    "commonExamples": "Hoya lanceolata subsp. bella (Hoya bella, Miniature wax plant, Beautiful hoya)",
+    "careTips": "Water when top inch of soil is dry. Bright indirect light encourages blooming. Do not remove spent flower stalks (peduncles) — new flowers emerge from the same spurs. Average to high humidity preferred. Fertilize monthly spring through summer. Mildly toxic.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Vines & Trailing",
+    "categoryIndex": 8
+  },
+  {
     "id": "hoya-callistophylla",
     "typeName": "Hoya Callistophylla",
     "description": "Distinctive Hoya species with long, pointed leaves featuring prominent dark veining on a light green background, giving a stained-glass appearance. A highly sought-after collector Hoya.",
@@ -6548,33 +6737,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pellionia",
-    "typeName": "Pellionia",
-    "description": "Also known as: Trailing watermelon begonia. Low-growing tropical trailing plant with beautifully patterned leaves in silver, green, and purple. Excellent for terrariums and hanging baskets.",
-    "commonExamples": "Pellionia repens (Trailing watermelon begonia), P. pulchra (Rainbow vine, Polynesian ivy)",
-    "careTips": "Keep soil consistently moist but not waterlogged. Medium indirect light — avoid direct sun which fades leaf patterns. High humidity (60%+) essential; thrives in terrariums. Well-draining potting mix. Fertilize monthly spring through fall at half strength. Propagates easily from stem cuttings. Pinch growing tips to encourage bushiness. Non-toxic to pets.",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Houseplants - Vines & Trailing",
-    "categoryIndex": 8
-  },
-  {
     "id": "philodendron-brasil",
     "typeName": "Philodendron Brasil",
     "description": "Also known as: Lemon-lime philodendron. Variegated heart-leaf philodendron with green and yellow-chartreuse leaves, easy-care trailing plant.",
@@ -6602,33 +6764,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pilea-depressa",
-    "typeName": "Baby Tears Pilea",
-    "description": "Trailing pilea with small, bright green leaves; forms a dense mat, ideal for terrariums or hanging baskets.",
-    "commonExamples": "Pilea depressa (Depressed clearweed)",
-    "careTips": "Water when top inch of soil is dry. Bright indirect light preferred. Medium humidity (40-50%). Fertilize monthly spring through fall with balanced fertilizer at half strength. Fast-growing. Repot every 1-2 years when roots fill container.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      10
-    ],
-    "category": "Houseplants - Vines & Trailing",
-    "categoryIndex": 8
-  },
-  {
     "id": "scindapsus",
     "typeName": "Scindapsus",
     "description": "Also known as: Silver pothos. Trailing aroids often called satin pothos, with silvery-splotched leaves, easy-care houseplants.",
@@ -6651,6 +6786,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Houseplants - Vines & Trailing",
+    "categoryIndex": 8
+  },
+  {
+    "id": "scindapsus-pictus",
+    "typeName": "Silver Satin Pothos",
+    "description": "Trailing vine with heart-shaped, matte green leaves covered in silvery spots and patches. Not a true pothos despite the common name; belongs to the genus Scindapsus.",
+    "commonExamples": "Scindapsus pictus 'Argyraeus' (Satin pothos), S. pictus 'Exotica' (larger silver patches), S. pictus 'Silver Ann' (mostly silver)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Bright indirect light brings out the silver markings. Average humidity is fine but higher humidity encouraged for larger leaves. Let dry out slightly between waterings. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
     ],
     "category": "Houseplants - Vines & Trailing",
     "categoryIndex": 8
@@ -6764,6 +6926,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "ficus-altissima",
+    "typeName": "Ficus Altissima",
+    "description": "Tall fig tree with leathery, variegated leaves in shades of green and yellow. Also called council tree. Easier to care for than fiddle leaf fig.",
+    "commonExamples": "Ficus altissima (Council tree), F. altissima 'Yellow Gem' (variegated cultivar)",
+    "careTips": "Water when top 1-2 inches of soil is dry. Bright indirect to direct light preferred. Average humidity is fine. Avoid moving frequently — can drop leaves from environmental changes. Fertilize monthly spring through fall. Toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      50
+    ],
+    "category": "Houseplants - Ficus & Fig",
+    "categoryIndex": 9
+  },
+  {
     "id": "ficus-audrey",
     "typeName": "Ficus Audrey",
     "description": "The more forgiving cousin of the Fiddle Leaf Fig, with velvety, oval leaves and pale trunk, increasingly popular as a statement houseplant.",
@@ -6787,7 +6976,7 @@
       15,
       30
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -6814,34 +7003,7 @@
       10,
       50
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
-    "categoryIndex": 9
-  },
-  {
-    "id": "ficus-shivereana",
-    "typeName": "Ficus Shivereana",
-    "description": "Rare Ficus elastica cultivar with unique mottled variegation in lime-green, cream, and sage, resembling watercolor splashes.",
-    "commonExamples": "Ficus elastica 'Shivereana' (Moonshine ficus, Shivereana rubber plant)",
-    "careTips": "Water when the top 2-3 cm of soil feel dry; avoid soggy conditions which lead to root rot. Bright indirect light brings out the best variegation — avoid direct afternoon sun. Keep away from cold drafts and temperatures below 15°C. Average room humidity (40-50%) is sufficient. Fertilize monthly during the growing season with balanced liquid fertilizer at half strength. Rotate the pot quarterly for even growth. Mildly toxic — the milky latex sap irritates skin and mucous membranes and is harmful to pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      27
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      30
-    ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -6868,7 +7030,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -6895,7 +7057,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -6922,7 +7084,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -6949,7 +7111,7 @@
       10,
       30
     ],
-    "category": "Houseplants - Ficus & Rubber Trees",
+    "category": "Houseplants - Ficus & Fig",
     "categoryIndex": 9
   },
   {
@@ -7091,7 +7253,7 @@
     "id": "corpse-flower",
     "typeName": "Corpse Flower",
     "description": "World's largest unbranched flower structure, producing a massive spathe that smells of rotting flesh when blooming. Blooms are rare, occurring every 7-10 years.",
-    "commonExamples": "Amorphophallus titanum (Titan arum, Corpse flower)",
+    "commonExamples": "Amorphophallus titanum (Titan arum, Corpse flower). Distinct from Rafflesia, which is the world's largest individual flower",
     "careTips": "Keep soil consistently moist but well-drained during active growth. Bright indirect light. Very high humidity (70-80%) required. Goes completely dormant after flowering — reduce water drastically. Requires large pot (60+ cm) for mature corm. Fertilize monthly during growing season with balanced fertilizer. Grows from a massive underground corm. Prefers acidic soil. Non-toxic to pets.",
     "springInterval": 7,
     "summerInterval": 5,
@@ -7520,6 +7682,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "peperomia-rosso",
+    "typeName": "Peperomia Rosso",
+    "description": "Compact peperomia with deeply ridged, dark green leaves and striking red undersides. Semi-succulent with low water needs. Excellent desk plant.",
+    "commonExamples": "Peperomia caperata 'Rosso' (Emerald ripple pepper, Red ripple peperomia)",
+    "careTips": "Water when top inch of soil is dry; semi-succulent so tolerates slight drought. Bright indirect light enhances red coloring. Average humidity is fine. Compact grower rarely needing repotting. Fertilize lightly spring through summer. Non-toxic to pets.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Specialty",
+    "categoryIndex": 10
+  },
+  {
     "id": "peperomia-watermelon",
     "typeName": "Peperomia Watermelon",
     "description": "Compact peperomia with silver-striped leaves resembling watermelon rind.",
@@ -7736,6 +7925,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "welwitschia",
+    "typeName": "Welwitschia",
+    "description": "One of the most unusual plants on Earth — a living fossil from the Namib Desert. Each plant produces only two leaves in its entire lifetime, which grow continuously and split into straps. Can live over 1,000 years.",
+    "commonExamples": "Welwitschia mirabilis (Welwitschia, Tree tumbo, Tweeblaarkanniedood)",
+    "careTips": "Extremely drought tolerant but benefits from occasional deep watering. Full sun. Excellent drainage is critical — grows naturally in desert sand and gravel. Very slow growing. Nearly impossible to transplant due to a deep taproot. Non-toxic.",
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      5,
+      45
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      400,
+      2000
+    ],
+    "category": "Houseplants - Specialty",
+    "categoryIndex": 10
+  },
+  {
     "id": "bald-cypress",
     "typeName": "Bald Cypress",
     "description": "Deciduous conifer with feathery foliage and distinctive \"knees\"; tolerates wet or swampy sites.",
@@ -7907,6 +8123,33 @@
       5,
       8
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "chinese-elm",
+    "typeName": "Chinese Elm",
+    "description": "Graceful deciduous or semi-evergreen tree with small leaves, fine branching, and attractive mottled bark that flakes to reveal orange, grey, and cream. The most popular species for bonsai.",
+    "commonExamples": "Ulmus parvifolia (Chinese elm, Lacebark elm), popular bonsai tree",
+    "careTips": "Water regularly — keep soil consistently moist but not waterlogged. Full sun to partial shade. Adapts to most soil types. Prune in late winter for shape. Highly resistant to Dutch elm disease. Excellent for bonsai — responds well to pruning and wiring. Non-toxic.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      150
+    ],
+    "category": "Outdoor - Trees",
     "categoryIndex": 11
   },
   {
@@ -8174,6 +8417,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "dragon-blood-tree",
+    "typeName": "Dragon Blood Tree",
+    "description": "Iconic umbrella-shaped tree endemic to Socotra Island, Yemen. Known for its distinctive mushroom-like canopy and crimson red resin (dragon's blood) used in traditional medicine and dyes for centuries.",
+    "commonExamples": "Dracaena cinnabari (Socotra dragon tree, Dragon blood tree)",
+    "careTips": "Extremely drought tolerant once established. Full sun. Well-draining soil essential. Very slow growing — can live 300-600+ years. Difficult to cultivate outside its native habitat. Hardy in warm, arid climates only. Non-toxic.",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      600
+    ],
+    "category": "Outdoor - Trees",
     "categoryIndex": 11
   },
   {
@@ -8448,6 +8718,33 @@
     "categoryIndex": 11
   },
   {
+    "id": "kapok-tree",
+    "typeName": "Kapok Tree",
+    "description": "Massive tropical tree that can reach 60-70 meters with buttress roots and a wide canopy. Produces large pods containing silky, cotton-like fiber (kapok) used for stuffing and insulation.",
+    "commonExamples": "Ceiba pentandra (Kapok tree, Silk-cotton tree, Java cotton)",
+    "careTips": "Water regularly when young; drought tolerant once established. Full sun. Rich, well-draining soil. Fast growing in tropical climates. Cannot tolerate frost. Sacred tree in many cultures — the Mayan World Tree. Non-toxic.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      15,
+      38
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      60,
+      200
+    ],
+    "category": "Outdoor - Trees",
+    "categoryIndex": 11
+  },
+  {
     "id": "magnolia",
     "typeName": "Magnolia",
     "description": "Deciduous and evergreen trees in the Magnoliaceae family with large, fragrant flowers, many species are ancient flowering plants.",
@@ -8561,6 +8858,60 @@
       3,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "moringa",
+    "typeName": "Moringa",
+    "description": "Fast-growing, drought-tolerant tree with edible leaves, pods, seeds, and flowers. Extremely nutritious — leaves contain high levels of vitamins and minerals.",
+    "commonExamples": "Moringa oleifera (Moringa, Drumstick tree, Horseradish tree, Ben oil tree)",
+    "careTips": "Water deeply once established, then allow soil to dry somewhat between waterings. Full sun essential. Well-draining sandy or loamy soil. Extremely fast growing — can reach 3+ meters in the first year. Cannot tolerate frost. Prune regularly to encourage bushier growth. Non-toxic — all parts are edible.",
+    "springInterval": 7,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Outdoor - Trees",
+    "categoryIndex": 11
+  },
+  {
+    "id": "neem",
+    "typeName": "Neem Tree",
+    "description": "Evergreen tree native to the Indian subcontinent, widely cultivated for its medicinal and insecticidal properties. Nearly every part of the tree has been used in traditional medicine.",
+    "commonExamples": "Azadirachta indica (Neem tree, Indian lilac, Margosa tree)",
+    "careTips": "Water regularly when young; very drought tolerant once established. Full sun. Adapts to poor soils but prefers well-draining conditions. Fast growing. Cannot tolerate frost or prolonged cold. Neem oil from seeds is a popular organic pesticide. Mildly toxic if ingested in large quantities.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      42
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      200
+    ],
+    "category": "Outdoor - Trees",
     "categoryIndex": 11
   },
   {
@@ -8921,6 +9272,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "wollemi-pine",
+    "typeName": "Wollemi Pine",
+    "description": "Living fossil discovered in 1994 in a remote canyon in Australia. Thought to have been extinct for 2 million years. Distinctive bubbly, chocolate-brown bark.",
+    "commonExamples": "Wollemia nobilis (Wollemi pine, Dinosaur tree)",
+    "careTips": "Water regularly; prefers consistently moist but not waterlogged soil. Partial shade to full sun. Prefers acidic, well-draining soil. Surprisingly adaptable in cultivation. Hardy to about -5°C. Slow growing. Non-toxic. Conservation status: critically endangered in the wild.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      500
+    ],
+    "category": "Outdoor - Trees",
     "categoryIndex": 11
   },
   {
@@ -9443,6 +9821,33 @@
     "categoryIndex": 12
   },
   {
+    "id": "knockout-rose",
+    "typeName": "Knock Out Rose",
+    "description": "Disease-resistant, continuously blooming landscape rose that revolutionized home rose growing. Requires minimal maintenance compared to traditional hybrid tea roses.",
+    "commonExamples": "Rosa 'Radrazz' (Knock Out rose), 'Double Knock Out' (double petals), 'Pink Knock Out', 'Sunny Knock Out' (yellow)",
+    "careTips": "Water deeply once or twice a week. Full sun (6+ hours). Well-draining, slightly acidic soil. Prune in early spring to 12-18 inches. Self-cleaning — no deadheading needed. Highly resistant to black spot. Fertilize in spring and summer. Non-toxic.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      15,
+      25
+    ],
+    "category": "Outdoor - Shrubs",
+    "categoryIndex": 12
+  },
+  {
     "id": "lavender",
     "typeName": "Lavender",
     "description": "Also known as: English lavender. Aromatic flowering herbs in the Lamiaceae family with silvery foliage and fragrant purple flowers, drought-tolerant once established.",
@@ -9533,6 +9938,33 @@
       3,
       9
     ],
+    "categoryIndex": 12
+  },
+  {
+    "id": "limelight-hydrangea",
+    "typeName": "Limelight Hydrangea",
+    "description": "Panicle hydrangea with large, cone-shaped flower clusters that emerge lime-green, turn white, then fade to pink in fall. Blooms on new wood, so reliable even after harsh winters.",
+    "commonExamples": "Hydrangea paniculata 'Limelight' (Limelight hydrangea), 'Little Lime' (dwarf form), 'Limelight Prime'",
+    "careTips": "Water regularly — prefers consistently moist soil. Partial sun to full sun. Unlike bigleaf hydrangeas, flower color is not affected by soil pH. Prune in late winter or early spring. Blooms on new wood. Very cold hardy. Toxic if ingested.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      32
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Outdoor - Shrubs",
     "categoryIndex": 12
   },
   {
@@ -10718,6 +11150,33 @@
       3,
       9
     ],
+    "categoryIndex": 13
+  },
+  {
+    "id": "dianthus-carnation",
+    "typeName": "Carnation",
+    "description": "One of the world's oldest cultivated flowers, grown for over 2,000 years. Prized for ruffled, fragrant blooms in almost every color. A staple in the cut flower industry.",
+    "commonExamples": "Dianthus caryophyllus (Carnation, Clove pink), 'Chabaud' (garden), 'Grenadin' (double), Spray carnations (multiple small flowers)",
+    "careTips": "Water when top inch of soil is dry; avoid wetting foliage. Full sun (6+ hours). Well-draining, neutral to slightly alkaline soil. Deadhead regularly to encourage repeat blooming. Stake tall varieties. Fertilize monthly during growing season. Mildly toxic to pets.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      5
+    ],
+    "category": "Outdoor - Perennials",
     "categoryIndex": 13
   },
   {
@@ -13324,6 +13783,33 @@
     "categoryIndex": 14
   },
   {
+    "id": "sweet-pea",
+    "typeName": "Sweet Pea",
+    "description": "Beloved annual climbing flower prized for its fragrant, ruffled blooms in a wide range of pastel colors. A cottage garden classic.",
+    "commonExamples": "Lathyrus odoratus (Sweet pea), 'Spencer' varieties (large, ruffled), 'Old Spice' (heirloom mix), 'Cupani' (original bicolor)",
+    "careTips": "Water regularly — keep soil consistently moist but not waterlogged. Full sun with cool roots. Plant early in spring — prefers cool weather and fades in heat. Provide support for climbing. Deadhead spent flowers to prolong blooming. Seeds are toxic if ingested.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      5,
+      25
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "alkaline",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Outdoor - Annuals",
+    "categoryIndex": 14
+  },
+  {
     "id": "sweet-potato-vine",
     "typeName": "Sweet Potato Vine",
     "description": "Trailing foliage plant in lime, purple, or bronze; grown for leaves, not tubers; fast-growing.",
@@ -13782,6 +14268,33 @@
       4,
       9
     ],
+    "categoryIndex": 15
+  },
+  {
+    "id": "japanese-wisteria",
+    "typeName": "Japanese Wisteria",
+    "description": "Vigorous, long-lived climbing vine famous for its cascading clusters of fragrant purple, blue, pink, or white flowers in spring. Iconic in Japanese gardens, particularly the famous wisteria tunnels.",
+    "commonExamples": "Wisteria floribunda (Japanese wisteria), 'Royal Purple', 'Macrobotrys' (extra-long racemes), 'Alba' (white flowers)",
+    "careTips": "Water regularly when young; drought tolerant once established. Full sun essential for best flowering. Very vigorous grower — requires strong support structure (arbor, pergola). Prune twice yearly (summer and winter) to control growth and encourage flowering. May take 3-5 years to bloom. Seeds and pods are toxic.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      100
+    ],
+    "category": "Outdoor - Vines & Climbers",
     "categoryIndex": 15
   },
   {
@@ -15891,33 +16404,6 @@
     "categoryIndex": 18
   },
   {
-    "id": "crenshaw-melon",
-    "typeName": "Crenshaw Melon",
-    "description": "Large hybrid melon in the Cucurbitaceae family with sweet, aromatic salmon-pink flesh, casaba and Persian cross.",
-    "commonExamples": "Cucumis melo (Crenshaw)",
-    "careTips": "Water deeply 2-3 times per week, increase during fruit development. Consistent moisture critical during fruiting. Mulch around plants. Full sun essential (6-8 hours daily). Fertilize every 3-4 weeks with balanced fertilizer. Vining plants require space. Harvest when stem separates easily and fruit has sweet aroma. Warm-season crop. Seasonal crop; watering varies by growing zone and harvest timing.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Vegetables - Fruiting",
-    "categoryIndex": 18
-  },
-  {
     "id": "cucumbers",
     "typeName": "Cucumbers",
     "description": "Vining fruiting vegetables in the Cucurbitaceae family, need consistent moisture and support for climbing types.",
@@ -15959,6 +16445,33 @@
     "temperaturePreference": [
       10,
       32
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Vegetables - Fruiting",
+    "categoryIndex": 18
+  },
+  {
+    "id": "edamame",
+    "typeName": "Edamame",
+    "description": "Immature soybeans harvested while still green and tender, a popular snack and ingredient in East Asian cuisine. Higher in protein than most vegetables.",
+    "commonExamples": "Glycine max (Edamame, Green soybean), 'Midori Giant', 'Butterbean', 'Beer Friend'",
+    "careTips": "Water regularly — keep soil moist during flowering and pod development. Full sun. Warm weather crop; plant after last frost. Inoculate seeds with rhizobium bacteria for better nitrogen fixation. Harvest when pods are plump but still green. Non-toxic.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      15,
+      30
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -16431,6 +16944,33 @@
     "categoryIndex": 18
   },
   {
+    "id": "rhubarb",
+    "typeName": "Rhubarb",
+    "description": "Perennial vegetable grown for its tart, red or green stalks used in pies, jams, and sauces. Only the stalks are edible — the leaves contain toxic oxalic acid.",
+    "commonExamples": "Rheum rhabarbarum (Garden rhubarb), 'Victoria', 'Crimson Cherry', 'Glaskin's Perpetual'",
+    "careTips": "Water regularly — needs consistent moisture. Full sun to partial shade. Rich, well-draining soil with lots of compost. Do not harvest in the first year to let roots establish. Divide every 5-6 years. Leaves are toxic — only eat the stalks.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Vegetables - Fruiting",
+    "categoryIndex": 18
+  },
+  {
     "id": "roma-tomato",
     "typeName": "Roma Tomato",
     "description": "Also known as: Plum tomato. Plum tomato in the Solanaceae family with meaty, low-moisture flesh, ideal for sauces, paste, and canning.",
@@ -16453,6 +16993,33 @@
     "plantLifeSpan": [
       1,
       1
+    ],
+    "category": "Vegetables - Fruiting",
+    "categoryIndex": 18
+  },
+  {
+    "id": "serrano",
+    "typeName": "Serrano Pepper",
+    "description": "Medium-hot pepper (10,000-23,000 Scoville) commonly used in Mexican cuisine, especially salsas and pico de gallo. Smaller and hotter than jalapeños.",
+    "commonExamples": "Capsicum annuum 'Serrano' (Serrano pepper, Chile serrano)",
+    "careTips": "Water when top inch of soil is dry; keep consistently moist during fruiting. Full sun (6-8 hours). Rich, well-draining soil. Harvest when green or red. Very productive — a single plant can yield 50+ peppers. Non-toxic.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      3
     ],
     "category": "Vegetables - Fruiting",
     "categoryIndex": 18
@@ -17033,6 +17600,33 @@
     "categoryIndex": 19
   },
   {
+    "id": "leek",
+    "typeName": "Leek",
+    "description": "Mild-flavored allium with a long white shaft and fan of flat green leaves. A staple in European cooking, especially French cuisine (vichyssoise, leek and potato soup).",
+    "commonExamples": "Allium ampeloprasum var. porrum (Leek), 'King Richard', 'Musselburgh', 'Blue Solaise'",
+    "careTips": "Water regularly to keep soil consistently moist. Full sun. Rich, well-draining soil. Hill soil around the base (blanching) to extend the white edible portion. Long growing season (90-120 days). Frost tolerant. Non-toxic.",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      7,
+      24
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      2
+    ],
+    "category": "Vegetables - Root & Bulb",
+    "categoryIndex": 19
+  },
+  {
     "id": "onions-garlic",
     "typeName": "Onions & Garlic",
     "description": "Also known as: Shallot. Bulb vegetables in the Amaryllidaceae family, reduce watering as bulbs mature to prevent rot.",
@@ -17543,37 +18137,6 @@
     "hardinessZones": [
       3,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "boysenberry",
-    "typeName": "Boysenberry",
-    "description": "Blackberry-raspberry hybrid in the Rosaceae family with large, tart-sweet berries, trailing cane habit.",
-    "commonExamples": "Rubus ursinus × R. idaeus (Boysenberry)",
-    "careTips": "Water deeply once or twice per week, keeping soil evenly moist during fruiting. Full sun preferred (6-8 hours daily). Fertilize in early spring with balanced fertilizer before new growth begins. Train trailing canes on a trellis or wire support system for best air circulation and easier harvest. After fruiting, prune spent canes to the ground - fruit is produced on second-year canes. Mulch generously to suppress weeds and retain moisture. Non-toxic to pets.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Fruits & Berries",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18093,37 +18656,6 @@
     "hardinessZones": [
       9,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "loganberry",
-    "typeName": "Loganberry",
-    "description": "Blackberry-raspberry hybrid in the Rosaceae family with long dark red berries, trailing cane habit.",
-    "commonExamples": "Rubus × loganobaccus",
-    "careTips": "Water when top inch of soil is dry. Full sun preferred for most. Fertilize regularly during growing season. Harvest as needed. Mulch to retain moisture.",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Fruits & Berries",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18691,9 +19223,9 @@
     "description": "Cactus in the Cactaceae family with edible pads and sweet, colorful fruits (tunas), drought-tolerant.",
     "commonExamples": "Opuntia ficus-indica (Tuna fruit)",
     "careTips": "Water very sparingly - soak soil thoroughly then allow to dry completely before watering again; in winter, suspend watering almost entirely. Full sun essential (8+ hours daily). Fertilize once in spring with a dilute cactus fertilizer or low-nitrogen blend. Do NOT mulch - prickly pear needs bare, fast-draining soil and mulch retains too much moisture causing rot. Use tongs and thick gloves when harvesting fruit (tunas), as both fruit and pads have glochids (tiny barbed spines). Extremely drought and heat tolerant once established. Pads can be rooted simply by setting a cut pad on dry soil. Non-toxic to pets; glochids can cause mechanical irritation.",
-    "springInterval": 14,
-    "summerInterval": 10,
-    "fallInterval": 7,
+    "springInterval": 10,
+    "summerInterval": 7,
+    "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
@@ -19968,6 +20500,33 @@
     "categoryIndex": 21
   },
   {
+    "id": "wasabi",
+    "typeName": "Wasabi",
+    "description": "Prized in Japanese cuisine for its pungent, sinus-clearing flavor. Notoriously difficult to grow — requires cool, shady, humid conditions with clean running water.",
+    "commonExamples": "Eutrema japonicum (syn. Wasabia japonica; Wasabi, Japanese horseradish)",
+    "careTips": "Keep soil consistently moist — grows naturally along mountain stream beds. Cool shade essential; cannot tolerate heat above 20°C or direct sun. Very high humidity required. Extremely slow growing — takes 18-24 months to produce a usable rhizome. Non-toxic.",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": 7,
+    "lightPreference": "outdoorShade",
+    "humidityPreference": "veryHigh",
+    "temperaturePreference": [
+      8,
+      20
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      3
+    ],
+    "category": "Herbs",
+    "categoryIndex": 21
+  },
+  {
     "id": "alfalfa",
     "typeName": "Alfalfa",
     "description": "Perennial legume in the Fabaceae family. Major forage crop for hay and grazing. Nitrogen-fixing; deep roots. Also grown for sprouting.",
@@ -20021,37 +20580,6 @@
     "plantLifeSpan": [
       1,
       2
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "bahia-grass",
-    "typeName": "Bahia Grass",
-    "description": "Perennial grass in the Poaceae family. Warm-season forage and turf. Tolerates poor soil, drought, and low fertility. Common in southern US.",
-    "commonExamples": "Paspalum notatum",
-    "careTips": "Full sun. Tolerates sandy, acidic soil. Mow or graze regularly. Establishes slowly from seed. Low maintenance once established.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -20208,37 +20736,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "castor-bean",
-    "typeName": "Castor Bean",
-    "description": "Tropical perennial grown as annual for oil-rich seeds. Produces castor oil; seeds contain ricin—highly toxic. Grown for industrial oil, not consumption.",
-    "commonExamples": "Ricinus communis",
-    "careTips": "Full sun. Well-drained soil. Water regularly. Toxic to pets and humans—seeds contain ricin. Keep away from children and animals. Harvest seeds when capsules dry.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "chickpea",
     "typeName": "Chickpea",
     "description": "Annual legume in the Fabaceae family. Desi and kabuli types. Nutrient-dense pulse; drought tolerant. Cool-season crop.",
@@ -20298,6 +20795,33 @@
       2,
       11
     ],
+    "categoryIndex": 22
+  },
+  {
+    "id": "clover-white",
+    "typeName": "White Clover",
+    "description": "Low-growing perennial legume commonly used as a ground cover, living mulch, and forage crop. Fixes nitrogen in the soil. Attractive to pollinators with white flower heads.",
+    "commonExamples": "Trifolium repens (White clover, Dutch clover), 'New Zealand White', 'Ladino' (giant white clover)",
+    "careTips": "Water occasionally — quite drought tolerant once established. Full sun to partial shade. Adapts to most soil types. Self-seeding and spreading. Tolerates mowing and foot traffic. Often used as a lawn alternative or companion plant. Non-toxic.",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      30
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      8
+    ],
+    "category": "Farm & Field Crops",
     "categoryIndex": 22
   },
   {
@@ -20452,37 +20976,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "fescue-tall",
-    "typeName": "Tall Fescue",
-    "description": "Perennial cool-season grass in the Poaceae family. Major forage and turf grass. Tolerates drought, shade, and heavy grazing. Endophyte varieties improve persistence.",
-    "commonExamples": "Festuca arundinacea",
-    "careTips": "Full sun to partial shade. Adapts to many soils. Mow or graze regularly. Endophyte-free for horses (fescue toxicosis risk).",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "flax",
     "typeName": "Flax",
     "description": "Annual in the Linaceae family. Grown for fiber (linen) and seeds (linseed oil, omega-3). Blue flowers. Cool-season crop.",
@@ -20563,37 +21056,6 @@
     "plantLifeSpan": [
       10,
       25
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "jute",
-    "typeName": "Jute",
-    "description": "Annual fiber crop in the Malvaceae family. Bast fiber for twine, burlap, geotextiles. Tossa and white jute. Tropical to subtropical.",
-    "commonExamples": "Corchorus olitorius (Jute)",
-    "careTips": "Full sun. Rich, moist soil. Warm-season. Harvest stems at flowering for fiber. Ret (retting) in water to separate fiber.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      2
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -21211,37 +21673,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "timothy-grass",
-    "typeName": "Timothy Grass",
-    "description": "Perennial cool-season grass in the Poaceae family. Premium hay for horses. Cylindrical seed heads. Grows well in cool, moist climates.",
-    "commonExamples": "Phleum pratense",
-    "careTips": "Full sun. Moist, well-drained soil. Cool-season. Harvest hay at early heading. Often mixed with alfalfa or clover. Non-bloating.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "tobacco",
     "typeName": "Tobacco",
     "description": "Annual herb in the Solanaceae family. Leaves contain nicotine; grown for commercial tobacco. Ornamental Nicotiana species differ. Not for consumption.",
@@ -21547,119 +21978,11 @@
     "categoryIndex": 23
   },
   {
-    "id": "cabbage-microgreens",
-    "typeName": "Cabbage Microgreens",
-    "description": "Mild microgreens from cabbage. Red or green. Harvest at first true leaves (8–12 days).",
-    "commonExamples": "Brassica oleracea",
-    "careTips": "Sow on moist medium; press gently. Mist 1-2× daily. Bright indirect light. Harvest in 7-10 days. Mild cabbage flavor, slightly sweet. Purple varieties add vivid color. No fertilizer. Rich in vitamin C and glucosinolates.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "carrot-microgreens",
     "typeName": "Carrot Microgreens",
     "description": "Fine, feathery microgreens from carrot. Slow to germinate. Harvest at first true leaves (14–21 days).",
     "commonExamples": "Daucus carota",
     "careTips": "Sow on moist medium; press in. Keep moist—mist 2× daily. Bright indirect light. Slow germinator; harvest in 14-18 days. Concentrated carrot flavor; wispy, feathery tops. Patience required—one of the slower microgreens. Rich in beta-carotene.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "celery-microgreens",
-    "typeName": "Celery Microgreens",
-    "description": "Concentrated celery flavor. Harvest at first true leaves (14–21 days). Slower grower.",
-    "commonExamples": "Apium graveolens",
-    "careTips": "Sow on moist medium; do not cover (seeds need light). Mist 2× daily. Bright indirect light. Slow germinator; harvest in 14-21 days. Intense celery flavor—stronger than mature stalks. Good for garnishing soups and stews. Rich in vitamins A and K.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chard-microgreens",
-    "typeName": "Chard Microgreens",
-    "description": "Colorful stems; mild spinach-like flavor. Harvest at first true leaves (10–14 days).",
-    "commonExamples": "Beta vulgaris var. cicla",
-    "careTips": "Soak seed clusters 8-12 hours. Sow on moist medium. Mist 1-2× daily. Bright indirect light. Harvest in 10-14 days. Mild, earthy flavor. Rainbow chard varieties produce colorful red, yellow, and pink stems. Rich in vitamins A, C, and K.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chickpea-sprouts",
-    "typeName": "Chickpea Sprouts",
-    "description": "Bean sprouts from chickpeas. Hearty, nutty. Harvest in 3–5 days. Soak 8–12 hrs first.",
-    "commonExamples": "Cicer arietinum",
-    "careTips": "Soak seeds 8-12 hours. Rinse 2-3× daily; drain thoroughly—prone to mold if too wet. Keep dark. Harvest in 3-5 days when tails are short (1/2 inch). Nutty, starchy flavor; best cooked lightly. Rich in protein and fiber. Discard any that don't sprout.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -21790,33 +22113,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "fennel-microgreens",
-    "typeName": "Fennel Microgreens",
-    "description": "Anise-like flavor. Harvest at first true leaves (12–14 days).",
-    "commonExamples": "Foeniculum vulgare",
-    "careTips": "Sow on moist medium; press in. Mist 1-2× daily. Bright indirect light. Harvest in 12-16 days. Mild anise/licorice flavor, delicate and sweet. Feathery, wispy tops. Pairs well with seafood and citrus. Rich in vitamin C and potassium.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "fenugreek-sprouts",
     "typeName": "Fenugreek Sprouts",
     "description": "Aromatic, slightly bitter sprouts. Curry-like. Harvest in 4–6 days. Rinse 2× daily.",
@@ -21849,33 +22145,6 @@
     "description": "Nutritious microgreens; mild cabbage flavor. Harvest at first true leaves (8–12 days).",
     "commonExamples": "Brassica oleracea var. acephala",
     "careTips": "Sow on moist medium; press gently. Mist 1-2× daily. Bright indirect light. Harvest in 8-12 days. Mild, slightly sweet—less bitter than mature kale. Purple or green varieties. No fertilizer. Rich in vitamins A, C, K, and calcium.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "kohlrabi-microgreens",
-    "typeName": "Kohlrabi Microgreens",
-    "description": "Mild, sweet microgreens. Purple or green. Harvest at first true leaves (8–12 days).",
-    "commonExamples": "Brassica oleracea var. gongylodes",
-    "careTips": "Sow on moist medium; press gently. Mist 1-2× daily. Bright indirect light. Harvest in 7-10 days. Mild, sweet, slightly broccoli-like flavor. Purple varieties have striking stems. Fast and reliable grower. Rich in vitamin C.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -21939,33 +22208,6 @@
     "temperaturePreference": [
       10,
       32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "microgreen-mix",
-    "typeName": "Microgreen Mix",
-    "description": "Blend of fast-growing seeds harvested as young seedlings (7-21 days), combining varied flavors, colors, and textures for nutrient-dense garnishes and salads.",
-    "commonExamples": "Brassica oleracea (Broccoli, kale, kohlrabi microgreens), Raphanus sativus (Radish microgreens), Helianthus annuus (Sunflower microgreens), Pisum sativum (Pea shoots)",
-    "careTips": "Mist 1-2 times daily to keep the growing medium consistently moist without waterlogging. Bright indirect light or a grow light for 12-16 hours daily produces stocky, colorful greens. Grow on moistened coco coir, hemp mats, or a thin layer of potting mix. Seeds should be pre-soaked for 4-12 hours for faster germination. Maintain 18-22°C for optimal growth. Harvest with clean scissors when the first true leaves appear, typically 7-14 days after sowing. Non-toxic — grown specifically for eating.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": 2,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      25
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -22065,33 +22307,6 @@
     "description": "Mild onion-flavored sprouts with a gentle allium bite. Harvest at first true leaves (10–14 days). Pre-soak seeds before planting.",
     "commonExamples": "Allium cepa",
     "careTips": "Soak seeds 8-12 hours. Sow on moist medium; keep damp. Mist 1-2× daily. Bright indirect light. Harvest in 10-14 days when 3-4 inches tall. Mild onion flavor; excellent garnish for soups and salads. Thin and elegant. Rich in quercetin and vitamin C.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
-    "id": "parsnip-microgreens",
-    "typeName": "Parsnip Microgreens",
-    "description": "Sweet, earthy. Slow germinator. Harvest at first true leaves (18–21 days).",
-    "commonExamples": "Pastinaca sativa",
-    "careTips": "Sow on moist medium; press in lightly. Mist 1-2× daily. Bright indirect light. Very slow germinator; harvest in 18-24 days. Sweet, earthy parsnip flavor. Requires patience—one of the slowest microgreens. Rich in potassium and folate. Handle with care; sap can irritate skin.",
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -22222,33 +22437,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "sorrel-microgreens",
-    "typeName": "Sorrel Microgreens",
-    "description": "Tangy microgreens with a bright, lemony flavor from oxalic acid. Red-veined sorrel varieties add vivid color to dishes. Rich in vitamins A and C. Harvest at first true leaves (12-14 days). Excellent garnish for seafood, salads, and soups.",
-    "commonExamples": "Rumex acetosa",
-    "careTips": "Sow on moist medium; press gently. Mist 1-2× daily. Bright indirect light. Harvest at first true leaves (12-14 days). Bright, tangy, lemony flavor from oxalic acid. Red-veined varieties add vivid color. Pairs well with seafood and salads. Rich in vitamins A and C.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "soybean-sprouts",
     "typeName": "Soybean Sprouts",
     "description": "Large bean sprouts from soybeans. Crunchy; cook before eating. Harvest when 2–3 in (4–6 days). Rinse 2× daily.",
@@ -22276,37 +22464,10 @@
     "categoryIndex": 23
   },
   {
-    "id": "spinach-microgreens",
-    "typeName": "Spinach Microgreens",
-    "description": "Mild, nutritious. Harvest at first true leaves (10–14 days).",
-    "commonExamples": "Spinacia oleracea",
-    "careTips": "Sow on moist medium; press in. Mist 1-2× daily. Bright indirect light; prefers cooler conditions (15-20°C). Harvest in 10-14 days. Mild, sweet spinach flavor—less oxalic than mature leaves. Green or red varieties. Rich in iron, folate, and vitamins A and K.",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens",
-    "categoryIndex": 23
-  },
-  {
     "id": "sprouts-microgreens",
     "typeName": "Sprouts & Microgreens",
-    "description": "Young seedlings harvested within 1-3 weeks of germination. Sprouts are grown in water only; microgreens are grown on a thin layer of soil or growing medium. Nutrient-dense and easy to grow indoors year-round.",
-    "commonExamples": "Broccoli sprouts, Alfalfa sprouts, Sunflower microgreens, Pea shoots, Radish microgreens, Wheatgrass",
+    "description": "Young seedlings harvested within 1-3 weeks of germination. Sprouts are grown in water only; microgreens are grown on a thin layer of soil or growing medium. Nutrient-dense and easy to grow indoors year-round. Popular mixes combine varied flavors, colors, and textures.",
+    "commonExamples": "Broccoli sprouts, Alfalfa sprouts, Sunflower microgreens, Pea shoots, Radish microgreens, Wheatgrass, Mixed microgreen blends",
     "careTips": "Mist or water lightly 1-2 times daily to keep seeds and growing medium moist. Never let dry out, but avoid standing water which causes mold. Bright indirect light preferred (a windowsill or grow light). Good air circulation essential to prevent mold and damping off. No fertilizer needed — seeds contain all necessary nutrients. Use clean, food-safe containers and fresh seeds. Harvest sprouts in 3-7 days, microgreens in 7-14 days. Rinse sprouts twice daily. Succession sow every few days for continuous harvest.",
     "springInterval": 1,
     "summerInterval": 1,
@@ -23505,37 +23666,6 @@
     "categoryIndex": 25
   },
   {
-    "id": "floating-heart",
-    "typeName": "Floating Heart",
-    "description": "Floating aquatic with heart-shaped leaves and yellow flowers. Nymphoides prefers still water. Can spread—contain in small ponds.",
-    "commonExamples": "Nymphoides spp. (Water snowflake)",
-    "careTips": "Floats on still water. Full sun. No planting—add to pond surface. Can be invasive; remove excess. Roots in water or muck. Mildly toxic to pets—may cause GI upset if ingested.",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Specialty - Aquatic & Bog",
-    "hardinessZones": [
-      4,
-      10
-    ],
-    "categoryIndex": 25
-  },
-  {
     "id": "giant-water-lily",
     "typeName": "Giant Water Lily",
     "description": "The largest water lily in the world, with circular floating pads up to 3m in diameter that can support the weight of a child. White flowers bloom at night.",
@@ -23945,33 +24075,6 @@
     "plantLifeSpan": [
       3,
       15
-    ],
-    "category": "Specialty - Carnivorous",
-    "categoryIndex": 26
-  },
-  {
-    "id": "cephalotus",
-    "typeName": "Albany Pitcher Plant",
-    "description": "Also known as: Fly-catcher plant. Rare and highly sought-after carnivorous plant endemic to a small coastal area of Western Australia, producing charming miniature pitchers with toothy lids that trap insects.",
-    "commonExamples": "Cephalotus follicularis (Albany pitcher plant, Australian pitcher plant, Fly-catcher plant)",
-    "careTips": "Keep soil consistently moist using bottom watering with mineral-free water (rain, distilled, or reverse osmosis); never let it dry out or sit in deep water. Bright indirect light—some gentle direct morning sun is beneficial. High humidity (60-80%) preferred; terrariums work well. Use a mix of peat and perlite (1:1) or sphagnum moss. Never fertilize through the soil—only occasional foliar feeding with very diluted (1/4 strength) fertilizer if no insects are available. Pitchers color up more in bright light. Slow-growing. Non-toxic to pets.",
-    "springInterval": 3,
-    "summerInterval": 3,
-    "fallInterval": 5,
-    "winterInterval": 7,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      5,
-      25
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      10,
-      30
     ],
     "category": "Specialty - Carnivorous",
     "categoryIndex": 26
@@ -24587,37 +24690,6 @@
     "categoryIndex": 28
   },
   {
-    "id": "alpine-catchfly",
-    "typeName": "Alpine Catchfly",
-    "description": "Also known as: Moss campion, Cushion pink. Moss-like alpine cushion plant with pink flowers. Silene acaulis forms dense mats ideal for rock gardens and crevices.",
-    "commonExamples": "Silene acaulis (Moss campion, Cushion pink)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - use rocky, gritty mix. Full sun preferred. Very drought tolerant. Fertilize sparingly. Slow-growing cushion form. Perfect for rock gardens, walls, and alpine troughs. Alpine; reduce watering when dormant; avoid winter wet.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "alpine-plants",
     "typeName": "Alpine Plants",
     "description": "Plants adapted to high-altitude, rocky conditions with excellent drainage, many are drought tolerant.",
@@ -24640,37 +24712,6 @@
     "plantLifeSpan": [
       3,
       10
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "alpine-poppy",
-    "typeName": "Alpine Poppy",
-    "description": "Delicate alpine poppies with crepe-paper flowers in white, yellow, or orange. Short-lived but self-seed. Cold hardy.",
-    "commonExamples": "Papaver alpinum (Alpine poppy)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun preferred. Short-lived perennial - allow to self-seed. Fertilize sparingly. Perfect for rock gardens. Avoid excess moisture. Alpine; reduce watering when dormant; avoid winter wet. Toxic to pets—all parts; keep away from pets.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      5
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -24768,37 +24809,6 @@
     "category": "Specialty - Alpine",
     "hardinessZones": [
       3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "draba",
-    "typeName": "Draba",
-    "description": "Small alpine crucifers forming cushions or mats with yellow or white flowers. Many species for rock gardens and troughs.",
-    "commonExamples": "Draba spp. (Whitlow grass)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - use rocky, gritty mix. Full sun preferred. Drought tolerant. Fertilize sparingly. Perfect for rock gardens and alpine troughs. Alpine; reduce watering when dormant; avoid winter wet.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
       8
     ],
     "categoryIndex": 28
@@ -24924,73 +24934,11 @@
     "categoryIndex": 28
   },
   {
-    "id": "rock-jasmine",
-    "typeName": "Rock Jasmine",
-    "description": "Low alpine plants in the primrose family with white or pink flowers. Cushion- or mat-forming. Many species for rock gardens.",
-    "commonExamples": "Androsace spp. (Rock jasmine)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - use rocky, gritty mix. Full sun preferred. Many species are challenging. Fertilize sparingly. Perfect for rock gardens and alpine troughs. Alpine; reduce watering when dormant; avoid winter wet.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "saxifrage",
     "typeName": "Saxifrage",
     "description": "Also known as: Rockfoil. Diverse alpine genus with cushion, mat, or rosette forms. Flowers in white, pink, or yellow. Many species for rock gardens.",
     "commonExamples": "Saxifraga spp. (Rockfoil)",
     "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential - use rocky, gritty mix. Full sun to partial shade depending on species. Fertilize sparingly. Perfect for rock gardens and walls. Alpine; reduce watering when dormant; avoid winter wet.",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "sempervivum-alpine",
-    "typeName": "Hens and Chicks",
-    "description": "Also known as: Houseleek. Succulent rosettes that multiply by offsets (chicks). Extremely cold hardy. Drought tolerant. Many colors and forms.",
-    "commonExamples": "Sempervivum tectorum (Houseleek), S. arachnoideum (Cobweb houseleek)",
-    "careTips": "Light watering (every 1-2 weeks). Allow to dry between waterings. Excellent drainage essential. Full sun preferred. Very drought tolerant. Fertilize sparingly. Propagate by removing offsets. Perfect for rock gardens, green roofs, and containers. Alpine; reduce watering when dormant; avoid winter wet.",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,

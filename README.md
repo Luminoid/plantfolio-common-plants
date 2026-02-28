@@ -2,7 +2,7 @@
 
 Curated plant care dataset for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)).
 
-**872 plants** | **29 categories** | **3 locales** (EN, ES, ZH-Hans) | **v1.8.0**
+**872 plants** | **29 categories** | **3 locales** (EN, ES, ZH-Hans) | **v1.8.1**
 
 Care intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, scientific nomenclature (POWO/Kew), and localized descriptions.
 
@@ -241,7 +241,7 @@ Each language file must contain only its target language. Exceptions: scientific
 
 | Group | Categories |
 |-------|------------|
-| **Houseplants** (11) | Low Maintenance, Aroids, Ferns, Palms, Succulents, Cacti, Flowering, Prayer Plants, Vines & Trailing, Ficus & Rubber Trees, Specialty |
+| **Houseplants** (11) | Low Maintenance, Aroids, Ferns, Palms, Succulents, Cacti, Flowering, Prayer Plants, Vines & Trailing, Ficus & Fig, Specialty |
 | **Outdoor** (6) | Trees, Shrubs, Perennials, Annuals, Vines & Climbers, Groundcovers & Grasses |
 | **Edibles** (3) | Leafy Greens, Fruiting Vegetables, Root & Bulb Vegetables |
 | **Other Edibles** (4) | Fruits & Berries, Herbs, Farm & Field Crops, Sprouts & Microgreens |

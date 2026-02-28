@@ -9,7 +9,7 @@ CATEGORY_ORDER = [
     "Houseplants - Low Maintenance", "Houseplants - Aroids", "Houseplants - Ferns",
     "Houseplants - Palms", "Houseplants - Succulents", "Houseplants - Cacti",
     "Houseplants - Flowering", "Houseplants - Prayer Plants", "Houseplants - Vines & Trailing",
-    "Houseplants - Ficus & Rubber Trees", "Houseplants - Specialty",
+    "Houseplants - Ficus & Fig", "Houseplants - Specialty",
     "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
     "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
     "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",

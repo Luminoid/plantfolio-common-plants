@@ -1,7 +1,7 @@
 [
   {
     "_metadata": {
-      "version": "1.8.0",
+      "version": "1.8.1",
       "totalPlants": 872,
       "sorting": {
         "method": "分类后按拼音排序",
@@ -15,7 +15,7 @@
           "室内植物 - 开花",
           "室内植物 - 竹芋科",
           "室内植物 - 藤蔓与垂吊",
-          "室内植物 - 榕属与橡皮树",
+          "室内植物 - 榕属与无花果",
           "室内植物 - 特殊",
           "户外 - 树木",
           "户外 - 灌木",
@@ -257,37 +257,10 @@
     "categoryIndex": 0
   },
   {
-    "id": "dracaena-deremensis",
-    "typeName": "珍妮特·克雷格龙血树",
-    "description": "也称：珍妮特克雷格紧凑型。 深绿光亮纯色叶的龙血树，是最耐阴的龙血树之一，适合低光办公室。",
-    "commonExamples": "Dracaena deremensis 'Janet Craig' (珍妮特克雷格, 珍妮特克雷格紧凑型)",
-    "careTips": "当上半部分土壤干燥时浇水。用过滤或蒸馏水防氟化物导致叶尖褐化。低至明亮间接光可耐受。中等湿度即可。春至秋每月半浓度施肥。对宠物有毒。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "室内植物 - 低维护",
-    "categoryIndex": 0
-  },
-  {
     "id": "dracaena-fragrans",
     "typeName": "香龙血树",
-    "description": "也称：玉米秆龙血树。 宽阔拱形叶片，可长成高大室内树。",
-    "commonExamples": "Dracaena fragrans (香龙血树, 玉米秆龙血树), D. fragrans 'Massangeana'",
+    "description": "又名：巴西木。宽阔拱形叶片的龙血树，可长得相当高大。包括流行的'Janet Craig'（德拉门西斯群）和'Massangeana'品种。",
+    "commonExamples": "Dracaena fragrans 'Massangeana'（巴西木），D. fragrans 'Janet Craig'（德拉门西斯群），D. fragrans 'Compacta'（矮生型）",
     "careTips": "当上半部分土壤干燥时浇水。使用过滤水、蒸馏水或雨水以防止氟化物和氯导致的棕色叶尖。偏好明亮间接光至中等光。保持40-50%湿度。春至秋每月用平衡肥料稀释至一半浓度施肥。每月擦拭叶片。每2-3年换盆。修剪棕色叶尖并去除下部黄叶。对通风和温度波动敏感。对宠物有毒。",
     "springInterval": 10,
     "summerInterval": 10,
@@ -298,33 +271,6 @@
     "temperaturePreference": [
       18,
       24
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "室内植物 - 低维护",
-    "categoryIndex": 0
-  },
-  {
-    "id": "dracaena-goldieana",
-    "typeName": "金叶龙血树",
-    "description": "也称：斑马龙血树。稀有龙血树品种，宽椭圆形叶片在深绿底色上呈现醒目的银绿色水平条纹。引人注目的收藏植物。",
-    "commonExamples": "Dracaena goldieana (金叶龙血树)",
-    "careTips": "表层2-5厘米土壤干燥时浇水。明亮散射光保持醒目的条纹图案。偏好高湿度（60%以上），定期喷雾或使用加湿托盘。排水良好的基质。春至秋每月以半浓度施肥。生长缓慢。对自来水中的氟敏感——使用过滤水或蒸馏水。避免冷风。对宠物有毒。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -422,7 +368,7 @@
     "id": "dracaena-warneckii",
     "typeName": "华纳克龙血树",
     "description": "也称：条纹龙血树。 绿白或乳白条纹边的龙血树，直立生长。",
-    "commonExamples": "Dracaena deremensis 'Warneckii' (华纳克龙血树, 条纹龙血树)",
+    "commonExamples": "Dracaena fragrans（德拉门西斯群）'Warneckei'（条纹龙血树）",
     "careTips": "当表层土壤干燥时浇水。用过滤或蒸馏水防叶尖褐化。低至明亮间接光。中等湿度即可。春至秋每月施肥。对宠物有毒。",
     "springInterval": 7,
     "summerInterval": 7,
@@ -851,6 +797,33 @@
     "categoryIndex": 0
   },
   {
+    "id": "shangri-la-pothos",
+    "typeName": "香格里拉绿萝",
+    "description": "独特的绿萝品种，叶片卷曲扭转，呈现紧凑有质感的外观。与标准绿萝同样易于养护，但叶片形态独特。",
+    "commonExamples": "Epipremnum aureum 'Shangri La'（哥斯拉绿萝，睡觉绿萝）",
+    "careTips": "土壤表面2-3厘米干燥时浇水。耐低光到明亮散射光。非常低维护。平均湿度即可。对宠物轻微毒性。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "室内植物 - 低维护",
+    "categoryIndex": 0
+  },
+  {
     "id": "snake-plants",
     "typeName": "虎尾兰",
     "description": "天门冬科极低维护多肉植物，直立剑状叶。含多种叶形与斑纹的栽培品种。",
@@ -1038,6 +1011,33 @@
     ],
     "category": "室内植物 - 低维护",
     "categoryIndex": 0
+  },
+  {
+    "id": "alocasia-amazonica",
+    "typeName": "亚马逊观音莲",
+    "description": "箭形深绿色叶片配以醒目的白色或银色脉纹的天南星科植物。是较小型观音莲Polly的母本杂交种。虽名含亚马逊，但实为杂交种。",
+    "commonExamples": "Alocasia × amazonica（非洲面具植物，象耳芋）",
+    "careTips": "土壤表面1厘米干燥时浇水。明亮散射光。湿度60%以上。冬季可能休眠落叶。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "室内植物 - 天南星科",
+    "categoryIndex": 1
   },
   {
     "id": "alocasia-black-velvet",
@@ -1310,6 +1310,33 @@
     "categoryIndex": 1
   },
   {
+    "id": "anthurium-bird-nest",
+    "typeName": "鸟巢花烛",
+    "description": "莲座状花烛，大型波浪状革质叶片形成鸟巢形状。与典型花烛不同，以戏剧性叶片而非彩色佛焰苞为观赏重点。",
+    "commonExamples": "Anthurium hookeri（鸟巢花烛），A. superbum，A. plowmanii（波纹鸟巢花烛）",
+    "careTips": "土壤表面2-3厘米干燥时浇水。明亮散射光。湿度60%以上。使用粗颗粒排水良好的天南星科基质。叶片可达1米。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "室内植物 - 天南星科",
+    "categoryIndex": 1
+  },
+  {
     "id": "anthurium-clarinervium",
     "typeName": "丝绒纸板红掌",
     "description": "丝绒心形叶、白脉明显的红掌；观叶非观花。",
@@ -1490,6 +1517,33 @@
     "plantToxicity": "toxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "室内植物 - 天南星科",
+    "categoryIndex": 1
+  },
+  {
+    "id": "burle-marx-philodendron",
+    "typeName": "布尔马克斯蔓绿绒",
+    "description": "快速生长、易于养护的蔓绿绒，叶片狭窄心形。以巴西著名景观建筑师罗伯托·布尔马克斯命名。",
+    "commonExamples": "Philodendron burle-marxii（布尔马克斯蔓绿绒）",
+    "careTips": "土壤表面2-3厘米干燥时浇水。耐中等到明亮散射光。平均湿度即可。生长迅速。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -2412,6 +2466,33 @@
     "plantLifeSpan": [
       10,
       20
+    ],
+    "category": "室内植物 - 天南星科",
+    "categoryIndex": 1
+  },
+  {
+    "id": "philodendron-white-princess",
+    "typeName": "白公主蔓绿绒",
+    "description": "自生型斑叶蔓绿绒，绿叶上有白色斑块。比白骑士生长更慢，株型更紧凑，白色斑纹更鲜明。",
+    "commonExamples": "Philodendron 'White Princess'（白公主蔓绿绒）",
+    "careTips": "土壤表面2-3厘米干燥时浇水。明亮散射光对保持斑纹至关重要。湿度60%以上为佳。春至秋每月施半量肥。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
     ],
     "category": "室内植物 - 天南星科",
     "categoryIndex": 1
@@ -3394,10 +3475,10 @@
     "description": "也称：树莲花掌。 景天科中具有莲座丛形成叶片的多肉植物，某些品种是一次性开花。",
     "commonExamples": "Aeonium arboreum (树莲花掌), A. 'Zwartkop' (黑玫瑰), A. haworthii (风车莲花掌), A. 'Kiwi'",
     "careTips": "当土壤完全干燥时浇水（每2-3周）。比某些多肉植物更耐水但仍耐旱。偏好明亮间接光至直射光。低湿度即可。生长季节每年2-3次用多肉肥料施肥。排水良好的土壤必不可少。某些品种是一次性开花（开花后死亡）。每2-3年换盆。莲座丛形成的多肉植物。",
-    "springInterval": 14,
+    "springInterval": 10,
     "summerInterval": 21,
     "fallInterval": 14,
-    "winterInterval": 21,
+    "winterInterval": 10,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3411,6 +3492,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "室内植物 - 多肉",
+    "categoryIndex": 4
+  },
+  {
+    "id": "agave",
+    "typeName": "龙舌兰",
+    "description": "莲座状多肉植物，叶片厚实多肉，常有刺尖。极度耐旱。许多种类是一次结果性的——生长多年后开花一次然后死亡，但会产生侧芽。",
+    "commonExamples": "Agave americana（世纪植物），A. attenuata（狐尾龙舌兰），A. victoriae-reginae（维多利亚女王龙舌兰）",
+    "careTips": "深浇但不频繁——每2-4周。全日照到明亮直射光。排水良好至关重要。使用仙人掌/多肉土。轻微毒性——汁液可能引起皮肤刺激。",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 28,
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      38
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      100
     ],
     "category": "室内植物 - 多肉",
     "categoryIndex": 4
@@ -3855,8 +3963,8 @@
     "careTips": "仅在生长期（春季和秋季）新叶片出现时浇水。夏季和冬季休眠期保持完全干燥 - 休眠期即使少量浇水也会导致腐烂。即使在活跃期也要极少量浇水（每2-4周）。明亮直射光必不可少。偏好低湿度。仅在活跃生长期非常少量施肥。每3-5年用排水非常好的土壤换盆。石头状外观模仿卵石。非常特定的护理要求。",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 90,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3958,7 +4066,7 @@
   {
     "id": "sempervivum",
     "typeName": "长生草",
-    "description": "也称：母鸡和小鸡。 景天科中耐寒的多肉植物，称为母鸡和小鸡，形成莲座丛并产生侧芽。",
+    "description": "又名：长生草。景天科耐寒多肉植物，形成莲座状并产生侧芽。极耐寒耐旱，适合岩石花园、高山花园和容器种植。",
     "commonExamples": "Sempervivum tectorum (普通长生草, 母鸡和小鸡), S. arachnoideum (蛛网长生草), 许多栽培品种",
     "careTips": "当土壤完全干燥时浇水（每2-3周）。非常耐旱。偏好明亮间接光至直射光。低湿度即可。少量施肥（每年2-3次）用多肉肥料以四分之一浓度施肥。排水良好的土壤必不可少。在母株（母鸡）周围产生侧芽（小鸡）。每2-3年换盆。非常耐寒的多肉植物。",
     "springInterval": 14,
@@ -4017,8 +4125,8 @@
     "careTips": "仅在旧叶完全干枯并被新叶对吸收后才浇水 - 通常每年只需2-4次。浇水过多会导致叠叶（多余叶片对）和腐烂。明亮直射光必不可少 - 每天至少5小时。偏好很低湿度。不需施肥。良好排水必不可少 - 主要使用矿质基质（浮石、珍珠岩）。偏好底部浇水。每3-5年换盆。浇水要求非常特定，类似生石花。",
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 60,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -4112,6 +4220,33 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
+      10
+    ],
+    "category": "室内植物 - 多肉",
+    "categoryIndex": 4
+  },
+  {
+    "id": "string-of-needles",
+    "typeName": "针叶吊灯花",
+    "description": "精致的悬垂多肉植物，纤细的茎上长着针状细叶。与心叶吊灯花（爱之蔓）同属，但外观更纤细通透。",
+    "commonExamples": "Ceropegia linearis（针叶吊灯花）",
+    "careTips": "土壤完全干燥时浇水。明亮散射光。低湿度即可。非常容易过度浇水——使用排水良好的多肉土。对宠物无毒。",
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      15,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
       10
     ],
     "category": "室内植物 - 多肉",
@@ -4874,33 +5009,6 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-amphioxus",
-    "typeName": "矛叶秋海棠",
-    "description": "产自婆罗洲的珍稀缸养秋海棠，狭长披针形叶片上布满深绿底色上的凸起红色斑点。",
-    "commonExamples": "Begonia amphioxus (红斑矛叶秋海棠)",
-    "careTips": "保持土壤微湿但不积水，表层微干时再浇水。明亮间接光能带出红色斑点——避免直射阳光灼伤薄叶。需要极高湿度(70%以上)；适合在雨林缸或密封展示柜中养护。使用珍珠岩、兰花树皮和泥炭混合的疏松透气基质。春夏季每月用四分之一浓度肥料施肥。对宠物有毒。",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "室内植物 - 开花",
-    "categoryIndex": 6
-  },
-  {
     "id": "begonia-angel-wing",
     "typeName": "天使翼秋海棠",
     "description": "竹节秋海棠，具翼形斑点叶和下垂的红、粉或白色花簇。",
@@ -4930,8 +5038,8 @@
   {
     "id": "begonia-maculata",
     "typeName": "斑点秋海棠",
-    "description": "竹节秋海棠，具银斑叶、红色叶背和白色花簇。",
-    "commonExamples": "Begonia maculata (天使翼秋海棠)",
+    "description": "竹节秋海棠，叶片上有银色斑点，叶背红色，开白色花簇。最常见的栽培品种是'Wightii'。",
+    "commonExamples": "Begonia maculata（波点秋海棠），B. maculata 'Wightii'（最常见品种）",
     "careTips": "当表层土壤干燥时浇水。偏好明亮间接光；避免直射阳光。中等湿度（40-50%）。春至秋每月用平衡肥料施肥。光照不足时叶斑会变淡。对宠物有毒。每1-2年根满盆时换盆。",
     "springInterval": 7,
     "summerInterval": 7,
@@ -4955,28 +5063,28 @@
     "categoryIndex": 6
   },
   {
-    "id": "begonia-maculata-wightii",
-    "typeName": "斑叶竹节秋海棠",
-    "description": "豹纹秋海棠栽培品种，深绿色叶片上具更大更明显的银色斑点，叶背红色；开白色花簇。",
-    "commonExamples": "Begonia maculata 'Wightii'",
-    "careTips": "当表层土壤干燥时浇水。偏好明亮间接光；避免直射。中等湿度（40-50%）。春至秋每月用平衡肥料施肥。光照不足时斑点会褪色。对宠物有毒。每1-2年根满盆时换盆。",
+    "id": "begonia-rex",
+    "typeName": "蟆叶秋海棠",
+    "description": "根茎类秋海棠，以银色、紫色、粉色、红色和绿色螺旋图案的壮观多彩叶片而闻名。最具观赏性的室内植物之一。",
+    "commonExamples": "Begonia rex-cultorum（蟆叶秋海棠），'Escargot'（蜗牛纹），'Fireworks'，'Silver Dollar'",
+    "careTips": "土壤表面干燥时浇水；避免叶片沾水。明亮散射光。湿度50%以上。冬季可能休眠。对宠物有毒。",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      18,
+      16,
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       3,
-      10
+      5
     ],
     "category": "室内植物 - 开花",
     "categoryIndex": 6
@@ -5927,10 +6035,64 @@
     "categoryIndex": 7
   },
   {
+    "id": "calathea-roseopicta",
+    "typeName": "玫瑰竹芋",
+    "description": "又名：玫瑰画竹芋。椭圆形叶片在深绿色上有醒目的粉色或奶油色边缘，叶背紫色。有多个流行品种。",
+    "commonExamples": "Goeppertia roseopicta（玫瑰竹芋），G. roseopicta 'Dottie'（近黑叶片），G. roseopicta 'Rosy'（粉色中心）",
+    "careTips": "土壤表面略干时浇水，保持湿润。使用过滤水。中等散射光。湿度60%以上至关重要。叶缘发褐表示湿度不足。对宠物无毒。",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "室内植物 - 竹芋科",
+    "categoryIndex": 7
+  },
+  {
+    "id": "calathea-vittata",
+    "typeName": "条纹竹芋",
+    "description": "竹芋科植物，明亮绿色椭圆形叶片上有精致的白色细条纹。比锦竹芋更紧凑，条纹更细密。",
+    "commonExamples": "Goeppertia elliptica 'Vittata'（异名 Calathea vittata，白条纹竹芋）",
+    "careTips": "土壤表面略干时浇水，保持湿润但不积水。使用过滤水。中等散射光。湿度60%以上至关重要。对宠物无毒。",
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "室内植物 - 竹芋科",
+    "categoryIndex": 7
+  },
+  {
     "id": "calathea-white-fusion",
     "typeName": "白锦肖竹芋",
     "description": "具白、绿、淡紫斑叶的观叶植物；叶片夜间合拢。",
-    "commonExamples": "Calathea lietzei 'White Fusion'",
+    "commonExamples": "Goeppertia lietzei 'White Fusion'（异名 Calathea lietzei 'White Fusion'）",
     "careTips": "保持土壤均匀湿润，切勿干透。偏好明亮间接光；避免直射阳光。高湿度（60%以上）必不可少—低湿度会使斑纹退化。使用蒸馏水或过滤水以防叶缘焦枯。春至秋每月用平衡肥料以一半浓度施肥。每1-2年根满盆时换盆。. 对宠物无毒。",
     "springInterval": 7,
     "summerInterval": 7,
@@ -5957,7 +6119,7 @@
     "id": "calathea-white-star",
     "typeName": "白星肖竹芋",
     "description": "深绿叶片上具醒目白色条纹的观叶植物；叶片夜间合拢。",
-    "commonExamples": "Calathea 'White Star'",
+    "commonExamples": "Goeppertia majestica 'Whitestar'（异名 Calathea 'White Star'）",
     "careTips": "保持土壤均匀湿润，切勿干透。偏好明亮间接光；避免直射阳光。偏好高湿度（60%以上）。使用蒸馏水或过滤水以防叶缘焦枯。春至秋每月用平衡肥料以一半浓度施肥。每1-2年根满盆时换盆。. 对宠物无毒。",
     "springInterval": 7,
     "summerInterval": 7,
@@ -6278,6 +6440,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "hoya-bella",
+    "typeName": "美花球兰",
+    "description": "紧凑的悬垂球兰，叶片小而尖，开白色星形芳香花簇，花心粉色或紫色。最受欢迎的球兰之一。",
+    "commonExamples": "Hoya lanceolata subsp. bella（美花球兰，微型蜡花）",
+    "careTips": "土壤表面干燥时浇水。明亮散射光促进开花。不要去除花梗——新花从同一花梗长出。中等到高湿度。轻微毒性。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "室内植物 - 藤蔓与垂吊",
+    "categoryIndex": 8
+  },
+  {
     "id": "hoya-callistophylla",
     "typeName": "美叶球兰",
     "description": "独特的球兰品种，长尖叶片上浅绿底色衬托深色脉纹醒目，呈彩色玻璃般的外观。备受追捧的收藏级球兰。",
@@ -6548,33 +6737,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pellionia",
-    "typeName": "赤车",
-    "description": "也称：彩虹藤。低矮热带匍匐植物，叶片具银、绿、紫的美丽纹路。适合微景观缸和吊篮栽培。",
-    "commonExamples": "Pellionia repens (赤车), P. pulchra (花叶赤车)",
-    "careTips": "保持土壤湿润但不积水。中等散射光——避免直射光使叶纹褪色。高湿度（60%以上）不可少，在微景观缸中生长旺盛。排水良好的基质。春至秋每月以半浓度施肥。茎插法易繁殖。摘心促分枝。对宠物无毒。",
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "室内植物 - 藤蔓与垂吊",
-    "categoryIndex": 8
-  },
-  {
     "id": "philodendron-brasil",
     "typeName": "巴西喜林芋",
     "description": "也称：柠檬青喜林芋。 具有绿色和黄绿色叶片的斑叶心叶喜林芋，易养护的垂吊植物。",
@@ -6602,33 +6764,6 @@
     "categoryIndex": 8
   },
   {
-    "id": "pilea-depressa",
-    "typeName": "婴儿泪豆瓣绿",
-    "description": "垂吊冷水花，具小型亮绿叶；形成密毯，适合生态缸或吊篮。",
-    "commonExamples": "Pilea depressa (小叶冷水花)",
-    "careTips": "当表层土壤干燥时浇水。偏好明亮间接光。中等湿度（40-50%）。春至秋每月用平衡肥料以一半浓度施肥。生长快。每1-2年根满盆时换盆。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      10
-    ],
-    "category": "室内植物 - 藤蔓与垂吊",
-    "categoryIndex": 8
-  },
-  {
     "id": "scindapsus",
     "typeName": "银斑葛",
     "description": "也称：银斑绿萝, 银绿萝。 通常称为银斑绿萝的垂吊天南星科植物，具有银色斑点叶片，易养护的室内植物。",
@@ -6651,6 +6786,33 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "室内植物 - 藤蔓与垂吊",
+    "categoryIndex": 8
+  },
+  {
+    "id": "scindapsus-pictus",
+    "typeName": "银色星光藤",
+    "description": "悬垂藤蔓，心形叶片呈哑光绿色，覆有银色斑点和斑块。虽俗称银色绿萝，但不是真正的绿萝，属于星点藤属。",
+    "commonExamples": "Scindapsus pictus 'Argyraeus'（银色星光藤），S. pictus 'Exotica'，S. pictus 'Silver Ann'",
+    "careTips": "土壤表面2-3厘米干燥时浇水。明亮散射光能突出银色纹路。平均湿度即可。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
     ],
     "category": "室内植物 - 藤蔓与垂吊",
     "categoryIndex": 8
@@ -6764,6 +6926,33 @@
     "categoryIndex": 8
   },
   {
+    "id": "ficus-altissima",
+    "typeName": "高山榕",
+    "description": "又名：议事树。高大的榕树，叶片革质，绿色和黄色斑纹。比琴叶榕更容易养护。",
+    "commonExamples": "Ficus altissima（高山榕），F. altissima 'Yellow Gem'（黄宝石品种）",
+    "careTips": "土壤表面2-3厘米干燥时浇水。喜明亮散射光至直射光。避免频繁移动。春至秋每月施肥。对宠物有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      50
+    ],
+    "category": "室内植物 - 榕属与无花果",
+    "categoryIndex": 9
+  },
+  {
     "id": "ficus-audrey",
     "typeName": "奥黛丽橡皮树",
     "description": "比琴叶榨更容易养护的近亲，叶片天鹅绒卵圆形，树干浅色，作为大型室内观叶植物越来越受欢迎。",
@@ -6787,7 +6976,7 @@
       15,
       30
     ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -6814,34 +7003,7 @@
       10,
       50
     ],
-    "category": "室内植物 - 榕属与橡皮树",
-    "categoryIndex": 9
-  },
-  {
-    "id": "ficus-shivereana",
-    "typeName": "月光橡皮树",
-    "description": "稀有橡皮树品种，叶片具有独特的黄绿、奶油和灰绿色斑驳花纹，如水彩泼墨般的效果。",
-    "commonExamples": "Ficus elastica 'Shivereana' (月光橡皮树)",
-    "careTips": "当表层2-3厘米土壤干燥时浇水；避免积水导致根腐。明亮间接光能展现最佳花叶效果——避免午后直射阳光。远离冷风和15°C以下的低温。普通室内湿度(40-50%)即可。生长季每月用半浓度平衡液肥施肥。每季度转动花盆以均匀生长。轻微毒性——乳白色乳胶汁液刺激皮肤和粘膜，宠物误食有害。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      27
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      30
-    ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -6868,7 +7030,7 @@
       10,
       25
     ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -6895,7 +7057,7 @@
       10,
       25
     ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -6922,7 +7084,7 @@
       10,
       25
     ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -6949,7 +7111,7 @@
       10,
       30
     ],
-    "category": "室内植物 - 榕属与橡皮树",
+    "category": "室内植物 - 榕属与无花果",
     "categoryIndex": 9
   },
   {
@@ -7520,6 +7682,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "peperomia-rosso",
+    "typeName": "红宝石豆瓣绿",
+    "description": "紧凑的豆瓣绿品种，叶片深绿色有深皱褶，叶背为醒目的红色。半肉质，需水量少。优秀的办公桌植物。",
+    "commonExamples": "Peperomia caperata 'Rosso'（红色波纹豆瓣绿）",
+    "careTips": "土壤表面干燥时浇水；半肉质，耐轻度干旱。明亮散射光增强红色。平均湿度即可。紧凑生长，很少需要换盆。对宠物无毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "室内植物 - 特殊",
+    "categoryIndex": 10
+  },
+  {
     "id": "peperomia-watermelon",
     "typeName": "西瓜椒草",
     "description": "具有类似西瓜皮银色条纹叶片的紧凑椒草。",
@@ -7736,6 +7925,33 @@
     "categoryIndex": 10
   },
   {
+    "id": "welwitschia",
+    "typeName": "百岁兰",
+    "description": "地球上最独特的植物之一——来自纳米布沙漠的活化石。每株植物一生只长两片叶子，持续生长并分裂成带状。可存活超过1000年。",
+    "commonExamples": "Welwitschia mirabilis（百岁兰，千岁兰）",
+    "careTips": "极度耐旱但偶尔深浇有益。全日照。排水至关重要。生长极慢。因深根系几乎无法移植。无毒。",
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      5,
+      45
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      400,
+      2000
+    ],
+    "category": "室内植物 - 特殊",
+    "categoryIndex": 10
+  },
+  {
     "id": "bald-cypress",
     "typeName": "落羽杉",
     "description": "落叶针叶树，羽毛状叶片和独特“膝根”；耐潮湿或沼泽地。",
@@ -7907,6 +8123,33 @@
       5,
       8
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "chinese-elm",
+    "typeName": "榆树",
+    "description": "又名：榔榆。优雅的落叶或半常绿乔木，叶小枝细，树皮斑驳剥落露出橙色、灰色和奶油色。最受欢迎的盆景树种。",
+    "commonExamples": "Ulmus parvifolia（榔榆，中国榆树）",
+    "careTips": "定期浇水——保持土壤湿润但不积水。全日照到半荫。适应大多数土壤。高度抗荷兰榆树病。非常适合盆景——耐修剪和造型。无毒。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      150
+    ],
+    "category": "户外 - 树木",
     "categoryIndex": 11
   },
   {
@@ -8174,6 +8417,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "dragon-blood-tree",
+    "typeName": "龙血树（索科特拉）",
+    "description": "也门索科特拉岛特有的标志性伞形树。以其独特的蘑菇状树冠和深红色树脂（龙血）闻名，用于传统药物和染料已有数千年历史。",
+    "commonExamples": "Dracaena cinnabari（索科特拉龙血树）",
+    "careTips": "一旦成活极度耐旱。全日照。排水良好的土壤至关重要。生长极慢——可活300-600年以上。在原生环境外难以栽培。无毒。",
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      600
+    ],
+    "category": "户外 - 树木",
     "categoryIndex": 11
   },
   {
@@ -8448,6 +8718,33 @@
     "categoryIndex": 11
   },
   {
+    "id": "kapok-tree",
+    "typeName": "木棉树",
+    "description": "巨大的热带乔木，可高达60-70米，有板根和宽阔树冠。果实产生丝状纤维（木棉），用于填充和隔热材料。",
+    "commonExamples": "Ceiba pentandra（木棉，吉贝，爪哇木棉）",
+    "careTips": "幼树定期浇水；成熟后耐旱。全日照。不耐霜冻。在许多文化中被视为神圣之树——玛雅世界树。无毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      15,
+      38
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      60,
+      200
+    ],
+    "category": "户外 - 树木",
+    "categoryIndex": 11
+  },
+  {
     "id": "magnolia",
     "typeName": "木兰",
     "description": "木兰科中的落叶和常绿乔木，具有大而芳香的花朵，许多物种是古老的开花植物。",
@@ -8561,6 +8858,60 @@
       3,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "moringa",
+    "typeName": "辣木",
+    "description": "又名：鼓槌树、奇迹树。生长迅速、耐旱的乔木，叶片、豆荚、种子和花朵均可食用。营养极其丰富。",
+    "commonExamples": "Moringa oleifera（辣木，鼓槌树，辣根树）",
+    "careTips": "成活后深浇，让土壤适度干燥。全日照至关重要。生长极快——第一年可达3米以上。不耐霜冻。定期修剪促进灌木状生长。无毒——所有部分均可食用。",
+    "springInterval": 7,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "户外 - 树木",
+    "categoryIndex": 11
+  },
+  {
+    "id": "neem",
+    "typeName": "印楝",
+    "description": "又名：印度丁香。原产于印度次大陆的常绿乔木，因其药用和杀虫特性被广泛种植。几乎树的每个部分都被用于传统医学。",
+    "commonExamples": "Azadirachta indica（印楝，苦楝树）",
+    "careTips": "幼树定期浇水；成熟后非常耐旱。全日照。适应贫瘠土壤。不耐霜冻。印楝油是流行的有机杀虫剂。大量食用轻微有毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      42
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      200
+    ],
+    "category": "户外 - 树木",
     "categoryIndex": 11
   },
   {
@@ -8921,6 +9272,33 @@
       5,
       9
     ],
+    "categoryIndex": 11
+  },
+  {
+    "id": "wollemi-pine",
+    "typeName": "瓦勒迈杉",
+    "description": "又名：恐龙树。1994年在澳大利亚偏远峡谷中发现的活化石。曾被认为已灭绝200万年。树皮独特，呈巧克力棕色泡状纹理。",
+    "commonExamples": "Wollemia nobilis（瓦勒迈杉，恐龙树）",
+    "careTips": "定期浇水；喜保持湿润但不积水的土壤。半荫到全日照。喜酸性、排水良好的土壤。耐寒至约-5°C。生长缓慢。野生状态极度濒危。无毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      500
+    ],
+    "category": "户外 - 树木",
     "categoryIndex": 11
   },
   {
@@ -9443,6 +9821,33 @@
     "categoryIndex": 12
   },
   {
+    "id": "knockout-rose",
+    "typeName": "击倒玫瑰",
+    "description": "抗病、持续开花的景观玫瑰，彻底改变了家庭种植玫瑰。与传统杂交茶香玫瑰相比维护需求极低。",
+    "commonExamples": "Rosa 'Radrazz'（击倒玫瑰），'Double Knock Out'，'Pink Knock Out'",
+    "careTips": "每周深浇一到两次。全日照（6+小时）。微酸性排水良好的土壤。早春修剪。自净——无需摘除残花。高度抗黑斑病。无毒。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      15,
+      25
+    ],
+    "category": "户外 - 灌木",
+    "categoryIndex": 12
+  },
+  {
     "id": "lavender",
     "typeName": "薰衣草",
     "description": "也称：英国薰衣草。 唇形科中具有银色叶片和芳香紫色花朵的芳香开花草本，一旦建立后耐旱。",
@@ -9533,6 +9938,33 @@
       3,
       9
     ],
+    "categoryIndex": 12
+  },
+  {
+    "id": "limelight-hydrangea",
+    "typeName": "石灰光绣球",
+    "description": "圆锥绣球，大型锥形花序初为石灰绿色，转为白色，秋季变粉色。在新枝上开花，严冬后也能可靠开花。",
+    "commonExamples": "Hydrangea paniculata 'Limelight'（石灰光绣球），'Little Lime'（矮生型）",
+    "careTips": "定期浇水。半日照到全日照。与大叶绣球不同，花色不受土壤pH影响。冬末或早春修剪。非常耐寒。食用有毒。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      32
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "户外 - 灌木",
     "categoryIndex": 12
   },
   {
@@ -10718,6 +11150,33 @@
       3,
       9
     ],
+    "categoryIndex": 13
+  },
+  {
+    "id": "dianthus-carnation",
+    "typeName": "康乃馨",
+    "description": "世界上最古老的栽培花卉之一，种植历史超过2000年。以几乎所有颜色的荷叶边芳香花朵而闻名。切花产业的主力品种。",
+    "commonExamples": "Dianthus caryophyllus（康乃馨），'Chabaud'，'Grenadin'，多头康乃馨",
+    "careTips": "土壤表面干燥时浇水；避免弄湿叶片。全日照（6+小时）。排水良好、中性到微碱性土壤。定期摘除残花。每月施肥。对宠物轻微毒性。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      5
+    ],
+    "category": "户外 - 多年生",
     "categoryIndex": 13
   },
   {
@@ -13324,6 +13783,33 @@
     "categoryIndex": 14
   },
   {
+    "id": "sweet-pea",
+    "typeName": "香豌豆",
+    "description": "深受喜爱的一年生攀缘花卉，因其芳香的荷叶边花朵和丰富的粉彩色系而闻名。田园花园的经典植物。",
+    "commonExamples": "Lathyrus odoratus（香豌豆），'Spencer'品种，'Cupani'（原始双色品种）",
+    "careTips": "定期浇水。全日照，根部保持凉爽。早春种植——喜凉爽天气。提供攀爬支撑。摘除残花延长花期。种子有毒。",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      5,
+      25
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "alkaline",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "户外 - 一年生",
+    "categoryIndex": 14
+  },
+  {
     "id": "sweet-potato-vine",
     "typeName": "甘薯藤",
     "description": "也称：观赏栽培品种。 匍匐观叶植物，黄绿、紫或铜色；以叶著称，非块茎；生长快。",
@@ -13782,6 +14268,33 @@
       4,
       9
     ],
+    "categoryIndex": 15
+  },
+  {
+    "id": "japanese-wisteria",
+    "typeName": "日本紫藤",
+    "description": "生命力旺盛的长寿攀缘藤本，以春季垂挂的芳香紫色、蓝色、粉色或白色花串而闻名。日本庭园的标志性植物，著名的紫藤隧道。",
+    "commonExamples": "Wisteria floribunda（日本紫藤），'Royal Purple'，'Alba'（白花）",
+    "careTips": "幼期定期浇水；成熟后耐旱。全日照是开花的关键。需要坚固支撑。每年修剪两次。可能需要3-5年才能开花。种子和豆荚有毒。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      100
+    ],
+    "category": "户外 - 藤蔓与攀爬",
     "categoryIndex": 15
   },
   {
@@ -15891,33 +16404,6 @@
     "categoryIndex": 18
   },
   {
-    "id": "crenshaw-melon",
-    "typeName": "克伦肖甜瓜",
-    "description": "葫芦科大杂交甜瓜，果肉橙粉香甜，为卡萨巴与波斯瓜杂交。",
-    "commonExamples": "Cucumis melo (克伦肖)",
-    "careTips": "每周深灌2–3次，果实发育期加量。结果期水分关键。植株周围覆膜。全日照（每日6–8小时）。每3–4周施平衡肥。藤蔓需空间。果梗易脱、有香时采收。喜温作物。季节性作物；浇水因种植区与采收期而异。",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "蔬菜 - 果菜",
-    "categoryIndex": 18
-  },
-  {
     "id": "cucumbers",
     "typeName": "黄瓜",
     "description": "葫芦科中的藤本果菜，需要持续湿润，攀爬类型需要支撑。",
@@ -15959,6 +16445,33 @@
     "temperaturePreference": [
       10,
       32
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "蔬菜 - 果菜",
+    "categoryIndex": 18
+  },
+  {
+    "id": "edamame",
+    "typeName": "毛豆",
+    "description": "未成熟时采收的大豆，仍为绿色嫩豆。东亚料理中流行的零食和食材。蛋白质含量高于大多数蔬菜。",
+    "commonExamples": "Glycine max（毛豆，青大豆）",
+    "careTips": "定期浇水——开花和结荚期保持土壤湿润。全日照。暖季作物。豆荚饱满但仍绿色时采收。无毒。",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      15,
+      30
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -16431,6 +16944,33 @@
     "categoryIndex": 18
   },
   {
+    "id": "rhubarb",
+    "typeName": "大黄",
+    "description": "多年生蔬菜，因其酸味的红色或绿色茎干被种植，用于馅饼、果酱和酱汁。只有茎干可食——叶片含有有毒的草酸。",
+    "commonExamples": "Rheum rhabarbarum（食用大黄），'Victoria'，'Crimson Cherry'",
+    "careTips": "定期浇水——需要持续的水分。全日照到半荫。肥沃排水良好的土壤。第一年不要采收。每5-6年分株。叶片有毒——只食用茎干。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "蔬菜 - 果菜",
+    "categoryIndex": 18
+  },
+  {
     "id": "roma-tomato",
     "typeName": "罗马番茄",
     "description": "也称：李形番茄。 茄科李子番茄，果肉厚含水量低，适合做酱、膏和罐装。",
@@ -16453,6 +16993,33 @@
     "plantLifeSpan": [
       1,
       1
+    ],
+    "category": "蔬菜 - 果菜",
+    "categoryIndex": 18
+  },
+  {
+    "id": "serrano",
+    "typeName": "塞拉诺辣椒",
+    "description": "中等辣度辣椒（10,000-23,000 Scoville），常用于墨西哥料理，尤其是莎莎酱。比墨西哥辣椒更小更辣。",
+    "commonExamples": "Capsicum annuum 'Serrano'（塞拉诺辣椒）",
+    "careTips": "土壤表面干燥时浇水。全日照（6-8小时）。肥沃排水良好的土壤。青色或红色均可采收。高产。无毒。",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      3
     ],
     "category": "蔬菜 - 果菜",
     "categoryIndex": 18
@@ -17033,6 +17600,33 @@
     "categoryIndex": 19
   },
   {
+    "id": "leek",
+    "typeName": "韭葱",
+    "description": "味道温和的葱属植物，有长长的白色叶鞘和扇形绿色扁叶。欧洲烹饪中的主食，特别是法国料理。",
+    "commonExamples": "Allium ampeloprasum var. porrum（韭葱），'King Richard'，'Musselburgh'",
+    "careTips": "定期浇水保持土壤湿润。全日照。肥沃排水良好的土壤。培土以延长白色可食部分。耐霜。无毒。",
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      7,
+      24
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      2
+    ],
+    "category": "蔬菜 - 根茎类",
+    "categoryIndex": 19
+  },
+  {
     "id": "onions-garlic",
     "typeName": "洋葱和大蒜",
     "description": "也称：青葱。 石蒜科中的球根蔬菜，球茎成熟时减少浇水以防腐烂。",
@@ -17543,37 +18137,6 @@
     "hardinessZones": [
       3,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "boysenberry",
-    "typeName": "波森莓",
-    "description": "蔷薇科黑莓-树莓杂交，大果酸甜，匍匐藤本。",
-    "commonExamples": "Rubus × loganobaccus",
-    "careTips": "每周深浇1-2次，果期保持土壤均匀湿润。喜全日照（每天6-8小时）。早春新芽萌发前施平衡肥料。将匍匐藤蔓引导至棚架或铁丝支撑上，以改善通风并便于采收。结果后将已结过果的藤蔓从基部剪除——果实产于第二年的藤蔓上。厚覆盖以抑制杂草并保湿。对宠物无毒。",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "水果与浆果",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18093,37 +18656,6 @@
     "hardinessZones": [
       9,
       10
-    ],
-    "categoryIndex": 20
-  },
-  {
-    "id": "loganberry",
-    "typeName": "罗甘莓",
-    "description": "蔷薇科黑莓-树莓杂交，长暗红果，匍匐藤本。",
-    "commonExamples": "Rubus × loganobaccus",
-    "careTips": "当表层土壤干燥时浇水。多数喜全日照。生长季定期施肥。按需采收。覆盖护根保湿。",
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "水果与浆果",
-    "hardinessZones": [
-      5,
-      9
     ],
     "categoryIndex": 20
   },
@@ -18691,9 +19223,9 @@
     "description": "仙人掌科，叶状茎与彩色甜果（仙人掌果）可食，耐旱。",
     "commonExamples": "Opuntia ficus-indica (仙人掌果)",
     "careTips": "极少浇水——彻底浸透土壤后让其完全干透再浇；冬季几乎完全停止浇水。全日照必需（每天8小时以上）。春季施一次稀释仙人掌肥或低氮肥料。切勿覆盖护根——仙人掌梨需裸露、快速排水的土壤，覆盖物保湿过度会导致腐烂。采果时使用夹子和厚手套，因果实和茎节均有芒刺（细小倒钩刺）。成株后极度耐旱耐热。切下的茎节放在干土上即可生根。对宠物无毒；芒刺可造成机械性刺激。",
-    "springInterval": 14,
-    "summerInterval": 10,
-    "fallInterval": 7,
+    "springInterval": 10,
+    "summerInterval": 7,
+    "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
@@ -19968,6 +20500,33 @@
     "categoryIndex": 21
   },
   {
+    "id": "wasabi",
+    "typeName": "山葵",
+    "description": "又名：日本辣根。日本料理中因其辛辣刺鼻的味道而珍贵。出了名的难种——需要凉爽、阴凉、高湿度条件。",
+    "commonExamples": "Eutrema japonicum（异名 Wasabia japonica；山葵，日本辣根）",
+    "careTips": "保持土壤持续湿润——自然生长在山间溪流边。凉爽阴凉环境至关重要；不耐20°C以上高温。需要极高湿度。生长极慢——需18-24个月。无毒。",
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": 7,
+    "lightPreference": "outdoorShade",
+    "humidityPreference": "veryHigh",
+    "temperaturePreference": [
+      8,
+      20
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      3
+    ],
+    "category": "香草",
+    "categoryIndex": 21
+  },
+  {
     "id": "alfalfa",
     "typeName": "苜蓿",
     "description": "也称：紫花苜蓿。豆科多年生植物。主要牧草作物，用于干草和放牧。具固氮能力，根系深。也可发芽食用。",
@@ -20021,37 +20580,6 @@
     "plantLifeSpan": [
       1,
       2
-    ],
-    "category": "农场与作物",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "bahia-grass",
-    "typeName": "巴伊亚草",
-    "description": "禾本科多年生暖季型草。牧草和草坪用草。耐贫瘠土壤、干旱和低肥力。美国南部常见。",
-    "commonExamples": "Paspalum notatum",
-    "careTips": "全日照。耐砂质酸性土壤。定期刈割或放牧。种子建植较慢。管理要求低。暖季旺盛生长。适合南方低肥力地区。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
     ],
     "category": "农场与作物",
     "hardinessZones": [
@@ -20208,37 +20736,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "castor-bean",
-    "typeName": "蓖麻",
-    "description": "热带多年生，作一年生栽培以产油籽。产蓖麻油；种子含蓖麻毒蛋白—剧毒。工业用油，不可食用。",
-    "commonExamples": "Ricinus communis",
-    "careTips": "全日照。排水良好土壤。定期浇水。对宠物和人类有毒—种子含蓖麻毒蛋白。远离儿童和动物。待蒴果干燥后采收种子。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "农场与作物",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "chickpea",
     "typeName": "鹰嘴豆",
     "description": "豆科一年生植物。有小粒型和大粒型。营养丰富的豆类，耐旱。喜凉作物。",
@@ -20298,6 +20795,33 @@
       2,
       11
     ],
+    "categoryIndex": 22
+  },
+  {
+    "id": "clover-white",
+    "typeName": "白三叶草",
+    "description": "低矮生长的多年生豆科植物，常用作地被植物和饲料作物。能固定土壤中的氮。白色花球吸引传粉者。",
+    "commonExamples": "Trifolium repens（白三叶草，荷兰三叶草），'Ladino'（巨型白三叶草）",
+    "careTips": "偶尔浇水——成活后相当耐旱。全日照到半荫。适应大多数土壤。耐修剪和踩踏。常用作草坪替代或伴生植物。无毒。",
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      30
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      8
+    ],
+    "category": "农场与作物",
     "categoryIndex": 22
   },
   {
@@ -20452,37 +20976,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "fescue-tall",
-    "typeName": "高羊茅",
-    "description": "禾本科多年生冷季型草。主要牧草和草坪草。耐旱、耐阴、耐重度放牧。内生真菌品种可改善抗性。",
-    "commonExamples": "Festuca arundinacea",
-    "careTips": "全日照至半阴。适应多种土壤。定期刈割或放牧。内生真菌品种提高耐旱和抗虫性（但对马有害——马匹用需选无内生菌品种）。秋季补播最佳。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "农场与作物",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "flax",
     "typeName": "亚麻",
     "description": "亚麻科一年生植物。种植用于纤维（亚麻布）和种子（亚麻籽油、富含omega-3）。蓝色花朵。喜凉作物。",
@@ -20563,37 +21056,6 @@
     "plantLifeSpan": [
       10,
       25
-    ],
-    "category": "农场与作物",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
-    "id": "jute",
-    "typeName": "黄麻",
-    "description": "锦葵科一年生纤维作物。韧皮纤维用于制麻绳、麻袋和土工布。有黄麻和圆果黄麻两种。热带至亚热带作物。",
-    "commonExamples": "Corchorus olitorius (黄麻)",
-    "careTips": "全日照。肥沃湿润的土壤。暖季作物。开花期收割茎秆取纤维。沤麻处理（水中浸泡分离纤维）。热带至亚热带气候适宜。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      2
     ],
     "category": "农场与作物",
     "hardinessZones": [
@@ -21211,37 +21673,6 @@
     "categoryIndex": 22
   },
   {
-    "id": "timothy-grass",
-    "typeName": "梯牧草",
-    "description": "禾本科多年生冷季型草。优质马匹干草。穗状花序圆柱形。适合凉爽湿润气候。",
-    "commonExamples": "Phleum pratense",
-    "careTips": "全日照。湿润、排水良好的土壤。冷季型草。抽穗初期收割干草品质最佳。常与苜蓿混播。保持土壤肥力促进再生。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "农场与作物",
-    "hardinessZones": [
-      2,
-      11
-    ],
-    "categoryIndex": 22
-  },
-  {
     "id": "tobacco",
     "typeName": "烟草",
     "description": "茄科一年生草本。叶片含尼古丁；作商业烟草栽培。观赏烟叶不同。不可食用。",
@@ -21547,118 +21978,10 @@
     "categoryIndex": 23
   },
   {
-    "id": "cabbage-microgreens",
-    "typeName": "卷心菜芽苗",
-    "description": "甘蓝微型蔬菜，有红色和绿色品种。口感温和。第一片真叶时采收（8-12天）。",
-    "commonExamples": "Brassica oleracea",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
     "id": "carrot-microgreens",
     "typeName": "胡萝卜芽苗",
     "description": "胡萝卜微菜，细嫩羽状叶。发芽较慢。第一片真叶时采收（14-21天）。",
     "commonExamples": "Daucus carota",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "celery-microgreens",
-    "typeName": "芹菜芽苗",
-    "description": "浓缩芹菜风味的微菜。第一片真叶时采收（14-21天）。生长较慢。",
-    "commonExamples": "Apium graveolens",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chard-microgreens",
-    "typeName": "瑞士甜菜芽苗",
-    "description": "彩色茎秆，菠菜般温和口感。第一片真叶时采收（10-14天）。",
-    "commonExamples": "Beta vulgaris var. cicla",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "chickpea-sprouts",
-    "typeName": "鹰嘴豆芽",
-    "description": "鹰嘴豆芽菜。口感饱满、带坚果香。3-5天采收。需先浸泡8-12小时。",
-    "commonExamples": "Cicer arietinum",
     "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
     "springInterval": 1,
     "summerInterval": 1,
@@ -21790,33 +22113,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "fennel-microgreens",
-    "typeName": "茴香芽苗",
-    "description": "茴香微菜，带茴香特有甜香。第一片真叶时采收（12-14天）。",
-    "commonExamples": "Foeniculum vulgare",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
     "id": "fenugreek-sprouts",
     "typeName": "胡芦巴芽",
     "description": "芳香微苦的芽菜，带咖喱风味。4-6天采收。每日冲洗2次。",
@@ -21848,33 +22144,6 @@
     "typeName": "羽衣甘蓝芽苗",
     "description": "营养丰富的羽衣甘蓝微菜。口感温和似甘蓝。第一片真叶时采收（8-12天）。",
     "commonExamples": "Brassica oleracea var. acephala",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "kohlrabi-microgreens",
-    "typeName": "苤蓝芽苗",
-    "description": "温和微甜的苤蓝微菜。紫色或绿色。第一片真叶时采收（8-12天）。",
-    "commonExamples": "Brassica oleracea var. gongylodes",
     "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
     "springInterval": 1,
     "summerInterval": 1,
@@ -21939,33 +22208,6 @@
     "temperaturePreference": [
       10,
       32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "microgreen-mix",
-    "typeName": "综合微型蔬菜",
-    "description": "多种快速生长种子的混合，在幼苗期(7-21天)采收，结合多样的风味、色彩和质感，用于营养丰富的配菜和沙拉。",
-    "commonExamples": "Brassica oleracea (西兰花、羽衣甘蓝微菜苗), Raphanus sativus (萝卜微菜苗), Helianthus annuus (向日葵微菜苗), Pisum sativum (豌豆苗)",
-    "careTips": "每天喷雾1-2次保持基质持续湿润但不积水。明亮间接光或补光灯每天12-16小时产生矮壮多彩的菜苗。在湿润椰糠、麻垫或薄层基质上种植。种子预浸4-12小时加速发芽。保持18-22°C最佳生长温度。当第一片真叶出现时用干净剪刀采收，通常播种后7-14天。无毒——专为食用而种植。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": 2,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      25
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -22064,33 +22306,6 @@
     "typeName": "洋葱芽",
     "description": "温和洋葱风味芽苗。在第一片真叶时采收（10–14天）。播种前浸泡种子。",
     "commonExamples": "Allium cepa",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
-    "id": "parsnip-microgreens",
-    "typeName": "欧洲防风芽苗",
-    "description": "味甜带泥土芳香。发芽较慢。第一片真叶时采收（18-21天）。",
-    "commonExamples": "Pastinaca sativa",
     "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
     "springInterval": 1,
     "summerInterval": 1,
@@ -22222,33 +22437,6 @@
     "categoryIndex": 23
   },
   {
-    "id": "sorrel-microgreens",
-    "typeName": "酸模芽苗",
-    "description": "酸模微菜，酸爽柠檬味。第一片真叶时采收（12-14天）。",
-    "commonExamples": "Rumex acetosa",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
     "id": "soybean-sprouts",
     "typeName": "黄豆芽",
     "description": "大豆芽菜。口感脆嫩，食用前需烹煮。长至5-7厘米时采收（4-6天）。每日冲洗2次。",
@@ -22276,36 +22464,9 @@
     "categoryIndex": 23
   },
   {
-    "id": "spinach-microgreens",
-    "typeName": "菠菜芽苗",
-    "description": "菠菜微菜，温和营养。第一片真叶时采收（10-14天）。",
-    "commonExamples": "Spinacia oleracea",
-    "careTips": "每天喷水或冲洗1-2次。明亮散射光。真叶初现时采收（约7-14天）。无需施肥。",
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "芽苗菜与微型蔬菜",
-    "categoryIndex": 23
-  },
-  {
     "id": "sprouts-microgreens",
     "typeName": "芽苗和微型蔬菜",
-    "description": "发芽后1-3周内采收的幼苗。芽苗仅在水中培养；微型蔬菜在薄层土壤或培养基上生长。营养密度高，全年可在室内轻松种植。",
+    "description": "发芽后1-3周内收获的幼苗。芽苗仅在水中生长；微型蔬菜在薄层土壤或生长介质上生长。营养丰富，全年可在室内种植。流行的混合品种结合了多种风味、颜色和质地。",
     "commonExamples": "西兰花芽苗, 苜蓿芽, 向日葵微型蔬菜, 豌豆苗, 萝卜微型蔬菜, 小麦草",
     "careTips": "每天喷雾或轻浇1-2次保持种子和培养基湿润。切勿干燥，但避免积水导致霉变。偏好明亮散射光（窗台或植物灯）。良好的空气流通对防止霉变至关重要。不需要施肥——种子含有全部所需营养。使用清洁的食品安全容器和新鲜种子。芽苗3-7天采收，微型蔬菜7-14天采收。芽苗每天冲洗两次。每隔几天连续播种实现持续采收。",
     "springInterval": 1,
@@ -23505,37 +23666,6 @@
     "categoryIndex": 25
   },
   {
-    "id": "floating-heart",
-    "typeName": "荇菜",
-    "description": "浮水植物，心形叶黄花。荇菜喜静水。易蔓延—小池需控制。",
-    "commonExamples": "Nymphoides spp. (荇菜)",
-    "careTips": "浮于静水。全日照。无需种植—撒于池面。可入侵；清除多余。根在水中或泥中。对宠物有轻微毒性—摄入可能引起肠胃不适。",
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "特殊 - 水生与沼泽",
-    "hardinessZones": [
-      4,
-      10
-    ],
-    "categoryIndex": 25
-  },
-  {
     "id": "giant-water-lily",
     "typeName": "王莲",
     "description": "也称：亚马逊王莲。世界上最大的睡莲，圆形浮叶直径可达3米，能承受一个小孩的重量。白色花朵在夜间绽放。",
@@ -23945,33 +24075,6 @@
     "plantLifeSpan": [
       3,
       15
-    ],
-    "category": "特殊 - 食虫",
-    "categoryIndex": 26
-  },
-  {
-    "id": "cephalotus",
-    "typeName": "奥尔巴尼瓶子草",
-    "description": "也称：西澳瓶子草、捕蝇植物。稀有且备受追捧的食虫植物，仅产于西澳大利亚小片沿海地区，生长出带有齿状盖子的迷你捕虫瓶，十分别致。",
-    "commonExamples": "Cephalotus follicularis (奥尔巴尼瓶子草, 澳洲瓶子草, 捕蝇植物)",
-    "careTips": "用无矿物质水（雨水、蒸馏水或反渗透水）底部浇水保持土壤持续湿润；切勿干透或浸泡在深水中。明亮间接光—柔和的早晨直射光有益。偏好高湿度（60-80%）；生态瓶效果很好。使用泥炭和珠光岩（1:1）或水苔培养土。切勿在土壤中施肥—仅在无昆虫时偶尔用极稀释（1/4浓度）肥料叶面喷施。光照越强瓶子着色越深。生长缓慢。对宠物无毒。",
-    "springInterval": 3,
-    "summerInterval": 3,
-    "fallInterval": 5,
-    "winterInterval": 7,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      5,
-      25
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      10,
-      30
     ],
     "category": "特殊 - 食虫",
     "categoryIndex": 26
@@ -24587,37 +24690,6 @@
     "categoryIndex": 28
   },
   {
-    "id": "alpine-catchfly",
-    "typeName": "高山蝇子草",
-    "description": "高山苔藕型植物，粉花。Silene acaulis形成密实垣垣适合石苔园。",
-    "commonExamples": "Silene acaulis",
-    "careTips": "轻浇（每1-2周）。排水良好必要。全日照。耐干。薄肥。高山型；休眠期减浇，避免冬湿。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "特殊 - 高山",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "alpine-plants",
     "typeName": "高山植物",
     "description": "适应高海拔岩石条件的植物，具有良好的排水，许多耐旱。",
@@ -24640,37 +24712,6 @@
     "plantLifeSpan": [
       3,
       10
-    ],
-    "category": "特殊 - 高山",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "alpine-poppy",
-    "typeName": "高山罂粟",
-    "description": "嫩缮高山羽豆花，白黄橙色。短寿但自种。耐寒。",
-    "commonExamples": "Papaver alpinum",
-    "careTips": "轻浇（每1-2周）。排水良好。全日照。短寿但自种。高山型；休眠期减浇，避免冬湿。对宠物有毒—全株；请远离宠物。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      5
     ],
     "category": "特殊 - 高山",
     "hardinessZones": [
@@ -24768,37 +24809,6 @@
     "category": "特殊 - 高山",
     "hardinessZones": [
       3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "draba",
-    "typeName": "葶苈",
-    "description": "小型高山十字花科，垣垣或获垣黄白花。适石苔园。",
-    "commonExamples": "Draba spp. (葶苈)",
-    "careTips": "轻浇（每1-2周）。排水良好。全日照。耐干。薄肥。高山型；休眠期减浇，避免冬湿。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "特殊 - 高山",
-    "hardinessZones": [
-      4,
       8
     ],
     "categoryIndex": 28
@@ -24924,73 +24934,11 @@
     "categoryIndex": 28
   },
   {
-    "id": "rock-jasmine",
-    "typeName": "岩石茉莉",
-    "description": "也称：点地梅。 低型高山报春花科，白粉花。垣垣或获垣型。适石苔园。",
-    "commonExamples": "Androsace spp. (点地梅)",
-    "careTips": "轻浇（每1-2周）。排水良好。全日照。许多难养。薄肥。高山型；休眠期减浇，避免冬湿。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "特殊 - 高山",
-    "hardinessZones": [
-      4,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
     "id": "saxifrage",
     "typeName": "虎耳草",
     "description": "虎耳草科高山属，垣垣获垣获垣形。白粉黄花。适石苔园。",
     "commonExamples": "Saxifraga spp. (虎耳草)",
     "careTips": "轻浇（每1-2周）。排水良好。全日照至半阔隄种异。薄肥。高山型；休眠期减浇，避免冬湿。",
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "特殊 - 高山",
-    "hardinessZones": [
-      3,
-      8
-    ],
-    "categoryIndex": 28
-  },
-  {
-    "id": "sempervivum-alpine",
-    "typeName": "高山长生草",
-    "description": "多浆获垣子株增涻。耐寒耐干。多色形。",
-    "commonExamples": "Sempervivum tectorum (长生草), S. arachnoideum",
-    "careTips": "轻浇（每1-2周）。排水良好。全日照。耐干。拔子季竝羹。适石苔园、绿屋顶。高山型；休眠期减浇，避免冬湿。",
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,

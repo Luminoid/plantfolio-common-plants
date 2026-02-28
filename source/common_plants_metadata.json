@@ -1,6 +1,6 @@
 {
   "_metadata": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "plantCount": 872
   },
   "aglaonema": {
@@ -171,27 +171,6 @@
     ],
     "category": "Houseplants - Low Maintenance"
   },
-  "dracaena-deremensis": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "lowIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Houseplants - Low Maintenance"
-  },
   "dracaena-fragrans": {
     "springInterval": 10,
     "summerInterval": 10,
@@ -202,27 +181,6 @@
     "temperaturePreference": [
       18,
       24
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      25
-    ],
-    "category": "Houseplants - Low Maintenance"
-  },
-  "dracaena-goldieana": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
     ],
     "plantToxicity": "toxic",
     "soilPhPreference": "neutral",
@@ -633,6 +591,27 @@
     ],
     "category": "Houseplants - Low Maintenance"
   },
+  "shangri-la-pothos": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Low Maintenance"
+  },
   "snake-plants": {
     "springInterval": 14,
     "summerInterval": 14,
@@ -779,6 +758,27 @@
       20
     ],
     "category": "Houseplants - Low Maintenance"
+  },
+  "alocasia-amazonica": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Aroids"
   },
   "alocasia-black-velvet": {
     "springInterval": 7,
@@ -990,6 +990,27 @@
     ],
     "category": "Houseplants - Aroids"
   },
+  "anthurium-bird-nest": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Aroids"
+  },
   "anthurium-clarinervium": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -1130,6 +1151,27 @@
     "plantToxicity": "toxic",
     "soilPhPreference": "acidic",
     "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Aroids"
+  },
+  "burle-marx-philodendron": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       5,
@@ -1848,6 +1890,27 @@
     "plantLifeSpan": [
       10,
       20
+    ],
+    "category": "Houseplants - Aroids"
+  },
+  "philodendron-white-princess": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
     ],
     "category": "Houseplants - Aroids"
   },
@@ -2608,10 +2671,10 @@
     "category": "Houseplants - Palms"
   },
   "aeonium": {
-    "springInterval": 14,
+    "springInterval": 10,
     "summerInterval": 21,
     "fallInterval": 14,
-    "winterInterval": 21,
+    "winterInterval": 10,
     "lightPreference": "brightIndirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -2625,6 +2688,27 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Houseplants - Succulents"
+  },
+  "agave": {
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 28,
+    "lightPreference": "strongDirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      38
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      100
     ],
     "category": "Houseplants - Succulents"
   },
@@ -2967,8 +3051,8 @@
   "lithops": {
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 90,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3093,8 +3177,8 @@
   "split-rock": {
     "springInterval": 30,
     "summerInterval": 90,
-    "fallInterval": 30,
-    "winterInterval": 60,
+    "fallInterval": 14,
+    "winterInterval": null,
     "lightPreference": "strongDirect",
     "humidityPreference": "low",
     "temperaturePreference": [
@@ -3170,6 +3254,27 @@
     "wateringMethod": "topWatering",
     "plantLifeSpan": [
       3,
+      10
+    ],
+    "category": "Houseplants - Succulents"
+  },
+  "string-of-needles": {
+    "springInterval": 10,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      15,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
       10
     ],
     "category": "Houseplants - Succulents"
@@ -3762,27 +3867,6 @@
     ],
     "category": "Houseplants - Flowering"
   },
-  "begonia-amphioxus": {
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "veryHigh",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Houseplants - Flowering"
-  },
   "begonia-angel-wing": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -3825,24 +3909,24 @@
     ],
     "category": "Houseplants - Flowering"
   },
-  "begonia-maculata-wightii": {
+  "begonia-rex": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,
     "winterInterval": 14,
     "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
+    "humidityPreference": "high",
     "temperaturePreference": [
-      18,
+      16,
       27
     ],
     "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
+    "soilPhPreference": "acidic",
     "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
+    "wateringMethod": "bottomWatering",
     "plantLifeSpan": [
       3,
-      10
+      5
     ],
     "category": "Houseplants - Flowering"
   },
@@ -4581,6 +4665,48 @@
     ],
     "category": "Houseplants - Prayer Plants"
   },
+  "calathea-roseopicta": {
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Houseplants - Prayer Plants"
+  },
+  "calathea-vittata": {
+    "springInterval": 4,
+    "summerInterval": 4,
+    "fallInterval": 7,
+    "winterInterval": 10,
+    "lightPreference": "mediumIndirect",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      3,
+      10
+    ],
+    "category": "Houseplants - Prayer Plants"
+  },
   "calathea-white-fusion": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -4854,6 +4980,27 @@
     ],
     "category": "Houseplants - Vines & Trailing"
   },
+  "hoya-bella": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Houseplants - Vines & Trailing"
+  },
   "hoya-callistophylla": {
     "springInterval": 10,
     "summerInterval": 7,
@@ -5064,27 +5211,6 @@
     ],
     "category": "Houseplants - Vines & Trailing"
   },
-  "pellionia": {
-    "springInterval": 5,
-    "summerInterval": 5,
-    "fallInterval": 7,
-    "winterInterval": 10,
-    "lightPreference": "mediumIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Houseplants - Vines & Trailing"
-  },
   "philodendron-brasil": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -5106,27 +5232,6 @@
     ],
     "category": "Houseplants - Vines & Trailing"
   },
-  "pilea-depressa": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      18,
-      27
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      10
-    ],
-    "category": "Houseplants - Vines & Trailing"
-  },
   "scindapsus": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -5145,6 +5250,27 @@
     "plantLifeSpan": [
       5,
       15
+    ],
+    "category": "Houseplants - Vines & Trailing"
+  },
+  "scindapsus-pictus": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      29
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      10
     ],
     "category": "Houseplants - Vines & Trailing"
   },
@@ -5232,6 +5358,27 @@
     ],
     "category": "Houseplants - Vines & Trailing"
   },
+  "ficus-altissima": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      16,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      10,
+      50
+    ],
+    "category": "Houseplants - Ficus & Fig"
+  },
   "ficus-audrey": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -5251,7 +5398,7 @@
       15,
       30
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "ficus-microcarpa": {
     "springInterval": 7,
@@ -5272,28 +5419,7 @@
       10,
       50
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
-  },
-  "ficus-shivereana": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      16,
-      27
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      10,
-      30
-    ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "fiddle-leaf-fig": {
     "springInterval": 10,
@@ -5314,7 +5440,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "rubber-plant": {
     "springInterval": 10,
@@ -5335,7 +5461,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "rubber-plant-burgundy": {
     "springInterval": 7,
@@ -5356,7 +5482,7 @@
       10,
       25
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "rubber-plant-ruby": {
     "springInterval": 7,
@@ -5377,7 +5503,7 @@
       10,
       30
     ],
-    "category": "Houseplants - Ficus & Rubber Trees"
+    "category": "Houseplants - Ficus & Fig"
   },
   "bamboo": {
     "springInterval": 3,
@@ -5820,6 +5946,27 @@
     ],
     "category": "Houseplants - Specialty"
   },
+  "peperomia-rosso": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "brightIndirect",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      27
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "bottomWatering",
+    "plantLifeSpan": [
+      5,
+      10
+    ],
+    "category": "Houseplants - Specialty"
+  },
   "peperomia-watermelon": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -5988,6 +6135,27 @@
     ],
     "category": "Houseplants - Specialty"
   },
+  "welwitschia": {
+    "springInterval": 14,
+    "summerInterval": 14,
+    "fallInterval": 21,
+    "winterInterval": 28,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      5,
+      45
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      400,
+      2000
+    ],
+    "category": "Houseplants - Specialty"
+  },
   "bald-cypress": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -6125,6 +6293,27 @@
       5,
       8
     ]
+  },
+  "chinese-elm": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      150
+    ],
+    "category": "Outdoor - Trees"
   },
   "citrus-trees": {
     "springInterval": 7,
@@ -6338,6 +6527,27 @@
       5,
       9
     ]
+  },
+  "dragon-blood-tree": {
+    "springInterval": 14,
+    "summerInterval": 10,
+    "fallInterval": 14,
+    "winterInterval": 21,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "low",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "excellentDrainage",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      600
+    ],
+    "category": "Outdoor - Trees"
   },
   "eucalyptus": {
     "springInterval": 7,
@@ -6556,6 +6766,27 @@
     ],
     "category": "Outdoor - Trees"
   },
+  "kapok-tree": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "high",
+    "temperaturePreference": [
+      15,
+      38
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      60,
+      200
+    ],
+    "category": "Outdoor - Trees"
+  },
   "magnolia": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -6647,6 +6878,48 @@
       3,
       9
     ]
+  },
+  "moringa": {
+    "springInterval": 7,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      40
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Outdoor - Trees"
+  },
+  "neem": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      10,
+      42
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      200
+    ],
+    "category": "Outdoor - Trees"
   },
   "oak": {
     "springInterval": 10,
@@ -6935,6 +7208,27 @@
       5,
       9
     ]
+  },
+  "wollemi-pine": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": 14,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      100,
+      500
+    ],
+    "category": "Outdoor - Trees"
   },
   "abelia": {
     "springInterval": 7,
@@ -7353,6 +7647,27 @@
       9
     ]
   },
+  "knockout-rose": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      15,
+      25
+    ],
+    "category": "Outdoor - Shrubs"
+  },
   "lavender": {
     "springInterval": 7,
     "summerInterval": 10,
@@ -7427,6 +7742,27 @@
       3,
       9
     ]
+  },
+  "limelight-hydrangea": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorPartialSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      32
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      20,
+      50
+    ],
+    "category": "Outdoor - Shrubs"
   },
   "loropetalum": {
     "springInterval": 7,
@@ -8378,6 +8714,27 @@
       3,
       9
     ]
+  },
+  "dianthus-carnation": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "mildlyToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      5
+    ],
+    "category": "Outdoor - Perennials"
   },
   "false-indigo": {
     "springInterval": 7,
@@ -10472,6 +10829,27 @@
       11
     ]
   },
+  "sweet-pea": {
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      5,
+      25
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "alkaline",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Outdoor - Annuals"
+  },
   "sweet-potato-vine": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -10842,6 +11220,27 @@
       4,
       9
     ]
+  },
+  "japanese-wisteria": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      35
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      50,
+      100
+    ],
+    "category": "Outdoor - Vines & Climbers"
   },
   "morning-glory": {
     "springInterval": 3,
@@ -12505,27 +12904,6 @@
     ],
     "category": "Vegetables - Fruiting"
   },
-  "crenshaw-melon": {
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Vegetables - Fruiting"
-  },
   "cucumbers": {
     "springInterval": 3,
     "summerInterval": 3,
@@ -12557,6 +12935,27 @@
     "temperaturePreference": [
       10,
       32
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      1
+    ],
+    "category": "Vegetables - Fruiting"
+  },
+  "edamame": {
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      15,
+      30
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -12925,6 +13324,27 @@
     ],
     "category": "Vegetables - Fruiting"
   },
+  "rhubarb": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -5,
+      30
+    ],
+    "plantToxicity": "toxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      5,
+      15
+    ],
+    "category": "Vegetables - Fruiting"
+  },
   "roma-tomato": {
     "springInterval": 5,
     "summerInterval": 4,
@@ -12943,6 +13363,27 @@
     "plantLifeSpan": [
       1,
       1
+    ],
+    "category": "Vegetables - Fruiting"
+  },
+  "serrano": {
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      18,
+      35
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      3
     ],
     "category": "Vegetables - Fruiting"
   },
@@ -13395,6 +13836,27 @@
     ],
     "category": "Vegetables - Root & Bulb"
   },
+  "leek": {
+    "springInterval": 5,
+    "summerInterval": 5,
+    "fallInterval": 7,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      7,
+      24
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      1,
+      2
+    ],
+    "category": "Vegetables - Root & Bulb"
+  },
   "onions-garlic": {
     "springInterval": 5,
     "summerInterval": 5,
@@ -13799,31 +14261,6 @@
     "hardinessZones": [
       3,
       10
-    ]
-  },
-  "boysenberry": {
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Fruits & Berries",
-    "hardinessZones": [
-      5,
-      9
     ]
   },
   "cherries": {
@@ -14241,31 +14678,6 @@
     "hardinessZones": [
       9,
       10
-    ]
-  },
-  "loganberry": {
-    "springInterval": 5,
-    "summerInterval": 4,
-    "fallInterval": 7,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Fruits & Berries",
-    "hardinessZones": [
-      5,
-      9
     ]
   },
   "longan": {
@@ -14719,9 +15131,9 @@
     ]
   },
   "prickly-pear-fruit": {
-    "springInterval": 14,
-    "summerInterval": 10,
-    "fallInterval": 7,
+    "springInterval": 10,
+    "summerInterval": 7,
+    "fallInterval": 10,
     "winterInterval": null,
     "lightPreference": "outdoorFullSun",
     "humidityPreference": "medium",
@@ -15748,6 +16160,27 @@
       11
     ]
   },
+  "wasabi": {
+    "springInterval": 3,
+    "summerInterval": 3,
+    "fallInterval": 5,
+    "winterInterval": 7,
+    "lightPreference": "outdoorShade",
+    "humidityPreference": "veryHigh",
+    "temperaturePreference": [
+      8,
+      20
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "acidic",
+    "drainagePreference": "moistureRetentive",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      3
+    ],
+    "category": "Herbs"
+  },
   "alfalfa": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -15791,31 +16224,6 @@
     "plantLifeSpan": [
       1,
       2
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ]
-  },
-  "bahia-grass": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -15940,31 +16348,6 @@
     ],
     "category": "Farm & Field Crops"
   },
-  "castor-bean": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ]
-  },
   "chickpea": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -16014,6 +16397,27 @@
       2,
       11
     ]
+  },
+  "clover-white": {
+    "springInterval": 7,
+    "summerInterval": 7,
+    "fallInterval": 10,
+    "winterInterval": null,
+    "lightPreference": "outdoorFullSun",
+    "humidityPreference": "medium",
+    "temperaturePreference": [
+      -10,
+      30
+    ],
+    "plantToxicity": "nonToxic",
+    "soilPhPreference": "neutral",
+    "drainagePreference": "wellDraining",
+    "wateringMethod": "topWatering",
+    "plantLifeSpan": [
+      2,
+      8
+    ],
+    "category": "Farm & Field Crops"
   },
   "coffee-arabica": {
     "springInterval": 5,
@@ -16136,31 +16540,6 @@
       11
     ]
   },
-  "fescue-tall": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ]
-  },
   "flax": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -16225,31 +16604,6 @@
     "plantLifeSpan": [
       10,
       25
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ]
-  },
-  "jute": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      1,
-      2
     ],
     "category": "Farm & Field Crops",
     "hardinessZones": [
@@ -16745,31 +17099,6 @@
       11
     ]
   },
-  "timothy-grass": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Farm & Field Crops",
-    "hardinessZones": [
-      2,
-      11
-    ]
-  },
   "tobacco": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -17009,91 +17338,7 @@
     ],
     "category": "Sprouts & Microgreens"
   },
-  "cabbage-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
   "carrot-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "celery-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "chard-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "chickpea-sprouts": {
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -17198,27 +17443,6 @@
     ],
     "category": "Sprouts & Microgreens"
   },
-  "fennel-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
   "fenugreek-sprouts": {
     "springInterval": 1,
     "summerInterval": 1,
@@ -17241,27 +17465,6 @@
     "category": "Sprouts & Microgreens"
   },
   "kale-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "kohlrabi-microgreens": {
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -17313,27 +17516,6 @@
     "temperaturePreference": [
       10,
       32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "microgreen-mix": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": 2,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      15,
-      25
     ],
     "plantToxicity": "nonToxic",
     "soilPhPreference": "neutral",
@@ -17409,27 +17591,6 @@
     "category": "Sprouts & Microgreens"
   },
   "onion-sprouts": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "parsnip-microgreens": {
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -17534,49 +17695,7 @@
     ],
     "category": "Sprouts & Microgreens"
   },
-  "sorrel-microgreens": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
   "soybean-sprouts": {
-    "springInterval": 1,
-    "summerInterval": 1,
-    "fallInterval": 2,
-    "winterInterval": null,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      10,
-      32
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "moistureRetentive",
-    "wateringMethod": "misting",
-    "plantLifeSpan": [
-      1,
-      1
-    ],
-    "category": "Sprouts & Microgreens"
-  },
-  "spinach-microgreens": {
     "springInterval": 1,
     "summerInterval": 1,
     "fallInterval": 2,
@@ -18547,31 +18666,6 @@
       11
     ]
   },
-  "floating-heart": {
-    "springInterval": null,
-    "summerInterval": null,
-    "fallInterval": null,
-    "winterInterval": null,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "mildlyToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "waterloggingTolerant",
-    "wateringMethod": "immersion",
-    "plantLifeSpan": [
-      2,
-      3
-    ],
-    "category": "Specialty - Aquatic & Bog",
-    "hardinessZones": [
-      4,
-      10
-    ]
-  },
   "giant-water-lily": {
     "springInterval": 1,
     "summerInterval": 1,
@@ -18899,27 +18993,6 @@
     "plantLifeSpan": [
       3,
       15
-    ],
-    "category": "Specialty - Carnivorous"
-  },
-  "cephalotus": {
-    "springInterval": 3,
-    "summerInterval": 3,
-    "fallInterval": 5,
-    "winterInterval": 7,
-    "lightPreference": "brightIndirect",
-    "humidityPreference": "high",
-    "temperaturePreference": [
-      5,
-      25
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "acidic",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "bottomWatering",
-    "plantLifeSpan": [
-      10,
-      30
     ],
     "category": "Specialty - Carnivorous"
   },
@@ -19401,31 +19474,6 @@
       8
     ]
   },
-  "alpine-catchfly": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ]
-  },
   "alpine-plants": {
     "springInterval": 7,
     "summerInterval": 7,
@@ -19444,31 +19492,6 @@
     "plantLifeSpan": [
       3,
       10
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ]
-  },
-  "alpine-poppy": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "toxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      5
     ],
     "category": "Specialty - Alpine",
     "hardinessZones": [
@@ -19548,31 +19571,6 @@
     "category": "Specialty - Alpine",
     "hardinessZones": [
       3,
-      8
-    ]
-  },
-  "draba": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
       8
     ]
   },
@@ -19672,57 +19670,7 @@
     ],
     "category": "Specialty - Alpine"
   },
-  "rock-jasmine": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      3,
-      8
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      4,
-      8
-    ]
-  },
   "saxifrage": {
-    "springInterval": 7,
-    "summerInterval": 7,
-    "fallInterval": 10,
-    "winterInterval": 14,
-    "lightPreference": "outdoorFullSun",
-    "humidityPreference": "medium",
-    "temperaturePreference": [
-      10,
-      28
-    ],
-    "plantToxicity": "nonToxic",
-    "soilPhPreference": "neutral",
-    "drainagePreference": "wellDraining",
-    "wateringMethod": "topWatering",
-    "plantLifeSpan": [
-      5,
-      15
-    ],
-    "category": "Specialty - Alpine",
-    "hardinessZones": [
-      3,
-      8
-    ]
-  },
-  "sempervivum-alpine": {
     "springInterval": 7,
     "summerInterval": 7,
     "fallInterval": 10,

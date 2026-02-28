@@ -1,7 +1,7 @@
 # Dataset Reference
 
 **872 plants** across **29 categories** (EN, ZH, ES).
-**Version:** 1.8.0 · See [CHANGELOG.md](../CHANGELOG.md) for history.
+**Version:** 1.8.1 · See [CHANGELOG.md](../CHANGELOG.md) for history.
 
 ---
 
@@ -58,6 +58,7 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 | plantToxicity | nonToxic, mildlyToxic, toxic (expert schema) |
 | Expert audit (Feb 2025) | Phase 1 metadata + Phase 2 language verified for all 28 categories; 46 plants had generic descriptions replaced |
 | 872 plants (v1.8.0) | 106 added, 47 merged; 29 categories; 34 toxicity fixes; full EN/ES/ZH translation quality pass |
+| 872 plants (v1.8.1) | 32 added, 28 removed, 4 merged; category rename Ficus & Rubber Trees → Ficus & Fig; watering & taxonomy fixes |
 
 ---
 
@@ -67,37 +68,37 @@ Format `commonExamples` per botanical conventions: genus species; cultivar in si
 
 | # | Category | Plant Count | Audit Focus |
 |---|----------|-------------|-------------|
-| 1 | Houseplants - Low Maintenance | 37 | Low-light tolerance, watering intervals, toxicity |
-| 2 | Houseplants - Aroids | 59 | Light, humidity, drainage; toxic vs non-toxic |
+| 1 | Houseplants - Low Maintenance | 36 | Low-light tolerance, watering intervals, toxicity |
+| 2 | Houseplants - Aroids | 63 | Light, humidity, drainage; toxic vs non-toxic |
 | 3 | Houseplants - Ferns | 16 | High humidity, moisture-retentive soil, watering frequency |
 | 4 | Houseplants - Palms | 12 | Light, humidity, drainage consistency |
-| 5 | Houseplants - Succulents | 35 | Drainage (excellent/well), long intervals, low humidity |
+| 5 | Houseplants - Succulents | 37 | Drainage (excellent/well), long intervals, low humidity |
 | 6 | Houseplants - Cacti | 18 | Excellent drainage, long intervals, temperature ranges |
-| 7 | Houseplants - Flowering | 34 | Blooming-specific needs, watering method |
-| 8 | Houseplants - Prayer Plants | 15 | High humidity, moisture-retentive, bottom watering where applicable |
+| 7 | Houseplants - Flowering | 33 | Blooming-specific needs, watering method |
+| 8 | Houseplants - Prayer Plants | 17 | High humidity, moisture-retentive, bottom watering where applicable |
 | 9 | Houseplants - Vines & Trailing | 23 | Light, watering, toxicity for pothos/philodendron |
-| 10 | Houseplants - Ficus & Rubber Trees | 7 | Light, latex toxicity, humidity |
-| 11 | Houseplants - Specialty | 29 | Bonsai, bromeliads, croton — special houseplant cases |
-| 12 | Outdoor - Trees | 40 | hardinessZones, light, dormancy (null winterInterval) |
-| 13 | Outdoor - Shrubs | 37 | hardinessZones, light, soil pH |
-| 14 | Outdoor - Perennials | 74 | Largest; hardiness, light, watering intervals |
-| 15 | Outdoor - Annuals | 38 | Short lifespan, frequent watering |
-| 16 | Outdoor - Vines & Climbers | 17 | Light, support, hardiness |
+| 10 | Houseplants - Ficus & Fig | 7 | Light, latex toxicity, humidity |
+| 11 | Houseplants - Specialty | 31 | Bonsai, bromeliads, croton — special houseplant cases |
+| 12 | Outdoor - Trees | 46 | hardinessZones, light, dormancy (null winterInterval) |
+| 13 | Outdoor - Shrubs | 39 | hardinessZones, light, soil pH |
+| 14 | Outdoor - Perennials | 75 | Largest; hardiness, light, watering intervals |
+| 15 | Outdoor - Annuals | 39 | Short lifespan, frequent watering |
+| 16 | Outdoor - Vines & Climbers | 18 | Light, support, hardiness |
 | 17 | Outdoor - Groundcovers & Grasses | 24 | Light, drainage, hardiness |
 | 18 | Vegetables - Leafy Greens | 25 | Watering, light, soil |
-| 19 | Vegetables - Fruiting | 51 | Watering, light, temperature |
-| 20 | Vegetables - Root & Bulb | 21 | Soil, drainage, harvesting |
-| 21 | Fruits & Berries | 49 | hardinessZones, soil pH, pollination |
-| 22 | Herbs | 36 | Light, watering, lifespan |
-| 23 | Farm & Field Crops | 44 | Hardiness, soil, growing season |
-| 24 | Sprouts & Microgreens | 43 | Very short intervals, moisture |
+| 19 | Vegetables - Fruiting | 53 | Watering, light, temperature |
+| 20 | Vegetables - Root & Bulb | 22 | Soil, drainage, harvesting |
+| 21 | Fruits & Berries | 47 | hardinessZones, soil pH, pollination |
+| 22 | Herbs | 37 | Light, watering, lifespan |
+| 23 | Farm & Field Crops | 40 | Hardiness, soil, growing season |
+| 24 | Sprouts & Microgreens | 33 | Very short intervals, moisture |
 | 25 | Bulbs | 31 | Dormancy (null summer/fall), watering method |
-| 26 | Specialty - Aquatic & Bog | 18 | null watering, waterloggingTolerant |
-| 27 | Specialty - Carnivorous | 10 | null watering, acidic soil, immersion |
+| 26 | Specialty - Aquatic & Bog | 17 | null watering, waterloggingTolerant |
+| 27 | Specialty - Carnivorous | 9 | null watering, acidic soil, immersion |
 | 28 | Specialty - Epiphytes & Moss | 14 | misting/immersion, high humidity |
-| 29 | Specialty - Alpine | 15 | Cold-tolerant, drainage, light |
+| 29 | Specialty - Alpine | 10 | Cold-tolerant, drainage, light |
 
-**Rationale:** Generic types (succulents, cacti, aroids) kept as parent categories. Farm crops separate from garden vegetables. Sprouts & Microgreens separate for distinct care. Ficus & Rubber Trees split from Specialty for better organization.
+**Rationale:** Generic types (succulents, cacti, aroids) kept as parent categories. Farm crops separate from garden vegetables. Sprouts & Microgreens separate for distinct care. Ficus & Fig split from Specialty for better organization.
 
 ---
 

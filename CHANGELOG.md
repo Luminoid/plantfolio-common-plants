@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.8.1] - 2026-02-27
+
+### Added
+
+- **32 new plants** (840 → 872 after merges/removals): Philodendron White Princess, Philodendron Burle Marx, Alocasia Amazonica, Ficus Altissima, Scindapsus Pictus (Silver Satin Pothos), Shangri La Pothos, Calathea Vittata, Calathea Roseopicta, Peperomia Rosso, Hoya Bella, Agave, String of Needles, Dragon Blood Tree (Dracaena cinnabari), Welwitschia, Kapok Tree, Wollemi Pine, Moringa, Neem Tree, Serrano Pepper, Leek, Rhubarb, Edamame, Wasabi, White Clover, Knock Out Rose, Limelight Hydrangea, Sweet Pea, Carnation, Rex Begonia, Chinese Elm, Japanese Wisteria, Bird's Nest Anthurium. Full metadata + EN/ES/ZH translations for all.
+
+### Removed
+
+- **28 niche/low-popularity plants:** Sprouts/Microgreens (9): parsnip-microgreens, sorrel-microgreens, celery-microgreens, kohlrabi-microgreens, chard-microgreens, fennel-microgreens, spinach-microgreens, chickpea-sprouts, cabbage-microgreens. Farm (5): jute, castor-bean, bahia-grass, timothy-grass, fescue-tall. Alpine (4): alpine-catchfly, draba, rock-jasmine, alpine-poppy. Houseplants (5): pellionia, begonia-amphioxus, dracaena-goldieana, ficus-shivereana, pilea-depressa. Other (5): floating-heart, cephalotus, loganberry, boysenberry, crenshaw-melon.
+
+### Changed
+
+- **Category renamed:** "Houseplants - Ficus & Rubber Trees" → "Houseplants - Ficus & Fig" (all files + schema.py).
+- **Merged 4 duplicate entries:** begonia-maculata-wightii → begonia-maculata (Wightii noted as common cultivar); sempervivum-alpine → sempervivum (alpine context added); dracaena-deremensis → dracaena-fragrans (Janet Craig cultivar referenced); microgreen-mix → sprouts-microgreens (mix concept folded in).
+
+### Fixed
+
+- **Watering intervals (4 plants):** Lithops fall 30→14d (active growth period), winter 90→None (leaf absorption). Split Rock fall 30→14d, winter 60→None. Aeonium spring 14→10d, winter 21→10d (winter grower needs more frequent watering). Prickly Pear Fruit rebalanced for summer fruiting (spring 14→10, summer 10→7, fall 7→10).
+- **Taxonomy updates:** Dracaena warneckii commonExamples → "D. fragrans (Deremensis Group) 'Warneckei'". Calathea white-star → "Goeppertia majestica 'Whitestar'". Calathea white-fusion → "Goeppertia lietzei 'White Fusion'". Corpse flower clarified as distinct from Rafflesia.
+
 ## [1.8.0] - 2026-02-17
 
 ### Added
