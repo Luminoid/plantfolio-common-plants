@@ -2,7 +2,7 @@
 
 Curated plant care dataset for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)).
 
-**872 plants** | **29 categories** | **3 locales** (EN, ES, ZH-Hans) | **v1.8.1**
+**872 plants** | **29 categories** | **3 locales** (EN, ES, ZH-Hans) | **v1.8.2**
 
 Care intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, scientific nomenclature (POWO/Kew), and localized descriptions.
 
@@ -127,7 +127,7 @@ plantfolio-common-plants/
 
 | Script | Purpose |
 |--------|---------|
-| `audit_quality.py` | Run all audits with pass/fail summary; toxicity audits are informational (`--full` for verbose) |
+| `audit_quality.py` | Run all audits with pass/fail summary (`--full` for verbose) |
 | `audit_metadata_completeness.py` | Field-by-field metadata checks (C1–C15, X1–X2) |
 | `audit_scientific_names.py` | Check `commonExamples` for accepted names (POWO/Kew) |
 | `audit_duplicates.py` | Duplicate typeNames, genus/species overlap, similar names |

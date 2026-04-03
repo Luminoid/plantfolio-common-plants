@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.8.2] - 2026-04-03
+
+### Fixed
+
+- **Toxicity metadata (3 corrections):** verbena, papaya, fennel-herb changed from `nonToxic` to `mildlyToxic` (ASPCA-verified).
+- **False toxicity removed from care tips (3 plants):** ixora, freesia, campanula-alpine had incorrect toxicity warnings removed (ASPCA non-toxic list).
+- **Toxicity warnings added to care tips (84 plants, EN/ES/ZH):** 62 toxic + 22 mildlyToxic plants now mention toxicity in care tips per AUDIT.md phrasing conventions.
+
 ## [1.8.1] - 2026-02-27
 
 ### Added
