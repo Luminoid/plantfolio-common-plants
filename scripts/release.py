@@ -41,6 +41,11 @@ def main():
     ok &= run(["python3", "scripts/audit_translation_sync.py"], "Translation sync audit")
     ok &= run(["python3", "scripts/audit_target_language.py"], "Target language audit")
 
+    ok &= run(["python3", "scripts/audit_toxicity_care_tips.py"], "Toxicity care tips audit")
+
+    # Informational audit (non-blocking — generic categories expected to be unknown)
+    run(["python3", "scripts/audit_toxicity_unknown.py"], "Toxicity unknown audit (info)")
+
     print("\n" + "=" * 50)
     print("✅ Ready for release" if ok else "❌ Fix issues above before release")
     print("=" * 50)

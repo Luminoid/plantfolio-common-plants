@@ -15,16 +15,19 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 
+# (key, description, command, info_only)
+# info_only=True: non-blocking audit (pre-existing findings expected)
 AUDITS = [
-    ("validate_json", "Schema & structure validation", ["python3", "scripts/validate_json.py", "--check-schema", "--check-structure"]),
-    ("metadata_completeness", "Metadata completeness", ["python3", "scripts/audit_metadata_completeness.py"]),
-    ("scientific_names", "Scientific names", ["python3", "scripts/audit_scientific_names.py"]),
-    ("duplicates", "Duplicate/overlap audit", ["python3", "scripts/audit_duplicates.py"]),
-    ("also_known_as", "Also known as", ["python3", "scripts/audit_also_known_as.py"]),
-    ("generic_descriptions", "Generic descriptions", ["python3", "scripts/audit_generic_descriptions.py"]),
-    ("translation_sync", "Translation sync", ["python3", "scripts/audit_translation_sync.py"]),
-    ("target_language", "Target language", ["python3", "scripts/audit_target_language.py"]),
-    ("toxicity_unknown", "Toxicity unknown (info)", ["python3", "scripts/audit_toxicity_unknown.py"]),
+    ("validate_json", "Schema & structure validation", ["python3", "scripts/validate_json.py", "--check-schema", "--check-structure"], False),
+    ("metadata_completeness", "Metadata completeness", ["python3", "scripts/audit_metadata_completeness.py"], False),
+    ("scientific_names", "Scientific names", ["python3", "scripts/audit_scientific_names.py"], False),
+    ("duplicates", "Duplicate/overlap audit", ["python3", "scripts/audit_duplicates.py"], False),
+    ("also_known_as", "Also known as", ["python3", "scripts/audit_also_known_as.py"], False),
+    ("generic_descriptions", "Generic descriptions", ["python3", "scripts/audit_generic_descriptions.py"], False),
+    ("translation_sync", "Translation sync", ["python3", "scripts/audit_translation_sync.py"], False),
+    ("target_language", "Target language", ["python3", "scripts/audit_target_language.py"], False),
+    ("toxicity_care_tips", "Toxicity care tips", ["python3", "scripts/audit_toxicity_care_tips.py"], False),
+    ("toxicity_unknown", "Toxicity unknown (info)", ["python3", "scripts/audit_toxicity_unknown.py"], True),
 ]
 
 
@@ -53,9 +56,9 @@ def main():
     out("=" * 60)
     out()
 
-    for key, desc, cmd in AUDITS:
+    for key, desc, cmd, info_only in AUDITS:
         success, output = run_audit(cmd, args.full)
-        status = "✅" if success else "❌"
+        status = "✅" if success else ("ℹ️" if info_only else "❌")
         out(f"{status} {desc}")
         if args.full and output.strip():
             for line in output.strip().split("\n"):
@@ -64,7 +67,7 @@ def main():
             # Show first few lines of failure
             for line in output.strip().split("\n")[:15]:
                 out(f"   {line}")
-        if not success:
+        if not success and not info_only:
             failed.append(desc)
         out()
 

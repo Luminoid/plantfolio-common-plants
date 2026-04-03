@@ -127,7 +127,7 @@ plantfolio-common-plants/
 
 | Script | Purpose |
 |--------|---------|
-| `audit_quality.py` | Run all audits and produce pass/fail summary (`--full` for verbose) |
+| `audit_quality.py` | Run all audits with pass/fail summary; toxicity audits are informational (`--full` for verbose) |
 | `audit_metadata_completeness.py` | Field-by-field metadata checks (C1–C15, X1–X2) |
 | `audit_scientific_names.py` | Check `commonExamples` for accepted names (POWO/Kew) |
 | `audit_duplicates.py` | Duplicate typeNames, genus/species overlap, similar names |
@@ -136,7 +136,7 @@ plantfolio-common-plants/
 | `audit_target_language.py` | Detect mixed-language content in locale files |
 | `audit_also_known_as.py` | Check aka rules; use `--fix` to apply corrections |
 | `audit_toxicity_care_tips.py` | Toxicity metadata vs. care tips alignment |
-| `audit_toxicity_unknown.py` | List plants with unknown toxicity (`--category` to filter) |
+| `audit_toxicity_unknown.py` | List plants with unknown toxicity (informational; `--category` to filter) |
 
 ### Data Improvement
 

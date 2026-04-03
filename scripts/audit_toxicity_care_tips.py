@@ -17,9 +17,9 @@ REPO_ROOT = Path(__file__).parent.parent
 SOURCE_DIR = REPO_ROOT / "source"
 
 # Phrases that indicate toxicity in care tips (case-insensitive)
-TOXIC_PHRASES = ["toxic to pets", "tóxico para mascotas", "对宠物有毒"]
-MILDLY_TOXIC_PHRASES = ["mildly toxic", "ligeramente tóxico", "轻微有毒", "gi upset", "malestar gastrointestinal", "肠胃不适"]
-NON_TOXIC_PHRASES = ["non-toxic", "non-toxic to pets", "not toxic", "no tóxico", "无毒"]
+TOXIC_PHRASES = ["toxic to pets", "toxic to cats", "toxic to dogs", "tóxico para mascotas", "tóxica para mascotas", "对宠物有毒", "对猫有毒", "对狗有毒"]
+MILDLY_TOXIC_PHRASES = ["mildly toxic", "ligeramente tóxico", "ligeramente tóxica", "轻微有毒", "gi upset", "malestar gastrointestinal", "肠胃不适"]
+NON_TOXIC_PHRASES = ["non-toxic", "non-toxic to pets", "not toxic", "no tóxico", "no tóxica", "无毒"]
 
 
 def has_phrase(text: str, phrases: list[str]) -> bool:

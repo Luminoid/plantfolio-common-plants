@@ -58,22 +58,25 @@ python3 scripts/audit_*.py               # Various quality checks
 
 ### Source Data Standards
 
-**Plant Structure:**
+**Language entry:**
 ```json
 {
-  "plantID": "unique-lowercase-dash-id",
-  "plantName": "Display Name",
-  "plantScientificName": "Genus species (Synonyms if applicable)",
-  "plantToxicity": "nonToxic | unknown | mildlyToxic | toxic",
-  "category": "english-category-key",
-  ...
+  "id": "unique-lowercase-dash-id",
+  "typeName": "Display Name",
+  "description": "Also known as: alias. Species-specific overview ending with period.",
+  "commonExamples": "Genus species (common name), Genus species (alias)",
+  "careTips": "Actionable care advice."
 }
 ```
+
+**Metadata entry** (keyed by `id` in `common_plants_metadata.json`):
+- 13 required fields: `springInterval`..`winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`
+- Optional: `hardinessZones` (outdoor plants only)
 
 **Key conventions:**
 - **plantToxicity**: Must be one of: `nonToxic`, `unknown`, `mildlyToxic`, `toxic`
 - **Scientific names**: Accepted name first; synonyms in parentheses
-- **plantID**: Lowercase, hyphenated, unique across all locales
+- **id**: Lowercase, hyphenated, unique across all locales
 - **Locales**: Keep EN, ES, ZH-Hans synchronized
 - **Descriptions**: Must end with period. "Also known as:" capitalized, at start of description. Each plant unique — no placeholders or duplicates
 - **aka rules**: No scientific names. No aka matching another plant's typeName. No duplicate aka within a locale. Category entries must not use specific entries' names as aka. No duplicate typeNames within a locale
@@ -97,7 +100,7 @@ python3 scripts/audit_*.py               # Various quality checks
 
 ## Cross-Project Alignment
 
-**See workspace rule**: [.claude/rules/common-plants.RULE.md](../.claude/rules/common-plants.RULE.md)
+**See workspace rule**: [Cross-Project Rule: Common Plants Data Alignment](../../.claude/CLAUDE.md#cross-project-rule-common-plants-data-alignment)
 
 When changing schema or scripts here, also update:
 - `Plantfolio/Plantfolio/Resources/` (bundle files)
@@ -117,9 +120,10 @@ When changing schema or scripts here, also update:
 4. Verify in `dist/`
 
 ### Update toxicity info
-1. Find plant in `source/common_plants_language_*.json` (use Grep)
+1. Find plant in `source/common_plants_metadata.json` (use Grep)
 2. Update `plantToxicity` field
-3. Run `python3 scripts/release.py`
+3. Update `careTips` in all 3 language files if toxicity is `toxic` or `mildlyToxic`
+4. Run `python3 scripts/release.py`
 
 ### Add new category
 1. Update metadata in `source/common_plants_metadata.json`
@@ -137,4 +141,4 @@ When changing schema or scripts here, also update:
 
 ---
 
-*Optimized for Claude Code • Last updated: 2026-02-17*
+*Optimized for Claude Code • Last updated: 2026-04-03*

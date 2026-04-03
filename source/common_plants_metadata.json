@@ -9877,7 +9877,7 @@
       -10,
       35
     ],
-    "plantToxicity": "nonToxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -14891,7 +14891,7 @@
       10,
       32
     ],
-    "plantToxicity": "nonToxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",
@@ -15612,7 +15612,7 @@
       -10,
       30
     ],
-    "plantToxicity": "nonToxic",
+    "plantToxicity": "mildlyToxic",
     "soilPhPreference": "neutral",
     "drainagePreference": "wellDraining",
     "wateringMethod": "topWatering",

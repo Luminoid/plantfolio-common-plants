@@ -8,7 +8,7 @@ Steps for a new minor/major release (e.g. 1.5.0 → 1.6.0).
 python3 scripts/release.py
 ```
 
-Runs: sort → merge → validate → metadata audit → scientific names → duplicates → also known as → generic descriptions → translation sync → target language. Fix any failures.
+Runs: sort → merge → validate → metadata audit → scientific names → duplicates → also known as → generic descriptions → translation sync → target language → toxicity care tips → toxicity unknown (info). Fix any failures.
 
 **Optional:** Run `python3 scripts/audit_quality.py` for a summary of all quality audits. If `audit_duplicates.py` reports duplicate typeNames (same name across entries), run `python3 scripts/optimize_duplicate_typenames.py --dry-run` then `--fix`.
 
