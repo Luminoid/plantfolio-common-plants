@@ -9,7 +9,7 @@ Category is translated from the language file's _metadata.sorting.categories hea
 Usage:
     python3 scripts/merge_plant_data.py
 
-Output: dist/common_plants.json, common_plants_es.json, common_plants_zh-Hans.json (merged; no metadata file)
+Output: dist/common_plants.json, common_plants_es.json, common_plants_zh-Hans.json, common_plants_zh-Hant.json (merged; no metadata file)
 """
 
 import json
@@ -23,6 +23,7 @@ LOCALES = [
     ("en", "common_plants_language_en.json", "common_plants"),
     ("es", "common_plants_language_es.json", "common_plants_es"),
     ("zh-Hans", "common_plants_language_zh-Hans.json", "common_plants_zh-Hans"),
+    ("zh-Hant", "common_plants_language_zh-Hant.json", "common_plants_zh-Hant"),
 ]
 
 

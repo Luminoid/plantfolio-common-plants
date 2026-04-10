@@ -71,7 +71,7 @@ def main():
 
     # Load and update language files
     new_total = plant_count
-    for filename in ["common_plants_language_en.json", "common_plants_language_zh-Hans.json", "common_plants_language_es.json"]:
+    for filename in ["common_plants_language_en.json", "common_plants_language_zh-Hans.json", "common_plants_language_zh-Hant.json", "common_plants_language_es.json"]:
         path = SOURCE_DIR / filename
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)

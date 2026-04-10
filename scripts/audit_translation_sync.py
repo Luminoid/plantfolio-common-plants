@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Audit that all three locales (EN, ES, ZH) have complete entries for each plant.
+Audit that all four locales (EN, ES, ZH-Hans, ZH-Hant) have complete entries for each plant.
 
 Checks:
 - Every plant in EN exists in ES and ZH
@@ -32,42 +32,51 @@ def main() -> int:
 
     en_path = SOURCE_DIR / "common_plants_language_en.json"
     es_path = SOURCE_DIR / "common_plants_language_es.json"
-    zh_path = SOURCE_DIR / "common_plants_language_zh-Hans.json"
+    zh_hans_path = SOURCE_DIR / "common_plants_language_zh-Hans.json"
+    zh_hant_path = SOURCE_DIR / "common_plants_language_zh-Hant.json"
 
     en = json.load(en_path.open(encoding="utf-8"))
     es = json.load(es_path.open(encoding="utf-8"))
-    zh = json.load(zh_path.open(encoding="utf-8"))
+    zh_hans = json.load(zh_hans_path.open(encoding="utf-8"))
+    zh_hant = json.load(zh_hant_path.open(encoding="utf-8"))
 
     en_entries = [e for e in en if "_metadata" not in e and e.get("id")]
     es_entries = [e for e in es if "_metadata" not in e and e.get("id")]
-    zh_entries = [e for e in zh if "_metadata" not in e and e.get("id")]
+    zh_hans_entries = [e for e in zh_hans if "_metadata" not in e and e.get("id")]
+    zh_hant_entries = [e for e in zh_hant if "_metadata" not in e and e.get("id")]
 
     en_ids = {e["id"] for e in en_entries}
     es_ids = {e["id"] for e in es_entries}
-    zh_ids = {e["id"] for e in zh_entries}
+    zh_hans_ids = {e["id"] for e in zh_hans_entries}
+    zh_hant_ids = {e["id"] for e in zh_hant_entries}
 
     en_by_id = {e["id"]: e for e in en_entries}
     es_by_id = {e["id"]: e for e in es_entries}
-    zh_by_id = {e["id"]: e for e in zh_entries}
+    zh_hans_by_id = {e["id"]: e for e in zh_hans_entries}
+    zh_hant_by_id = {e["id"]: e for e in zh_hant_entries}
 
     ok = True
 
     # Check ID coverage
     missing_es = en_ids - es_ids
-    missing_zh = en_ids - zh_ids
+    missing_zh_hans = en_ids - zh_hans_ids
+    missing_zh_hant = en_ids - zh_hant_ids
     if missing_es:
         print(f"❌ Missing in ES: {missing_es}")
         ok = False
-    if missing_zh:
-        print(f"❌ Missing in ZH: {missing_zh}")
+    if missing_zh_hans:
+        print(f"❌ Missing in ZH-Hans: {missing_zh_hans}")
         ok = False
-    if not missing_es and not missing_zh:
-        print(f"✅ All {len(en_ids)} plants present in EN, ES, ZH")
+    if missing_zh_hant:
+        print(f"❌ Missing in ZH-Hant: {missing_zh_hant}")
+        ok = False
+    if not missing_es and not missing_zh_hans and not missing_zh_hant:
+        print(f"✅ All {len(en_ids)} plants present in EN, ES, ZH-Hans, ZH-Hant")
 
     # Check for empty critical fields
     empty_issues = []
     for pid in en_ids:
-        for loc, d in [("en", en_by_id), ("es", es_by_id), ("zh", zh_by_id)]:
+        for loc, d in [("en", en_by_id), ("es", es_by_id), ("zh-Hans", zh_hans_by_id), ("zh-Hant", zh_hant_by_id)]:
             if pid not in d:
                 continue
             e = d[pid]
@@ -89,12 +98,15 @@ def main() -> int:
     # Optional: typeNames identical to EN
     if args.check_typeNames:
         es_same = [(pid, en_by_id[pid].get("typeName", "")) for pid in en_ids if pid in es_by_id and es_by_id[pid].get("typeName") == en_by_id[pid].get("typeName")]
-        zh_same = [(pid, en_by_id[pid].get("typeName", "")) for pid in en_ids if pid in zh_by_id and zh_by_id[pid].get("typeName") == en_by_id[pid].get("typeName")]
-        print(f"\nTypeNames matching EN (possible untranslated): ES {len(es_same)}, ZH {len(zh_same)}")
+        zh_hans_same = [(pid, en_by_id[pid].get("typeName", "")) for pid in en_ids if pid in zh_hans_by_id and zh_hans_by_id[pid].get("typeName") == en_by_id[pid].get("typeName")]
+        zh_hant_same = [(pid, en_by_id[pid].get("typeName", "")) for pid in en_ids if pid in zh_hant_by_id and zh_hant_by_id[pid].get("typeName") == en_by_id[pid].get("typeName")]
+        print(f"\nTypeNames matching EN (possible untranslated): ES {len(es_same)}, ZH-Hans {len(zh_hans_same)}, ZH-Hant {len(zh_hant_same)}")
         if es_same:
             print("  ES sample:", es_same[:5])
-        if zh_same:
-            print("  ZH sample:", zh_same[:5])
+        if zh_hans_same:
+            print("  ZH-Hans sample:", zh_hans_same[:5])
+        if zh_hant_same:
+            print("  ZH-Hant sample:", zh_hant_same[:5])
 
     return 0 if ok else 1
 

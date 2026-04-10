@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-04-09
+
+### Added
+
+- **80 new plants** (872 → 952): Expanded coverage across all categories including Nuts & Nut Trees (new category, 8 plants), additional outdoor perennials, farm crops, fruits, herbs, and bulbs.
+- **New category: Nuts & Nut Trees** (8 plants) — split from Fruits & Berries; covers almond, walnut, pecan, hazelnut, chestnut, pistachio, macadamia, and cashew.
+- **New locale: Traditional Chinese (zh-Hant)** — full translation parity (typeName, description, commonExamples, careTips, origin) for all 952 plants. Source `common_plants_language_zh-Hant.json`; dist `common_plants_zh-Hant.json`.
+- **New language field: `origin`** — geographic origin per locale (e.g., "Southeast Asia", "Central America"); included in all four language files.
+- **2 new metadata fields** (100% coverage on all 952 plants):
+  - `growthRate` — slow, moderate, or fast
+  - `propagationMethods` — array of methods (stemCuttings, leafCuttings, division, offsets, layering, airLayering, seeds, spores, tuberDivision, bulbDivision, grafting, runners, plantlets)
+- **`hardinessZones` coverage expanded** from 43% to 100% — every plant now has USDA zones [min, max].
+- **Enriched care tips (EN/ES/ZH-Hans/ZH-Hant):** pruning guidance added to 628 plants.
+
+### Fixed
+
+- **Hardiness zones validation** expanded from 1–11 to 1–13 (valid USDA range).
+- **Toxicity unknowns:** Resolved all specific-species unknown classifications. The remaining 22 entries are intentionally `unknown` — they are generic category placeholders (e.g., `bonsai`, `succulents`, `herbaceous-perennials`) covering many species with mixed toxicity.
+- **Care tips text quality:** 450 plants had machine-translated pruning text cleaned to natural English.
+
 ## [1.8.2] - 2026-04-03
 
 ### Fixed

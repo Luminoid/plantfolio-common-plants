@@ -82,7 +82,7 @@ def main():
     id_to_order = {pid: i for i, pid in enumerate(sorted_ids)}
 
     # Sort language files
-    for filename in ["common_plants_language_en.json", "common_plants_language_zh-Hans.json", "common_plants_language_es.json"]:
+    for filename in ["common_plants_language_en.json", "common_plants_language_zh-Hans.json", "common_plants_language_zh-Hant.json", "common_plants_language_es.json"]:
         path = SOURCE_DIR / filename
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)

@@ -82,6 +82,8 @@ COMMON_FIRST_WORDS = {
     "rose", "rosa", "trailing", "wavyleaf", "cider", "nagoya", "broad", "night",
     "hoary", "ruby", "ornamental", "bearded", "yellow", "tulip",
     "amazon", "victoria", "albany", "devil", "hay", "old", "man",
+    "dumb", "cane", "tuya", "nomeolvides", "lake", "sweetheart",
+    "hierba", "fruta", "bola", "pino",
 }
 
 
@@ -458,6 +460,7 @@ FILES = [
     ("en", SOURCE_DIR / "common_plants_language_en.json"),
     ("es", SOURCE_DIR / "common_plants_language_es.json"),
     ("zh-Hans", SOURCE_DIR / "common_plants_language_zh-Hans.json"),
+    ("zh-Hant", SOURCE_DIR / "common_plants_language_zh-Hant.json"),
 ]
 
 

@@ -102,8 +102,8 @@ def check_plant(plant_id: str, entry: dict) -> list[tuple[str, str]]:
         hz = entry["hardinessZones"]
         if not isinstance(hz, list) or len(hz) != 2:
             errors.append(("C15", f"invalid hardinessZones {hz!r}"))
-        elif any(not isinstance(z, int) or z < 1 or z > 11 for z in hz):
-            errors.append(("C15", "hardinessZones must be int 1–11"))
+        elif any(not isinstance(z, int) or z < 1 or z > 13 for z in hz):
+            errors.append(("C15", "hardinessZones must be int 1–13"))
         elif hz[0] > hz[1]:
             errors.append(("C15", "hardinessZones min > max"))
 

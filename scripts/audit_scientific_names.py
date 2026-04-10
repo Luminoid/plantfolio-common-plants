@@ -82,6 +82,7 @@ def main():
         (SOURCE_DIR / "common_plants_language_en.json", "en"),
         (SOURCE_DIR / "common_plants_language_es.json", "es"),
         (SOURCE_DIR / "common_plants_language_zh-Hans.json", "zh-Hans"),
+        (SOURCE_DIR / "common_plants_language_zh-Hant.json", "zh-Hant"),
     ]
 
     all_findings = []

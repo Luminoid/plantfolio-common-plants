@@ -3,7 +3,7 @@
 > Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663)
 > **Inherits cross-project rules from [workspace CLAUDE.md](../../.claude/CLAUDE.md).** This file contains data-specific rules only.
 
-**872 plants**, 29 categories, EN/ES/ZH-Hans. Edit `source/` -> `release.py` builds and validates.
+**952 plants**, 30 categories, EN/ES/ZH-Hans/ZH-Hant. Edit `source/` -> `release.py` builds and validates.
 
 ---
 
@@ -25,6 +25,7 @@ docs/      # DATASET.md, AUDIT.md, RELEASE.md
 | `source/common_plants_language_en.json` | English plant data (EDIT THIS) |
 | `source/common_plants_language_es.json` | Spanish translations |
 | `source/common_plants_language_zh-Hans.json` | Simplified Chinese translations |
+| `source/common_plants_language_zh-Hant.json` | Traditional Chinese translations |
 | `source/common_plants_metadata.json` | Watering intervals, categories |
 | `dist/*` | Generated merged files (DO NOT EDIT) |
 
@@ -38,7 +39,7 @@ docs/      # DATASET.md, AUDIT.md, RELEASE.md
 ### 1. Editing Data
 - **ONLY edit** files in `source/`
 - **NEVER edit** files in `dist/` (auto-generated)
-- Keep all three locales (EN/ES/ZH-Hans) in sync when adding/removing plants
+- Keep all four locales (EN/ES/ZH-Hans/ZH-Hant) in sync when adding/removing plants
 
 ### 2. Building & Validation
 ```bash
@@ -65,19 +66,24 @@ python3 scripts/audit_*.py               # Various quality checks
   "typeName": "Display Name",
   "description": "Also known as: alias. Species-specific overview ending with period.",
   "commonExamples": "Genus species (common name), Genus species (alias)",
-  "careTips": "Actionable care advice."
+  "careTips": "Actionable care advice.",
+  "origin": "Translated geographic origin"
 }
 ```
 
 **Metadata entry** (keyed by `id` in `common_plants_metadata.json`):
 - 13 required fields: `springInterval`..`winterInterval`, `lightPreference`, `humidityPreference`, `temperaturePreference`, `plantToxicity`, `soilPhPreference`, `drainagePreference`, `wateringMethod`, `plantLifeSpan`, `category`
-- Optional: `hardinessZones` (outdoor plants only)
+- `hardinessZones`: USDA zones [min, max], int 1–13 (100% coverage)
+- `growthRate`: One of `slow`, `moderate`, `fast` (100% coverage)
+- `propagationMethods`: Array of methods — `stemCuttings`, `leafCuttings`, `division`, `offsets`, `layering`, `airLayering`, `seeds`, `spores`, `tuberDivision`, `bulbDivision`, `grafting`, `runners`, `plantlets` (100% coverage)
+
+**Note:** `origin` is a **language field** (translated per locale), not a metadata field. When adding a new plant, include `origin` in all 4 language files.
 
 **Key conventions:**
 - **plantToxicity**: Must be one of: `nonToxic`, `unknown`, `mildlyToxic`, `toxic`
 - **Scientific names**: Accepted name first; synonyms in parentheses
 - **id**: Lowercase, hyphenated, unique across all locales
-- **Locales**: Keep EN, ES, ZH-Hans synchronized
+- **Locales**: Keep EN, ES, ZH-Hans, ZH-Hant synchronized
 - **Descriptions**: Must end with period. "Also known as:" capitalized, at start of description. Each plant unique — no placeholders or duplicates
 - **aka rules**: No scientific names. No aka matching another plant's typeName. No duplicate aka within a locale. Category entries must not use specific entries' names as aka. No duplicate typeNames within a locale
 - **commonExamples**: Use species-specific common names (not generic labels like "Microgreens")
@@ -115,7 +121,7 @@ When changing schema or scripts here, also update:
 
 ### Add a new plant
 1. Edit `source/common_plants_language_en.json`
-2. Add equivalent entries in ES and ZH-Hans
+2. Add equivalent entries in ES, ZH-Hans, and ZH-Hant
 3. Run `python3 scripts/release.py`
 4. Verify in `dist/`
 
@@ -141,4 +147,4 @@ When changing schema or scripts here, also update:
 
 ---
 
-*Optimized for Claude Code • Last updated: 2026-04-03*
+*Optimized for Claude Code • Last updated: 2026-04-09*

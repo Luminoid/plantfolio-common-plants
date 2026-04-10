@@ -23,6 +23,7 @@ LANG_FILES = [
     ("common_plants_language_en.json", "en"),
     ("common_plants_language_es.json", "es"),
     ("common_plants_language_zh-Hans.json", "zh-Hans"),
+    ("common_plants_language_zh-Hant.json", "zh-Hant"),
 ]
 
 

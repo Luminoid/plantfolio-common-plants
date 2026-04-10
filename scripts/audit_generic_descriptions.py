@@ -37,6 +37,7 @@ def main() -> int:
         ("en", SOURCE_DIR / "common_plants_language_en.json"),
         ("es", SOURCE_DIR / "common_plants_language_es.json"),
         ("zh-Hans", SOURCE_DIR / "common_plants_language_zh-Hans.json"),
+        ("zh-Hant", SOURCE_DIR / "common_plants_language_zh-Hant.json"),
     ]
 
     found = []
@@ -44,7 +45,7 @@ def main() -> int:
         if not path.exists():
             continue
         entries = load_lang_file(path)
-        locale_key = "zh" if locale == "zh-Hans" else locale
+        locale_key = "zh" if locale.startswith("zh") else locale
         for e in entries:
             desc = e.get("description") or ""
             for pattern_locale, pattern in GENERIC_PATTERNS:

@@ -13,7 +13,7 @@ CATEGORY_ORDER = [
     "Outdoor - Trees", "Outdoor - Shrubs", "Outdoor - Perennials",
     "Outdoor - Annuals", "Outdoor - Vines & Climbers", "Outdoor - Groundcovers & Grasses",
     "Vegetables - Leafy Greens", "Vegetables - Fruiting", "Vegetables - Root & Bulb",
-    "Fruits & Berries", "Herbs",
+    "Fruits & Berries", "Nuts & Nut Trees", "Herbs",
     "Farm & Field Crops", "Sprouts & Microgreens",
     "Bulbs",
     "Specialty - Aquatic & Bog", "Specialty - Carnivorous",
@@ -39,6 +39,12 @@ VALID_WATERING_METHOD = frozenset({
     "bottomWatering", "immersion", "misting", "topWatering",
     None,  # aquatic/carnivorous
 })
+VALID_GROWTH_RATE = frozenset({"slow", "moderate", "fast"})
+VALID_PROPAGATION_METHODS = frozenset({
+    "stemCuttings", "leafCuttings", "division", "offsets", "layering",
+    "airLayering", "seeds", "spores", "tuberDivision", "bulbDivision",
+    "grafting", "runners", "plantlets",
+})
 
 # Metadata key order (for consistent output, git diffs)
 METADATA_KEY_ORDER = [
@@ -46,6 +52,7 @@ METADATA_KEY_ORDER = [
     "lightPreference", "humidityPreference", "temperaturePreference",
     "plantToxicity", "soilPhPreference", "drainagePreference", "wateringMethod",
     "plantLifeSpan", "category", "hardinessZones",
+    "origin", "growthRate", "propagationMethods",
 ]
 
 LANG_ENTRY_KEY_ORDER = ["id", "typeName", "description", "commonExamples", "careTips"]

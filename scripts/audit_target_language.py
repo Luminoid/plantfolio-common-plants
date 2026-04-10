@@ -140,12 +140,15 @@ def audit_phrases(path: Path, locale: str, phrases: list[str]) -> list[dict]:
 def main() -> int:
     en_path = SOURCE_DIR / "common_plants_language_en.json"
     es_path = SOURCE_DIR / "common_plants_language_es.json"
-    zh_path = SOURCE_DIR / "common_plants_language_zh-Hans.json"
+    zh_hans_path = SOURCE_DIR / "common_plants_language_zh-Hans.json"
+    zh_hant_path = SOURCE_DIR / "common_plants_language_zh-Hant.json"
 
     en_issues = audit_en(en_path) if en_path.exists() else []
     es_issues = audit_es(es_path) if es_path.exists() else []
-    zh_common = audit_zh_common_examples(zh_path) if zh_path.exists() else []
-    zh_phrases = audit_phrases(zh_path, "zh-Hans", EN_PHRASES_ZH) if zh_path.exists() else []
+    zh_common = audit_zh_common_examples(zh_hans_path) if zh_hans_path.exists() else []
+    zh_phrases = audit_phrases(zh_hans_path, "zh-Hans", EN_PHRASES_ZH) if zh_hans_path.exists() else []
+    zh_hant_common = audit_zh_common_examples(zh_hant_path) if zh_hant_path.exists() else []
+    zh_hant_phrases = audit_phrases(zh_hant_path, "zh-Hant", EN_PHRASES_ZH) if zh_hant_path.exists() else []
     es_phrases = audit_phrases(es_path, "es", EN_PHRASES_ES) if es_path.exists() else []
 
     ok = True
@@ -171,7 +174,7 @@ def main() -> int:
 
     if zh_common:
         ok = False
-        print(f"ZH (no English common names in commonExamples): {len(zh_common)} issues")
+        print(f"ZH-Hans (no English common names in commonExamples): {len(zh_common)} issues")
         for i in zh_common[:10]:
             print(f"  {i['id']}: {i['snippet'][:80]}...")
         if len(zh_common) > 10:
@@ -180,11 +183,29 @@ def main() -> int:
 
     if zh_phrases:
         ok = False
-        print(f"ZH (English phrases): {len(zh_phrases)} potential issues")
+        print(f"ZH-Hans (English phrases): {len(zh_phrases)} potential issues")
         for i in zh_phrases[:10]:
             print(f"  {i['id']} [{i['field']}]: '{i['phrase']}'")
         if len(zh_phrases) > 10:
             print(f"  ... and {len(zh_phrases) - 10} more")
+        print()
+
+    if zh_hant_common:
+        ok = False
+        print(f"ZH-Hant (no English common names in commonExamples): {len(zh_hant_common)} issues")
+        for i in zh_hant_common[:10]:
+            print(f"  {i['id']}: {i['snippet'][:80]}...")
+        if len(zh_hant_common) > 10:
+            print(f"  ... and {len(zh_hant_common) - 10} more")
+        print()
+
+    if zh_hant_phrases:
+        ok = False
+        print(f"ZH-Hant (English phrases): {len(zh_hant_phrases)} potential issues")
+        for i in zh_hant_phrases[:10]:
+            print(f"  {i['id']} [{i['field']}]: '{i['phrase']}'")
+        if len(zh_hant_phrases) > 10:
+            print(f"  ... and {len(zh_hant_phrases) - 10} more")
         print()
 
     if es_phrases:

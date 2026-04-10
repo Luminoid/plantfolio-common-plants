@@ -120,7 +120,7 @@ def validate_metadata_schema(metadata_path):
 def validate_language_metadata(source_dir: Path, repo_root: Path) -> tuple[bool, list[str]]:
     """Validate source language files: _metadata.totalPlants must match actual plant entry count."""
     errors = []
-    for name in ("common_plants_language_en.json", "common_plants_language_es.json", "common_plants_language_zh-Hans.json"):
+    for name in ("common_plants_language_en.json", "common_plants_language_es.json", "common_plants_language_zh-Hans.json", "common_plants_language_zh-Hant.json"):
         path = source_dir / name
         if not path.exists():
             continue
@@ -196,6 +196,7 @@ def main():
             dist_dir / "common_plants.json",
             dist_dir / "common_plants_es.json",
             dist_dir / "common_plants_zh-Hans.json",
+            dist_dir / "common_plants_zh-Hant.json",
         ]
         files_to_check = [str(f) for f in default_files if f.exists()]
     else:
