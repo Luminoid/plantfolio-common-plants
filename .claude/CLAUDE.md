@@ -1,9 +1,7 @@
 # plantfolio-common-plants — Claude Code Guide
 
-> Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663)
-> **Inherits cross-project rules from [workspace CLAUDE.md](../../.claude/CLAUDE.md).** This file contains data-specific rules only.
-
-**952 plants**, 30 categories, EN/ES/ZH-Hans/ZH-Hant. Edit `source/` -> `release.py` builds and validates.
+> Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) (the iOS app).
+> **952 plants**, 30 categories, EN/ES/ZH-Hans/ZH-Hant. Edit `source/` then run `release.py` to build and validate.
 
 ---
 
@@ -101,19 +99,6 @@ python3 scripts/audit_*.py               # Various quality checks
 **Validate script:**
 - Validates generated `dist/` files
 - Checks schema, required fields, toxicity values
-
----
-
-## Cross-Project Alignment
-
-**See workspace rule**: [Cross-Project Rule: Common Plants Data Alignment](../../.claude/CLAUDE.md#cross-project-rule-common-plants-data-alignment)
-
-When changing schema or scripts here, also update:
-- `Plantfolio/Plantfolio/Resources/` (bundle files)
-- `Plantfolio/Scripts/` (corresponding scripts)
-
-**Structure must align** — field names, types, locale codes, output format
-**Data content may diverge** — this is expected (no auto-sync needed)
 
 ---
 
