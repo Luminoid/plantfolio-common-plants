@@ -1,0 +1,38 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 Luminoid
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made.
+
+  NonCommercial — You may not use the material for commercial purposes.
+
+  ShareAlike — If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+----
+
+Note on the plant data (source/*.json, dist/*.json)
+
+The descriptions, care tips, watering intervals, and light/humidity/temperature
+preferences are original editorial content and are covered by the license above,
+as are the schema, the category system, and the translations. Scientific names
+follow the accepted names in Plants of the World Online (POWO, Royal Botanic
+Gardens, Kew), toxicity classifications are aligned with the ASPCA toxic and
+non-toxic plant lists, and hardiness zones follow the USDA scale; those sources
+are cited, not reproduced. Individual facts (a species name, a hardiness zone)
+are not themselves copyrightable; the license applies to this particular curated
+compilation and its presentation.
+
+The dataset is provided for general information only and is not a substitute
+for professional horticultural, botanical, or veterinary advice.

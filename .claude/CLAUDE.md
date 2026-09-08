@@ -12,6 +12,7 @@ source/    # Edit language + metadata JSON here
 dist/      # Generated (DO NOT EDIT)
 scripts/   # release.py, audit_quality.py, merge, sort_plants, validate, audit_*.py
 docs/      # DATASET.md, AUDIT.md, RELEASE.md
+LICENSE    # CC BY-NC-SA 4.0 + note on upstream sources (POWO/Kew names, ASPCA toxicity); CITATION.cff alongside
 ```
 
 ---

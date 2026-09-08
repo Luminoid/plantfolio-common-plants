@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "plantfolio-common-plants: a multilingual plant-care dataset"
+abstract: >-
+  952 houseplants and garden plants with seasonal watering intervals, light, humidity and
+  temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, growth rate, propagation
+  methods, USDA hardiness zones, and accepted scientific names (POWO/Kew), with descriptions and
+  care tips in English, Spanish, Simplified Chinese, and Traditional Chinese. Built-in plant
+  library of the Plantfolio app.
+authors:
+  - name: "Luminoid"
+    website: "https://luminoid.dev"
+version: 1.9.0
+date-released: 2026-04-09
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/Luminoid/plantfolio-common-plants"
+url: "https://plantfolio.luminoid.dev"
+keywords:
+  - plants
+  - houseplants
+  - plant care
+  - gardening
+  - botany
+  - toxicity
+  - hardiness zones
+  - dataset
+  - multilingual

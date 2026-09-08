@@ -1,6 +1,9 @@
 # plantfolio-common-plants
 
-Curated plant care dataset for [Plantfolio](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) ([Mac](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)).
+[![Dataset version](https://img.shields.io/badge/dataset-v1.9.0-blue.svg)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+
+Open plant-care dataset: 952 houseplants and garden plants with watering intervals, light, humidity and temperature preferences, toxicity, USDA hardiness zones, and scientific names, in English, Spanish, Simplified Chinese, and Traditional Chinese. It is the built-in plant library of [Plantfolio](https://plantfolio.luminoid.dev), the plant care app for iPhone, iPad, and Mac ([App Store](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) · [Mac App Store](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)), published as plain JSON so anyone can fork it, host it, or reuse it.
 
 **952 plants** | **30 categories** | **4 locales** (EN, ES, ZH-Hans, ZH-Hant) | **v1.9.0**
 
@@ -23,6 +26,8 @@ Care intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned)
 - [Custom Data Source](#custom-data-source)
 - [Pre-built Data URLs](#pre-built-data-urls)
 - [Documentation](#documentation)
+- [Related projects](#related-projects)
+- [License](#license)
 
 ---
 
@@ -338,6 +343,19 @@ Use the default dataset without forking — copy these URLs into your app config
 | [docs/AUDIT.md](docs/AUDIT.md) | Audit checklists, toxicity review, naming overlap |
 | [docs/RELEASE.md](docs/RELEASE.md) | Release checklist |
 | [CHANGELOG.md](CHANGELOG.md) | Version history (data changes only) |
+
+---
+
+## Related projects
+
+- [Plantfolio](https://plantfolio.luminoid.dev): the plant care app this dataset ships in (iPhone, iPad, Mac)
+- Everything else at [luminoid.dev](https://luminoid.dev)
+
+---
+
+## License
+
+[CC BY-NC-SA 4.0](LICENSE). Forks that keep the schema and host their own copy for Plantfolio are welcome; commercial redistribution of the compilation is not. Scientific names follow [Plants of the World Online](https://powo.science.kew.org) (Kew), toxicity is aligned with the [ASPCA plant lists](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants), and hardiness zones use the USDA scale; those sources are cited, not reproduced. To cite the dataset, use the "Cite this repository" button (data in [CITATION.cff](CITATION.cff)).
 
 ---
 
