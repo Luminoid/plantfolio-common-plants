@@ -39,6 +39,8 @@ Each plant entry includes descriptions, care tips, seasonal watering intervals, 
 
 Fork this repo to build your own data source — keep the same structure so Plantfolio can parse it. Found errors or have ideas? Open an issue or pull request.
 
+Contributions are accepted under this repository's license (CC BY-NC-SA 4.0). Because the dataset also ships inside the Plantfolio apps, by opening a pull request you additionally grant Luminoid a perpetual, worldwide, royalty-free license to use, modify, and distribute your contribution in Plantfolio and other Luminoid products, including commercially. If you cannot grant that, please say so in the pull request instead of submitting the change.
+
 ---
 
 ## Quick Start
