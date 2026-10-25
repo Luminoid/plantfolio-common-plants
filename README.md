@@ -3,9 +3,9 @@
 [![Dataset version](https://img.shields.io/badge/dataset-v1.9.0-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
-Open plant-care dataset: 952 houseplants and garden plants with watering intervals, light, humidity and temperature preferences, toxicity, USDA hardiness zones, and scientific names, in English, Spanish, Simplified Chinese, and Traditional Chinese. It is the built-in plant library of [Plantfolio](https://plantfolio.luminoid.dev), the plant care app for iPhone, iPad, and Mac ([App Store](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) · [Mac App Store](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)), published as plain JSON so anyone can fork it, host it, or reuse it.
+Open plant-care dataset: 980 houseplants and garden plants with watering intervals, light, humidity and temperature preferences, toxicity, USDA hardiness zones, and scientific names, in English, Spanish, Simplified Chinese, and Traditional Chinese. It is the built-in plant library of [Plantfolio](https://plantfolio.luminoid.dev), the plant care app for iPhone, iPad, and Mac ([App Store](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) · [Mac App Store](https://apps.apple.com/us/mac-app/plantfolio-plus/id6757148663)), published as plain JSON so anyone can fork it, host it, or reuse it.
 
-**952 plants** | **30 categories** | **4 locales** (EN, ES, ZH-Hans, ZH-Hant) | **v1.9.0**
+**980 plants** | **30 categories** | **4 locales** (EN, ES, ZH-Hans, ZH-Hant) | **v1.10.0**
 
 Care intervals, light/humidity/temperature preferences, toxicity (ASPCA-aligned), soil pH, drainage, origin, growth rate, propagation methods, hardiness zones (USDA 1–13, 100% coverage), scientific nomenclature (POWO/Kew), and localized descriptions.
 
@@ -210,8 +210,8 @@ plantfolio-common-plants/
 | Plant Type | Drainage | Notes |
 |------------|----------|-------|
 | Succulents & desert cacti | `excellentDrainage` / `wellDraining` | Never `moistureRetentive` |
-| Bog carnivorous | `moistureRetentive` | Sit in water trays; null `wateringMethod` |
-| Epiphytic carnivorous (Nepenthes) | `excellentDrainage` | Airy mix, not standing water |
+| Bog carnivorous | `moistureRetentive` | Sit in water trays; `bottomWatering` |
+| Epiphytic carnivorous (Nepenthes) | `excellentDrainage` | Airy mix, not standing water; `topWatering` |
 | Aquatic plants | `waterloggingTolerant` | null `wateringMethod` |
 | Alpine plants | `excellentDrainage` / `wellDraining` | Mountain drainage |
 

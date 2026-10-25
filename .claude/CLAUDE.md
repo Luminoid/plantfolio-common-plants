@@ -1,7 +1,7 @@
 # plantfolio-common-plants — Claude Code Guide
 
 > Common plants dataset for [Plantfolio Plus](https://apps.apple.com/us/app/plantfolio-plus/id6757148663) (the iOS app).
-> **952 plants**, 30 categories, EN/ES/ZH-Hans/ZH-Hant. Edit `source/` then run `release.py` to build and validate.
+> **980 plants**, 30 categories, EN/ES/ZH-Hans/ZH-Hant. Edit `source/` then run `release.py` to build and validate.
 
 ---
 

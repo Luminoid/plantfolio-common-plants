@@ -6,6 +6,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.10.0] - 2026-10-25
+
+### Added
+
+- **37 new plants** (943 → 980): Poinsettia, Cymbidium, Baby's Tears, Purple Passion Plant, Swedish Ivy, Hawthorn, Horse Chestnut, Black Locust, Camphor Tree, Plum Blossom (Prunus mume), Royal Poinciana, Silk Tree, Mock Orange, Flowering Quince, Heather, Mahonia, Wintersweet, Alstroemeria, Madagascar Periwinkle, Ageratum, Gazania, African Daisy, Nicotiana, Strawflower, Black-eyed Susan Vine, Hyacinth Bean, Bluebell, Garland Chrysanthemum, Bottle Gourd, Yam, Calamondin, Makrut Lime, Feijoa, Cherimoya, Curry Leaf, Lemon Verbena, Pandan.
+- **Red-twig dogwood** (Cornus sericea) added to the Dogwood examples; **'Globemaster'** to Allium; **Grecian windflower** (Anemone blanda) and **Crown imperial** (Fritillaria imperialis) to their genera; **Roman chamomile** to Chamomile.
+
+### Changed
+
+- **Hardiness zones are now real ranges for every plant.** Houseplants carry the USDA range where they survive outdoors year-round (tropical aroids [10, 12], etc.) instead of the [13, 13] placeholder; true annuals use [2, 11]; sprouts, aquarium plants, indoor aquatics, mosses, and lichen (grown indoors anywhere) use [1, 13]; bulbs and many outdoor plants corrected to their published ranges. 547 plants changed.
+- **Scientific names updated to POWO/WCVP accepted names** (synonym kept in parentheses): Heptapleurum arboricola and H. actinophyllum (Schefflera), Yucca gigantea, Dracaena reflexa var. angustifolia (D. marginata), Rhipsalidopsis gaertneri (Easter cactus), Kroenleinia grusonii (Golden barrel), Streptocarpus ionanthus (African violet), Stromanthe thalia, Goeppertia insignis, Haworthiopsis fasciata/attenuata/limifolia, Curio herreanus, Cleome houtteana, Chaenostoma cordatum (Bacopa), Delphinium ajacis/consolida (Larkspur), Eriocapitella hupehensis and E. × hybrida (Japanese anemone), Silene coronaria, Cyperus alternifolius subsp. flabelliformis, Pontederia crassipes (Water hyacinth), Scilla forbesii (Chionodoxa), Selenicereus undatus/costaricensis (Dragon fruit), Prunus amygdalus (Almond), Phedimus spurius/kamtschaticus (groundcover sedums), Aquarius grisebachii (Amazon sword), Aegagropila brownii (Marimo), Agave amica (Tuberose), Dracaena fragrans 'Limelight' / 'Warneckei' (Deremensis Group), Brassica rapa var. nipposinica (Mizuna). Trade names clarified: Monstera 'Esqueleto' and 'Peru', Pilea 'Glauca' (P. libanensis), Money tree often Pachira glabra; × hybrid signs normalized.
+- **Toxicity re-verified against ASPCA (66 changes):** tomato, potato, eggplant, tomatillo, ground cherry, pome and stone fruits, fig, chamomile, catnip, mint, oregano, marjoram, lemongrass, sorrel, hemp, crocus, marigolds, geraniums, daisies, dianthus, portulaca, purslane, verbena, corpse flower, citrus and fruit-tree categories → mildlyToxic; alliums (chives, Chinese chives, leek, scallion, onion/leek sprouts) and grapes → toxic; Ruby rubber plant and begonias → toxic; Philodendron, Monstera, Rhaphidophora cultivars, mandevilla, bird of paradise, cherry blossom, pachysandra → mildlyToxic (calcium oxalate, not systemic); fatsia, sweet potato vine, hoya bella, penstemon, phlox, salvia → nonToxic. Care tips in EN/ES/ZH-Hans/ZH-Hant updated to match.
+- **Category moves:** Ficus benjamina and F. elastica 'Tineke' → Ficus & Fig; deer fern and Japanese painted fern → Outdoor Perennials; windmill palm → Outdoor Trees; bamboo → Groundcovers & Grasses; rosemary → Herbs; Paphiopedilum and Neoregelia → Houseplants Flowering.
+- **Rewritten entries:** Evergreen Trees now covers broadleaf evergreens (magnolia, live oak, holly) rather than repeating conifers; Willow is genus-level; Salvia absorbs ornamental sage; Beans broadened to Phaseolus spp.; Lichen description no longer calls oakmoss an alias.
+- **ZH-Hant now converts the Chinese common names inside `commonExamples`** (previously left in Simplified) and applies Taiwan usage for 奇異果, 鳳梨, 馬鈴薯, 高麗菜, 青花菜, 澳洲, 印尼.
+- **Metadata corrections:** humidity (17), light (11), watering method (7: Nepenthes and vanilla topWatering; calathea cultivars, peperomia 'Rosso', string of rubies topWatering), soil pH (9), growth rate (18), propagation methods (56), temperatures (28: hardy bulbs and alpines no longer [10, 28]), watering intervals (giant water lily and bog plants null; bulbs dormant seasons).
+
+### Removed
+
+- **9 duplicate, merged, or uncultivable entries:** Florist's Cyclamen (= Cyclamen), Oxalis Bulb (= Oxalis), Coneflower (= Echinacea), Ornamental Allium (= Allium), Ornamental Sage (= Salvia), Red Clover (= Clover, Red), Musk Melon (= Cantaloupe), Soybean (= Soybean field crop / Edamame), Rafflesia (a parasitic plant that cannot be cultivated).
+
+### Fixed
+
+- **`origin` corrected for roughly 350 plants** in all locales (e.g. aquarium plants were "Wetlands worldwide", orchids "China", carnivorous plants "China", sprouts "Africa", many crops and bulbs wrong or missing).
+- **Garbled or wrong-plant care-tip endings rewritten (EN):** 44 truncated endings, potato-harvest text on tomatoes, air-plant pruning on mosses, orchids, and lichen, grass pruning on ajuga and lamb's ear, "pinch flower buds" on ginseng, ashwagandha, chamomile, and wasabi, hop and bulb endings, Chinese full-width punctuation inside English.
+- **ZH-Hans garble repaired:** 攽缘→攀缘, 蛔苋→蔓绿绒, 绞杀榨→绞杀榕, 蚠虫→蚜虫, 块茉→块茎, 抽藹→抽薹, 菠蕭蜜→菠萝蜜, 蝠蝠→蝙蝠, 豆莔→豆荚, 茸香→茴香 and 20 more; dendrobium, oncidium, vanda, vanilla, lichen, Neoregelia, Nepenthes, Sarracenia, saxifrage, and alpine pink fields retranslated from English; stray Traditional characters normalized.
+- **Contradictions between metadata and care tips resolved** (humidity, light, watering method, pH) and the toxicity sentence now matches `plantToxicity` for every plant in every locale.
+- **Also-known-as cleanup:** no scientific names or synonyms as aliases (Hippeastrum, Eustoma, Panicum, Oakmoss, etc.); aliases that repeat the typeName removed (ES Corazón sangrante, ZH 梅).
+- **Alocasia Polly** and **Yellow Watermelon** keep their own entries as popular cultivars: zones, intervals, category, and cultivar examples aligned with their parent entries, and the wrong-plant pruning text on Yellow Watermelon (ES/ZH) replaced.
+- **Satin Pothos** (Scindapsus pictus) keeps its own entry beside the Scindapsus genus entry; renamed from Silver Satin Pothos, zones and toxicity aligned with the other trailing aroids.
+- **Chinese name collisions:** Agastache is now 藿香 (藿香蓟 is Ageratum) and Vinca minor is 蔓长春花 (长春花 is Catharanthus).
+
 ## [1.9.0] - 2026-04-09
 
 ### Added

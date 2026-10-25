@@ -48,7 +48,7 @@ For each plant ID:
 - [ ] plantToxicity: accurate? (reduce unknown if possible)
 - [ ] soilPhPreference: correct for species?
 - [ ] drainagePreference: correct for root type?
-- [ ] wateringMethod: correct? (null for aquatic/carnivorous)
+- [ ] wateringMethod: correct? (null for fully aquatic; bottomWatering for tray-grown carnivorous)
 - [ ] plantLifeSpan: realistic?
 - [ ] category: correct?
 - [ ] hardinessZones (if outdoor): accurate USDA zones?
@@ -302,5 +302,5 @@ Generic entries (bonsai, succulents, deciduous-trees, grasses, etc.) should rema
 - **Temperature:** Tropical aroids: min 16–18°C, not 10°C (dangerous). Prefer [16, 29] or [18, 27].
 - **Light:** Pothos variants: brightIndirect. Outdoor plants: use outdoorFullSun, outdoorPartialSun, or outdoorShade — not brightIndirect (indoor semantics).
 - **Drainage:** Succulents/cacti: excellentDrainage for rot-prone species (lithops, echeveria, haworthia, string-of-pearls, etc.).
-- **Watering method:** null for aquatic/carnivorous; immersion for epiphytes; bottom for lithops, african-violets, cyclamen, gloxinia, rex-begonias; misting for air-plants, epiphytes, mosses.
+- **Watering method:** null for fully aquatic plants; bottomWatering (tray) for carnivorous except Nepenthes (topWatering); immersion for epiphytes; bottom for lithops, african-violets, cyclamen, gloxinia, rex-begonias; misting for air-plants, epiphytes, mosses.
 - **Humidity:** Ferns high/veryHigh; prayer plants high; succulents/cacti low/medium.
